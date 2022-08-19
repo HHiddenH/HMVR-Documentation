@@ -1,0 +1,5 @@
+var struct_z___construct___u_function___a_v_r___player_pawn___get_ammo___statics_1_1_v_r___player_pawn__event_get_ammo___parms =
+[
+    [ "Caliber", "struct_z___construct___u_function___a_v_r___player_pawn___get_ammo___statics_1_1_v_r___player_pawn__event_get_ammo___parms.html#ac0147146ebebd86364ac36c9c5bece84", null ],
+    [ "ReturnValue", "struct_z___construct___u_function___a_v_r___player_pawn___get_ammo___statics_1_1_v_r___player_pawn__event_get_ammo___parms.html#a5bfb218dfea5ccddae78d014e25b3f9f", null ]
+];

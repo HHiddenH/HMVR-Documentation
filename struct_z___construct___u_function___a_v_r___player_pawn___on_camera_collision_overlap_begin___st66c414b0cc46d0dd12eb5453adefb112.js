@@ -1,0 +1,9 @@
+var struct_z___construct___u_function___a_v_r___player_pawn___on_camera_collision_overlap_begin___st66c414b0cc46d0dd12eb5453adefb112 =
+[
+    [ "bFromSweep", "struct_z___construct___u_function___a_v_r___player_pawn___on_camera_collision_overlap_begin___st66c414b0cc46d0dd12eb5453adefb112.html#a47d87bfdf4dfb8dea454e4e617d795c1", null ],
+    [ "OtherActor", "struct_z___construct___u_function___a_v_r___player_pawn___on_camera_collision_overlap_begin___st66c414b0cc46d0dd12eb5453adefb112.html#af4fe3ecd1b33ade3ee4ff2a20e32ad13", null ],
+    [ "OtherBodyIndex", "struct_z___construct___u_function___a_v_r___player_pawn___on_camera_collision_overlap_begin___st66c414b0cc46d0dd12eb5453adefb112.html#a6f53b0a8ad1054882bf54054ec468d70", null ],
+    [ "OtherComp", "struct_z___construct___u_function___a_v_r___player_pawn___on_camera_collision_overlap_begin___st66c414b0cc46d0dd12eb5453adefb112.html#a821d00cf788513d9e5c521dc09c9bad1", null ],
+    [ "OverlappedComp", "struct_z___construct___u_function___a_v_r___player_pawn___on_camera_collision_overlap_begin___st66c414b0cc46d0dd12eb5453adefb112.html#a4e5957a27eae9217d3fc96ae5f402c7b", null ],
+    [ "SweepResult", "struct_z___construct___u_function___a_v_r___player_pawn___on_camera_collision_overlap_begin___st66c414b0cc46d0dd12eb5453adefb112.html#a242c0d46649b19b2b7b0c4aacef687c2", null ]
+];

@@ -1,0 +1,4 @@
+var struct_z___construct___u_function___a_v_r___pick_up_object___get_socket_name___statics =
+[
+    [ "VR_PickUpObject_eventGetSocketName_Parms", "struct_z___construct___u_function___a_v_r___pick_up_object___get_socket_name___statics_1_1_v_r__0e2e3aec332d6a48a0c87d0b1466de95.html", "struct_z___construct___u_function___a_v_r___pick_up_object___get_socket_name___statics_1_1_v_r__0e2e3aec332d6a48a0c87d0b1466de95" ]
+];

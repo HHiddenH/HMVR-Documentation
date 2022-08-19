@@ -1,0 +1,9 @@
+var struct_z___construct___u_function___a_v_r___player_pawn___on_ammo_box_overlap___statics_1_1_v_r_4d6a97de199da314f1b86073446ff3e1 =
+[
+    [ "bFromSweep", "struct_z___construct___u_function___a_v_r___player_pawn___on_ammo_box_overlap___statics_1_1_v_r_4d6a97de199da314f1b86073446ff3e1.html#a613c846fd4c5fa3b0527c7b7dc08beb1", null ],
+    [ "OtherActor", "struct_z___construct___u_function___a_v_r___player_pawn___on_ammo_box_overlap___statics_1_1_v_r_4d6a97de199da314f1b86073446ff3e1.html#a85158bbf39063267352a2c625bf7d1b2", null ],
+    [ "OtherBodyIndex", "struct_z___construct___u_function___a_v_r___player_pawn___on_ammo_box_overlap___statics_1_1_v_r_4d6a97de199da314f1b86073446ff3e1.html#a4fc7e931f32247a7cfb970b40394056c", null ],
+    [ "OtherComp", "struct_z___construct___u_function___a_v_r___player_pawn___on_ammo_box_overlap___statics_1_1_v_r_4d6a97de199da314f1b86073446ff3e1.html#ab98b0c78c25649f68cf13f1e267a22b5", null ],
+    [ "OverlappedComp", "struct_z___construct___u_function___a_v_r___player_pawn___on_ammo_box_overlap___statics_1_1_v_r_4d6a97de199da314f1b86073446ff3e1.html#a0f88b278ba9d3d1e7ad3942d0ddf2837", null ],
+    [ "SweepResult", "struct_z___construct___u_function___a_v_r___player_pawn___on_ammo_box_overlap___statics_1_1_v_r_4d6a97de199da314f1b86073446ff3e1.html#af50c14e75b3c39bb7c4d47c9b6fe9324", null ]
+];

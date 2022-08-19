@@ -1,0 +1,4 @@
+var struct_z___construct___u_function___a_v_r___pick_up_object___get_animn_type___statics =
+[
+    [ "VR_PickUpObject_eventGetAnimnType_Parms", "struct_z___construct___u_function___a_v_r___pick_up_object___get_animn_type___statics_1_1_v_r___46eae94c86c68f6d464a8964b4f0b8fc.html", "struct_z___construct___u_function___a_v_r___pick_up_object___get_animn_type___statics_1_1_v_r___46eae94c86c68f6d464a8964b4f0b8fc" ]
+];

@@ -4,7 +4,7 @@ var searchData=
   ['uhmvrlibrary_1',['UHMVRLibrary',['../class_u_h_m_v_r_library.html',1,'']]],
   ['uloadingwidget_2',['ULoadingWidget',['../class_u_loading_widget.html',1,'ULoadingWidget'],['../class_u_loading_widget.html#ac9a77af4b0daea5a35293dd0c13ab644',1,'ULoadingWidget::ULoadingWidget()']]],
   ['umenuwristloaderwidget_3',['UMenuWristLoaderWidget',['../class_u_menu_wrist_loader_widget.html',1,'UMenuWristLoaderWidget'],['../class_u_menu_wrist_loader_widget.html#a88aaa49ef928ef17a66e59c1f37ca84e',1,'UMenuWristLoaderWidget::UMenuWristLoaderWidget()']]],
-  ['unknown_4',['Unknown',['../_v_r___variables_8h.html#aa24148bd8b85f06bdda64c589ca5ba9ba88183b946cc5f0e8c96b2e66e1c74a7e',1,'Unknown():&#160;VR_Variables.h'],['../_v_r___variables_8h.html#afb617074d5092d9f80e7f12267523fcba88183b946cc5f0e8c96b2e66e1c74a7e',1,'Unknown():&#160;VR_Variables.h'],['../_v_r___variables_8h.html#aba89e3848f9dfa4b7d24652e7c8e28dba88183b946cc5f0e8c96b2e66e1c74a7e',1,'Unknown():&#160;VR_Variables.h']]],
+  ['unknown_4',['Unknown',['../_v_r___variables_8h.html#aba89e3848f9dfa4b7d24652e7c8e28dba88183b946cc5f0e8c96b2e66e1c74a7e',1,'Unknown():&#160;VR_Variables.h'],['../_v_r___variables_8h.html#aa24148bd8b85f06bdda64c589ca5ba9ba88183b946cc5f0e8c96b2e66e1c74a7e',1,'Unknown():&#160;VR_Variables.h'],['../_v_r___variables_8h.html#afb617074d5092d9f80e7f12267523fcba88183b946cc5f0e8c96b2e66e1c74a7e',1,'Unknown():&#160;VR_Variables.h']]],
   ['updateanimation_5',['UpdateAnimation',['../class_a_v_r___weapon_base.html#ab01d0dbf8c6a51170d60d410e5bb39dd',1,'AVR_WeaponBase']]],
   ['updatearcendpoint_6',['UpdateArcEndPoint',['../class_a_v_r___motion_controller.html#a514f5f3b5d0c115ee1037d6e37b91023',1,'AVR_MotionController']]],
   ['updatearcspline_7',['UpdateArcSpline',['../class_a_v_r___motion_controller.html#a4614c1d71edaf2279f19d103ebee85b0',1,'AVR_MotionController']]],
@@ -26,8 +26,8 @@ var searchData=
   ['usavepreferences_23',['USavePreferences',['../class_u_save_preferences.html',1,'USavePreferences'],['../class_u_save_preferences.html#ad4822063f50e841baed54ee3d11eb6f9',1,'USavePreferences::USavePreferences()']]],
   ['usedslots_24',['UsedSlots',['../class_a_v_r___inventory.html#a9309ae8faa1a7539acb1895a61f43b5d',1,'AVR_Inventory']]],
   ['userindex_25',['UserIndex',['../class_u_save_preferences.html#af20b44147e6ff37cf00e6498e984a0a4',1,'USavePreferences']]],
-  ['uvr_5fhandaniminstance_26',['UVR_HandAnimInstance',['../class_u_v_r___hand_anim_instance.html',1,'']]],
+  ['uvr_5fhandaniminstance_26',['UVR_HandAnimInstance',['../class_u_v_r___hand_anim_instance.html',1,'UVR_HandAnimInstance'],['../class_u_v_r___hand_anim_instance.html#a6d9a8c5af54711ba671a22da379b6f0d',1,'UVR_HandAnimInstance::UVR_HandAnimInstance()']]],
   ['uvr_5fhandaniminterface_27',['UVR_HandAnimInterface',['../class_u_v_r___hand_anim_interface.html',1,'']]],
   ['uvr_5finteractioninterface_28',['UVR_InteractionInterface',['../class_u_v_r___interaction_interface.html',1,'']]],
-  ['uvr_5fweaponaniminstance_29',['UVR_WeaponAnimInstance',['../class_u_v_r___weapon_anim_instance.html',1,'']]]
+  ['uvr_5fweaponaniminstance_29',['UVR_WeaponAnimInstance',['../class_u_v_r___weapon_anim_instance.html',1,'UVR_WeaponAnimInstance'],['../class_u_v_r___weapon_anim_instance.html#a37db2cf2af14a780907dc55dde2989ef',1,'UVR_WeaponAnimInstance::UVR_WeaponAnimInstance()']]]
 ];

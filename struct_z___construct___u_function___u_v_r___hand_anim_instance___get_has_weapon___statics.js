@@ -1,0 +1,4 @@
+var struct_z___construct___u_function___u_v_r___hand_anim_instance___get_has_weapon___statics =
+[
+    [ "VR_HandAnimInstance_eventGetHasWeapon_Parms", "struct_z___construct___u_function___u_v_r___hand_anim_instance___get_has_weapon___statics_1_1_v_53f3ded4b2b52ca36db12684b20b1211.html", "struct_z___construct___u_function___u_v_r___hand_anim_instance___get_has_weapon___statics_1_1_v_53f3ded4b2b52ca36db12684b20b1211" ]
+];

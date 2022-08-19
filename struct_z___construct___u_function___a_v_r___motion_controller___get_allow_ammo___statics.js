@@ -1,0 +1,4 @@
+var struct_z___construct___u_function___a_v_r___motion_controller___get_allow_ammo___statics =
+[
+    [ "VR_MotionController_eventGetAllowAmmo_Parms", "struct_z___construct___u_function___a_v_r___motion_controller___get_allow_ammo___statics_1_1_v_r4bec301f56ef28adfe3d9b94e3c988f5.html", "struct_z___construct___u_function___a_v_r___motion_controller___get_allow_ammo___statics_1_1_v_r4bec301f56ef28adfe3d9b94e3c988f5" ]
+];

@@ -1,0 +1,4 @@
+var struct_z___construct___u_function___a_v_r___weapon_base___get_in_hand_status___statics_1_1_v_r__bfc237a1d7d5fe891fad93e353898695 =
+[
+    [ "ReturnValue", "struct_z___construct___u_function___a_v_r___weapon_base___get_in_hand_status___statics_1_1_v_r__bfc237a1d7d5fe891fad93e353898695.html#ad8ca1cbbe25bb1dfe430a0c8e61b7080", null ]
+];

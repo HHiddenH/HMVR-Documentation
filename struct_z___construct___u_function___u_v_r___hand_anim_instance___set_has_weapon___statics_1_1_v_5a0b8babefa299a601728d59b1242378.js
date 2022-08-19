@@ -1,0 +1,4 @@
+var struct_z___construct___u_function___u_v_r___hand_anim_instance___set_has_weapon___statics_1_1_v_5a0b8babefa299a601728d59b1242378 =
+[
+    [ "HasWeapon", "struct_z___construct___u_function___u_v_r___hand_anim_instance___set_has_weapon___statics_1_1_v_5a0b8babefa299a601728d59b1242378.html#acd888b152bd01fec094e6db762dcef89", null ]
+];

@@ -21,5 +21,7 @@ var searchData=
   ['updatevariables_18',['UpdateVariables',['../class_a_v_r___player_pawn.html#a5e021761758d092eb445bbdaa192fb04',1,'AVR_PlayerPawn']]],
   ['updatevisuals_19',['UpdateVisuals',['../class_a_v_r___inventory.html#a7471831de1a6e2fa6a0ad724f4ace688',1,'AVR_Inventory']]],
   ['updatewidgetcursor_20',['UpdateWidgetCursor',['../class_a_v_r___motion_controller.html#af1381535687bcf01cb7b1ca9660ebb82',1,'AVR_MotionController']]],
-  ['usavepreferences_21',['USavePreferences',['../class_u_save_preferences.html#ad4822063f50e841baed54ee3d11eb6f9',1,'USavePreferences']]]
+  ['usavepreferences_21',['USavePreferences',['../class_u_save_preferences.html#ad4822063f50e841baed54ee3d11eb6f9',1,'USavePreferences']]],
+  ['uvr_5fhandaniminstance_22',['UVR_HandAnimInstance',['../class_u_v_r___hand_anim_instance.html#a6d9a8c5af54711ba671a22da379b6f0d',1,'UVR_HandAnimInstance']]],
+  ['uvr_5fweaponaniminstance_23',['UVR_WeaponAnimInstance',['../class_u_v_r___weapon_anim_instance.html#a37db2cf2af14a780907dc55dde2989ef',1,'UVR_WeaponAnimInstance']]]
 ];

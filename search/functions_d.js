@@ -14,7 +14,8 @@ var searchData=
   ['releasemag_11',['ReleaseMag',['../class_a_v_r___weapon_base.html#a1c99179a223594754ed7ef77b9877f69',1,'AVR_WeaponBase']]],
   ['releasethumb_5fpress_5fleft_12',['ReleaseThumb_Press_Left',['../class_a_v_r___player_pawn.html#a39b25c858ad60e17a84386e717ed5949',1,'AVR_PlayerPawn']]],
   ['releasethumb_5fpress_5fright_13',['ReleaseThumb_Press_Right',['../class_a_v_r___player_pawn.html#abb5022e736d08250aa832d2c13dd13d2',1,'AVR_PlayerPawn']]],
-  ['righttriggeraxis_14',['RightTriggerAxis',['../class_a_v_r___player_pawn.html#acc71507add5fbcef751745c9e4be53c9',1,'AVR_PlayerPawn']]],
-  ['rumblecontroller_15',['RumbleController',['../class_a_v_r___motion_controller.html#a7bb5235bce3a36946bf910d5e8b68826',1,'AVR_MotionController']]],
-  ['runjustdroptimer_16',['RunJustDropTimer',['../class_a_v_r___pick_up_object.html#a685ea8c7bf18fbaaf808d35e4de7356f',1,'AVR_PickUpObject::RunJustDropTimer()'],['../class_a_v_r___weapon_base.html#ad4858717945918bfbd36f55e10900da5',1,'AVR_WeaponBase::RunJustDropTimer()']]]
+  ['removenum_14',['RemoveNum',['../class_a_int___code___lock.html#a7810fc1c05974192480d5d9c697d5b59',1,'AInt_Code_Lock']]],
+  ['righttriggeraxis_15',['RightTriggerAxis',['../class_a_v_r___player_pawn.html#acc71507add5fbcef751745c9e4be53c9',1,'AVR_PlayerPawn']]],
+  ['rumblecontroller_16',['RumbleController',['../class_a_v_r___motion_controller.html#a7bb5235bce3a36946bf910d5e8b68826',1,'AVR_MotionController']]],
+  ['runjustdroptimer_17',['RunJustDropTimer',['../class_a_v_r___pick_up_object.html#a685ea8c7bf18fbaaf808d35e4de7356f',1,'AVR_PickUpObject::RunJustDropTimer()'],['../class_a_v_r___weapon_base.html#ad4858717945918bfbd36f55e10900da5',1,'AVR_WeaponBase::RunJustDropTimer()']]]
 ];

@@ -1,0 +1,4 @@
+var struct_z___construct___u_function___u_v_r___weapon_anim_instance___get_hammer_int___statics_1_1_4c838f4d3a70445f46c9ed667cc7d439 =
+[
+    [ "ReturnValue", "struct_z___construct___u_function___u_v_r___weapon_anim_instance___get_hammer_int___statics_1_1_4c838f4d3a70445f46c9ed667cc7d439.html#a1754e71b8242c1ae7ff3e93c4fc5c6c6", null ]
+];

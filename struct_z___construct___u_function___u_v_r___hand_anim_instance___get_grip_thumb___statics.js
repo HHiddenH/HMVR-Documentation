@@ -1,0 +1,4 @@
+var struct_z___construct___u_function___u_v_r___hand_anim_instance___get_grip_thumb___statics =
+[
+    [ "VR_HandAnimInstance_eventGetGripThumb_Parms", "struct_z___construct___u_function___u_v_r___hand_anim_instance___get_grip_thumb___statics_1_1_v_ed8c9cc8180e1b032322513f087d3002.html", "struct_z___construct___u_function___u_v_r___hand_anim_instance___get_grip_thumb___statics_1_1_v_ed8c9cc8180e1b032322513f087d3002" ]
+];

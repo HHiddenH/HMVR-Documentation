@@ -1,0 +1,4 @@
+var struct_z___construct___u_function___a_v_r___weapon_base___slide_mag_progress___statics_1_1_v_r__f9c10ef4d22b3e169230dec979672cbe =
+[
+    [ "Value", "struct_z___construct___u_function___a_v_r___weapon_base___slide_mag_progress___statics_1_1_v_r__f9c10ef4d22b3e169230dec979672cbe.html#acf72ace7c9472462b4d00320638ca163", null ]
+];

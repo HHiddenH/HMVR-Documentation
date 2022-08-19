@@ -1,0 +1,4 @@
+var struct_z___construct___u_function___a_v_r___weapon_base___get_ammo_applyed___statics =
+[
+    [ "VR_WeaponBase_eventGetAmmoApplyed_Parms", "struct_z___construct___u_function___a_v_r___weapon_base___get_ammo_applyed___statics_1_1_v_r___w9e77eed491a3cb31f2f4d5d7ecd22442.html", "struct_z___construct___u_function___a_v_r___weapon_base___get_ammo_applyed___statics_1_1_v_r___w9e77eed491a3cb31f2f4d5d7ecd22442" ]
+];

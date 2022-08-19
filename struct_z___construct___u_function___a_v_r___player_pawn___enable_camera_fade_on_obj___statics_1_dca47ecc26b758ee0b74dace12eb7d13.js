@@ -1,0 +1,4 @@
+var struct_z___construct___u_function___a_v_r___player_pawn___enable_camera_fade_on_obj___statics_1_dca47ecc26b758ee0b74dace12eb7d13 =
+[
+    [ "Enable", "struct_z___construct___u_function___a_v_r___player_pawn___enable_camera_fade_on_obj___statics_1_dca47ecc26b758ee0b74dace12eb7d13.html#ac4a3f532e4af89d84503216f592498ab", null ]
+];

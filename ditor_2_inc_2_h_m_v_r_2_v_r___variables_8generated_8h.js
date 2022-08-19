@@ -1,0 +1,25 @@
+var ditor_2_inc_2_h_m_v_r_2_v_r___variables_8generated_8h =
+[
+    [ "CURRENT_FILE_ID", "ditor_2_inc_2_h_m_v_r_2_v_r___variables_8generated_8h.html#a517041c91723638fec31c2611a66dbd7", null ],
+    [ "FOREACH_ENUM_ANIMATIONTYPE", "ditor_2_inc_2_h_m_v_r_2_v_r___variables_8generated_8h.html#a935e190d251c042c5fb775e9391d0ec4", null ],
+    [ "FOREACH_ENUM_CALIBER_TYPE", "ditor_2_inc_2_h_m_v_r_2_v_r___variables_8generated_8h.html#a3aa91925d81642e4dce7929fe818a0e6", null ],
+    [ "FOREACH_ENUM_EEQUIPMENT", "ditor_2_inc_2_h_m_v_r_2_v_r___variables_8generated_8h.html#a55da6db3296b90fc335b5f54d66982db", null ],
+    [ "FOREACH_ENUM_EGRABMETHOD", "ditor_2_inc_2_h_m_v_r_2_v_r___variables_8generated_8h.html#afae632c6cd8c7243395599637ebe5335", null ],
+    [ "FOREACH_ENUM_EGRIP_CODE", "ditor_2_inc_2_h_m_v_r_2_v_r___variables_8generated_8h.html#ad53aba46b83da5085ec6242dcb84a716", null ],
+    [ "FOREACH_ENUM_EPICKUPANIMATIONS", "ditor_2_inc_2_h_m_v_r_2_v_r___variables_8generated_8h.html#a43badf5f406e64298ba0c5445c6ff26f", null ],
+    [ "FOREACH_ENUM_EPROPUNIQUE", "ditor_2_inc_2_h_m_v_r_2_v_r___variables_8generated_8h.html#a2efba5131bb6bfb787baba552f149678", null ],
+    [ "FOREACH_ENUM_EWEAPON", "ditor_2_inc_2_h_m_v_r_2_v_r___variables_8generated_8h.html#ab8beb62b9e02af943a5a5d1eeb355f29", null ],
+    [ "FOREACH_ENUM_EWEAPON_CODE", "ditor_2_inc_2_h_m_v_r_2_v_r___variables_8generated_8h.html#a3811e3491916a9f91052ea6481980763", null ],
+    [ "FOREACH_ENUM_FINGER_CODE", "ditor_2_inc_2_h_m_v_r_2_v_r___variables_8generated_8h.html#a3199bd8ab6dbea3c8259dfbd5db7b79a", null ],
+    [ "HMVR_VR_Variables_generated_h", "ditor_2_inc_2_h_m_v_r_2_v_r___variables_8generated_8h.html#a60e261cfda6cd94abd0c977088195ef2", null ],
+    [ "StaticEnum< AnimationType >", "ditor_2_inc_2_h_m_v_r_2_v_r___variables_8generated_8h.html#ae76d66453aa2ed3398c3745bcbbfc2e3", null ],
+    [ "StaticEnum< Caliber_Type >", "ditor_2_inc_2_h_m_v_r_2_v_r___variables_8generated_8h.html#a2e49572485a4f436ee8d24b6144d874d", null ],
+    [ "StaticEnum< EEquipment >", "ditor_2_inc_2_h_m_v_r_2_v_r___variables_8generated_8h.html#a1462e3220167ba5b8226ff16aa66b2c6", null ],
+    [ "StaticEnum< EGrabMethod >", "ditor_2_inc_2_h_m_v_r_2_v_r___variables_8generated_8h.html#a02c8aa8fa11c6c37814595051f599d36", null ],
+    [ "StaticEnum< EGrip_Code >", "ditor_2_inc_2_h_m_v_r_2_v_r___variables_8generated_8h.html#a7d2fc4e003c8e021cdc62b84e7396a7e", null ],
+    [ "StaticEnum< EPickUpAnimations >", "ditor_2_inc_2_h_m_v_r_2_v_r___variables_8generated_8h.html#a99a6104fe0931353688d3df667c42373", null ],
+    [ "StaticEnum< EPropUnique >", "ditor_2_inc_2_h_m_v_r_2_v_r___variables_8generated_8h.html#ad11b3780d85f8651b3922eb48665f9c9", null ],
+    [ "StaticEnum< EWeapon >", "ditor_2_inc_2_h_m_v_r_2_v_r___variables_8generated_8h.html#aaa664ff6ca787e5a31219211c28f842f", null ],
+    [ "StaticEnum< EWeapon_Code >", "ditor_2_inc_2_h_m_v_r_2_v_r___variables_8generated_8h.html#a42794fbd3b3b120b63b655668327183b", null ],
+    [ "StaticEnum< Finger_Code >", "ditor_2_inc_2_h_m_v_r_2_v_r___variables_8generated_8h.html#a95e67c3fad70b559d696a2bcc47da9f3", null ]
+];

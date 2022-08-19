@@ -1,0 +1,4 @@
+var struct_z___construct___u_function___a_v_r___weapon_base___get_weapon_mesh___statics =
+[
+    [ "VR_WeaponBase_eventGetWeaponMesh_Parms", "struct_z___construct___u_function___a_v_r___weapon_base___get_weapon_mesh___statics_1_1_v_r___wed71f95a9c8b0c7d8fe44d9190d859af0.html", "struct_z___construct___u_function___a_v_r___weapon_base___get_weapon_mesh___statics_1_1_v_r___wed71f95a9c8b0c7d8fe44d9190d859af0" ]
+];

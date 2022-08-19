@@ -1,0 +1,7 @@
+var struct_z___construct___u_function___a_int___door___set_autoclose___statics_1_1_int___door__event_set_autoclose___parms =
+[
+    [ "auto_close", "struct_z___construct___u_function___a_int___door___set_autoclose___statics_1_1_int___door__event_set_autoclose___parms.html#a2bc41f972d58a44fc92cc421afa8d491", null ],
+    [ "Force", "struct_z___construct___u_function___a_int___door___set_autoclose___statics_1_1_int___door__event_set_autoclose___parms.html#a2298ee00b9cbac39a7a9ef803955e3f1", null ],
+    [ "Max_Force", "struct_z___construct___u_function___a_int___door___set_autoclose___statics_1_1_int___door__event_set_autoclose___parms.html#ab88940a0f6bbcf1a6bf7203d35a0a7e5", null ],
+    [ "Velocity", "struct_z___construct___u_function___a_int___door___set_autoclose___statics_1_1_int___door__event_set_autoclose___parms.html#a5ebc8476594e024b021101eaac914b32", null ]
+];

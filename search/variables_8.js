@@ -1,12 +1,19 @@
 var searchData=
 [
   ['impactparticle_0',['ImpactParticle',['../class_a_v_r___weapon_base.html#affbf9c39aae0d99a1e6ab4b4038b0189',1,'AVR_WeaponBase']]],
-  ['indexpushinst_1',['IndexPushInst',['../class_u_v_r___hand_anim_instance.html#a5bbe6f7fdbda3a2d7e21a2cef7178a3b',1,'UVR_HandAnimInstance']]],
-  ['inventoryactors_2',['InventoryActors',['../class_a_v_r___inventory.html#a34a516a081d43f33090e7a6448c02518',1,'AVR_Inventory']]],
-  ['inventorymeshes_3',['InventoryMeshes',['../class_a_v_r___inventory.html#aa2fa27f3d7de43cccbea007e4b8caf98',1,'AVR_Inventory']]],
-  ['inventorymeshesactors_4',['InventoryMeshesActors',['../class_a_v_r___inventory.html#aaecfe7fb1144223a0dc41c4e868fc747',1,'AVR_Inventory']]],
-  ['itemrotationpitchvalue_5',['ItemRotationPitchValue',['../class_a_v_r___inventory.html#a9cebdaf7e929c363f05a1729931f5627',1,'AVR_Inventory']]],
-  ['itemrotationrollvalue_6',['ItemRotationRollValue',['../class_a_v_r___inventory.html#a2bd846520e89f5feac9186043b0d5f96',1,'AVR_Inventory']]],
-  ['itemrotationyawvalue_7',['ItemRotationYawValue',['../class_a_v_r___inventory.html#a0dfb8336f75e4f1bacb303dd644f9ad8',1,'AVR_Inventory']]],
-  ['itemsscale_8',['ItemsScale',['../class_a_v_r___inventory.html#a36ef5f16ba3a65ba0c89bab8f20a1f52',1,'AVR_Inventory']]]
+  ['indexpushinst_1',['IndexPushInst',['../class_u_v_r___hand_anim_instance.html#a5bbe6f7fdbda3a2d7e21a2cef7178a3b',1,'UVR_HandAnimInstance::IndexPushInst()'],['../class_a_v_r___motion_controller.html#af2347c5e37a526d1c9782e095e2b3334',1,'AVR_MotionController::IndexPushInst()']]],
+  ['infadeinduration_2',['InFadeInDuration',['../class_a_v_r___player_pawn.html#acbb02a2db65ed70b7018609e281f44d4',1,'AVR_PlayerPawn']]],
+  ['infadeoutduration_3',['InFadeOutDuration',['../class_a_v_r___player_pawn.html#af91b5f120d6789a30df4db503e63eae5',1,'AVR_PlayerPawn']]],
+  ['initialcontrollerrotation_4',['InitialControllerRotation',['../class_a_v_r___motion_controller.html#ac0f34eb20a9fdc62714ba55bd3e1c1a2',1,'AVR_MotionController']]],
+  ['interactionanimation_5',['InteractionAnimation',['../class_a_int___door.html#af7ea1b0a1349786e6a1e335486847ce2',1,'AInt_Door']]],
+  ['inventory_6',['Inventory',['../class_a_v_r___motion_controller.html#a61d48d66e6c179fe0460d4fa158aa19f',1,'AVR_MotionController']]],
+  ['inventoryactors_7',['InventoryActors',['../class_a_v_r___inventory.html#a34a516a081d43f33090e7a6448c02518',1,'AVR_Inventory']]],
+  ['inventoryaxies_8',['InventoryAxies',['../class_a_v_r___inventory.html#aaf20dd9ac5a04488127289924ded01aa',1,'AVR_Inventory']]],
+  ['inventorydirection_9',['InventoryDirection',['../class_a_v_r___inventory.html#aabcabc52049debaa2f4cf8cdb25530c3',1,'AVR_Inventory']]],
+  ['inventorymeshes_10',['InventoryMeshes',['../class_a_v_r___inventory.html#aa2fa27f3d7de43cccbea007e4b8caf98',1,'AVR_Inventory']]],
+  ['inventorymeshesactors_11',['InventoryMeshesActors',['../class_a_v_r___inventory.html#aaecfe7fb1144223a0dc41c4e868fc747',1,'AVR_Inventory']]],
+  ['itemrotationpitchvalue_12',['ItemRotationPitchValue',['../class_a_v_r___inventory.html#a9cebdaf7e929c363f05a1729931f5627',1,'AVR_Inventory']]],
+  ['itemrotationrollvalue_13',['ItemRotationRollValue',['../class_a_v_r___inventory.html#a2bd846520e89f5feac9186043b0d5f96',1,'AVR_Inventory']]],
+  ['itemrotationyawvalue_14',['ItemRotationYawValue',['../class_a_v_r___inventory.html#a0dfb8336f75e4f1bacb303dd644f9ad8',1,'AVR_Inventory']]],
+  ['itemsscale_15',['ItemsScale',['../class_a_v_r___inventory.html#a36ef5f16ba3a65ba0c89bab8f20a1f52',1,'AVR_Inventory']]]
 ];

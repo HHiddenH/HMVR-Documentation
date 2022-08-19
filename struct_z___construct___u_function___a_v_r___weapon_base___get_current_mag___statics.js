@@ -1,0 +1,4 @@
+var struct_z___construct___u_function___a_v_r___weapon_base___get_current_mag___statics =
+[
+    [ "VR_WeaponBase_eventGetCurrentMag_Parms", "struct_z___construct___u_function___a_v_r___weapon_base___get_current_mag___statics_1_1_v_r___weaeead08860d0153e2480e90182408a9c.html", "struct_z___construct___u_function___a_v_r___weapon_base___get_current_mag___statics_1_1_v_r___weaeead08860d0153e2480e90182408a9c" ]
+];

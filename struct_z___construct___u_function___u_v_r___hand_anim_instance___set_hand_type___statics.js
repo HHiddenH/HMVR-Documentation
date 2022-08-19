@@ -1,0 +1,4 @@
+var struct_z___construct___u_function___u_v_r___hand_anim_instance___set_hand_type___statics =
+[
+    [ "VR_HandAnimInstance_eventSetHandType_Parms", "struct_z___construct___u_function___u_v_r___hand_anim_instance___set_hand_type___statics_1_1_v_r35b28463b41b71ed3fa6453921240261.html", "struct_z___construct___u_function___u_v_r___hand_anim_instance___set_hand_type___statics_1_1_v_r35b28463b41b71ed3fa6453921240261" ]
+];

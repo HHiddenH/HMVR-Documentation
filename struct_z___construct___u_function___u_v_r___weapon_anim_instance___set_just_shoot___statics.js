@@ -1,0 +1,4 @@
+var struct_z___construct___u_function___u_v_r___weapon_anim_instance___set_just_shoot___statics =
+[
+    [ "VR_WeaponAnimInstance_eventSetJustShoot_Parms", "struct_z___construct___u_function___u_v_r___weapon_anim_instance___set_just_shoot___statics_1_1_a066d247a9319d481c259742c41511bc.html", "struct_z___construct___u_function___u_v_r___weapon_anim_instance___set_just_shoot___statics_1_1_a066d247a9319d481c259742c41511bc" ]
+];

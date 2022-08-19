@@ -1,0 +1,4 @@
+var struct_z___construct___u_function___a_v_r___weapon_base___get_mag_attach_to_mesh___statics_1_1_vb1f86b53652e42774dd329c96199116b =
+[
+    [ "ReturnValue", "struct_z___construct___u_function___a_v_r___weapon_base___get_mag_attach_to_mesh___statics_1_1_vb1f86b53652e42774dd329c96199116b.html#a82a85c05667fb822b1b77ee4fdbc7134", null ]
+];

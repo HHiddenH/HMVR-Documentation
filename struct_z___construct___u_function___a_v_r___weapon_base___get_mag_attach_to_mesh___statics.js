@@ -1,0 +1,4 @@
+var struct_z___construct___u_function___a_v_r___weapon_base___get_mag_attach_to_mesh___statics =
+[
+    [ "VR_WeaponBase_eventGetMagAttachToMesh_Parms", "struct_z___construct___u_function___a_v_r___weapon_base___get_mag_attach_to_mesh___statics_1_1_vb1f86b53652e42774dd329c96199116b.html", "struct_z___construct___u_function___a_v_r___weapon_base___get_mag_attach_to_mesh___statics_1_1_vb1f86b53652e42774dd329c96199116b" ]
+];

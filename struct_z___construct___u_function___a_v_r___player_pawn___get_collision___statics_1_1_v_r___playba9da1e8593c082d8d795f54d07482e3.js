@@ -1,0 +1,4 @@
+var struct_z___construct___u_function___a_v_r___player_pawn___get_collision___statics_1_1_v_r___playba9da1e8593c082d8d795f54d07482e3 =
+[
+    [ "ReturnValue", "struct_z___construct___u_function___a_v_r___player_pawn___get_collision___statics_1_1_v_r___playba9da1e8593c082d8d795f54d07482e3.html#a7cefc8cec18b3576a6a2f09e5fc76f74", null ]
+];

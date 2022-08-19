@@ -1,0 +1,4 @@
+var struct_z___construct___u_function___a_v_r___weapon_base___get_just_shot___statics =
+[
+    [ "VR_WeaponBase_eventGetJustShot_Parms", "struct_z___construct___u_function___a_v_r___weapon_base___get_just_shot___statics_1_1_v_r___weap942913a594753b668215cb6a9942fcb0.html", "struct_z___construct___u_function___a_v_r___weapon_base___get_just_shot___statics_1_1_v_r___weap942913a594753b668215cb6a9942fcb0" ]
+];

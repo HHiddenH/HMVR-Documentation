@@ -1,0 +1,4 @@
+var struct_z___construct___u_function___a_v_r___weapon_base___get_hammer___x___statics =
+[
+    [ "VR_WeaponBase_eventGetHammer_X_Parms", "struct_z___construct___u_function___a_v_r___weapon_base___get_hammer___x___statics_1_1_v_r___weabf20bf10e3b1c29ed50e1e56b7c3df4f.html", "struct_z___construct___u_function___a_v_r___weapon_base___get_hammer___x___statics_1_1_v_r___weabf20bf10e3b1c29ed50e1e56b7c3df4f" ]
+];

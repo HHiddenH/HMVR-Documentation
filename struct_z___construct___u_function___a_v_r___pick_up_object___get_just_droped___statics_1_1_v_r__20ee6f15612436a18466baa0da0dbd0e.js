@@ -1,0 +1,4 @@
+var struct_z___construct___u_function___a_v_r___pick_up_object___get_just_droped___statics_1_1_v_r__20ee6f15612436a18466baa0da0dbd0e =
+[
+    [ "ReturnValue", "struct_z___construct___u_function___a_v_r___pick_up_object___get_just_droped___statics_1_1_v_r__20ee6f15612436a18466baa0da0dbd0e.html#a168e4f03a176aa484d76a4f24cd1c427", null ]
+];

@@ -53,10 +53,11 @@ var searchData=
   ['shoot_50',['Shoot',['../class_i_v_r___interaction_interface.html#ac829dea00a3195e868c70762129fd251',1,'IVR_InteractionInterface']]],
   ['shouldupdatefacingdirection_51',['ShouldUpdateFacingDirection',['../class_a_v_r___game_pad.html#a00e5cf8ef23700dffa84c935cbe35544',1,'AVR_GamePad']]],
   ['shutdownmodule_52',['ShutdownModule',['../class_f_h_m_v_r_module.html#af0ebfe789a123d2bcd750982af64d73a',1,'FHMVRModule']]],
-  ['spawndecal_53',['SpawnDecal',['../class_a_v_r___weapon_base.html#ab36af4d9e4e76af0357c8ec3dfb1abaf',1,'AVR_WeaponBase']]],
-  ['spawnmenu_54',['SpawnMenu',['../class_a_v_r___motion_controller.html#adf0bf7cb5ed62822d013d67188a70646',1,'AVR_MotionController']]],
-  ['spawnstaticmeshactor_55',['SpawnStaticMeshActor',['../class_a_v_r___inventory.html#ae81318df213b32eab636f43b723957cc',1,'AVR_Inventory']]],
-  ['startupmodule_56',['StartupModule',['../class_f_h_m_v_r_module.html#a9ad7d6b2c0771811485af505e7d623da',1,'FHMVRModule']]],
-  ['stop_5finteraction_57',['Stop_Interaction',['../class_a_int___door.html#a33cef0e6a2e960706962114b2d8239f5',1,'AInt_Door::Stop_Interaction()'],['../class_a_int___drawer.html#ab3abcbb0d0ab40735d61aebf4c9c02b5',1,'AInt_Drawer::Stop_Interaction()'],['../class_i_v_r___interaction_interface.html#aabb4e4a0ed1b2fda79fa0c8006dcc022',1,'IVR_InteractionInterface::Stop_Interaction()']]],
-  ['stop_5finteraction_5fimplementation_58',['Stop_Interaction_Implementation',['../class_a_int___lever___base.html#a3f963dce6e163d8104686ffb7aef98c0',1,'AInt_Lever_Base::Stop_Interaction_Implementation()'],['../class_a_v_r___weapon_base.html#a491eac26e3ee20c5f5f0174b7e4e2f56',1,'AVR_WeaponBase::Stop_Interaction_Implementation()']]]
+  ['slidemagprogress_53',['SlideMagProgress',['../class_a_v_r___weapon_base.html#aeefdd2b094702710484dad5c6d63a65e',1,'AVR_WeaponBase']]],
+  ['spawndecal_54',['SpawnDecal',['../class_a_v_r___weapon_base.html#ab36af4d9e4e76af0357c8ec3dfb1abaf',1,'AVR_WeaponBase']]],
+  ['spawnmenu_55',['SpawnMenu',['../class_a_v_r___motion_controller.html#adf0bf7cb5ed62822d013d67188a70646',1,'AVR_MotionController']]],
+  ['spawnstaticmeshactor_56',['SpawnStaticMeshActor',['../class_a_v_r___inventory.html#ae81318df213b32eab636f43b723957cc',1,'AVR_Inventory']]],
+  ['startupmodule_57',['StartupModule',['../class_f_h_m_v_r_module.html#a9ad7d6b2c0771811485af505e7d623da',1,'FHMVRModule']]],
+  ['stop_5finteraction_58',['Stop_Interaction',['../class_a_int___door.html#a33cef0e6a2e960706962114b2d8239f5',1,'AInt_Door::Stop_Interaction()'],['../class_a_int___drawer.html#ab3abcbb0d0ab40735d61aebf4c9c02b5',1,'AInt_Drawer::Stop_Interaction()'],['../class_i_v_r___interaction_interface.html#aabb4e4a0ed1b2fda79fa0c8006dcc022',1,'IVR_InteractionInterface::Stop_Interaction()']]],
+  ['stop_5finteraction_5fimplementation_59',['Stop_Interaction_Implementation',['../class_a_int___lever___base.html#a3f963dce6e163d8104686ffb7aef98c0',1,'AInt_Lever_Base::Stop_Interaction_Implementation()'],['../class_a_v_r___weapon_base.html#a491eac26e3ee20c5f5f0174b7e4e2f56',1,'AVR_WeaponBase::Stop_Interaction_Implementation()']]]
 ];

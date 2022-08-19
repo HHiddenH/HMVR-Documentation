@@ -1,0 +1,4 @@
+var struct_z___construct___u_function___a_v_r___ammo___get_caliber___statics =
+[
+    [ "VR_Ammo_eventGetCaliber_Parms", "struct_z___construct___u_function___a_v_r___ammo___get_caliber___statics_1_1_v_r___ammo__event_get_caliber___parms.html", "struct_z___construct___u_function___a_v_r___ammo___get_caliber___statics_1_1_v_r___ammo__event_get_caliber___parms" ]
+];

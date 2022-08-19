@@ -1,0 +1,4 @@
+var struct_z___construct___u_function___a_v_r___inventory___is_inventory_on___statics_1_1_v_r___invee8361258460a4c14beaf0910dc1f544a =
+[
+    [ "ReturnValue", "struct_z___construct___u_function___a_v_r___inventory___is_inventory_on___statics_1_1_v_r___invee8361258460a4c14beaf0910dc1f544a.html#a7474888950fa8c58c7e0e44949069ca0", null ]
+];

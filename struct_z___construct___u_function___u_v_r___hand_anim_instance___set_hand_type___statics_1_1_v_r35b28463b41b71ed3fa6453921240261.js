@@ -1,0 +1,4 @@
+var struct_z___construct___u_function___u_v_r___hand_anim_instance___set_hand_type___statics_1_1_v_r35b28463b41b71ed3fa6453921240261 =
+[
+    [ "Hand", "struct_z___construct___u_function___u_v_r___hand_anim_instance___set_hand_type___statics_1_1_v_r35b28463b41b71ed3fa6453921240261.html#a506c118ffeffdd39d7d781779f81115e", null ]
+];

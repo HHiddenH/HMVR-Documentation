@@ -1,0 +1,4 @@
+var struct_z___construct___u_function___a_v_r___player_pawn___get_camera_location___statics =
+[
+    [ "VR_PlayerPawn_eventGetCameraLocation_Parms", "struct_z___construct___u_function___a_v_r___player_pawn___get_camera_location___statics_1_1_v_r_bb52a7910d2e581c658d057c75b7e61a.html", "struct_z___construct___u_function___a_v_r___player_pawn___get_camera_location___statics_1_1_v_r_bb52a7910d2e581c658d057c75b7e61a" ]
+];

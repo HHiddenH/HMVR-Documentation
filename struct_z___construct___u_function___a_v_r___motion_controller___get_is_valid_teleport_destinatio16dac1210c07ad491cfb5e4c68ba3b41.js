@@ -1,0 +1,4 @@
+var struct_z___construct___u_function___a_v_r___motion_controller___get_is_valid_teleport_destinatio16dac1210c07ad491cfb5e4c68ba3b41 =
+[
+    [ "ReturnValue", "struct_z___construct___u_function___a_v_r___motion_controller___get_is_valid_teleport_destinatio16dac1210c07ad491cfb5e4c68ba3b41.html#a54ee243c7cdd3ccbdfce2f77533e256c", null ]
+];

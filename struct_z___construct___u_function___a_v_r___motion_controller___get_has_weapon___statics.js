@@ -1,0 +1,4 @@
+var struct_z___construct___u_function___a_v_r___motion_controller___get_has_weapon___statics =
+[
+    [ "VR_MotionController_eventGetHasWeapon_Parms", "struct_z___construct___u_function___a_v_r___motion_controller___get_has_weapon___statics_1_1_v_r10c2f3b1fd2340ad4caf2140cfd156ce.html", "struct_z___construct___u_function___a_v_r___motion_controller___get_has_weapon___statics_1_1_v_r10c2f3b1fd2340ad4caf2140cfd156ce" ]
+];

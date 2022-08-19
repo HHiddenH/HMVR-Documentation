@@ -1,0 +1,9 @@
+var struct_z___construct___u_function___a_v_r___weapon_base___handle_overlap_begin___statics_1_1_v_r78709130126bc9de5ba522002b201d5b =
+[
+    [ "bFromSweep", "struct_z___construct___u_function___a_v_r___weapon_base___handle_overlap_begin___statics_1_1_v_r78709130126bc9de5ba522002b201d5b.html#a311f54aa0bc27e8a7d244ce67bc11c19", null ],
+    [ "OtherActor", "struct_z___construct___u_function___a_v_r___weapon_base___handle_overlap_begin___statics_1_1_v_r78709130126bc9de5ba522002b201d5b.html#a3966abb8574fd0406d698d6c4ec7533e", null ],
+    [ "OtherBodyIndex", "struct_z___construct___u_function___a_v_r___weapon_base___handle_overlap_begin___statics_1_1_v_r78709130126bc9de5ba522002b201d5b.html#a7be162c76fdc95f6a56b5d7ad45acbeb", null ],
+    [ "OtherComp", "struct_z___construct___u_function___a_v_r___weapon_base___handle_overlap_begin___statics_1_1_v_r78709130126bc9de5ba522002b201d5b.html#af4fdd2f9ffe03c3a317f6dc380d27937", null ],
+    [ "OverlappedComp", "struct_z___construct___u_function___a_v_r___weapon_base___handle_overlap_begin___statics_1_1_v_r78709130126bc9de5ba522002b201d5b.html#a06ad753d1f53d2acc28a9a4e69e31b42", null ],
+    [ "SweepResult", "struct_z___construct___u_function___a_v_r___weapon_base___handle_overlap_begin___statics_1_1_v_r78709130126bc9de5ba522002b201d5b.html#a78ccc187ff615074c2642c18e0f78f2e", null ]
+];

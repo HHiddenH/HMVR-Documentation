@@ -1,0 +1,4 @@
+var struct_z___construct___u_function___a_int___door___set_angle_limit___statics_1_1_int___door__event_set_angle_limit___parms =
+[
+    [ "angle", "struct_z___construct___u_function___a_int___door___set_angle_limit___statics_1_1_int___door__event_set_angle_limit___parms.html#aea27da9145bb5314f8f37795909512eb", null ]
+];

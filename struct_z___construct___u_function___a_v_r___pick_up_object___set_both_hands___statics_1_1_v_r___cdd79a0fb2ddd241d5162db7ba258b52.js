@@ -1,0 +1,4 @@
+var struct_z___construct___u_function___a_v_r___pick_up_object___set_both_hands___statics_1_1_v_r___cdd79a0fb2ddd241d5162db7ba258b52 =
+[
+    [ "BothHands", "struct_z___construct___u_function___a_v_r___pick_up_object___set_both_hands___statics_1_1_v_r___cdd79a0fb2ddd241d5162db7ba258b52.html#ab2d85fc06ec3c7ff962519f4d74c9019", null ]
+];

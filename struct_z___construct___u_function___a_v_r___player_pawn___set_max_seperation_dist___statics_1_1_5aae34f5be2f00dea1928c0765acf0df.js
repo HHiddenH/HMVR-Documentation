@@ -1,0 +1,4 @@
+var struct_z___construct___u_function___a_v_r___player_pawn___set_max_seperation_dist___statics_1_1_5aae34f5be2f00dea1928c0765acf0df =
+[
+    [ "NewDist", "struct_z___construct___u_function___a_v_r___player_pawn___set_max_seperation_dist___statics_1_1_5aae34f5be2f00dea1928c0765acf0df.html#a27cc7031f9a01474534edc6fa3931c27", null ]
+];

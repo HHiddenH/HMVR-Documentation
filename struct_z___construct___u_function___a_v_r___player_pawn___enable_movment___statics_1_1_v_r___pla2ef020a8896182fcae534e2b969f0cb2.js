@@ -1,0 +1,4 @@
+var struct_z___construct___u_function___a_v_r___player_pawn___enable_movment___statics_1_1_v_r___pla2ef020a8896182fcae534e2b969f0cb2 =
+[
+    [ "enable", "struct_z___construct___u_function___a_v_r___player_pawn___enable_movment___statics_1_1_v_r___pla2ef020a8896182fcae534e2b969f0cb2.html#abc03b35dfb44f18fa99f4342aa079c88", null ]
+];

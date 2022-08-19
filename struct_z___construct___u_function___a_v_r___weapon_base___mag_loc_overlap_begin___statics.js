@@ -1,0 +1,4 @@
+var struct_z___construct___u_function___a_v_r___weapon_base___mag_loc_overlap_begin___statics =
+[
+    [ "VR_WeaponBase_eventMagLocOverlapBegin_Parms", "struct_z___construct___u_function___a_v_r___weapon_base___mag_loc_overlap_begin___statics_1_1_v_3f96de2cd18ab1cb3ac1dd964e5b8887.html", "struct_z___construct___u_function___a_v_r___weapon_base___mag_loc_overlap_begin___statics_1_1_v_3f96de2cd18ab1cb3ac1dd964e5b8887" ]
+];

@@ -1,0 +1,4 @@
+var struct_z___construct___u_function___u_v_r___hand_anim_instance___set_grip_ring___statics =
+[
+    [ "VR_HandAnimInstance_eventSetGripRing_Parms", "struct_z___construct___u_function___u_v_r___hand_anim_instance___set_grip_ring___statics_1_1_v_ra435eecf915291151fc7f869d2d047b9.html", "struct_z___construct___u_function___u_v_r___hand_anim_instance___set_grip_ring___statics_1_1_v_ra435eecf915291151fc7f869d2d047b9" ]
+];

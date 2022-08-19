@@ -1,0 +1,7 @@
+var struct_z___construct___u_function___a_v_r___player_pawn___on_ammo_box_overlap_end___statics_1_1_1877e8c5072b472e4ce702e094d652b0 =
+[
+    [ "OtherActor", "struct_z___construct___u_function___a_v_r___player_pawn___on_ammo_box_overlap_end___statics_1_1_1877e8c5072b472e4ce702e094d652b0.html#a5e40bf5e76c7b62868ce3ef45417faff", null ],
+    [ "OtherBodyIndex", "struct_z___construct___u_function___a_v_r___player_pawn___on_ammo_box_overlap_end___statics_1_1_1877e8c5072b472e4ce702e094d652b0.html#adfa54e59f2939ebc247cd426b961b797", null ],
+    [ "OtherComp", "struct_z___construct___u_function___a_v_r___player_pawn___on_ammo_box_overlap_end___statics_1_1_1877e8c5072b472e4ce702e094d652b0.html#a1d2e3afba1e7a39717b76d9e15079b66", null ],
+    [ "OverlappedComp", "struct_z___construct___u_function___a_v_r___player_pawn___on_ammo_box_overlap_end___statics_1_1_1877e8c5072b472e4ce702e094d652b0.html#a1d1d0d81f32e4220a7eeb7c26ac23218", null ]
+];

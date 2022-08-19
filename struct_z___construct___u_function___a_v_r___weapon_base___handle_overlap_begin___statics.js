@@ -1,0 +1,4 @@
+var struct_z___construct___u_function___a_v_r___weapon_base___handle_overlap_begin___statics =
+[
+    [ "VR_WeaponBase_eventHandleOverlapBegin_Parms", "struct_z___construct___u_function___a_v_r___weapon_base___handle_overlap_begin___statics_1_1_v_r78709130126bc9de5ba522002b201d5b.html", "struct_z___construct___u_function___a_v_r___weapon_base___handle_overlap_begin___statics_1_1_v_r78709130126bc9de5ba522002b201d5b" ]
+];
