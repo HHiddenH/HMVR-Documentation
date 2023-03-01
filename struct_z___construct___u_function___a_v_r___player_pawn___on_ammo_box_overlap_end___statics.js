@@ -1,4 +1,0 @@
-var struct_z___construct___u_function___a_v_r___player_pawn___on_ammo_box_overlap_end___statics =
-[
-    [ "VR_PlayerPawn_eventOnAmmoBoxOverlapEnd_Parms", "struct_z___construct___u_function___a_v_r___player_pawn___on_ammo_box_overlap_end___statics_1_1_1877e8c5072b472e4ce702e094d652b0.html", "struct_z___construct___u_function___a_v_r___player_pawn___on_ammo_box_overlap_end___statics_1_1_1877e8c5072b472e4ce702e094d652b0" ]
-];

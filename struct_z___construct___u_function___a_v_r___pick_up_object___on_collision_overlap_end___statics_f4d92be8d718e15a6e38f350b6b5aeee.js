@@ -1,7 +1,0 @@
-var struct_z___construct___u_function___a_v_r___pick_up_object___on_collision_overlap_end___statics_f4d92be8d718e15a6e38f350b6b5aeee =
-[
-    [ "OtherActor", "struct_z___construct___u_function___a_v_r___pick_up_object___on_collision_overlap_end___statics_f4d92be8d718e15a6e38f350b6b5aeee.html#ad4c24b6d54df79799aff491ae6388c48", null ],
-    [ "OtherBodyIndex", "struct_z___construct___u_function___a_v_r___pick_up_object___on_collision_overlap_end___statics_f4d92be8d718e15a6e38f350b6b5aeee.html#a008c2689f974f3505ee8f5a8e678fb58", null ],
-    [ "OtherComp", "struct_z___construct___u_function___a_v_r___pick_up_object___on_collision_overlap_end___statics_f4d92be8d718e15a6e38f350b6b5aeee.html#a88697f7f571320a8863cceb7b9a1580f", null ],
-    [ "OverlappedComp", "struct_z___construct___u_function___a_v_r___pick_up_object___on_collision_overlap_end___statics_f4d92be8d718e15a6e38f350b6b5aeee.html#aa7e999be75e5b3918d4a6edf11081265", null ]
-];

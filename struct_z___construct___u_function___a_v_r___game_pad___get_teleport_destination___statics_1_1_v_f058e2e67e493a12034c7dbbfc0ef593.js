@@ -1,6 +1,0 @@
-var struct_z___construct___u_function___a_v_r___game_pad___get_teleport_destination___statics_1_1_v_f058e2e67e493a12034c7dbbfc0ef593 =
-[
-    [ "HitNormal", "struct_z___construct___u_function___a_v_r___game_pad___get_teleport_destination___statics_1_1_v_f058e2e67e493a12034c7dbbfc0ef593.html#ad386fffe65a9d1666afd466d527072c9", null ],
-    [ "MyLocation", "struct_z___construct___u_function___a_v_r___game_pad___get_teleport_destination___statics_1_1_v_f058e2e67e493a12034c7dbbfc0ef593.html#a41caef5107ab36b029585fec7b81d507", null ],
-    [ "ReturnValue", "struct_z___construct___u_function___a_v_r___game_pad___get_teleport_destination___statics_1_1_v_f058e2e67e493a12034c7dbbfc0ef593.html#afccb0da1ccf4996137403505bcd80c23", null ]
-];

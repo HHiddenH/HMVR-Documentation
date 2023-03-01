@@ -1,4 +1,0 @@
-var struct_z___construct___u_function___a_int___door___get_interaction_animation___statics_1_1_int__6b2970a34675ae70e8b5267098ff13ce =
-[
-    [ "ReturnValue", "struct_z___construct___u_function___a_int___door___get_interaction_animation___statics_1_1_int__6b2970a34675ae70e8b5267098ff13ce.html#a4739a8f2f4a9e40146dbcabdcd35c6b3", null ]
-];

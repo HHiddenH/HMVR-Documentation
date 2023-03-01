@@ -1,9 +1,0 @@
-var struct_z___construct___u_function___a_int___door___on_door_begin_overlap___statics_1_1_int___doo6711b3f4d617b77f093b89fe5358384e =
-[
-    [ "bFromSweep", "struct_z___construct___u_function___a_int___door___on_door_begin_overlap___statics_1_1_int___doo6711b3f4d617b77f093b89fe5358384e.html#a59080d8f31e54bf62ecf6ffd76119c6c", null ],
-    [ "OtherActor", "struct_z___construct___u_function___a_int___door___on_door_begin_overlap___statics_1_1_int___doo6711b3f4d617b77f093b89fe5358384e.html#a608aecc11524a04a75b4b0dfa2f32aec", null ],
-    [ "OtherBodyIndex", "struct_z___construct___u_function___a_int___door___on_door_begin_overlap___statics_1_1_int___doo6711b3f4d617b77f093b89fe5358384e.html#ac359994fad20ddf67fd8d8e667b4fe60", null ],
-    [ "OtherComp", "struct_z___construct___u_function___a_int___door___on_door_begin_overlap___statics_1_1_int___doo6711b3f4d617b77f093b89fe5358384e.html#adc53c6b85b0fe4d08ea39c8a87206f16", null ],
-    [ "OverlappedComp", "struct_z___construct___u_function___a_int___door___on_door_begin_overlap___statics_1_1_int___doo6711b3f4d617b77f093b89fe5358384e.html#a3ff4584771139a44be3a71861aec144f", null ],
-    [ "SweepResult", "struct_z___construct___u_function___a_int___door___on_door_begin_overlap___statics_1_1_int___doo6711b3f4d617b77f093b89fe5358384e.html#a7cc83b2c1ea3306f3c1697d3cafde48f", null ]
-];

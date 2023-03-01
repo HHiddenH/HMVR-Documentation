@@ -1,4 +1,0 @@
-var struct_z___construct___u_function___a_int___door___get_angle_limit___statics_1_1_int___door__event_get_angle_limit___parms =
-[
-    [ "ReturnValue", "struct_z___construct___u_function___a_int___door___get_angle_limit___statics_1_1_int___door__event_get_angle_limit___parms.html#a24befd00b1442dd6683491282ece3e11", null ]
-];

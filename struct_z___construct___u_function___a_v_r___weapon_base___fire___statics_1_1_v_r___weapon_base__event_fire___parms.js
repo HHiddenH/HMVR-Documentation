@@ -1,4 +1,0 @@
-var struct_z___construct___u_function___a_v_r___weapon_base___fire___statics_1_1_v_r___weapon_base__event_fire___parms =
-[
-    [ "ReturnValue", "struct_z___construct___u_function___a_v_r___weapon_base___fire___statics_1_1_v_r___weapon_base__event_fire___parms.html#afa39f036b3338c5b61cf44bd7244cab5", null ]
-];

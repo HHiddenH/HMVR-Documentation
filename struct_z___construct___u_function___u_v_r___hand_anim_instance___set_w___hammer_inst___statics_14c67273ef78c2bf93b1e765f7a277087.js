@@ -1,4 +1,0 @@
-var struct_z___construct___u_function___u_v_r___hand_anim_instance___set_w___hammer_inst___statics_14c67273ef78c2bf93b1e765f7a277087 =
-[
-    [ "Inst", "struct_z___construct___u_function___u_v_r___hand_anim_instance___set_w___hammer_inst___statics_14c67273ef78c2bf93b1e765f7a277087.html#ae1384455053944e1650d399a978869e2", null ]
-];

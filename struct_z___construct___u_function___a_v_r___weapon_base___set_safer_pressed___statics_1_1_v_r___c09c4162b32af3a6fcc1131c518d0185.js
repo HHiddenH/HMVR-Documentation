@@ -1,4 +1,0 @@
-var struct_z___construct___u_function___a_v_r___weapon_base___set_safer_pressed___statics_1_1_v_r___c09c4162b32af3a6fcc1131c518d0185 =
-[
-    [ "Status", "struct_z___construct___u_function___a_v_r___weapon_base___set_safer_pressed___statics_1_1_v_r___c09c4162b32af3a6fcc1131c518d0185.html#a0d423bd63b9e116cd4723f2e1fda94fb", null ]
-];

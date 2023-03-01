@@ -1,4 +1,0 @@
-var struct_z___construct___u_function___a_int___door___get_interaction_animation___statics =
-[
-    [ "Int_Door_eventGetInteractionAnimation_Parms", "struct_z___construct___u_function___a_int___door___get_interaction_animation___statics_1_1_int__6b2970a34675ae70e8b5267098ff13ce.html", "struct_z___construct___u_function___a_int___door___get_interaction_animation___statics_1_1_int__6b2970a34675ae70e8b5267098ff13ce" ]
-];

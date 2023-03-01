@@ -1,4 +1,0 @@
-var struct_z___construct___u_function___a_int___lever___base___update_return_force___statics =
-[
-    [ "Int_Lever_Base_eventUpdateReturnForce_Parms", "struct_z___construct___u_function___a_int___lever___base___update_return_force___statics_1_1_int4268177cbe9cbea7d57c612e1bd8fc72.html", "struct_z___construct___u_function___a_int___lever___base___update_return_force___statics_1_1_int4268177cbe9cbea7d57c612e1bd8fc72" ]
-];

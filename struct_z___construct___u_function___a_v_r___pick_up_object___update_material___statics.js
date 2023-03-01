@@ -1,4 +1,0 @@
-var struct_z___construct___u_function___a_v_r___pick_up_object___update_material___statics =
-[
-    [ "VR_PickUpObject_eventUpdateMaterial_Parms", "struct_z___construct___u_function___a_v_r___pick_up_object___update_material___statics_1_1_v_r__a796c4ec0496292f5a10d9e9b5a27f83.html", "struct_z___construct___u_function___a_v_r___pick_up_object___update_material___statics_1_1_v_r__a796c4ec0496292f5a10d9e9b5a27f83" ]
-];

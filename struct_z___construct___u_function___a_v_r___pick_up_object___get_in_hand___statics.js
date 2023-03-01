@@ -1,4 +1,0 @@
-var struct_z___construct___u_function___a_v_r___pick_up_object___get_in_hand___statics =
-[
-    [ "VR_PickUpObject_eventGetInHand_Parms", "struct_z___construct___u_function___a_v_r___pick_up_object___get_in_hand___statics_1_1_v_r___piccc8362ee0407515758052fcc667ef4f4.html", "struct_z___construct___u_function___a_v_r___pick_up_object___get_in_hand___statics_1_1_v_r___piccc8362ee0407515758052fcc667ef4f4" ]
-];

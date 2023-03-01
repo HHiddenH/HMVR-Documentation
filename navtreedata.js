@@ -24,9 +24,9 @@
 */
 var NAVTREE =
 [
-  [ "HMVR", "index.html", [
-    [ "Introduction", "md__c___projects__h_m_v_r__plugin__h_m_v_r__tutorials__introduction.html", null ],
-    [ "Start Guide", "md__c___projects__h_m_v_r__plugin__h_m_v_r__tutorials__start_guide.html", null ],
+  [ "Head Mounted VR", "index.html", [
+    [ "Introduction", "md__pages__introduction.html", null ],
+    [ "Start Guide", "md__pages__start_guide.html", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
@@ -34,28 +34,19 @@ var NAVTREE =
       [ "Class Members", "functions.html", [
         [ "All", "functions.html", "functions_dup" ],
         [ "Functions", "functions_func.html", "functions_func" ],
-        [ "Variables", "functions_vars.html", "functions_vars" ]
+        [ "Variables", "functions_vars.html", null ]
       ] ]
     ] ],
     [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ],
-      [ "File Members", "globals.html", [
-        [ "All", "globals.html", null ],
-        [ "Functions", "globals_func.html", null ],
-        [ "Enumerations", "globals_enum.html", null ],
-        [ "Macros", "globals_defs.html", null ]
-      ] ]
+      [ "File List", "files.html", "files_dup" ]
     ] ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"_bullet_decal_8cpp.html",
-"class_a_int___door.html#aa3efa75237207fe19978ef07d630f255",
-"class_a_v_r___motion_controller.html#a3ddc5929043d2076eddb12fc5862bc5b",
-"class_a_v_r___player_pawn.html#a23e92accd71decc55147ddc4f36b99cf",
-"class_i_v_r___hand_anim_interface.html"
+"_head_mounted_v_r_8h_source.html",
+"class_a_v_r___player.html#afed5c91ee4ebdca6371ef8147b6588df"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

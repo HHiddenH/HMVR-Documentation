@@ -1,4 +1,0 @@
-var struct_z___construct___u_function___a_v_r___weapon_base___set_hammer___x___statics_1_1_v_r___weac1bb56b44f15de9b549a79062a9a3fba =
-[
-    [ "Int", "struct_z___construct___u_function___a_v_r___weapon_base___set_hammer___x___statics_1_1_v_r___weac1bb56b44f15de9b549a79062a9a3fba.html#a63c8c71faa35036609ee339c5ce16ef0", null ]
-];

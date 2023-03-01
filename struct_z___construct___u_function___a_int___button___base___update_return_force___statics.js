@@ -1,4 +1,0 @@
-var struct_z___construct___u_function___a_int___button___base___update_return_force___statics =
-[
-    [ "Int_Button_Base_eventUpdateReturnForce_Parms", "struct_z___construct___u_function___a_int___button___base___update_return_force___statics_1_1_in992965799a9064ab9fca44db2e9880a0.html", "struct_z___construct___u_function___a_int___button___base___update_return_force___statics_1_1_in992965799a9064ab9fca44db2e9880a0" ]
-];

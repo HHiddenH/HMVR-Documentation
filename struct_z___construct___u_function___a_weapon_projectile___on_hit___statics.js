@@ -1,4 +1,0 @@
-var struct_z___construct___u_function___a_weapon_projectile___on_hit___statics =
-[
-    [ "WeaponProjectile_eventOnHit_Parms", "struct_z___construct___u_function___a_weapon_projectile___on_hit___statics_1_1_weapon_projectile__event_on_hit___parms.html", "struct_z___construct___u_function___a_weapon_projectile___on_hit___statics_1_1_weapon_projectile__event_on_hit___parms" ]
-];

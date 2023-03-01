@@ -1,4 +1,0 @@
-var struct_z___construct___u_function___u_v_r___hand_anim_instance___set___is_grabbed___statics_1_1_5483f81b03267ec7e76d0d553158d117 =
-[
-    [ "IsGrabbed", "struct_z___construct___u_function___u_v_r___hand_anim_instance___set___is_grabbed___statics_1_1_5483f81b03267ec7e76d0d553158d117.html#a3159aa9ffbafcce21fc63d2d58729332", null ]
-];

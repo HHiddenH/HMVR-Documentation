@@ -1,4 +1,0 @@
-var struct_z___construct___u_function___u_v_r___weapon_anim_instance___set_trigger_int___statics_1_1b9bd4994d8844b2d1ed5aa80a1842f78 =
-[
-    [ "Int", "struct_z___construct___u_function___u_v_r___weapon_anim_instance___set_trigger_int___statics_1_1b9bd4994d8844b2d1ed5aa80a1842f78.html#a134444caf377f6229bbd6973bffa36ac", null ]
-];

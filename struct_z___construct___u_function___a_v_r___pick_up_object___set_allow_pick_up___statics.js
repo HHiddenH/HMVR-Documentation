@@ -1,4 +1,0 @@
-var struct_z___construct___u_function___a_v_r___pick_up_object___set_allow_pick_up___statics =
-[
-    [ "VR_PickUpObject_eventSetAllowPickUp_Parms", "struct_z___construct___u_function___a_v_r___pick_up_object___set_allow_pick_up___statics_1_1_v_r2c37659a079330dc1331b2c4eb4d8ee2.html", "struct_z___construct___u_function___a_v_r___pick_up_object___set_allow_pick_up___statics_1_1_v_r2c37659a079330dc1331b2c4eb4d8ee2" ]
-];

@@ -1,4 +1,0 @@
-var struct_z___construct___u_function___u_v_r___hand_anim_instance___set_trackpad___touch___statics_0ad8c500a799afc3c39b48ce75920197 =
-[
-    [ "Touched", "struct_z___construct___u_function___u_v_r___hand_anim_instance___set_trackpad___touch___statics_0ad8c500a799afc3c39b48ce75920197.html#a95a2818cb5c2c2a04abd820fd23ef505", null ]
-];

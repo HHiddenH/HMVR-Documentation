@@ -1,4 +1,0 @@
-var struct_z___construct___u_function___a_int___lever___rotatable___is_turned_on___statics_1_1_int__777a22b842ceb7a51517b77d7d52c0f6 =
-[
-    [ "ReturnValue", "struct_z___construct___u_function___a_int___lever___rotatable___is_turned_on___statics_1_1_int__777a22b842ceb7a51517b77d7d52c0f6.html#ae0a67b320fc3fbc2235f38159f89a044", null ]
-];

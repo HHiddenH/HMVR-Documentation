@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['hmvr_0',['HMVR',['../class_h_m_v_r.html',1,'']]]
+  ['headmountedvr_0',['HeadMountedVR',['../class_head_mounted_v_r.html',1,'']]]
 ];

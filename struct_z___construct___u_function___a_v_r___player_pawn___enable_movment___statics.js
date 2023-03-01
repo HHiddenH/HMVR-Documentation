@@ -1,4 +1,0 @@
-var struct_z___construct___u_function___a_v_r___player_pawn___enable_movment___statics =
-[
-    [ "VR_PlayerPawn_eventEnableMovment_Parms", "struct_z___construct___u_function___a_v_r___player_pawn___enable_movment___statics_1_1_v_r___pla2ef020a8896182fcae534e2b969f0cb2.html", "struct_z___construct___u_function___a_v_r___player_pawn___enable_movment___statics_1_1_v_r___pla2ef020a8896182fcae534e2b969f0cb2" ]
-];

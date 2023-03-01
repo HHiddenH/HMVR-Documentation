@@ -1,4 +1,0 @@
-var struct_z___construct___u_function___a_v_r___player_pawn___teleport_player_pawn___statics =
-[
-    [ "VR_PlayerPawn_eventTeleportPlayerPawn_Parms", "struct_z___construct___u_function___a_v_r___player_pawn___teleport_player_pawn___statics_1_1_v_r9281d1e335e545d77406122e6d55eef1.html", "struct_z___construct___u_function___a_v_r___player_pawn___teleport_player_pawn___statics_1_1_v_r9281d1e335e545d77406122e6d55eef1" ]
-];

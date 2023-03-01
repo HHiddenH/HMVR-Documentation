@@ -1,4 +1,0 @@
-var struct_z___construct___u_function___a_v_r___weapon_base___get_in_hand_status___statics =
-[
-    [ "VR_WeaponBase_eventGetInHandStatus_Parms", "struct_z___construct___u_function___a_v_r___weapon_base___get_in_hand_status___statics_1_1_v_r__bfc237a1d7d5fe891fad93e353898695.html", "struct_z___construct___u_function___a_v_r___weapon_base___get_in_hand_status___statics_1_1_v_r__bfc237a1d7d5fe891fad93e353898695" ]
-];

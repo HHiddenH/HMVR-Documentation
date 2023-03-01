@@ -1,7 +1,0 @@
-var struct_z___construct___u_function___a_v_r___weapon_base___handle_overlap_end___statics_1_1_v_r__265e9988919985f3996210f37cf97d64 =
-[
-    [ "OtherActor", "struct_z___construct___u_function___a_v_r___weapon_base___handle_overlap_end___statics_1_1_v_r__265e9988919985f3996210f37cf97d64.html#a3ea46a0907b11585f9c15aaebcff8b19", null ],
-    [ "OtherBodyIndex", "struct_z___construct___u_function___a_v_r___weapon_base___handle_overlap_end___statics_1_1_v_r__265e9988919985f3996210f37cf97d64.html#a53b04d8ba61ce404a7bb33422b5a45bd", null ],
-    [ "OtherComp", "struct_z___construct___u_function___a_v_r___weapon_base___handle_overlap_end___statics_1_1_v_r__265e9988919985f3996210f37cf97d64.html#a44a47b9325983d3628190bb698f683e9", null ],
-    [ "OverlappedComp", "struct_z___construct___u_function___a_v_r___weapon_base___handle_overlap_end___statics_1_1_v_r__265e9988919985f3996210f37cf97d64.html#a0ded5a3a689dc44019d70c94fb7292e4", null ]
-];

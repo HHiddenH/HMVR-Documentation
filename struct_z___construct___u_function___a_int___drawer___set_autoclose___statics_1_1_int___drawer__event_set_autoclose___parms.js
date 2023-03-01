@@ -1,4 +1,0 @@
-var struct_z___construct___u_function___a_int___drawer___set_autoclose___statics_1_1_int___drawer__event_set_autoclose___parms =
-[
-    [ "auto_close", "struct_z___construct___u_function___a_int___drawer___set_autoclose___statics_1_1_int___drawer__event_set_autoclose___parms.html#ae3f48db87412a147648a8e2bd2b76b60", null ]
-];

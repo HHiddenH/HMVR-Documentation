@@ -1,4 +1,0 @@
-var struct_z___construct___u_function___u_v_r___hand_anim_instance___set_animation_type___statics_1_4a8dde224734d4be07a9762d638ae9d6 =
-[
-    [ "NewAnimType", "struct_z___construct___u_function___u_v_r___hand_anim_instance___set_animation_type___statics_1_4a8dde224734d4be07a9762d638ae9d6.html#aefc9df175fc45f86d6e2fe62e98227f3", null ]
-];

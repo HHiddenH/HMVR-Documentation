@@ -1,4 +1,0 @@
-var struct_z___construct___u_function___a_v_r___pick_up_object___set_allow_pick_up___statics_1_1_v_r2c37659a079330dc1331b2c4eb4d8ee2 =
-[
-    [ "PickUpStatus", "struct_z___construct___u_function___a_v_r___pick_up_object___set_allow_pick_up___statics_1_1_v_r2c37659a079330dc1331b2c4eb4d8ee2.html#ad0d0043c5fab3c461bef055fd3c5f89d", null ]
-];

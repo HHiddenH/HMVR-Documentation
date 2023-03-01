@@ -1,4 +1,0 @@
-var struct_z___construct___u_function___a_int___lever___base___get_animn_type___statics =
-[
-    [ "Int_Lever_Base_eventGetAnimnType_Parms", "struct_z___construct___u_function___a_int___lever___base___get_animn_type___statics_1_1_int___le6f92b74ae38a2bacbac5a4af8fb12ea7.html", "struct_z___construct___u_function___a_int___lever___base___get_animn_type___statics_1_1_int___le6f92b74ae38a2bacbac5a4af8fb12ea7" ]
-];

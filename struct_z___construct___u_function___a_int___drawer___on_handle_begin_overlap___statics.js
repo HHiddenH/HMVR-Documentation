@@ -1,4 +1,0 @@
-var struct_z___construct___u_function___a_int___drawer___on_handle_begin_overlap___statics =
-[
-    [ "Int_Drawer_eventOnHandleBeginOverlap_Parms", "struct_z___construct___u_function___a_int___drawer___on_handle_begin_overlap___statics_1_1_int__3800681ecdf24602d1846ca4ad85c36e.html", "struct_z___construct___u_function___a_int___drawer___on_handle_begin_overlap___statics_1_1_int__3800681ecdf24602d1846ca4ad85c36e" ]
-];

@@ -1,4 +1,0 @@
-var struct_z___construct___u_function___a_v_r___motion_controller___get_allow_turn_off_menu___staticab8451ed1dc14d628d2509995a919d8c =
-[
-    [ "ReturnValue", "struct_z___construct___u_function___a_v_r___motion_controller___get_allow_turn_off_menu___staticab8451ed1dc14d628d2509995a919d8c.html#a7202d0995073016263a483c6c2f7d8c0", null ]
-];

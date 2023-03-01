@@ -1,4 +1,0 @@
-var struct_z___construct___u_function___a_int___door___set_parent___statics_1_1_int___door__event_set_parent___parms =
-[
-    [ "ParentActor", "struct_z___construct___u_function___a_int___door___set_parent___statics_1_1_int___door__event_set_parent___parms.html#a8c7843e68387f1c7c877271911ac0846", null ]
-];

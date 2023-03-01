@@ -1,4 +1,0 @@
-var struct_z___construct___u_function___a_v_r___motion_controller___is_hand_closed___statics_1_1_v_ra23c2d5c8ce41e68f6e1d2319158f700 =
-[
-    [ "ReturnValue", "struct_z___construct___u_function___a_v_r___motion_controller___is_hand_closed___statics_1_1_v_ra23c2d5c8ce41e68f6e1d2319158f700.html#a9d74e3f7b26c5cad13fe6dee5b187e5b", null ]
-];

@@ -1,4 +1,0 @@
-var struct_z___construct___u_function___a_v_r___weapon_base___spawn_decal___statics_1_1_v_r___weapon18572b1807b7140b64656137a9aa150b =
-[
-    [ "HitResult", "struct_z___construct___u_function___a_v_r___weapon_base___spawn_decal___statics_1_1_v_r___weapon18572b1807b7140b64656137a9aa150b.html#aee92be845bbc833d5ba880d2deddb278", null ]
-];

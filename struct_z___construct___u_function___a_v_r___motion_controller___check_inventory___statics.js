@@ -1,4 +1,0 @@
-var struct_z___construct___u_function___a_v_r___motion_controller___check_inventory___statics =
-[
-    [ "VR_MotionController_eventCheckInventory_Parms", "struct_z___construct___u_function___a_v_r___motion_controller___check_inventory___statics_1_1_v_56cf79c78ec38640a136e86f3838adce.html", "struct_z___construct___u_function___a_v_r___motion_controller___check_inventory___statics_1_1_v_56cf79c78ec38640a136e86f3838adce" ]
-];

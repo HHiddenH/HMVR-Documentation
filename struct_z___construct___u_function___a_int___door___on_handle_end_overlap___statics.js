@@ -1,4 +1,0 @@
-var struct_z___construct___u_function___a_int___door___on_handle_end_overlap___statics =
-[
-    [ "Int_Door_eventOnHandleEndOverlap_Parms", "struct_z___construct___u_function___a_int___door___on_handle_end_overlap___statics_1_1_int___dooad432f96569f5683314d831aae4fb505.html", "struct_z___construct___u_function___a_int___door___on_handle_end_overlap___statics_1_1_int___dooad432f96569f5683314d831aae4fb505" ]
-];

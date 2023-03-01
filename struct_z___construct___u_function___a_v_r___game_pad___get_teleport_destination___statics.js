@@ -1,4 +1,0 @@
-var struct_z___construct___u_function___a_v_r___game_pad___get_teleport_destination___statics =
-[
-    [ "VR_GamePad_eventGetTeleportDestination_Parms", "struct_z___construct___u_function___a_v_r___game_pad___get_teleport_destination___statics_1_1_v_f058e2e67e493a12034c7dbbfc0ef593.html", "struct_z___construct___u_function___a_v_r___game_pad___get_teleport_destination___statics_1_1_v_f058e2e67e493a12034c7dbbfc0ef593" ]
-];

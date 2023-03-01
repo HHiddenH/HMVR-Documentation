@@ -1,4 +1,0 @@
-var struct_z___construct___u_function___a_int___door___set_autoclose___statics =
-[
-    [ "Int_Door_eventSetAutoclose_Parms", "struct_z___construct___u_function___a_int___door___set_autoclose___statics_1_1_int___door__event_set_autoclose___parms.html", "struct_z___construct___u_function___a_int___door___set_autoclose___statics_1_1_int___door__event_set_autoclose___parms" ]
-];

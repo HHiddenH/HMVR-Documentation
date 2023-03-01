@@ -1,4 +1,0 @@
-var struct_z___construct___u_function___a_v_r___pick_up_object___get_in_hand___statics_1_1_v_r___piccc8362ee0407515758052fcc667ef4f4 =
-[
-    [ "ReturnValue", "struct_z___construct___u_function___a_v_r___pick_up_object___get_in_hand___statics_1_1_v_r___piccc8362ee0407515758052fcc667ef4f4.html#a214a7f037d310b6635184e9a49b9551e", null ]
-];

@@ -1,4 +1,0 @@
-var struct_z___construct___u_function___a_v_r___ammo___get_ammo___statics_1_1_v_r___ammo__event_get_ammo___parms =
-[
-    [ "ReturnValue", "struct_z___construct___u_function___a_v_r___ammo___get_ammo___statics_1_1_v_r___ammo__event_get_ammo___parms.html#a14378ffefe5974884c2c3b22eec23c2a", null ]
-];

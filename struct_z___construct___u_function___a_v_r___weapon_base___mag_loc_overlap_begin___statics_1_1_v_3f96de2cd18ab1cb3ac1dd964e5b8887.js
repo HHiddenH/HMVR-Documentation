@@ -1,9 +1,0 @@
-var struct_z___construct___u_function___a_v_r___weapon_base___mag_loc_overlap_begin___statics_1_1_v_3f96de2cd18ab1cb3ac1dd964e5b8887 =
-[
-    [ "bFromSweep", "struct_z___construct___u_function___a_v_r___weapon_base___mag_loc_overlap_begin___statics_1_1_v_3f96de2cd18ab1cb3ac1dd964e5b8887.html#a657076d2c3cea10e0ea7334044168a87", null ],
-    [ "OtherActor", "struct_z___construct___u_function___a_v_r___weapon_base___mag_loc_overlap_begin___statics_1_1_v_3f96de2cd18ab1cb3ac1dd964e5b8887.html#aa480c223d87a66fb21ee0ffb42a59d7d", null ],
-    [ "OtherBodyIndex", "struct_z___construct___u_function___a_v_r___weapon_base___mag_loc_overlap_begin___statics_1_1_v_3f96de2cd18ab1cb3ac1dd964e5b8887.html#a353497f2e5fdf5ff4fd28c44768cd225", null ],
-    [ "OtherComp", "struct_z___construct___u_function___a_v_r___weapon_base___mag_loc_overlap_begin___statics_1_1_v_3f96de2cd18ab1cb3ac1dd964e5b8887.html#a6101d7052fd9e3b249d1ab10ee937040", null ],
-    [ "OverlappedComp", "struct_z___construct___u_function___a_v_r___weapon_base___mag_loc_overlap_begin___statics_1_1_v_3f96de2cd18ab1cb3ac1dd964e5b8887.html#adc307cdf705ce7afb85ab07c19326cfd", null ],
-    [ "SweepResult", "struct_z___construct___u_function___a_v_r___weapon_base___mag_loc_overlap_begin___statics_1_1_v_3f96de2cd18ab1cb3ac1dd964e5b8887.html#a80a9b808ea43bc3752e5b39dceee268c", null ]
-];

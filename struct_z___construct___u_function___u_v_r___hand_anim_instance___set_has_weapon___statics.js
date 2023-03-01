@@ -1,4 +1,0 @@
-var struct_z___construct___u_function___u_v_r___hand_anim_instance___set_has_weapon___statics =
-[
-    [ "VR_HandAnimInstance_eventSetHasWeapon_Parms", "struct_z___construct___u_function___u_v_r___hand_anim_instance___set_has_weapon___statics_1_1_v_5a0b8babefa299a601728d59b1242378.html", "struct_z___construct___u_function___u_v_r___hand_anim_instance___set_has_weapon___statics_1_1_v_5a0b8babefa299a601728d59b1242378" ]
-];

@@ -1,4 +1,0 @@
-var struct_z___construct___u_function___a_v_r___weapon_base___get_static_weapon_mesh___statics =
-[
-    [ "VR_WeaponBase_eventGetStaticWeaponMesh_Parms", "struct_z___construct___u_function___a_v_r___weapon_base___get_static_weapon_mesh___statics_1_1_v6ddcf6769ecba2cdaffc3153d5669ce1.html", "struct_z___construct___u_function___a_v_r___weapon_base___get_static_weapon_mesh___statics_1_1_v6ddcf6769ecba2cdaffc3153d5669ce1" ]
-];

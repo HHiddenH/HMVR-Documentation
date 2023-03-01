@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['fhmvrmodule_0',['FHMVRModule',['../class_f_h_m_v_r_module.html',1,'']]]
+  ['fheadmountedvrmodule_0',['FHeadMountedVRModule',['../class_f_head_mounted_v_r_module.html',1,'']]]
 ];

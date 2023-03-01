@@ -1,4 +1,0 @@
-var struct_z___construct___u_function___a_v_r___pick_up_object___can_player_step_on___statics =
-[
-    [ "VR_PickUpObject_eventCanPlayerStepOn_Parms", "struct_z___construct___u_function___a_v_r___pick_up_object___can_player_step_on___statics_1_1_v_782fa60d8ac1e7e5e56b85ae3606f103.html", "struct_z___construct___u_function___a_v_r___pick_up_object___can_player_step_on___statics_1_1_v_782fa60d8ac1e7e5e56b85ae3606f103" ]
-];

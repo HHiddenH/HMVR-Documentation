@@ -1,4 +1,0 @@
-var struct_z___construct___u_function___u_v_r___weapon_anim_instance___get_just_shoot___statics_1_1_c1e633c2deb04fd2d59c6ee6ce223632 =
-[
-    [ "ReturnValue", "struct_z___construct___u_function___u_v_r___weapon_anim_instance___get_just_shoot___statics_1_1_c1e633c2deb04fd2d59c6ee6ce223632.html#a5f1c3fe191a0e5c05deafa9b73d253e1", null ]
-];

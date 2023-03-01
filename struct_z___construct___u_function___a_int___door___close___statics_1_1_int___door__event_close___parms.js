@@ -1,4 +1,0 @@
-var struct_z___construct___u_function___a_int___door___close___statics_1_1_int___door__event_close___parms =
-[
-    [ "fast", "struct_z___construct___u_function___a_int___door___close___statics_1_1_int___door__event_close___parms.html#ae9f6e5120277c861c8e3dda52b044c88", null ]
-];

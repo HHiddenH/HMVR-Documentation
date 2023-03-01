@@ -1,4 +1,0 @@
-var struct_z___construct___u_function___u_v_r___hand_anim_instance___set_grip_middle___statics =
-[
-    [ "VR_HandAnimInstance_eventSetGripMiddle_Parms", "struct_z___construct___u_function___u_v_r___hand_anim_instance___set_grip_middle___statics_1_1_vf1538435fd2582ba156662829518e51a.html", "struct_z___construct___u_function___u_v_r___hand_anim_instance___set_grip_middle___statics_1_1_vf1538435fd2582ba156662829518e51a" ]
-];

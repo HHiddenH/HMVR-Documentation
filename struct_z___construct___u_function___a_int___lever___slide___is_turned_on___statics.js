@@ -1,4 +1,0 @@
-var struct_z___construct___u_function___a_int___lever___slide___is_turned_on___statics =
-[
-    [ "Int_Lever_Slide_eventIsTurnedOn_Parms", "struct_z___construct___u_function___a_int___lever___slide___is_turned_on___statics_1_1_int___lev6c754164373fded9b52a2a93622a181e.html", "struct_z___construct___u_function___a_int___lever___slide___is_turned_on___statics_1_1_int___lev6c754164373fded9b52a2a93622a181e" ]
-];

@@ -1,9 +1,0 @@
-var struct_z___construct___u_function___a_int___drawer___on_handle_begin_overlap___statics_1_1_int__3800681ecdf24602d1846ca4ad85c36e =
-[
-    [ "bFromSweep", "struct_z___construct___u_function___a_int___drawer___on_handle_begin_overlap___statics_1_1_int__3800681ecdf24602d1846ca4ad85c36e.html#abb8cd19cdd9857c3177dbb749acc04c1", null ],
-    [ "OtherActor", "struct_z___construct___u_function___a_int___drawer___on_handle_begin_overlap___statics_1_1_int__3800681ecdf24602d1846ca4ad85c36e.html#aaa0fa2a9e0d8ea3c90577df547b5cf72", null ],
-    [ "OtherBodyIndex", "struct_z___construct___u_function___a_int___drawer___on_handle_begin_overlap___statics_1_1_int__3800681ecdf24602d1846ca4ad85c36e.html#aacabd1cfcdd1d6b453e541f6302483a1", null ],
-    [ "OtherComp", "struct_z___construct___u_function___a_int___drawer___on_handle_begin_overlap___statics_1_1_int__3800681ecdf24602d1846ca4ad85c36e.html#a1592ef23b4b177ab81b698284b2116cc", null ],
-    [ "OverlappedComp", "struct_z___construct___u_function___a_int___drawer___on_handle_begin_overlap___statics_1_1_int__3800681ecdf24602d1846ca4ad85c36e.html#aefc2d430deb081cb6edab5279684e608", null ],
-    [ "SweepResult", "struct_z___construct___u_function___a_int___drawer___on_handle_begin_overlap___statics_1_1_int__3800681ecdf24602d1846ca4ad85c36e.html#ab2e70bf62f6f9c1da539e8c2a4415753", null ]
-];

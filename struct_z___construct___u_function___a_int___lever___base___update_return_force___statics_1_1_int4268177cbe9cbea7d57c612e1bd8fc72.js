@@ -1,6 +1,0 @@
-var struct_z___construct___u_function___a_int___lever___base___update_return_force___statics_1_1_int4268177cbe9cbea7d57c612e1bd8fc72 =
-[
-    [ "Force", "struct_z___construct___u_function___a_int___lever___base___update_return_force___statics_1_1_int4268177cbe9cbea7d57c612e1bd8fc72.html#a9abf9776e1fbb9640c081d76d3c87314", null ],
-    [ "Max_Force", "struct_z___construct___u_function___a_int___lever___base___update_return_force___statics_1_1_int4268177cbe9cbea7d57c612e1bd8fc72.html#ae7b0ee654ddf72b389485aa0ada81629", null ],
-    [ "Velocity", "struct_z___construct___u_function___a_int___lever___base___update_return_force___statics_1_1_int4268177cbe9cbea7d57c612e1bd8fc72.html#a6a786c0b081f26d246d8c6815604308d", null ]
-];

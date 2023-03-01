@@ -1,4 +1,0 @@
-var struct_z___construct___u_function___a_v_r___weapon_base___get_safer_pressed___statics =
-[
-    [ "VR_WeaponBase_eventGetSaferPressed_Parms", "struct_z___construct___u_function___a_v_r___weapon_base___get_safer_pressed___statics_1_1_v_r___8560087615bc3188865b5185a28d5874.html", "struct_z___construct___u_function___a_v_r___weapon_base___get_safer_pressed___statics_1_1_v_r___8560087615bc3188865b5185a28d5874" ]
-];

@@ -1,62 +1,63 @@
 var hierarchy =
 [
     [ "AActor", null, [
-      [ "ABulletDecal", "class_a_bullet_decal.html", null ],
-      [ "AInt_Button_Base", "class_a_int___button___base.html", null ],
-      [ "AInt_Code_Lock", "class_a_int___code___lock.html", null ],
-      [ "AInt_Door", "class_a_int___door.html", null ],
-      [ "AInt_Drawer", "class_a_int___drawer.html", null ],
-      [ "AInt_Lever_Base", "class_a_int___lever___base.html", [
-        [ "AInt_Lever_Rotatable", "class_a_int___lever___rotatable.html", null ],
-        [ "AInt_Lever_Slide", "class_a_int___lever___slide.html", null ],
-        [ "AInt_Valve", "class_a_int___valve.html", null ]
+      [ "ALoading_Handler", "class_a_loading___handler.html", null ],
+      [ "AVR_Actor", "class_a_v_r___actor.html", [
+        [ "AVR_Door", "class_a_v_r___door.html", null ],
+        [ "AVR_Drawer", "class_a_v_r___drawer.html", null ],
+        [ "AVR_LeverBase", "class_a_v_r___lever_base.html", [
+          [ "AVR_LeverRotatable", "class_a_v_r___lever_rotatable.html", [
+            [ "AVR_Valve", "class_a_v_r___valve.html", null ]
+          ] ],
+          [ "AVR_LeverSlide", "class_a_v_r___lever_slide.html", null ]
+        ] ],
+        [ "AVR_MainMenu", "class_a_v_r___main_menu.html", null ],
+        [ "AVR_PauseMenu", "class_a_v_r___pause_menu.html", null ],
+        [ "AVR_SkeletalMesh", "class_a_v_r___skeletal_mesh.html", [
+          [ "AVR_EquipmentSkeletal", "class_a_v_r___equipment_skeletal.html", null ]
+        ] ],
+        [ "AVR_StaticMesh", "class_a_v_r___static_mesh.html", [
+          [ "AVR_AmmoBox", "class_a_v_r___ammo_box.html", null ],
+          [ "AVR_AmmoClip", "class_a_v_r___ammo_clip.html", null ],
+          [ "AVR_AmmoRound", "class_a_v_r___ammo_round.html", null ],
+          [ "AVR_Equipment", "class_a_v_r___equipment.html", null ]
+        ] ],
+        [ "AVR_Weapon", "class_a_v_r___weapon.html", null ]
       ] ],
-      [ "AVR_Inventory", "class_a_v_r___inventory.html", null ],
-      [ "AVR_MotionController", "class_a_v_r___motion_controller.html", null ],
-      [ "AVR_PickUpObject", "class_a_v_r___pick_up_object.html", [
-        [ "AEquipmentBase", "class_a_equipment_base.html", null ],
-        [ "AVR_Ammo", "class_a_v_r___ammo.html", null ],
-        [ "AVR_Bullet", "class_a_v_r___bullet.html", null ]
-      ] ],
-      [ "AVR_WeaponBase", "class_a_v_r___weapon_base.html", [
-        [ "AVR_Pistol", "class_a_v_r___pistol.html", null ]
-      ] ],
-      [ "AWeaponProjectile", "class_a_weapon_projectile.html", null ]
+      [ "AVR_BulletDecal", "class_a_v_r___bullet_decal.html", null ],
+      [ "AVR_Button", "class_a_v_r___button.html", null ],
+      [ "AVR_CodeLock", "class_a_v_r___code_lock.html", null ],
+      [ "AVR_HandInventory", "class_a_v_r___hand_inventory.html", null ],
+      [ "AVR_Hands", "class_a_v_r___hands.html", null ],
+      [ "AVR_WeaponProjectile", "class_a_v_r___weapon_projectile.html", null ]
+    ] ],
+    [ "AGameModeBase", null, [
+      [ "AVRGameMode", "class_a_v_r_game_mode.html", null ]
     ] ],
     [ "APawn", null, [
-      [ "AVR_GamePad", "class_a_v_r___game_pad.html", null ],
-      [ "AVR_PlayerPawn", "class_a_v_r___player_pawn.html", null ]
+      [ "AVR_Player", "class_a_v_r___player.html", null ]
     ] ],
     [ "IModuleInterface", null, [
-      [ "FHMVRModule", "class_f_h_m_v_r_module.html", null ]
+      [ "FHeadMountedVRModule", "class_f_head_mounted_v_r_module.html", null ]
     ] ],
-    [ "IVR_HandAnimInterface", "class_i_v_r___hand_anim_interface.html", null ],
     [ "IVR_InteractionInterface", "class_i_v_r___interaction_interface.html", [
-      [ "AInt_Door", "class_a_int___door.html", null ],
-      [ "AInt_Drawer", "class_a_int___drawer.html", null ],
-      [ "AInt_Lever_Base", "class_a_int___lever___base.html", null ],
-      [ "AVR_PickUpObject", "class_a_v_r___pick_up_object.html", null ],
-      [ "AVR_WeaponBase", "class_a_v_r___weapon_base.html", null ]
+      [ "AVR_Actor", "class_a_v_r___actor.html", null ]
     ] ],
     [ "ModuleRules", null, [
-      [ "HMVR", "class_h_m_v_r.html", null ]
+      [ "HeadMountedVR", "class_head_mounted_v_r.html", null ]
     ] ],
     [ "UAnimInstance", null, [
-      [ "UVR_HandAnimInstance", "class_u_v_r___hand_anim_instance.html", null ],
-      [ "UVR_WeaponAnimInstance", "class_u_v_r___weapon_anim_instance.html", null ]
-    ] ],
-    [ "UBlueprintFunctionLibrary", null, [
-      [ "UHMVRLibrary", "class_u_h_m_v_r_library.html", null ]
+      [ "UVR_HandAnimationInstance", "class_u_v_r___hand_animation_instance.html", null ],
+      [ "UVR_WeaponAnimationInstance", "class_u_v_r___weapon_animation_instance.html", null ]
     ] ],
     [ "UInterface", null, [
-      [ "UVR_HandAnimInterface", "class_u_v_r___hand_anim_interface.html", null ],
       [ "UVR_InteractionInterface", "class_u_v_r___interaction_interface.html", null ]
     ] ],
     [ "USaveGame", null, [
-      [ "USavePreferences", "class_u_save_preferences.html", null ]
+      [ "UVR_SaveLevelTransfer", "class_u_v_r___save_level_transfer.html", null ],
+      [ "UVR_SavePreferences", "class_u_v_r___save_preferences.html", null ]
     ] ],
     [ "UUserWidget", null, [
-      [ "ULoadingWidget", "class_u_loading_widget.html", null ],
-      [ "UMenuWristLoaderWidget", "class_u_menu_wrist_loader_widget.html", null ]
+      [ "UMenuLoadingWidget", "class_u_menu_loading_widget.html", null ]
     ] ]
 ];

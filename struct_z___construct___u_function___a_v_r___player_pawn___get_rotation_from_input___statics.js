@@ -1,4 +1,0 @@
-var struct_z___construct___u_function___a_v_r___player_pawn___get_rotation_from_input___statics =
-[
-    [ "VR_PlayerPawn_eventGetRotationFromInput_Parms", "struct_z___construct___u_function___a_v_r___player_pawn___get_rotation_from_input___statics_1_1_abddfc3f12438491e3510e70d08734bb.html", "struct_z___construct___u_function___a_v_r___player_pawn___get_rotation_from_input___statics_1_1_abddfc3f12438491e3510e70d08734bb" ]
-];
