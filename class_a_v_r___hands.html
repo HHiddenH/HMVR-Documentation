@@ -185,9 +185,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>CalculateIKLocations<
 <tr class="memitem:a85f96d12546b4eba535215c9ae42a1d4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___hands.html#a85f96d12546b4eba535215c9ae42a1d4">UpdateRoomScaleOutline</a> ()</td></tr>
 <tr class="memdesc:a85f96d12546b4eba535215c9ae42a1d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update Room Scale Outline.  <br /></td></tr>
 <tr class="separator:a85f96d12546b4eba535215c9ae42a1d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace47bb325cd7f3c6e92f27c5885d023b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___hands.html#ace47bb325cd7f3c6e92f27c5885d023b">RumbleController</a> (float Intensity)</td></tr>
-<tr class="memdesc:ace47bb325cd7f3c6e92f27c5885d023b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vibrate the Controller using the Habtics.  <br /></td></tr>
-<tr class="separator:ace47bb325cd7f3c6e92f27c5885d023b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c420ef6c530706a44e12fc8952d7f7e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___hands.html#a0c420ef6c530706a44e12fc8952d7f7e">RumbleController</a> (float Intensity, UHapticFeedbackEffect_Base *HapticEffect)</td></tr>
+<tr class="memdesc:a0c420ef6c530706a44e12fc8952d7f7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vibrate the Controller using the Habtics.  <br /></td></tr>
+<tr class="separator:a0c420ef6c530706a44e12fc8952d7f7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9699e22657a25b49ca1fcb4fce722d8a"><td class="memItemLeft" align="right" valign="top"><a id="a9699e22657a25b49ca1fcb4fce722d8a" name="a9699e22657a25b49ca1fcb4fce722d8a"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>OnComponentBeginOverlap</b> (class UPrimitiveComponent *OverlappedComp, AActor *OtherActor, class UPrimitiveComponent *OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult &amp;SweepResult)</td></tr>
 <tr class="memdesc:a9699e22657a25b49ca1fcb4fce722d8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">For Rumble Controller when overlapping valid StaticMesh. <br /></td></tr>
@@ -852,9 +852,12 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>PickDistance</b></td
 <tr class="memitem:a3ab3062ae4a272d6b7a53fefc279154a"><td class="memItemLeft" align="right" valign="top"><a id="a3ab3062ae4a272d6b7a53fefc279154a" name="a3ab3062ae4a272d6b7a53fefc279154a"></a>
 FRotator&#160;</td><td class="memItemRight" valign="bottom"><b>InitialControllerRotation</b></td></tr>
 <tr class="separator:a3ab3062ae4a272d6b7a53fefc279154a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba8aef4ffae0b12697f7563cadf8a9a9"><td class="memItemLeft" align="right" valign="top"><a id="aba8aef4ffae0b12697f7563cadf8a9a9" name="aba8aef4ffae0b12697f7563cadf8a9a9"></a>
-class UHapticFeedbackEffect_Base *&#160;</td><td class="memItemRight" valign="bottom"><b>VRHapticEffect</b></td></tr>
-<tr class="separator:aba8aef4ffae0b12697f7563cadf8a9a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadd1a4584098431cab746105d0118e17"><td class="memItemLeft" align="right" valign="top"><a id="aadd1a4584098431cab746105d0118e17" name="aadd1a4584098431cab746105d0118e17"></a>
+class UHapticFeedbackEffect_Base *&#160;</td><td class="memItemRight" valign="bottom"><b>GrabHapticEffect</b></td></tr>
+<tr class="separator:aadd1a4584098431cab746105d0118e17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99d0510be37f77e49dd66ba21d2b9188"><td class="memItemLeft" align="right" valign="top"><a id="a99d0510be37f77e49dd66ba21d2b9188" name="a99d0510be37f77e49dd66ba21d2b9188"></a>
+class UHapticFeedbackEffect_Base *&#160;</td><td class="memItemRight" valign="bottom"><b>HitSurfaceHapticEffect</b></td></tr>
+<tr class="separator:a99d0510be37f77e49dd66ba21d2b9188"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9fdd643717b4798ed5de3e695ce04e4b"><td class="memItemLeft" align="right" valign="top"><a id="a9fdd643717b4798ed5de3e695ce04e4b" name="a9fdd643717b4798ed5de3e695ce04e4b"></a>
 class UStaticMesh *&#160;</td><td class="memItemRight" valign="bottom"><b>BeamMesh</b></td></tr>
 <tr class="separator:a9fdd643717b4798ed5de3e695ce04e4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1327,8 +1330,8 @@ UPhysicsConstraintComponent *&#160;</td><td class="memItemRight" valign="bottom"
 
 </div>
 </div>
-<a id="ace47bb325cd7f3c6e92f27c5885d023b" name="ace47bb325cd7f3c6e92f27c5885d023b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ace47bb325cd7f3c6e92f27c5885d023b">&#9670;&#160;</a></span>RumbleController()</h2>
+<a id="a0c420ef6c530706a44e12fc8952d7f7e" name="a0c420ef6c530706a44e12fc8952d7f7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c420ef6c530706a44e12fc8952d7f7e">&#9670;&#160;</a></span>RumbleController()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1337,8 +1340,18 @@ UPhysicsConstraintComponent *&#160;</td><td class="memItemRight" valign="bottom"
           <td class="memname">void AVR_Hands::RumbleController </td>
           <td>(</td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>Intensity</em></td><td>)</td>
+          <td class="paramname"><em>Intensity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">UHapticFeedbackEffect_Base *&#160;</td>
+          <td class="paramname"><em>HapticEffect</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">

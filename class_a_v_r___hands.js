@@ -27,7 +27,7 @@ var class_a_v_r___hands =
     [ "Others_Pressed", "class_a_v_r___hands.html#a97229b14f85b55c0284cefe6e631f86a", null ],
     [ "Others_Released", "class_a_v_r___hands.html#aa335acef9c9bc65b034d8135753e92d4", null ],
     [ "ReleaseActor", "class_a_v_r___hands.html#ac6458180631be5be07377da1142825a2", null ],
-    [ "RumbleController", "class_a_v_r___hands.html#ace47bb325cd7f3c6e92f27c5885d023b", null ],
+    [ "RumbleController", "class_a_v_r___hands.html#a0c420ef6c530706a44e12fc8952d7f7e", null ],
     [ "SetAllFingerIK", "class_a_v_r___hands.html#a9e359aafe2ca756befbe11ba95485df3", null ],
     [ "SetCurrentWidgetHand", "class_a_v_r___hands.html#a825cb5a616b152418d55bd3c52b36856", null ],
     [ "SetDontLostConnection", "class_a_v_r___hands.html#a83be5a086b7d5d7436656392946382a0", null ],

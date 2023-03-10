@@ -14,6 +14,6 @@ var searchData=
   ['releasethumb_5fpress_5fleft_11',['ReleaseThumb_Press_Left',['../class_a_v_r___player.html#a54659bf2fe1babe93594b7db60844c9f',1,'AVR_Player']]],
   ['releasethumb_5fpress_5fright_12',['ReleaseThumb_Press_Right',['../class_a_v_r___player.html#a7d58b4bf3c79a8224826de10b6bf318b',1,'AVR_Player']]],
   ['righttriggeraxis_13',['RightTriggerAxis',['../class_a_v_r___player.html#a59e12e2eb7d51563918e10a6568e8a05',1,'AVR_Player']]],
-  ['rumblecontroller_14',['RumbleController',['../class_a_v_r___hands.html#ace47bb325cd7f3c6e92f27c5885d023b',1,'AVR_Hands']]],
+  ['rumblecontroller_14',['RumbleController',['../class_a_v_r___hands.html#a0c420ef6c530706a44e12fc8952d7f7e',1,'AVR_Hands']]],
   ['runjustdroptimer_15',['RunJustDropTimer',['../class_a_v_r___skeletal_mesh.html#ae9623d9118c2f881b45a0026f319500f',1,'AVR_SkeletalMesh::RunJustDropTimer()'],['../class_a_v_r___static_mesh.html#a33d5bcd788fb4d99eb40b9df616b88d0',1,'AVR_StaticMesh::RunJustDropTimer()'],['../class_a_v_r___weapon.html#a6bf88758f94651f30fd0a327c915208d',1,'AVR_Weapon::RunJustDropTimer()']]]
 ];

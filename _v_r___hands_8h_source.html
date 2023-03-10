@@ -127,7 +127,7 @@ $(document).ready(function(){initNavTree('_v_r___hands_8h_source.html',''); init
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="class_a_v_r___hands.html#a3def0f6e02025fac902c4abf937e0b24">   38</a></span>    class USceneComponent* RootScene;</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = &quot;Components&quot;, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="class_a_v_r___hands.html#a7194d911ad1eb3fb78f3fe9d9b563e55">   44</a></span>        class USceneComponent* Hands;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="class_a_v_r___hands.html#a7194d911ad1eb3fb78f3fe9d9b563e55">   44</a></span>        class USceneComponent* Hands; </div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = &quot;Components&quot;, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        class USphereComponent* HandSocket;</div>
@@ -334,7 +334,7 @@ $(document).ready(function(){initNavTree('_v_r___hands_8h_source.html',''); init
 <div class="line"><a id="l00383" name="l00383"></a><span class="lineno">  383</span> </div>
 <div class="line"><a id="l00388" name="l00388"></a><span class="lineno">  388</span>    <span class="keywordtype">void</span> UpdateRoomScaleOutline();</div>
 <div class="line"><a id="l00389" name="l00389"></a><span class="lineno">  389</span> </div>
-<div class="line"><a id="l00395" name="l00395"></a><span class="lineno">  395</span>    <span class="keywordtype">void</span> RumbleController(<span class="keywordtype">float</span> Intensity);</div>
+<div class="line"><a id="l00395" name="l00395"></a><span class="lineno">  395</span>    <span class="keywordtype">void</span> RumbleController(<span class="keywordtype">float</span> Intensity, UHapticFeedbackEffect_Base* HapticEffect);</div>
 <div class="line"><a id="l00396" name="l00396"></a><span class="lineno">  396</span> </div>
 <div class="line"><a id="l00400" name="l00400"></a><span class="lineno">  400</span>    UFUNCTION()</div>
 <div class="line"><a id="l00401" name="l00401"></a><span class="lineno">  401</span>        <span class="keywordtype">void</span> OnComponentBeginOverlap(class UPrimitiveComponent* OverlappedComp, AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, <span class="keywordtype">bool</span> bFromSweep, const FHitResult&amp; SweepResult);</div>
@@ -703,63 +703,67 @@ $(document).ready(function(){initNavTree('_v_r___hands_8h_source.html',''); init
 <div class="line"><a id="l00872" name="l00872"></a><span class="lineno">  872</span>    UPROPERTY(BlueprintReadOnly, Category = &quot;Variables&quot;, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
 <div class="line"><a id="l00873" name="l00873"></a><span class="lineno">  873</span>        FRotator InitialControllerRotation;</div>
 <div class="line"><a id="l00874" name="l00874"></a><span class="lineno">  874</span> </div>
-<div class="line"><a id="l00875" name="l00875"></a><span class="lineno">  875</span>        class UHapticFeedbackEffect_Base* VRHapticEffect;</div>
-<div class="line"><a id="l00876" name="l00876"></a><span class="lineno">  876</span> </div>
-<div class="line"><a id="l00877" name="l00877"></a><span class="lineno">  877</span>    UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = &quot;Variables&quot;, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
-<div class="line"><a id="l00878" name="l00878"></a><span class="lineno">  878</span>        class UStaticMesh* BeamMesh;</div>
-<div class="line"><a id="l00879" name="l00879"></a><span class="lineno">  879</span> </div>
-<div class="line"><a id="l00880" name="l00880"></a><span class="lineno">  880</span>    UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = &quot;Variables&quot;, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
-<div class="line"><a id="l00881" name="l00881"></a><span class="lineno">  881</span>        class UMaterial* BeamMaterial;</div>
-<div class="line"><a id="l00882" name="l00882"></a><span class="lineno">  882</span> </div>
-<div class="line"><a id="l00883" name="l00883"></a><span class="lineno">  883</span>        <span class="keywordtype">bool</span> bGetHitHandle;</div>
-<div class="line"><a id="l00884" name="l00884"></a><span class="lineno">  884</span> </div>
-<div class="line"><a id="l00885" name="l00885"></a><span class="lineno">  885</span>        <a class="code hl_class" href="class_u_menu_loading_widget.html">UMenuLoadingWidget</a>* MenuLoadingWidget;</div>
+<div class="line"><a id="l00875" name="l00875"></a><span class="lineno">  875</span>    UPROPERTY(EditDefaultsOnly, Category = &quot;Variables&quot;)</div>
+<div class="line"><a id="l00876" name="l00876"></a><span class="lineno">  876</span>        class UHapticFeedbackEffect_Base* GrabHapticEffect;</div>
+<div class="line"><a id="l00877" name="l00877"></a><span class="lineno">  877</span> </div>
+<div class="line"><a id="l00878" name="l00878"></a><span class="lineno">  878</span>    UPROPERTY(EditDefaultsOnly, Category = &quot;Variables&quot;)</div>
+<div class="line"><a id="l00879" name="l00879"></a><span class="lineno">  879</span>        class UHapticFeedbackEffect_Base* HitSurfaceHapticEffect;</div>
+<div class="line"><a id="l00880" name="l00880"></a><span class="lineno">  880</span> </div>
+<div class="line"><a id="l00881" name="l00881"></a><span class="lineno">  881</span>    UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = &quot;Variables&quot;, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
+<div class="line"><a id="l00882" name="l00882"></a><span class="lineno">  882</span>        class UStaticMesh* BeamMesh;</div>
+<div class="line"><a id="l00883" name="l00883"></a><span class="lineno">  883</span> </div>
+<div class="line"><a id="l00884" name="l00884"></a><span class="lineno">  884</span>    UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = &quot;Variables&quot;, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
+<div class="line"><a id="l00885" name="l00885"></a><span class="lineno">  885</span>        class UMaterial* BeamMaterial;</div>
 <div class="line"><a id="l00886" name="l00886"></a><span class="lineno">  886</span> </div>
-<div class="line"><a id="l00887" name="l00887"></a><span class="lineno">  887</span>        <span class="keywordtype">float</span> fMenuOpenProgress;</div>
+<div class="line"><a id="l00887" name="l00887"></a><span class="lineno">  887</span>        <span class="keywordtype">bool</span> bGetHitHandle;</div>
 <div class="line"><a id="l00888" name="l00888"></a><span class="lineno">  888</span> </div>
-<div class="line"><a id="l00889" name="l00889"></a><span class="lineno">  889</span>        <span class="keywordtype">bool</span> bInverveHandsPreority;</div>
+<div class="line"><a id="l00889" name="l00889"></a><span class="lineno">  889</span>        <a class="code hl_class" href="class_u_menu_loading_widget.html">UMenuLoadingWidget</a>* MenuLoadingWidget;</div>
 <div class="line"><a id="l00890" name="l00890"></a><span class="lineno">  890</span> </div>
-<div class="line"><a id="l00891" name="l00891"></a><span class="lineno">  891</span>        AActor* VR_PauseMenu;</div>
+<div class="line"><a id="l00891" name="l00891"></a><span class="lineno">  891</span>        <span class="keywordtype">float</span> fMenuOpenProgress;</div>
 <div class="line"><a id="l00892" name="l00892"></a><span class="lineno">  892</span> </div>
-<div class="line"><a id="l00893" name="l00893"></a><span class="lineno">  893</span>        <span class="keywordtype">float</span> LastThumCurls;</div>
-<div class="line"><a id="l00894" name="l00894"></a><span class="lineno">  894</span>        <span class="keywordtype">float</span> LastIndexCurls;</div>
-<div class="line"><a id="l00895" name="l00895"></a><span class="lineno">  895</span>        <span class="keywordtype">float</span> LastMiddleCurls;</div>
-<div class="line"><a id="l00896" name="l00896"></a><span class="lineno">  896</span>        <span class="keywordtype">float</span> LastRingCurls;</div>
-<div class="line"><a id="l00897" name="l00897"></a><span class="lineno">  897</span>        <span class="keywordtype">float</span> LastPinkyCurls;</div>
-<div class="line"><a id="l00898" name="l00898"></a><span class="lineno">  898</span> </div>
-<div class="line"><a id="l00899" name="l00899"></a><span class="lineno">  899</span>        <span class="keywordtype">float</span> AngularConstrained;</div>
-<div class="line"><a id="l00900" name="l00900"></a><span class="lineno">  900</span> </div>
-<div class="line"><a id="l00901" name="l00901"></a><span class="lineno">  901</span>        <span class="keywordtype">bool</span> bLoadingRoom;</div>
+<div class="line"><a id="l00893" name="l00893"></a><span class="lineno">  893</span>        <span class="keywordtype">bool</span> bInverveHandsPreority;</div>
+<div class="line"><a id="l00894" name="l00894"></a><span class="lineno">  894</span> </div>
+<div class="line"><a id="l00895" name="l00895"></a><span class="lineno">  895</span>        AActor* VR_PauseMenu;</div>
+<div class="line"><a id="l00896" name="l00896"></a><span class="lineno">  896</span> </div>
+<div class="line"><a id="l00897" name="l00897"></a><span class="lineno">  897</span>        <span class="keywordtype">float</span> LastThumCurls;</div>
+<div class="line"><a id="l00898" name="l00898"></a><span class="lineno">  898</span>        <span class="keywordtype">float</span> LastIndexCurls;</div>
+<div class="line"><a id="l00899" name="l00899"></a><span class="lineno">  899</span>        <span class="keywordtype">float</span> LastMiddleCurls;</div>
+<div class="line"><a id="l00900" name="l00900"></a><span class="lineno">  900</span>        <span class="keywordtype">float</span> LastRingCurls;</div>
+<div class="line"><a id="l00901" name="l00901"></a><span class="lineno">  901</span>        <span class="keywordtype">float</span> LastPinkyCurls;</div>
 <div class="line"><a id="l00902" name="l00902"></a><span class="lineno">  902</span> </div>
-<div class="line"><a id="l00903" name="l00903"></a><span class="lineno">  903</span>        <span class="keywordtype">bool</span> bCheckGrabbedHitEvents;</div>
+<div class="line"><a id="l00903" name="l00903"></a><span class="lineno">  903</span>        <span class="keywordtype">float</span> AngularConstrained;</div>
 <div class="line"><a id="l00904" name="l00904"></a><span class="lineno">  904</span> </div>
-<div class="line"><a id="l00905" name="l00905"></a><span class="lineno">  905</span>        <span class="keywordtype">void</span> IsHandColliding();</div>
+<div class="line"><a id="l00905" name="l00905"></a><span class="lineno">  905</span>        <span class="keywordtype">bool</span> bLoadingRoom;</div>
 <div class="line"><a id="l00906" name="l00906"></a><span class="lineno">  906</span> </div>
-<div class="line"><a id="l00907" name="l00907"></a><span class="lineno">  907</span>        <a class="code hl_class" href="class_a_v_r___hand_inventory.html">AVR_HandInventory</a>* Inventory;</div>
+<div class="line"><a id="l00907" name="l00907"></a><span class="lineno">  907</span>        <span class="keywordtype">bool</span> bCheckGrabbedHitEvents;</div>
 <div class="line"><a id="l00908" name="l00908"></a><span class="lineno">  908</span> </div>
-<div class="line"><a id="l00909" name="l00909"></a><span class="lineno">  909</span>        UPhysicsConstraintComponent* EnabledConstraint;</div>
-<div class="line"><a id="l00910" name="l00910"></a><span class="lineno">  910</span>        UPhysicsConstraintComponent* DisabledConstraint;</div>
-<div class="line"><a id="l00911" name="l00911"></a><span class="lineno">  911</span> </div>
-<div class="line"><a id="l00912" name="l00912"></a><span class="lineno">  912</span>public:</div>
-<div class="line"><a id="l00913" name="l00913"></a><span class="lineno">  913</span> </div>
-<div class="line"><a id="l00914" name="l00914"></a><span class="lineno">  914</span>    <span class="keywordtype">bool</span> bHitHand = false;</div>
+<div class="line"><a id="l00909" name="l00909"></a><span class="lineno">  909</span>        <span class="keywordtype">void</span> IsHandColliding();</div>
+<div class="line"><a id="l00910" name="l00910"></a><span class="lineno">  910</span> </div>
+<div class="line"><a id="l00911" name="l00911"></a><span class="lineno">  911</span>        <a class="code hl_class" href="class_a_v_r___hand_inventory.html">AVR_HandInventory</a>* Inventory;</div>
+<div class="line"><a id="l00912" name="l00912"></a><span class="lineno">  912</span> </div>
+<div class="line"><a id="l00913" name="l00913"></a><span class="lineno">  913</span>        UPhysicsConstraintComponent* EnabledConstraint;</div>
+<div class="line"><a id="l00914" name="l00914"></a><span class="lineno">  914</span>        UPhysicsConstraintComponent* DisabledConstraint;</div>
 <div class="line"><a id="l00915" name="l00915"></a><span class="lineno">  915</span> </div>
-<div class="line"><a id="l00916" name="l00916"></a><span class="lineno">  916</span>    <span class="keywordtype">bool</span> HandIsColliding = false;</div>
+<div class="line"><a id="l00916" name="l00916"></a><span class="lineno">  916</span>public:</div>
 <div class="line"><a id="l00917" name="l00917"></a><span class="lineno">  917</span> </div>
-<div class="line"><a id="l00918" name="l00918"></a><span class="lineno">  918</span>    <span class="keywordtype">bool</span> bAllowTurnOffMenu;</div>
-<div class="line"><a id="l00919" name="l00919"></a><span class="lineno">  919</span>    </div>
-<div class="line"><a id="l00920" name="l00920"></a><span class="lineno">  920</span>        <span class="keywordtype">float</span> MaxPhysBlend;</div>
-<div class="line"><a id="l00921" name="l00921"></a><span class="lineno">  921</span>        <span class="keywordtype">float</span> PickPhysBlend;</div>
-<div class="line"><a id="l00922" name="l00922"></a><span class="lineno">  922</span>        <span class="keywordtype">float</span> MinPhysBlend;</div>
-<div class="line"><a id="l00923" name="l00923"></a><span class="lineno">  923</span> </div>
-<div class="line"><a id="l00924" name="l00924"></a><span class="lineno">  924</span>    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = &quot;Variables&quot;)</div>
-<div class="line"><a id="l00925" name="l00925"></a><span class="lineno">  925</span>        EControllerHand Hand;</div>
-<div class="line"><a id="l00926" name="l00926"></a><span class="lineno">  926</span> </div>
-<div class="line"><a id="l00927" name="l00927"></a><span class="lineno">  927</span>    FORCEINLINE class UMotionControllerComponent* GetMotionController()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> MotionController; }</div>
-<div class="line"><a id="l00928" name="l00928"></a><span class="lineno">  928</span>    FORCEINLINE FRotator GetInitialControllerRotation()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> InitialControllerRotation; }</div>
-<div class="line"><a id="l00929" name="l00929"></a><span class="lineno">  929</span>    FORCEINLINE <span class="keywordtype">bool</span> GetIsValidTeleportDestination()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> bIsValidTeleportDestination; }</div>
-<div class="line"><a id="l00930" name="l00930"></a><span class="lineno">  930</span>    FORCEINLINE <span class="keywordtype">bool</span> GetIsTeleporterActive()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> bIsTeleporterActive; }</div>
-<div class="line"><a id="l00931" name="l00931"></a><span class="lineno">  931</span>};</div>
+<div class="line"><a id="l00918" name="l00918"></a><span class="lineno">  918</span>    <span class="keywordtype">bool</span> bHitHand = false;</div>
+<div class="line"><a id="l00919" name="l00919"></a><span class="lineno">  919</span> </div>
+<div class="line"><a id="l00920" name="l00920"></a><span class="lineno">  920</span>    <span class="keywordtype">bool</span> HandIsColliding = false;</div>
+<div class="line"><a id="l00921" name="l00921"></a><span class="lineno">  921</span> </div>
+<div class="line"><a id="l00922" name="l00922"></a><span class="lineno">  922</span>    <span class="keywordtype">bool</span> bAllowTurnOffMenu;</div>
+<div class="line"><a id="l00923" name="l00923"></a><span class="lineno">  923</span>    </div>
+<div class="line"><a id="l00924" name="l00924"></a><span class="lineno">  924</span>        <span class="keywordtype">float</span> MaxPhysBlend;</div>
+<div class="line"><a id="l00925" name="l00925"></a><span class="lineno">  925</span>        <span class="keywordtype">float</span> PickPhysBlend;</div>
+<div class="line"><a id="l00926" name="l00926"></a><span class="lineno">  926</span>        <span class="keywordtype">float</span> MinPhysBlend;</div>
+<div class="line"><a id="l00927" name="l00927"></a><span class="lineno">  927</span> </div>
+<div class="line"><a id="l00928" name="l00928"></a><span class="lineno">  928</span>    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = &quot;Variables&quot;)</div>
+<div class="line"><a id="l00929" name="l00929"></a><span class="lineno">  929</span>        EControllerHand Hand;</div>
+<div class="line"><a id="l00930" name="l00930"></a><span class="lineno">  930</span> </div>
+<div class="line"><a id="l00931" name="l00931"></a><span class="lineno">  931</span>    FORCEINLINE class UMotionControllerComponent* GetMotionController()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> MotionController; }</div>
+<div class="line"><a id="l00932" name="l00932"></a><span class="lineno">  932</span>    FORCEINLINE FRotator GetInitialControllerRotation()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> InitialControllerRotation; }</div>
+<div class="line"><a id="l00933" name="l00933"></a><span class="lineno">  933</span>    FORCEINLINE <span class="keywordtype">bool</span> GetIsValidTeleportDestination()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> bIsValidTeleportDestination; }</div>
+<div class="line"><a id="l00934" name="l00934"></a><span class="lineno">  934</span>    FORCEINLINE <span class="keywordtype">bool</span> GetIsTeleporterActive()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> bIsTeleporterActive; }</div>
+<div class="line"><a id="l00935" name="l00935"></a><span class="lineno">  935</span>};</div>
 <div class="ttc" id="aclass_a_v_r___hand_inventory_html"><div class="ttname"><a href="class_a_v_r___hand_inventory.html">AVR_HandInventory</a></div><div class="ttdoc">Inventory class which is attached to the players hand.</div><div class="ttdef"><b>Definition:</b> VR_HandInventory.h:16</div></div>
 <div class="ttc" id="aclass_a_v_r___hands_html"><div class="ttname"><a href="class_a_v_r___hands.html">AVR_Hands</a></div><div class="ttdoc">Hand class.</div><div class="ttdef"><b>Definition:</b> VR_Hands.h:29</div></div>
 <div class="ttc" id="aclass_u_menu_loading_widget_html"><div class="ttname"><a href="class_u_menu_loading_widget.html">UMenuLoadingWidget</a></div><div class="ttdoc">This is a class for a simple loading widget which is used in AVR_Hands class. It shows while player i...</div><div class="ttdef"><b>Definition:</b> MenuLoadingWidget.h:15</div></div>

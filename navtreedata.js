@@ -27,6 +27,7 @@ var NAVTREE =
   [ "Head Mounted VR", "index.html", [
     [ "Introduction", "md__pages__introduction.html", null ],
     [ "Start Guide", "md__pages__start_guide.html", null ],
+    [ "Known Issues", "md__pages__known_issues.html", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
