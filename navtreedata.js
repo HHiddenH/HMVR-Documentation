@@ -28,6 +28,7 @@ var NAVTREE =
     [ "Introduction", "md__pages__introduction.html", null ],
     [ "Start Guide", "md__pages__start_guide.html", null ],
     [ "Known Issues", "md__pages__known_issues.html", null ],
+    [ "Build for PC and Android", "md__pages__build_for_p_c_and_android.html", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
@@ -46,8 +47,8 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_head_mounted_v_r_8h_source.html",
-"class_a_v_r___player.html#afed5c91ee4ebdca6371ef8147b6588df"
+"_head_mounted_editor_8h_source.html",
+"class_a_v_r___player.html#af9b53be5032d7b965d1785eb38719cf9"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

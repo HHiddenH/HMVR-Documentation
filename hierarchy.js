@@ -37,14 +37,21 @@ var hierarchy =
     [ "APawn", null, [
       [ "AVR_Player", "class_a_v_r___player.html", null ]
     ] ],
+    [ "FFingerCurls", "struct_f_finger_curls.html", null ],
+    [ "FHeadMountedEditorStyle", "class_f_head_mounted_editor_style.html", null ],
     [ "IModuleInterface", null, [
+      [ "FHeadMountedEditorModule", "class_f_head_mounted_editor_module.html", null ],
       [ "FHeadMountedVRModule", "class_f_head_mounted_v_r_module.html", null ]
     ] ],
     [ "IVR_InteractionInterface", "class_i_v_r___interaction_interface.html", [
       [ "AVR_Actor", "class_a_v_r___actor.html", null ]
     ] ],
     [ "ModuleRules", null, [
+      [ "HeadMountedEditor", "class_head_mounted_editor.html", null ],
       [ "HeadMountedVR", "class_head_mounted_v_r.html", null ]
+    ] ],
+    [ "TCommands", null, [
+      [ "FHeadMountedEditorCommands", "class_f_head_mounted_editor_commands.html", null ]
     ] ],
     [ "UAnimInstance", null, [
       [ "UVR_HandAnimationInstance", "class_u_v_r___hand_animation_instance.html", null ],

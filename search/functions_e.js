@@ -24,7 +24,7 @@ var searchData=
   ['setteleportrotation_21',['SetTeleportRotation',['../class_a_v_r___hands.html#a1f831d6d1b6767ab76d18630d2cd7569',1,'AVR_Hands']]],
   ['settriggerpushint_22',['SetTriggerPushInt',['../class_a_v_r___weapon.html#a222c77eca6755a0f12dbdf6ddf8a58e3',1,'AVR_Weapon']]],
   ['setuproomscaleoutline_23',['SetupRoomScaleOutline',['../class_a_v_r___hands.html#aeb088381dfa1a6e4da215afdb7ff8e15',1,'AVR_Hands']]],
-  ['startupmodule_24',['StartupModule',['../class_f_head_mounted_v_r_module.html#a6585c7150ab9a5d64c5c9f51f19ddad9',1,'FHeadMountedVRModule']]],
+  ['startupmodule_24',['StartupModule',['../class_f_head_mounted_editor_module.html#a1fddd9d25b831cd230a3a6e39dfc5984',1,'FHeadMountedEditorModule::StartupModule()'],['../class_f_head_mounted_v_r_module.html#a6585c7150ab9a5d64c5c9f51f19ddad9',1,'FHeadMountedVRModule::StartupModule()']]],
   ['stop_5finteraction_25',['Stop_Interaction',['../class_i_v_r___interaction_interface.html#af86617b2de6f4bd197e9c3c9b54ee0f3',1,'IVR_InteractionInterface']]],
   ['stop_5finteraction_5fimplementation_26',['Stop_Interaction_Implementation',['../class_a_v_r___weapon.html#a4a2f52536d14810594eaf035e0c252ee',1,'AVR_Weapon']]]
 ];

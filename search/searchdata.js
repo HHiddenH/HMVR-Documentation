@@ -4,7 +4,7 @@ var indexSectionsWithContent =
   1: "afhiu",
   2: "abcdefghilmoprstu",
   3: "abcdefghlmprstvw",
-  4: "hiks"
+  4: "bhiks"
 };
 
 var indexSectionNames =

@@ -57,7 +57,6 @@ var class_a_v_r___hands =
     [ "FTargetThum", "class_a_v_r___hands.html#a018e4de0cfa9b821c4fd628840f0439b", null ],
     [ "FVecThum", "class_a_v_r___hands.html#a12621b4c97ef1df75805281f7ca2a4bc", null ],
     [ "Grab_Cue", "class_a_v_r___hands.html#a5c7b13c96c0b35e3b23ced54fa01ad0e", null ],
-    [ "HandPhysicsConstraint", "class_a_v_r___hands.html#a345e20027461b476f352e56740565d5a", null ],
     [ "Hands", "class_a_v_r___hands.html#a7194d911ad1eb3fb78f3fe9d9b563e55", null ],
     [ "MotionController", "class_a_v_r___hands.html#a7f0f7665c7d9c4c615d2f1c043405367", null ],
     [ "PickPhysicsConstraint", "class_a_v_r___hands.html#a288a449e18d190578c9c1fc478aa43d3", null ],
@@ -66,7 +65,6 @@ var class_a_v_r___hands =
     [ "Ring", "class_a_v_r___hands.html#a4875266bcbfff92f85c5aa7a351483ae", null ],
     [ "RoomScaleMesh", "class_a_v_r___hands.html#ad968b6574abd0542dc1e5f58224d837a", null ],
     [ "RootScene", "class_a_v_r___hands.html#a3def0f6e02025fac902c4abf937e0b24", null ],
-    [ "SteamVRChaperone", "class_a_v_r___hands.html#ac5f2dc5aceb2f850ef84db4a8f8994c3", null ],
     [ "TeleportCylinder", "class_a_v_r___hands.html#adadf10584e800cb992dfa2be9d32acff", null ],
     [ "WidgetInteractionComponent", "class_a_v_r___hands.html#adf845d7b93eb9267013f6098fc2e50ad", null ]
 ];

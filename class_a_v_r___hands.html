@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="hmvr_logo_w.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Head Mounted VR<span id="projectnumber">&#160;1.0</span>
+   <div id="projectname">Head Mounted VR<span id="projectnumber">&#160;1.0.2</span>
    </div>
   </td>
  </tr>
@@ -203,6 +203,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>OnComponentBeginOverl
 <tr class="memitem:a8eaa8cd2682ea352271d93fc8d874443"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___hands.html#a8eaa8cd2682ea352271d93fc8d874443">CheckHandsAndControllerDist</a> ()</td></tr>
 <tr class="memdesc:a8eaa8cd2682ea352271d93fc8d874443"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks distance between Hands and Controller.  <br /></td></tr>
 <tr class="separator:a8eaa8cd2682ea352271d93fc8d874443"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff58507c50a4e99578549fb84d6e6d53"><td class="memItemLeft" align="right" valign="top"><a id="aff58507c50a4e99578549fb84d6e6d53" name="aff58507c50a4e99578549fb84d6e6d53"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>CheckAimToGrab</b> ()</td></tr>
+<tr class="separator:aff58507c50a4e99578549fb84d6e6d53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab489c0aea8f69260a4ff46a337df3955"><td class="memItemLeft" align="right" valign="top"><a id="ab489c0aea8f69260a4ff46a337df3955" name="ab489c0aea8f69260a4ff46a337df3955"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>TryAimToGrab</b> (FHitResult &amp;Hit, bool ForceInteraction)</td></tr>
+<tr class="separator:ab489c0aea8f69260a4ff46a337df3955"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e2b510da514d18079e297d2179026b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___hands.html#a8e2b510da514d18079e297d2179026b9">UpdatePhysicsHandleLocation</a> ()</td></tr>
 <tr class="memdesc:a8e2b510da514d18079e297d2179026b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates Physics Handle Location in Tick().  <br /></td></tr>
 <tr class="separator:a8e2b510da514d18079e297d2179026b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -307,9 +313,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>CheckMenuButtonPress<
 <tr class="memitem:a5917213d9c7155315596f9282a725c1d"><td class="memItemLeft" align="right" valign="top"><a id="a5917213d9c7155315596f9282a725c1d" name="a5917213d9c7155315596f9282a725c1d"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>CheckPhysBlend</b> (bool force=false)</td></tr>
 <tr class="separator:a5917213d9c7155315596f9282a725c1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1dcdae0e7d697473dba7950a9db69d68"><td class="memItemLeft" align="right" valign="top"><a id="a1dcdae0e7d697473dba7950a9db69d68" name="a1dcdae0e7d697473dba7950a9db69d68"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>UpdatePhysBlendForFinger</b> (EFinger Finger, FSteamVRFingerCurls FingerCurls, bool force=false)</td></tr>
-<tr class="separator:a1dcdae0e7d697473dba7950a9db69d68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e9e6652afec90e466825159cf295dd4"><td class="memItemLeft" align="right" valign="top"><a id="a7e9e6652afec90e466825159cf295dd4" name="a7e9e6652afec90e466825159cf295dd4"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>UpdatePhysBlendForFinger</b> (EFinger Finger, <a class="el" href="struct_f_finger_curls.html">FFingerCurls</a> FingerCurls, bool force=false)</td></tr>
+<tr class="separator:a7e9e6652afec90e466825159cf295dd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adfc9e000aec12ae7a50cf67b7f70563d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___hands.html#adfc9e000aec12ae7a50cf67b7f70563d">SetLessPhysHands</a> (bool newstatus)</td></tr>
 <tr class="memdesc:adfc9e000aec12ae7a50cf67b7f70563d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets bLessPhysHands.  <br /></td></tr>
 <tr class="separator:adfc9e000aec12ae7a50cf67b7f70563d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -421,6 +427,12 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>PickPhysBlend</b></t
 <tr class="memitem:aae077fd2b7f1e38bf44b2db0791fb0a4"><td class="memItemLeft" align="right" valign="top"><a id="aae077fd2b7f1e38bf44b2db0791fb0a4" name="aae077fd2b7f1e38bf44b2db0791fb0a4"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>MinPhysBlend</b></td></tr>
 <tr class="separator:aae077fd2b7f1e38bf44b2db0791fb0a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f83dcebaeadbc0af155c0805e050f90"><td class="memItemLeft" align="right" valign="top"><a id="a9f83dcebaeadbc0af155c0805e050f90" name="a9f83dcebaeadbc0af155c0805e050f90"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>HandOrientationZ</b></td></tr>
+<tr class="separator:a9f83dcebaeadbc0af155c0805e050f90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7440ee9dac4fc21ddc6d87ae5754c341"><td class="memItemLeft" align="right" valign="top"><a id="a7440ee9dac4fc21ddc6d87ae5754c341" name="a7440ee9dac4fc21ddc6d87ae5754c341"></a>
+FVector&#160;</td><td class="memItemRight" valign="bottom"><b>WantsToGripLocation</b></td></tr>
+<tr class="separator:a7440ee9dac4fc21ddc6d87ae5754c341"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a619f0648a0989c6c6c4fec3f49cb9e59"><td class="memItemLeft" align="right" valign="top"><a id="a619f0648a0989c6c6c4fec3f49cb9e59" name="a619f0648a0989c6c6c4fec3f49cb9e59"></a>
 EControllerHand&#160;</td><td class="memItemRight" valign="bottom"><b>Hand</b></td></tr>
 <tr class="separator:a619f0648a0989c6c6c4fec3f49cb9e59"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -507,13 +519,8 @@ class UStaticMeshComponent *&#160;</td><td class="memItemRight" valign="bottom">
 class UStaticMeshComponent *&#160;</td><td class="memItemRight" valign="bottom"><b>Ring</b></td></tr>
 <tr class="memdesc:a4875266bcbfff92f85c5aa7a351483ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Teleport Ring mesh. <br /></td></tr>
 <tr class="separator:a4875266bcbfff92f85c5aa7a351483ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5f2dc5aceb2f850ef84db4a8f8994c3"><td class="memItemLeft" align="right" valign="top"><a id="ac5f2dc5aceb2f850ef84db4a8f8994c3" name="ac5f2dc5aceb2f850ef84db4a8f8994c3"></a>
-class USteamVRChaperoneComponent *&#160;</td><td class="memItemRight" valign="bottom"><b>SteamVRChaperone</b></td></tr>
-<tr class="memdesc:ac5f2dc5aceb2f850ef84db4a8f8994c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Steam VR Chaperone Component. <br /></td></tr>
-<tr class="separator:ac5f2dc5aceb2f850ef84db4a8f8994c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a345e20027461b476f352e56740565d5a"><td class="memItemLeft" align="right" valign="top"><a id="a345e20027461b476f352e56740565d5a" name="a345e20027461b476f352e56740565d5a"></a>
 class UPhysicsConstraintComponent *&#160;</td><td class="memItemRight" valign="bottom"><b>HandPhysicsConstraint</b></td></tr>
-<tr class="memdesc:a345e20027461b476f352e56740565d5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used for realistic physics for hands Connects RealHandMesh to FakeHandMesh. <br /></td></tr>
 <tr class="separator:a345e20027461b476f352e56740565d5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58447b35f017a903441890db59df673e"><td class="memItemLeft" align="right" valign="top"><a id="a58447b35f017a903441890db59df673e" name="a58447b35f017a903441890db59df673e"></a>
 class UPhysicsConstraintComponent *&#160;</td><td class="memItemRight" valign="bottom"><b>HandPhysicsConstraintPD</b></td></tr>
@@ -912,6 +919,9 @@ UPhysicsConstraintComponent *&#160;</td><td class="memItemRight" valign="bottom"
 <tr class="memitem:a13c90ad7252d4e64c519e4fd5f014878"><td class="memItemLeft" align="right" valign="top"><a id="a13c90ad7252d4e64c519e4fd5f014878" name="a13c90ad7252d4e64c519e4fd5f014878"></a>
 UPhysicsConstraintComponent *&#160;</td><td class="memItemRight" valign="bottom"><b>DisabledConstraint</b></td></tr>
 <tr class="separator:a13c90ad7252d4e64c519e4fd5f014878"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a672405f6bbf246cdcf1af4fa4f57cac6"><td class="memItemLeft" align="right" valign="top"><a id="a672405f6bbf246cdcf1af4fa4f57cac6" name="a672405f6bbf246cdcf1af4fa4f57cac6"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>bIsAimingToGrab</b></td></tr>
+<tr class="separator:a672405f6bbf246cdcf1af4fa4f57cac6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Hand class. </p>

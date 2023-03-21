@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="hmvr_logo_w.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Head Mounted VR<span id="projectnumber">&#160;1.0</span>
+   <div id="projectname">Head Mounted VR<span id="projectnumber">&#160;1.0.2</span>
    </div>
   </td>
  </tr>
@@ -113,9 +113,9 @@ $(document).ready(function(){initNavTree('class_u_v_r___hand_animation_instance.
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a3f2b485294d4d2ee3b77cc180c0b8e74"><td class="memItemLeft" align="right" valign="top"><a id="a3f2b485294d4d2ee3b77cc180c0b8e74" name="a3f2b485294d4d2ee3b77cc180c0b8e74"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>BlueprintUpdateAnimation</b> (float DeltaTimeX)</td></tr>
-<tr class="separator:a3f2b485294d4d2ee3b77cc180c0b8e74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b2f954292787b15acb02ebf096c57b8"><td class="memItemLeft" align="right" valign="top"><a id="a6b2f954292787b15acb02ebf096c57b8" name="a6b2f954292787b15acb02ebf096c57b8"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>NativeUpdateAnimation</b> (float DeltaTimeX) override</td></tr>
+<tr class="separator:a6b2f954292787b15acb02ebf096c57b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc9f5cf64b7770ecd2b0d332c30e7f98"><td class="memItemLeft" align="right" valign="top"><a id="abc9f5cf64b7770ecd2b0d332c30e7f98" name="abc9f5cf64b7770ecd2b0d332c30e7f98"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>SetGripState</b> (EGrip_Code GripState)</td></tr>
 <tr class="separator:abc9f5cf64b7770ecd2b0d332c30e7f98"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -161,9 +161,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>SetW_HammerInst</b> (
 <tr class="memitem:a4fcc912bf549277365a045059c2257d0"><td class="memItemLeft" align="right" valign="top"><a id="a4fcc912bf549277365a045059c2257d0" name="a4fcc912bf549277365a045059c2257d0"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>SetTrackpad_Touch</b> (bool Touched)</td></tr>
 <tr class="separator:a4fcc912bf549277365a045059c2257d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3680a4fa6063bd91829cbbcd728c2f3d"><td class="memItemLeft" align="right" valign="top"><a id="a3680a4fa6063bd91829cbbcd728c2f3d" name="a3680a4fa6063bd91829cbbcd728c2f3d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SetFingerCurls</b> (FSteamVRFingerCurls NewFingerCurls)</td></tr>
-<tr class="separator:a3680a4fa6063bd91829cbbcd728c2f3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00bf68b92e2ab1260bac4861dce7a2f3"><td class="memItemLeft" align="right" valign="top"><a id="a00bf68b92e2ab1260bac4861dce7a2f3" name="a00bf68b92e2ab1260bac4861dce7a2f3"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetFingerCurls</b> (<a class="el" href="struct_f_finger_curls.html">FFingerCurls</a> NewFingerCurls)</td></tr>
+<tr class="separator:a00bf68b92e2ab1260bac4861dce7a2f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49ebf6a7362f542fceb8d172f8b4f3c8"><td class="memItemLeft" align="right" valign="top"><a id="a49ebf6a7362f542fceb8d172f8b4f3c8" name="a49ebf6a7362f542fceb8d172f8b4f3c8"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>GetTrackpad_Touch</b> ()</td></tr>
 <tr class="separator:a49ebf6a7362f542fceb8d172f8b4f3c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -200,9 +200,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>Get_IsGrabbed</b> ()<
 <tr class="memitem:a350b3535936ce7555efa275ccdce9892"><td class="memItemLeft" align="right" valign="top"><a id="a350b3535936ce7555efa275ccdce9892" name="a350b3535936ce7555efa275ccdce9892"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>GetW_HammerInst</b> ()</td></tr>
 <tr class="separator:a350b3535936ce7555efa275ccdce9892"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a196a05a37fe8f91929655659b738db45"><td class="memItemLeft" align="right" valign="top"><a id="a196a05a37fe8f91929655659b738db45" name="a196a05a37fe8f91929655659b738db45"></a>
-FORCEINLINE FSteamVRFingerCurls&#160;</td><td class="memItemRight" valign="bottom"><b>GetFingerCurls</b> () const</td></tr>
-<tr class="separator:a196a05a37fe8f91929655659b738db45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc6c32ae4000ae94b3c27ddaabdc438a"><td class="memItemLeft" align="right" valign="top"><a id="adc6c32ae4000ae94b3c27ddaabdc438a" name="adc6c32ae4000ae94b3c27ddaabdc438a"></a>
+FORCEINLINE <a class="el" href="struct_f_finger_curls.html">FFingerCurls</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GetFingerCurls</b> () const</td></tr>
+<tr class="separator:adc6c32ae4000ae94b3c27ddaabdc438a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f835cb43b29defbd1de535e978a5ffe"><td class="memItemLeft" align="right" valign="top"><a id="a3f835cb43b29defbd1de535e978a5ffe" name="a3f835cb43b29defbd1de535e978a5ffe"></a>
 FORCEINLINE EControllerHand&#160;</td><td class="memItemRight" valign="bottom"><b>GetHandType</b> () const</td></tr>
 <tr class="separator:a3f835cb43b29defbd1de535e978a5ffe"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -212,9 +212,12 @@ EPickUpAnimations&#160;</td><td class="memItemRight" valign="bottom"><b>GetPickU
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a46760ba97de09237946457f1121948f6"><td class="memItemLeft" align="right" valign="top"><a id="a46760ba97de09237946457f1121948f6" name="a46760ba97de09237946457f1121948f6"></a>
-FSteamVRFingerCurls&#160;</td><td class="memItemRight" valign="bottom"><b>FingerCurls</b></td></tr>
-<tr class="separator:a46760ba97de09237946457f1121948f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb709c16a40be42b02dffa37a500425b"><td class="memItemLeft" align="right" valign="top"><a id="abb709c16a40be42b02dffa37a500425b" name="abb709c16a40be42b02dffa37a500425b"></a>
+<a class="el" href="struct_f_finger_curls.html">FFingerCurls</a>&#160;</td><td class="memItemRight" valign="bottom"><b>CurrentFingerCurls</b></td></tr>
+<tr class="separator:abb709c16a40be42b02dffa37a500425b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ea7c9a05730e51857a64b4ae1c544b0"><td class="memItemLeft" align="right" valign="top"><a id="a5ea7c9a05730e51857a64b4ae1c544b0" name="a5ea7c9a05730e51857a64b4ae1c544b0"></a>
+<a class="el" href="struct_f_finger_curls.html">FFingerCurls</a>&#160;</td><td class="memItemRight" valign="bottom"><b>FingerCurls</b></td></tr>
+<tr class="separator:a5ea7c9a05730e51857a64b4ae1c544b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa20bc974c29c66e75be348790b6a0a2"><td class="memItemLeft" align="right" valign="top"><a id="aaa20bc974c29c66e75be348790b6a0a2" name="aaa20bc974c29c66e75be348790b6a0a2"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>GripThumb</b></td></tr>
 <tr class="separator:aaa20bc974c29c66e75be348790b6a0a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -236,6 +239,9 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>IndexPushInst</b></t
 <tr class="memitem:ace76acc69229dff7399b980fc01dffb2"><td class="memItemLeft" align="right" valign="top"><a id="ace76acc69229dff7399b980fc01dffb2" name="ace76acc69229dff7399b980fc01dffb2"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>HammerPushInst</b></td></tr>
 <tr class="separator:ace76acc69229dff7399b980fc01dffb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade543c0ca0eaf4e3080fb70632d69a5a"><td class="memItemLeft" align="right" valign="top"><a id="ade543c0ca0eaf4e3080fb70632d69a5a" name="ade543c0ca0eaf4e3080fb70632d69a5a"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>HandOrientationZ</b></td></tr>
+<tr class="separator:ade543c0ca0eaf4e3080fb70632d69a5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ed7d9c9ce61db98de3848ca20ab8a79"><td class="memItemLeft" align="right" valign="top"><a id="a2ed7d9c9ce61db98de3848ca20ab8a79" name="a2ed7d9c9ce61db98de3848ca20ab8a79"></a>
 FVector&#160;</td><td class="memItemRight" valign="bottom"><b>OriginThumb</b></td></tr>
 <tr class="separator:a2ed7d9c9ce61db98de3848ca20ab8a79"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -281,6 +287,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>bB_Pressed</b></td></
 <tr class="memitem:ac95bd2b99dd53a0d3b2f11df033885ed"><td class="memItemLeft" align="right" valign="top"><a id="ac95bd2b99dd53a0d3b2f11df033885ed" name="ac95bd2b99dd53a0d3b2f11df033885ed"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>bTrackpad_Touch</b></td></tr>
 <tr class="separator:ac95bd2b99dd53a0d3b2f11df033885ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a605c552c7765701a0fb3a85a3ea25b04"><td class="memItemLeft" align="right" valign="top"><a id="a605c552c7765701a0fb3a85a3ea25b04" name="a605c552c7765701a0fb3a85a3ea25b04"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>bWantsToGrab</b></td></tr>
+<tr class="separator:a605c552c7765701a0fb3a85a3ea25b04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a087635ab1b1d49b5dd3579352b06c609"><td class="memItemLeft" align="right" valign="top"><a id="a087635ab1b1d49b5dd3579352b06c609" name="a087635ab1b1d49b5dd3579352b06c609"></a>
 EAnimationType&#160;</td><td class="memItemRight" valign="bottom"><b>AnimType</b></td></tr>
 <tr class="separator:a087635ab1b1d49b5dd3579352b06c609"><td class="memSeparator" colspan="2">&#160;</td></tr>

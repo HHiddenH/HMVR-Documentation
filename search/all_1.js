@@ -9,5 +9,6 @@ var searchData=
   ['battacched_6',['bAttacched',['../class_a_v_r___ammo_round.html#a543b754978423f625c764f6965460910',1,'AVR_AmmoRound']]],
   ['beginplay_7',['BeginPlay',['../class_a_v_r___skeletal_mesh.html#ab431b0b0db82a890e4e8921f3d1c8082',1,'AVR_SkeletalMesh::BeginPlay()'],['../class_a_v_r___static_mesh.html#a1a47eae8a2643a787342ac72282dfe54',1,'AVR_StaticMesh::BeginPlay()'],['../class_a_v_r___equipment.html#a4406989f01c65730bed0928040d477de',1,'AVR_Equipment::BeginPlay()'],['../class_a_v_r___equipment_skeletal.html#acd4920d6e3d2b67f91a8dcc54f2ef420',1,'AVR_EquipmentSkeletal::BeginPlay()'],['../class_a_v_r___ammo_clip.html#aae2833b5138ab52b67e647a47c118dd3',1,'AVR_AmmoClip::BeginPlay()'],['../class_a_v_r___ammo_round.html#a4acfa043c05d0b9b011488d91302a84a',1,'AVR_AmmoRound::BeginPlay()']]],
   ['boxhands_8',['BoxHands',['../class_a_v_r___hands.html#ac12142443a9b2373000dbcb20ffd2a8f',1,'AVR_Hands']]],
-  ['bsheel_9',['bSheel',['../class_a_v_r___ammo_round.html#aa3e81bfcf23fc1ac74740212eb235a55',1,'AVR_AmmoRound']]]
+  ['bsheel_9',['bSheel',['../class_a_v_r___ammo_round.html#aa3e81bfcf23fc1ac74740212eb235a55',1,'AVR_AmmoRound']]],
+  ['build_20for_20pc_20and_20android_10',['Build for PC and Android',['../md__pages__build_for_p_c_and_android.html',1,'']]]
 ];
