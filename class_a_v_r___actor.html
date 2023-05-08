@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="hmvr_logo_w.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Head Mounted VR<span id="projectnumber">&#160;1.0.2</span>
+   <div id="projectname">Head Mounted VR<span id="projectnumber">&#160;1.0</span>
    </div>
   </td>
  </tr>
@@ -112,14 +112,15 @@ $(document).ready(function(){initNavTree('class_a_v_r___actor.html',''); initRes
   <img src="class_a_v_r___actor.png" usemap="#AVR_5FActor_map" alt=""/>
   <map id="AVR_5FActor_map" name="AVR_5FActor_map">
 <area href="class_i_v_r___interaction_interface.html" title="Interface for interacting with objects." alt="IVR_InteractionInterface" shape="rect" coords="158,0,306,24"/>
-<area href="class_a_v_r___door.html" title="Door can be used as big door or as small door for the closets." alt="AVR_Door" shape="rect" coords="237,112,385,136"/>
-<area href="class_a_v_r___drawer.html" title="This is a physic drawer class which can interact with AVR_Hands." alt="AVR_Drawer" shape="rect" coords="237,168,385,192"/>
-<area href="class_a_v_r___lever_base.html" title="This is a physic base lever class which can interact with players hands. Look at lever rotatable or s..." alt="AVR_LeverBase" shape="rect" coords="237,224,385,248"/>
-<area href="class_a_v_r___main_menu.html" title="Main menu which is attached to the players hand on spawn." alt="AVR_MainMenu" shape="rect" coords="237,280,385,304"/>
-<area href="class_a_v_r___pause_menu.html" title="Menu which is attached to the players.Spanws after holding button." alt="AVR_PauseMenu" shape="rect" coords="237,336,385,360"/>
-<area href="class_a_v_r___skeletal_mesh.html" title="This is a skeletal object which player can pick up using one of grab methods (enum EGrabMethod)" alt="AVR_SkeletalMesh" shape="rect" coords="237,392,385,416"/>
-<area href="class_a_v_r___static_mesh.html" title="This is a static object which player can pick up using one of grab methods (enum EGrabMethod)" alt="AVR_StaticMesh" shape="rect" coords="237,448,385,472"/>
-<area href="class_a_v_r___weapon.html" title="Weapon class." alt="AVR_Weapon" shape="rect" coords="237,504,385,528"/>
+<area href="class_a_v_r___climbable.html" title="Climbable class. Can be used for ladders, obstacles etc." alt="AVR_Climbable" shape="rect" coords="237,112,385,136"/>
+<area href="class_a_v_r___door.html" title="Door can be used as big door or as small door for the closets." alt="AVR_Door" shape="rect" coords="237,168,385,192"/>
+<area href="class_a_v_r___drawer.html" title="This is a physic drawer class which can interact with AVR_Hands." alt="AVR_Drawer" shape="rect" coords="237,224,385,248"/>
+<area href="class_a_v_r___lever_base.html" title="This is a physic base lever class which can interact with players hands. Look at lever rotatable or s..." alt="AVR_LeverBase" shape="rect" coords="237,280,385,304"/>
+<area href="class_a_v_r___main_menu.html" title="Main menu which is attached to the players hand on spawn." alt="AVR_MainMenu" shape="rect" coords="237,336,385,360"/>
+<area href="class_a_v_r___pause_menu.html" title="Menu which is attached to the players.Spanws after holding button." alt="AVR_PauseMenu" shape="rect" coords="237,392,385,416"/>
+<area href="class_a_v_r___skeletal_mesh.html" title="This is a skeletal object which player can pick up using one of grab methods (enum EGrabMethod)" alt="AVR_SkeletalMesh" shape="rect" coords="237,448,385,472"/>
+<area href="class_a_v_r___static_mesh.html" title="This is a static object which player can pick up using one of grab methods (enum EGrabMethod)" alt="AVR_StaticMesh" shape="rect" coords="237,504,385,528"/>
+<area href="class_a_v_r___weapon.html" title="Weapon class." alt="AVR_Weapon" shape="rect" coords="237,560,385,584"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -193,7 +194,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>bIsColliding</b> = fa
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="class_a_v_r___skeletal_mesh.html#ab431b0b0db82a890e4e8921f3d1c8082">AVR_SkeletalMesh</a>, <a class="el" href="class_a_v_r___static_mesh.html#a1a47eae8a2643a787342ac72282dfe54">AVR_StaticMesh</a>, <a class="el" href="class_a_v_r___equipment.html#a4406989f01c65730bed0928040d477de">AVR_Equipment</a>, <a class="el" href="class_a_v_r___equipment_skeletal.html#acd4920d6e3d2b67f91a8dcc54f2ef420">AVR_EquipmentSkeletal</a>, <a class="el" href="class_a_v_r___ammo_clip.html#aae2833b5138ab52b67e647a47c118dd3">AVR_AmmoClip</a>, and <a class="el" href="class_a_v_r___ammo_round.html#a4acfa043c05d0b9b011488d91302a84a">AVR_AmmoRound</a>.</p>
+<p>Reimplemented in <a class="el" href="class_a_v_r___skeletal_mesh.html#ab431b0b0db82a890e4e8921f3d1c8082">AVR_SkeletalMesh</a>, <a class="el" href="class_a_v_r___static_mesh.html#a1a47eae8a2643a787342ac72282dfe54">AVR_StaticMesh</a>, <a class="el" href="class_a_v_r___equipment.html#a4406989f01c65730bed0928040d477de">AVR_Equipment</a>, <a class="el" href="class_a_v_r___equipment_skeletal.html#acd4920d6e3d2b67f91a8dcc54f2ef420">AVR_EquipmentSkeletal</a>, <a class="el" href="class_a_v_r___ammo_clip.html#aae2833b5138ab52b67e647a47c118dd3">AVR_AmmoClip</a>, <a class="el" href="class_a_v_r___ammo_round.html#a4acfa043c05d0b9b011488d91302a84a">AVR_AmmoRound</a>, and <a class="el" href="class_a_v_r___stab_weapon.html#aad5991c12f1e84476d5f4e7a7ecaaf73">AVR_StabWeapon</a>.</p>
 
 </div>
 </div>
@@ -221,7 +222,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>bIsColliding</b> = fa
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="class_a_v_r___skeletal_mesh.html#a9e007a6727f92e547d8068411899b73e">AVR_SkeletalMesh</a>, <a class="el" href="class_a_v_r___static_mesh.html#a6ca6db5bf3debbab5ba0a4c6f57e4c76">AVR_StaticMesh</a>, <a class="el" href="class_a_v_r___equipment.html#a3d689dcefe3c28f85fde3721c8a208da">AVR_Equipment</a>, <a class="el" href="class_a_v_r___equipment_skeletal.html#a05521f65090769dda7de3d4744215811">AVR_EquipmentSkeletal</a>, and <a class="el" href="class_a_v_r___ammo_clip.html#a1780fd65d8bfd9dfab5ce20caecb4c0b">AVR_AmmoClip</a>.</p>
+<p>Reimplemented in <a class="el" href="class_a_v_r___skeletal_mesh.html#a9e007a6727f92e547d8068411899b73e">AVR_SkeletalMesh</a>, <a class="el" href="class_a_v_r___static_mesh.html#a6ca6db5bf3debbab5ba0a4c6f57e4c76">AVR_StaticMesh</a>, <a class="el" href="class_a_v_r___equipment.html#a3d689dcefe3c28f85fde3721c8a208da">AVR_Equipment</a>, <a class="el" href="class_a_v_r___equipment_skeletal.html#a05521f65090769dda7de3d4744215811">AVR_EquipmentSkeletal</a>, <a class="el" href="class_a_v_r___ammo_clip.html#a1780fd65d8bfd9dfab5ce20caecb4c0b">AVR_AmmoClip</a>, and <a class="el" href="class_a_v_r___stab_weapon.html#a231bf9037dd53f578b520de14cb28bf9">AVR_StabWeapon</a>.</p>
 
 </div>
 </div>

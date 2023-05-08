@@ -2,6 +2,7 @@ var dir_03bf17a8d5ac6f5c8e7c299c2efaa559 =
 [
     [ "VR_Actor.h", "_v_r___actor_8h_source.html", null ],
     [ "VR_Button.h", "_v_r___button_8h_source.html", null ],
+    [ "VR_Climbable.h", "_v_r___climbable_8h_source.html", null ],
     [ "VR_CodeLock.h", "_v_r___code_lock_8h_source.html", null ],
     [ "VR_Door.h", "_v_r___door_8h_source.html", null ],
     [ "VR_Drawer.h", "_v_r___drawer_8h_source.html", null ],

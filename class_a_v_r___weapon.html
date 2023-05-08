@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="hmvr_logo_w.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Head Mounted VR<span id="projectnumber">&#160;1.0.2</span>
+   <div id="projectname">Head Mounted VR<span id="projectnumber">&#160;1.0</span>
    </div>
   </td>
  </tr>
@@ -236,6 +236,12 @@ FORCEINLINE UAnimSequence *&#160;</td><td class="memItemRight" valign="bottom"><
 <tr class="memitem:a63088db1bbcf99c7c84ce375ba93960d"><td class="memItemLeft" align="right" valign="top"><a id="a63088db1bbcf99c7c84ce375ba93960d" name="a63088db1bbcf99c7c84ce375ba93960d"></a>
 FORCEINLINE UAnimSequence *&#160;</td><td class="memItemRight" valign="bottom"><b>GetAPressedAnimation</b> () const</td></tr>
 <tr class="separator:a63088db1bbcf99c7c84ce375ba93960d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a495618fd6530a4b7c82d3757cd116c45"><td class="memItemLeft" align="right" valign="top"><a id="a495618fd6530a4b7c82d3757cd116c45" name="a495618fd6530a4b7c82d3757cd116c45"></a>
+FORCEINLINE UAnimSequence *&#160;</td><td class="memItemRight" valign="bottom"><b>GetSecondGrabAnimation</b> () const</td></tr>
+<tr class="separator:a495618fd6530a4b7c82d3757cd116c45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a990fe5d632daadcb735f8bee90a2b44b"><td class="memItemLeft" align="right" valign="top"><a id="a990fe5d632daadcb735f8bee90a2b44b" name="a990fe5d632daadcb735f8bee90a2b44b"></a>
+FORCEINLINE bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsThisHandSecondAttached</b> (<a class="el" href="class_a_v_r___hands.html">AVR_Hands</a> *Hand) const</td></tr>
+<tr class="separator:a990fe5d632daadcb735f8bee90a2b44b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e960830d050df72f18899c41625bc25"><td class="memItemLeft" align="right" valign="top"><a id="a3e960830d050df72f18899c41625bc25" name="a3e960830d050df72f18899c41625bc25"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>OnHit</b> (UPrimitiveComponent *HitComponent, AActor *OtherActor, UPrimitiveComponent *OtherComp, FVector normalImpulse, const FHitResult &amp;Hit)</td></tr>
 <tr class="separator:a3e960830d050df72f18899c41625bc25"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -446,15 +452,24 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>fTriggerPushInt</b><
 <tr class="memitem:adadc14ce4f7d54ad86b4f090d2dbf471"><td class="memItemLeft" align="right" valign="top"><a id="adadc14ce4f7d54ad86b4f090d2dbf471" name="adadc14ce4f7d54ad86b4f090d2dbf471"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>fHammer_X</b></td></tr>
 <tr class="separator:adadc14ce4f7d54ad86b4f090d2dbf471"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac71de2829ec86d7c2ce4e1e2685a3bf3"><td class="memItemLeft" align="right" valign="top"><a id="ac71de2829ec86d7c2ce4e1e2685a3bf3" name="ac71de2829ec86d7c2ce4e1e2685a3bf3"></a>
-class USceneComponent *&#160;</td><td class="memItemRight" valign="bottom"><b>P_MotionController</b></td></tr>
-<tr class="separator:ac71de2829ec86d7c2ce4e1e2685a3bf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a249e5690f1ad8022e6a310cc1845b636"><td class="memItemLeft" align="right" valign="top"><a id="a249e5690f1ad8022e6a310cc1845b636" name="a249e5690f1ad8022e6a310cc1845b636"></a>
-class UPhysicsConstraintComponent *&#160;</td><td class="memItemRight" valign="bottom"><b>P_PhysicsConstraint</b></td></tr>
-<tr class="separator:a249e5690f1ad8022e6a310cc1845b636"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ece3b8f548d6ca9bf9f9dba33daa7d4"><td class="memItemLeft" align="right" valign="top"><a id="a3ece3b8f548d6ca9bf9f9dba33daa7d4" name="a3ece3b8f548d6ca9bf9f9dba33daa7d4"></a>
-class USkeletalMeshComponent *&#160;</td><td class="memItemRight" valign="bottom"><b>P_HandMesh</b></td></tr>
-<tr class="separator:a3ece3b8f548d6ca9bf9f9dba33daa7d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee27ab1a6fd7cb1e849ae2ef9c7b402b"><td class="memItemLeft" align="right" valign="top"><a id="aee27ab1a6fd7cb1e849ae2ef9c7b402b" name="aee27ab1a6fd7cb1e849ae2ef9c7b402b"></a>
+class <a class="el" href="class_a_v_r___hands.html">AVR_Hands</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>P_MotionControllerMain</b></td></tr>
+<tr class="separator:aee27ab1a6fd7cb1e849ae2ef9c7b402b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89a50dcd6c32a920b3b6e0d14fe90f30"><td class="memItemLeft" align="right" valign="top"><a id="a89a50dcd6c32a920b3b6e0d14fe90f30" name="a89a50dcd6c32a920b3b6e0d14fe90f30"></a>
+class UPhysicsConstraintComponent *&#160;</td><td class="memItemRight" valign="bottom"><b>P_PhysicsConstraintMain</b></td></tr>
+<tr class="separator:a89a50dcd6c32a920b3b6e0d14fe90f30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b9ab11b9efa208c215f3da1e1566f7e"><td class="memItemLeft" align="right" valign="top"><a id="a3b9ab11b9efa208c215f3da1e1566f7e" name="a3b9ab11b9efa208c215f3da1e1566f7e"></a>
+class USkeletalMeshComponent *&#160;</td><td class="memItemRight" valign="bottom"><b>P_HandMeshMain</b></td></tr>
+<tr class="separator:a3b9ab11b9efa208c215f3da1e1566f7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a306b9b5c8b4fb5013f962009a564dfe9"><td class="memItemLeft" align="right" valign="top"><a id="a306b9b5c8b4fb5013f962009a564dfe9" name="a306b9b5c8b4fb5013f962009a564dfe9"></a>
+class <a class="el" href="class_a_v_r___hands.html">AVR_Hands</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>P_MotionControllerSecond</b></td></tr>
+<tr class="separator:a306b9b5c8b4fb5013f962009a564dfe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabdbaa1762845339cddf3b46d0fb6eb5"><td class="memItemLeft" align="right" valign="top"><a id="aabdbaa1762845339cddf3b46d0fb6eb5" name="aabdbaa1762845339cddf3b46d0fb6eb5"></a>
+class UPhysicsConstraintComponent *&#160;</td><td class="memItemRight" valign="bottom"><b>P_PhysicsConstraintSecond</b></td></tr>
+<tr class="separator:aabdbaa1762845339cddf3b46d0fb6eb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6e0c6d358e9eb455268602168f0fbd4"><td class="memItemLeft" align="right" valign="top"><a id="af6e0c6d358e9eb455268602168f0fbd4" name="af6e0c6d358e9eb455268602168f0fbd4"></a>
+class USkeletalMeshComponent *&#160;</td><td class="memItemRight" valign="bottom"><b>P_HandMeshSecond</b></td></tr>
+<tr class="separator:af6e0c6d358e9eb455268602168f0fbd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_a_v_r___actor"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_a_v_r___actor')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_a_v_r___actor.html">AVR_Actor</a></td></tr>
 <tr class="memitem:a742cde5f602916ef971e17004c74b987 inherit pro_attribs_class_a_v_r___actor"><td class="memItemLeft" align="right" valign="top"><a id="a742cde5f602916ef971e17004c74b987" name="a742cde5f602916ef971e17004c74b987"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>bIsColliding</b> = false</td></tr>

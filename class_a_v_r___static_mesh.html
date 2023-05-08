@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="hmvr_logo_w.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Head Mounted VR<span id="projectnumber">&#160;1.0.2</span>
+   <div id="projectname">Head Mounted VR<span id="projectnumber">&#160;1.0</span>
    </div>
   </td>
  </tr>
@@ -112,12 +112,13 @@ $(document).ready(function(){initNavTree('class_a_v_r___static_mesh.html',''); i
  <div class="center">
   <img src="class_a_v_r___static_mesh.png" usemap="#AVR_5FStaticMesh_map" alt=""/>
   <map id="AVR_5FStaticMesh_map" name="AVR_5FStaticMesh_map">
-<area href="class_a_v_r___actor.html" title="VR Actor." alt="AVR_Actor" shape="rect" coords="237,56,385,80"/>
-<area href="class_i_v_r___interaction_interface.html" title="Interface for interacting with objects." alt="IVR_InteractionInterface" shape="rect" coords="316,0,464,24"/>
+<area href="class_a_v_r___actor.html" title="VR Actor." alt="AVR_Actor" shape="rect" coords="316,56,464,80"/>
+<area href="class_i_v_r___interaction_interface.html" title="Interface for interacting with objects." alt="IVR_InteractionInterface" shape="rect" coords="395,0,543,24"/>
 <area href="class_a_v_r___ammo_box.html" title="Large ammo box which player can put in inventory." alt="AVR_AmmoBox" shape="rect" coords="0,168,148,192"/>
 <area href="class_a_v_r___ammo_clip.html" title="Ammo clip." alt="AVR_AmmoClip" shape="rect" coords="158,168,306,192"/>
 <area href="class_a_v_r___ammo_round.html" title="Bullet class." alt="AVR_AmmoRound" shape="rect" coords="316,168,464,192"/>
 <area href="class_a_v_r___equipment.html" title="Player can interact with this class after grab. (Pressing the following buttons: trigger button,..." alt="AVR_Equipment" shape="rect" coords="474,168,622,192"/>
+<area href="class_a_v_r___stab_weapon.html" title="This class can be used for knifes, swords etc." alt="AVR_StabWeapon" shape="rect" coords="632,168,780,192"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -214,9 +215,12 @@ FORCEINLINE bool&#160;</td><td class="memItemRight" valign="bottom"><b>GetJustDr
 <tr class="memitem:a19d375257a28f9490b225e15d9917868"><td class="memItemLeft" align="right" valign="top"><a id="a19d375257a28f9490b225e15d9917868" name="a19d375257a28f9490b225e15d9917868"></a>
 FORCEINLINE bool&#160;</td><td class="memItemRight" valign="bottom"><b>CanPlayerStepOn</b> () const</td></tr>
 <tr class="separator:a19d375257a28f9490b225e15d9917868"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:accb6ff0101a94bf78824bdb281b2ac06"><td class="memItemLeft" align="right" valign="top"><a id="accb6ff0101a94bf78824bdb281b2ac06" name="accb6ff0101a94bf78824bdb281b2ac06"></a>
-FORCEINLINE FName&#160;</td><td class="memItemRight" valign="bottom"><b>GetSocketName</b> () const</td></tr>
-<tr class="separator:accb6ff0101a94bf78824bdb281b2ac06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38ec27ca59a653fba1e9cf7891f838c8"><td class="memItemLeft" align="right" valign="top"><a id="a38ec27ca59a653fba1e9cf7891f838c8" name="a38ec27ca59a653fba1e9cf7891f838c8"></a>
+FORCEINLINE FName&#160;</td><td class="memItemRight" valign="bottom"><b>GetLeftHandSocketName</b> () const</td></tr>
+<tr class="separator:a38ec27ca59a653fba1e9cf7891f838c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae34f4d0601e188836499a027b81da8f9"><td class="memItemLeft" align="right" valign="top"><a id="ae34f4d0601e188836499a027b81da8f9" name="ae34f4d0601e188836499a027b81da8f9"></a>
+FORCEINLINE FName&#160;</td><td class="memItemRight" valign="bottom"><b>GetRightHandSocketName</b> () const</td></tr>
+<tr class="separator:ae34f4d0601e188836499a027b81da8f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a32e2596137e4f08e7ff4570ac46b83"><td class="memItemLeft" align="right" valign="top"><a id="a8a32e2596137e4f08e7ff4570ac46b83" name="a8a32e2596137e4f08e7ff4570ac46b83"></a>
 FORCEINLINE uint8&#160;</td><td class="memItemRight" valign="bottom"><b>GetNumOfHandsAttached</b> () const</td></tr>
 <tr class="separator:a8a32e2596137e4f08e7ff4570ac46b83"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -335,9 +339,12 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>bAllowPickUp</b></td>
 <tr class="memitem:a22e80756317d6416ab573aab55e7db47"><td class="memItemLeft" align="right" valign="top"><a id="a22e80756317d6416ab573aab55e7db47" name="a22e80756317d6416ab573aab55e7db47"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>bCanNPCInteract</b></td></tr>
 <tr class="separator:a22e80756317d6416ab573aab55e7db47"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae5d75e5b65bc00698163b93810f42640"><td class="memItemLeft" align="right" valign="top"><a id="ae5d75e5b65bc00698163b93810f42640" name="ae5d75e5b65bc00698163b93810f42640"></a>
-FName&#160;</td><td class="memItemRight" valign="bottom"><b>SocketName</b></td></tr>
-<tr class="separator:ae5d75e5b65bc00698163b93810f42640"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a382a2558b61c281991da1e884e481bc5"><td class="memItemLeft" align="right" valign="top"><a id="a382a2558b61c281991da1e884e481bc5" name="a382a2558b61c281991da1e884e481bc5"></a>
+FName&#160;</td><td class="memItemRight" valign="bottom"><b>LeftHandSocketName</b></td></tr>
+<tr class="separator:a382a2558b61c281991da1e884e481bc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e83f0a2adc6821ebf04579faf793463"><td class="memItemLeft" align="right" valign="top"><a id="a1e83f0a2adc6821ebf04579faf793463" name="a1e83f0a2adc6821ebf04579faf793463"></a>
+FName&#160;</td><td class="memItemRight" valign="bottom"><b>RightHandSocketName</b></td></tr>
+<tr class="separator:a1e83f0a2adc6821ebf04579faf793463"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af70aac2eb5ae2ded001b64ba9d600356"><td class="memItemLeft" align="right" valign="top"><a id="af70aac2eb5ae2ded001b64ba9d600356" name="af70aac2eb5ae2ded001b64ba9d600356"></a>
 TArray&lt; FName &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>SocketArray</b></td></tr>
 <tr class="separator:af70aac2eb5ae2ded001b64ba9d600356"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -398,7 +405,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>bIsColliding</b> = fa
 
 <p>Reimplemented from <a class="el" href="class_a_v_r___actor.html">AVR_Actor</a>.</p>
 
-<p>Reimplemented in <a class="el" href="class_a_v_r___equipment.html#a4406989f01c65730bed0928040d477de">AVR_Equipment</a>, <a class="el" href="class_a_v_r___ammo_clip.html#aae2833b5138ab52b67e647a47c118dd3">AVR_AmmoClip</a>, and <a class="el" href="class_a_v_r___ammo_round.html#a4acfa043c05d0b9b011488d91302a84a">AVR_AmmoRound</a>.</p>
+<p>Reimplemented in <a class="el" href="class_a_v_r___equipment.html#a4406989f01c65730bed0928040d477de">AVR_Equipment</a>, <a class="el" href="class_a_v_r___ammo_clip.html#aae2833b5138ab52b67e647a47c118dd3">AVR_AmmoClip</a>, <a class="el" href="class_a_v_r___ammo_round.html#a4acfa043c05d0b9b011488d91302a84a">AVR_AmmoRound</a>, and <a class="el" href="class_a_v_r___stab_weapon.html#aad5991c12f1e84476d5f4e7a7ecaaf73">AVR_StabWeapon</a>.</p>
 
 </div>
 </div>
@@ -800,7 +807,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>bIsColliding</b> = fa
 
 <p>Reimplemented from <a class="el" href="class_a_v_r___actor.html">AVR_Actor</a>.</p>
 
-<p>Reimplemented in <a class="el" href="class_a_v_r___equipment.html#a3d689dcefe3c28f85fde3721c8a208da">AVR_Equipment</a>, and <a class="el" href="class_a_v_r___ammo_clip.html#a1780fd65d8bfd9dfab5ce20caecb4c0b">AVR_AmmoClip</a>.</p>
+<p>Reimplemented in <a class="el" href="class_a_v_r___equipment.html#a3d689dcefe3c28f85fde3721c8a208da">AVR_Equipment</a>, <a class="el" href="class_a_v_r___ammo_clip.html#a1780fd65d8bfd9dfab5ce20caecb4c0b">AVR_AmmoClip</a>, and <a class="el" href="class_a_v_r___stab_weapon.html#a231bf9037dd53f578b520de14cb28bf9">AVR_StabWeapon</a>.</p>
 
 </div>
 </div>

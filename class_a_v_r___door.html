@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="hmvr_logo_w.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Head Mounted VR<span id="projectnumber">&#160;1.0.2</span>
+   <div id="projectname">Head Mounted VR<span id="projectnumber">&#160;1.0</span>
    </div>
   </td>
  </tr>
@@ -129,12 +129,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>Stop_Interaction</b> 
 <tr class="memitem:adbda7465bfa82efcc23eb6670c43fb68"><td class="memItemLeft" align="right" valign="top"><a id="adbda7465bfa82efcc23eb6670c43fb68" name="adbda7465bfa82efcc23eb6670c43fb68"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsHeldBy</b> (class <a class="el" href="class_a_v_r___hands.html">AVR_Hands</a> *MotionController)</td></tr>
 <tr class="separator:adbda7465bfa82efcc23eb6670c43fb68"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af62ddf2aaa6c4204c42a9eef10016065"><td class="memItemLeft" align="right" valign="top"><a id="af62ddf2aaa6c4204c42a9eef10016065" name="af62ddf2aaa6c4204c42a9eef10016065"></a>
-virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>UseUnlockedMotion_Implementation</b> ()</td></tr>
-<tr class="separator:af62ddf2aaa6c4204c42a9eef10016065"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a000c69ea58209a2863563d0922cb283d"><td class="memItemLeft" align="right" valign="top"><a id="a000c69ea58209a2863563d0922cb283d" name="a000c69ea58209a2863563d0922cb283d"></a>
-virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>UseUnlockedRotation_Implementation</b> ()</td></tr>
-<tr class="separator:a000c69ea58209a2863563d0922cb283d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05a2f9c441ee28621bf8f9c6382a3a6e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___door.html#a05a2f9c441ee28621bf8f9c6382a3a6e">SetAutoclose</a> (bool auto_close, float Force=50.f, float Velocity=1.f, float Max_Force=0.f)</td></tr>
 <tr class="memdesc:a05a2f9c441ee28621bf8f9c6382a3a6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets auto close door status.  <br /></td></tr>
 <tr class="separator:a05a2f9c441ee28621bf8f9c6382a3a6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -227,18 +221,24 @@ class USceneComponent *&#160;</td><td class="memItemRight" valign="bottom"><b>Ro
 <tr class="memitem:a09ae080a86d54a7279a1261ff5575182"><td class="memItemLeft" align="right" valign="top"><a id="a09ae080a86d54a7279a1261ff5575182" name="a09ae080a86d54a7279a1261ff5575182"></a>
 class UStaticMeshComponent *&#160;</td><td class="memItemRight" valign="bottom"><b>Door_Body</b></td></tr>
 <tr class="separator:a09ae080a86d54a7279a1261ff5575182"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab76ffe30f9e4c259b59cc98fbb1dba2e"><td class="memItemLeft" align="right" valign="top"><a id="ab76ffe30f9e4c259b59cc98fbb1dba2e" name="ab76ffe30f9e4c259b59cc98fbb1dba2e"></a>
-class UStaticMeshComponent *&#160;</td><td class="memItemRight" valign="bottom"><b>Door_Handle</b></td></tr>
-<tr class="separator:ab76ffe30f9e4c259b59cc98fbb1dba2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec8ef697ddba0c5d960c7b55c4101377"><td class="memItemLeft" align="right" valign="top"><a id="aec8ef697ddba0c5d960c7b55c4101377" name="aec8ef697ddba0c5d960c7b55c4101377"></a>
-class UStaticMeshComponent *&#160;</td><td class="memItemRight" valign="bottom"><b>Door_Lock</b></td></tr>
-<tr class="separator:aec8ef697ddba0c5d960c7b55c4101377"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29667aab01599d2b5cda3d03aa1375b3"><td class="memItemLeft" align="right" valign="top"><a id="a29667aab01599d2b5cda3d03aa1375b3" name="a29667aab01599d2b5cda3d03aa1375b3"></a>
+class USceneComponent *&#160;</td><td class="memItemRight" valign="bottom"><b>Handle_Origin</b></td></tr>
+<tr class="separator:a29667aab01599d2b5cda3d03aa1375b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9ca5fdd9333aa2ba94daa319f5b9535"><td class="memItemLeft" align="right" valign="top"><a id="af9ca5fdd9333aa2ba94daa319f5b9535" name="af9ca5fdd9333aa2ba94daa319f5b9535"></a>
+class UStaticMeshComponent *&#160;</td><td class="memItemRight" valign="bottom"><b>Handle</b></td></tr>
+<tr class="separator:af9ca5fdd9333aa2ba94daa319f5b9535"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5dcf774196f2bcafd67892b739022d87"><td class="memItemLeft" align="right" valign="top"><a id="a5dcf774196f2bcafd67892b739022d87" name="a5dcf774196f2bcafd67892b739022d87"></a>
+class UStaticMeshComponent *&#160;</td><td class="memItemRight" valign="bottom"><b>Lock</b></td></tr>
+<tr class="separator:a5dcf774196f2bcafd67892b739022d87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab29090a1a56ce93bd462b70d4e7cc1f8"><td class="memItemLeft" align="right" valign="top"><a id="ab29090a1a56ce93bd462b70d4e7cc1f8" name="ab29090a1a56ce93bd462b70d4e7cc1f8"></a>
 class UBoxComponent *&#160;</td><td class="memItemRight" valign="bottom"><b>Handle_Box</b></td></tr>
 <tr class="separator:ab29090a1a56ce93bd462b70d4e7cc1f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74d9a56efb01030bf9f187342576e059"><td class="memItemLeft" align="right" valign="top"><a id="a74d9a56efb01030bf9f187342576e059" name="a74d9a56efb01030bf9f187342576e059"></a>
 class UPhysicsConstraintComponent *&#160;</td><td class="memItemRight" valign="bottom"><b>Body_PhysicsConstraint</b></td></tr>
 <tr class="separator:a74d9a56efb01030bf9f187342576e059"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a061e1a7f1d171e8cfa202faa5a0d9216"><td class="memItemLeft" align="right" valign="top"><a id="a061e1a7f1d171e8cfa202faa5a0d9216" name="a061e1a7f1d171e8cfa202faa5a0d9216"></a>
+class UPhysicsConstraintComponent *&#160;</td><td class="memItemRight" valign="bottom"><b>BodyLock_PhysicsConstraint</b></td></tr>
+<tr class="separator:a061e1a7f1d171e8cfa202faa5a0d9216"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf60dd90aaada9ae3dcb906f8040a153"><td class="memItemLeft" align="right" valign="top"><a id="adf60dd90aaada9ae3dcb906f8040a153" name="adf60dd90aaada9ae3dcb906f8040a153"></a>
 class UPhysicsConstraintComponent *&#160;</td><td class="memItemRight" valign="bottom"><b>Handle_PhysicsConstraint</b></td></tr>
 <tr class="separator:adf60dd90aaada9ae3dcb906f8040a153"><td class="memSeparator" colspan="2">&#160;</td></tr>

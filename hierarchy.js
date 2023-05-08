@@ -3,6 +3,7 @@ var hierarchy =
     [ "AActor", null, [
       [ "ALoading_Handler", "class_a_loading___handler.html", null ],
       [ "AVR_Actor", "class_a_v_r___actor.html", [
+        [ "AVR_Climbable", "class_a_v_r___climbable.html", null ],
         [ "AVR_Door", "class_a_v_r___door.html", null ],
         [ "AVR_Drawer", "class_a_v_r___drawer.html", null ],
         [ "AVR_LeverBase", "class_a_v_r___lever_base.html", [
@@ -20,7 +21,8 @@ var hierarchy =
           [ "AVR_AmmoBox", "class_a_v_r___ammo_box.html", null ],
           [ "AVR_AmmoClip", "class_a_v_r___ammo_clip.html", null ],
           [ "AVR_AmmoRound", "class_a_v_r___ammo_round.html", null ],
-          [ "AVR_Equipment", "class_a_v_r___equipment.html", null ]
+          [ "AVR_Equipment", "class_a_v_r___equipment.html", null ],
+          [ "AVR_StabWeapon", "class_a_v_r___stab_weapon.html", null ]
         ] ],
         [ "AVR_Weapon", "class_a_v_r___weapon.html", null ]
       ] ],

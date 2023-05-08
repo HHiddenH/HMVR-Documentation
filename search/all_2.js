@@ -7,7 +7,7 @@ var searchData=
   ['camerafade_4',['CameraFade',['../class_a_v_r___player.html#a5356bd746a00b03c167609e49b2aa882',1,'AVR_Player']]],
   ['checkcollisionseperation_5',['CheckCollisionSeperation',['../class_a_v_r___player.html#a50675e5538170d4a551cbd5aff2cb4fd',1,'AVR_Player']]],
   ['checkcontrollerandpickdist_6',['CheckControllerAndPickDist',['../class_a_v_r___hands.html#a5c5fc00fe24a50d640a474c41f3b8d91',1,'AVR_Hands']]],
-  ['checkeanimationtype_7',['CheckEAnimationType',['../class_a_v_r___lever_base.html#a42949b2bbd10ab58ed144101087bef8e',1,'AVR_LeverBase::CheckEAnimationType()'],['../class_a_v_r___skeletal_mesh.html#a0f2de740787599cb00c9663946f307ed',1,'AVR_SkeletalMesh::CheckEAnimationType()'],['../class_a_v_r___static_mesh.html#a421e2fbfa523f8857b0084c6c33888f2',1,'AVR_StaticMesh::CheckEAnimationType()']]],
+  ['checkeanimationtype_7',['CheckEAnimationType',['../class_a_v_r___climbable.html#aae6c2d2703e90e0243a495884e013965',1,'AVR_Climbable::CheckEAnimationType()'],['../class_a_v_r___lever_base.html#a42949b2bbd10ab58ed144101087bef8e',1,'AVR_LeverBase::CheckEAnimationType()'],['../class_a_v_r___skeletal_mesh.html#a0f2de740787599cb00c9663946f307ed',1,'AVR_SkeletalMesh::CheckEAnimationType()'],['../class_a_v_r___static_mesh.html#a421e2fbfa523f8857b0084c6c33888f2',1,'AVR_StaticMesh::CheckEAnimationType()']]],
   ['checkfloor_8',['CheckFloor',['../class_a_v_r___player.html#af0072e0f016a552baad1217c35c116d5',1,'AVR_Player']]],
   ['checkforstandableobj_9',['CheckForStandableOBJ',['../class_a_v_r___player.html#a6a92dd6b5dbf7d8dc482f62ce96ff2e9',1,'AVR_Player']]],
   ['checkgrabposs_10',['CheckGrabPoss',['../class_a_v_r___hands.html#a4192351edc7edceccf6e164bd48c12a0',1,'AVR_Hands']]],
@@ -21,6 +21,6 @@ var searchData=
   ['clearactorstoignore_18',['ClearActorsToIgnore',['../class_a_v_r___door.html#aa0fb30c5bec4497d3b51a043a71481f8',1,'AVR_Door::ClearActorsToIgnore()'],['../class_a_v_r___drawer.html#a3d6c464178e72bd48e22ad923ef5db12',1,'AVR_Drawer::ClearActorsToIgnore()']]],
   ['cleararc_19',['ClearArc',['../class_a_v_r___hands.html#a4d0147980544c18e46a7bd02e55bc67b',1,'AVR_Hands']]],
   ['collision_20',['Collision',['../class_a_v_r___player.html#adb29669e8a877607b0a931bf849f414a',1,'AVR_Player']]],
-  ['convertforpcclicked_21',['ConvertForPCClicked',['../class_f_head_mounted_editor_module.html#a306e6519b92d438e66f34b9ac34dd626',1,'FHeadMountedEditorModule']]],
+  ['convertforsteamvrclicked_21',['ConvertForSteamVRClicked',['../class_f_head_mounted_editor_module.html#a77809c8fb1db51647af85c4f686ed5ad',1,'FHeadMountedEditorModule']]],
   ['currentcaliber_22',['CurrentCaliber',['../class_a_v_r___weapon.html#aa7ffefb1e797afa2fcf0cc9170da2ced',1,'AVR_Weapon']]]
 ];
