@@ -56,6 +56,7 @@ var hierarchy =
       [ "FHeadMountedEditorCommands", "class_f_head_mounted_editor_commands.html", null ]
     ] ],
     [ "UAnimInstance", null, [
+      [ "UVR_AvatarAnimationInstance", "class_u_v_r___avatar_animation_instance.html", null ],
       [ "UVR_HandAnimationInstance", "class_u_v_r___hand_animation_instance.html", null ],
       [ "UVR_WeaponAnimationInstance", "class_u_v_r___weapon_animation_instance.html", null ]
     ] ],

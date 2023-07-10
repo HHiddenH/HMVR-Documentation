@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="icon_otline.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Head Mounted VR<span id="projectnumber">&#160;1.1</span>
+   <div id="projectname">Head Mounted VR<span id="projectnumber">&#160;1.5</span>
    </div>
   </td>
  </tr>
@@ -155,11 +155,17 @@ virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>Fire</b> ()</
 <tr class="memitem:a3957f93b893183afdc818f3dfa71e013"><td class="memItemLeft" align="right" valign="top"><a id="a3957f93b893183afdc818f3dfa71e013" name="a3957f93b893183afdc818f3dfa71e013"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>DoAfterFire</b> (bool IsTraceHit, FHitResult OutTraceHit)</td></tr>
 <tr class="separator:a3957f93b893183afdc818f3dfa71e013"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7db0bb8bf06575c107c80a06d7ca4763"><td class="memItemLeft" align="right" valign="top"><a id="a7db0bb8bf06575c107c80a06d7ca4763" name="a7db0bb8bf06575c107c80a06d7ca4763"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>DoAfterEmptyShoot</b> ()</td></tr>
+<tr class="separator:a7db0bb8bf06575c107c80a06d7ca4763"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afdaaa75b4c3173c9fd1539ea116a7722"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___weapon.html#afdaaa75b4c3173c9fd1539ea116a7722">ReleaseMag</a> ()</td></tr>
 <tr class="separator:afdaaa75b4c3173c9fd1539ea116a7722"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7cf47634726ae0cd035d38d8b514804f"><td class="memItemLeft" align="right" valign="top"><a id="a7cf47634726ae0cd035d38d8b514804f" name="a7cf47634726ae0cd035d38d8b514804f"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>DoOnReleaseMag</b> (bool IsAmmoIn)</td></tr>
-<tr class="separator:a7cf47634726ae0cd035d38d8b514804f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fa4f2b4da8b47ce2403b75db57d0f4f"><td class="memItemLeft" align="right" valign="top"><a id="a4fa4f2b4da8b47ce2403b75db57d0f4f" name="a4fa4f2b4da8b47ce2403b75db57d0f4f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>DoOnReleaseMag</b> ()</td></tr>
+<tr class="separator:a4fa4f2b4da8b47ce2403b75db57d0f4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c2f980009b85668e3c00d4254931fd4"><td class="memItemLeft" align="right" valign="top"><a id="a3c2f980009b85668e3c00d4254931fd4" name="a3c2f980009b85668e3c00d4254931fd4"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>DoOnMagIn</b> ()</td></tr>
+<tr class="separator:a3c2f980009b85668e3c00d4254931fd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad53ebf49f199b64a19c81aea37a41101"><td class="memItemLeft" align="right" valign="top"><a id="ad53ebf49f199b64a19c81aea37a41101" name="ad53ebf49f199b64a19c81aea37a41101"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>UpdateAnimation</b> ()</td></tr>
 <tr class="separator:ad53ebf49f199b64a19c81aea37a41101"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -299,7 +305,7 @@ class UStaticMesh *&#160;</td><td class="memItemRight" valign="bottom"><b>Weapon
 <tr class="separator:a728d2b6d0558b28e37b2ff0aaf79fea3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa7ffefb1e797afa2fcf0cc9170da2ced"><td class="memItemLeft" align="right" valign="top"><a id="aa7ffefb1e797afa2fcf0cc9170da2ced" name="aa7ffefb1e797afa2fcf0cc9170da2ced"></a>
 uint8&#160;</td><td class="memItemRight" valign="bottom"><b>CurrentCaliber</b></td></tr>
-<tr class="memdesc:aa7ffefb1e797afa2fcf0cc9170da2ced"><td class="mdescLeft">&#160;</td><td class="mdescRight">Caliober. <br /></td></tr>
+<tr class="memdesc:aa7ffefb1e797afa2fcf0cc9170da2ced"><td class="mdescLeft">&#160;</td><td class="mdescRight">Caliber. <br /></td></tr>
 <tr class="separator:aa7ffefb1e797afa2fcf0cc9170da2ced"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a339c30fb3f1567391b8084d376a67014"><td class="memItemLeft" align="right" valign="top"><a id="a339c30fb3f1567391b8084d376a67014" name="a339c30fb3f1567391b8084d376a67014"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>bAmmoApplyed</b></td></tr>
@@ -319,9 +325,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>bAmmoLeft</b></td></t
 <tr class="memitem:a5d2126636b502d2386c31e9edd136ec8"><td class="memItemLeft" align="right" valign="top"><a id="a5d2126636b502d2386c31e9edd136ec8" name="a5d2126636b502d2386c31e9edd136ec8"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>bAllowAmmoIn</b></td></tr>
 <tr class="separator:a5d2126636b502d2386c31e9edd136ec8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ea41ef914742797c4bcbfbe39e0b61d"><td class="memItemLeft" align="right" valign="top"><a id="a8ea41ef914742797c4bcbfbe39e0b61d" name="a8ea41ef914742797c4bcbfbe39e0b61d"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>fParticleSize</b></td></tr>
-<tr class="separator:a8ea41ef914742797c4bcbfbe39e0b61d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10fb5673c9f9ec1907607a5217a83f4b"><td class="memItemLeft" align="right" valign="top"><a id="a10fb5673c9f9ec1907607a5217a83f4b" name="a10fb5673c9f9ec1907607a5217a83f4b"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>ParticleSize</b></td></tr>
+<tr class="separator:a10fb5673c9f9ec1907607a5217a83f4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96b0f3d2d60795a48f562cdc51f56bf6"><td class="memItemLeft" align="right" valign="top"><a id="a96b0f3d2d60795a48f562cdc51f56bf6" name="a96b0f3d2d60795a48f562cdc51f56bf6"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>bInHand</b></td></tr>
 <tr class="separator:a96b0f3d2d60795a48f562cdc51f56bf6"><td class="memSeparator" colspan="2">&#160;</td></tr>

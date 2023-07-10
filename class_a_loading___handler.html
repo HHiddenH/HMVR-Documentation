@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="icon_otline.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Head Mounted VR<span id="projectnumber">&#160;1.1</span>
+   <div id="projectname">Head Mounted VR<span id="projectnumber">&#160;1.5</span>
    </div>
   </td>
  </tr>
@@ -119,9 +119,9 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Tick</b> (flo
 <tr class="memitem:a2e0381c867aeaf51c9612b20fc1a02d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_loading___handler.html#a2e0381c867aeaf51c9612b20fc1a02d9">MoveToLevel</a> (FName LevelToLoad)</td></tr>
 <tr class="memdesc:a2e0381c867aeaf51c9612b20fc1a02d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves player to the loading room. Then moves player to the level.  <br /></td></tr>
 <tr class="separator:a2e0381c867aeaf51c9612b20fc1a02d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aadf9f1d9baafa612198af461ac55e769"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_loading___handler.html#aadf9f1d9baafa612198af461ac55e769">MoveToStreamLevel</a> (FName LevelToLoad)</td></tr>
-<tr class="memdesc:aadf9f1d9baafa612198af461ac55e769"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves player to the loading room. Then loads sub level.  <br /></td></tr>
-<tr class="separator:aadf9f1d9baafa612198af461ac55e769"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5136dbe4cfb71df6837d51a555d2a21c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_loading___handler.html#a5136dbe4cfb71df6837d51a555d2a21c">MoveToStreamLevel</a> (FName LevelToLoad, FVector SpawnLocation)</td></tr>
+<tr class="memdesc:a5136dbe4cfb71df6837d51a555d2a21c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves player to the loading room. Then loads sub level.  <br /></td></tr>
+<tr class="separator:a5136dbe4cfb71df6837d51a555d2a21c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47dcebb8e9e02de4c7be8be34b45b677"><td class="memItemLeft" align="right" valign="top">FORCEINLINE bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_loading___handler.html#a47dcebb8e9e02de4c7be8be34b45b677">IsLoading</a> () const</td></tr>
 <tr class="separator:a47dcebb8e9e02de4c7be8be34b45b677"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9fab21fd5f0a4534209dd6c9f2266813"><td class="memItemLeft" align="right" valign="top"><a id="a9fab21fd5f0a4534209dd6c9f2266813" name="a9fab21fd5f0a4534209dd6c9f2266813"></a>
@@ -192,8 +192,8 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>BeginPlay</b>
 
 </div>
 </div>
-<a id="aadf9f1d9baafa612198af461ac55e769" name="aadf9f1d9baafa612198af461ac55e769"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aadf9f1d9baafa612198af461ac55e769">&#9670;&#160;</a></span>MoveToStreamLevel()</h2>
+<a id="a5136dbe4cfb71df6837d51a555d2a21c" name="a5136dbe4cfb71df6837d51a555d2a21c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5136dbe4cfb71df6837d51a555d2a21c">&#9670;&#160;</a></span>MoveToStreamLevel()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -202,8 +202,18 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>BeginPlay</b>
           <td class="memname">void ALoading_Handler::MoveToStreamLevel </td>
           <td>(</td>
           <td class="paramtype">FName&#160;</td>
-          <td class="paramname"><em>LevelToLoad</em></td><td>)</td>
+          <td class="paramname"><em>LevelToLoad</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">FVector&#160;</td>
+          <td class="paramname"><em>SpawnLocation</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">

@@ -10,7 +10,6 @@ var class_a_v_r___hands =
     [ "CheckControllerAndPickDist", "class_a_v_r___hands.html#a5c5fc00fe24a50d640a474c41f3b8d91", null ],
     [ "CheckGrabPoss", "class_a_v_r___hands.html#a4192351edc7edceccf6e164bd48c12a0", null ],
     [ "CheckHandsAndControllerDist", "class_a_v_r___hands.html#a8eaa8cd2682ea352271d93fc8d874443", null ],
-    [ "CheckInventory", "class_a_v_r___hands.html#a9b573a278dec39bb6b575d8f54f5b19e", null ],
     [ "CheckMenuStatus", "class_a_v_r___hands.html#ab509266eac3251848de773a466148b03", null ],
     [ "CheckTeleportIsActive", "class_a_v_r___hands.html#a6a4539f4a85ceb79a83ac32ec00dcb1f", null ],
     [ "ClearArc", "class_a_v_r___hands.html#a4d0147980544c18e46a7bd02e55bc67b", null ],

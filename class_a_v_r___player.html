@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="icon_otline.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Head Mounted VR<span id="projectnumber">&#160;1.1</span>
+   <div id="projectname">Head Mounted VR<span id="projectnumber">&#160;1.5</span>
    </div>
   </td>
  </tr>
@@ -125,6 +125,9 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Tick</b> (flo
 <tr class="memitem:adcb8c25d04ccc97233e87b5d271e1658"><td class="memItemLeft" align="right" valign="top"><a id="adcb8c25d04ccc97233e87b5d271e1658" name="adcb8c25d04ccc97233e87b5d271e1658"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SetupPlayerInputComponent</b> (class UInputComponent *PlayerInputComponent) override</td></tr>
 <tr class="separator:adcb8c25d04ccc97233e87b5d271e1658"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1e7cd67f40beb08e2494a7f78fee019"><td class="memItemLeft" align="right" valign="top"><a id="ad1e7cd67f40beb08e2494a7f78fee019" name="ad1e7cd67f40beb08e2494a7f78fee019"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>PlayerMeshTick</b> (float DeltaTime)</td></tr>
+<tr class="separator:ad1e7cd67f40beb08e2494a7f78fee019"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaaeab4d092a226266b8cf7565c9756df"><td class="memItemLeft" align="right" valign="top"><a id="aaaeab4d092a226266b8cf7565c9756df" name="aaaeab4d092a226266b8cf7565c9756df"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>OnResetVR</b> ()</td></tr>
 <tr class="memdesc:aaaeab4d092a226266b8cf7565c9756df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets HMD orientation and position in VR. <br /></td></tr>
@@ -155,19 +158,19 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>ReleaseIndex_Press_Le
 <tr class="separator:adee4806936636b4def8790900d42294e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ae2fd66a93fedd8646027fa824be9c1"><td class="memItemLeft" align="right" valign="top"><a id="a8ae2fd66a93fedd8646027fa824be9c1" name="a8ae2fd66a93fedd8646027fa824be9c1"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Index_Touch_Left</b> ()</td></tr>
-<tr class="memdesc:a8ae2fd66a93fedd8646027fa824be9c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trigger button touched , used for oculus (Left Motion controller) <br /></td></tr>
+<tr class="memdesc:a8ae2fd66a93fedd8646027fa824be9c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trigger button touched , used for Oculus (Left Motion controller) <br /></td></tr>
 <tr class="separator:a8ae2fd66a93fedd8646027fa824be9c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59e0934bbd096f86b7b18ec4d184e429"><td class="memItemLeft" align="right" valign="top"><a id="a59e0934bbd096f86b7b18ec4d184e429" name="a59e0934bbd096f86b7b18ec4d184e429"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>ReleaseIndex_Touch_Left</b> ()</td></tr>
-<tr class="memdesc:a59e0934bbd096f86b7b18ec4d184e429"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trigger button untouched , used for oculus (Left Motion controller) <br /></td></tr>
+<tr class="memdesc:a59e0934bbd096f86b7b18ec4d184e429"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trigger button untouched , used for Oculus (Left Motion controller) <br /></td></tr>
 <tr class="separator:a59e0934bbd096f86b7b18ec4d184e429"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b032d5adadffe76955df4d548a3b63f"><td class="memItemLeft" align="right" valign="top"><a id="a6b032d5adadffe76955df4d548a3b63f" name="a6b032d5adadffe76955df4d548a3b63f"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Index_Touch_Right</b> ()</td></tr>
-<tr class="memdesc:a6b032d5adadffe76955df4d548a3b63f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trigger button touched , used for oculus (Right Motion controller) <br /></td></tr>
+<tr class="memdesc:a6b032d5adadffe76955df4d548a3b63f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trigger button touched , used for Oculus (Right Motion controller) <br /></td></tr>
 <tr class="separator:a6b032d5adadffe76955df4d548a3b63f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43f6d4db4a693b0357d5077d1647d00e"><td class="memItemLeft" align="right" valign="top"><a id="a43f6d4db4a693b0357d5077d1647d00e" name="a43f6d4db4a693b0357d5077d1647d00e"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>ReleaseIndex_Touch_Right</b> ()</td></tr>
-<tr class="memdesc:a43f6d4db4a693b0357d5077d1647d00e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trigger button untouched , used for oculus (Right Motion controller) <br /></td></tr>
+<tr class="memdesc:a43f6d4db4a693b0357d5077d1647d00e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trigger button untouched , used for Oculus (Right Motion controller) <br /></td></tr>
 <tr class="separator:a43f6d4db4a693b0357d5077d1647d00e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a6cff7864d779581c5a81d82de8d6d6"><td class="memItemLeft" align="right" valign="top"><a id="a4a6cff7864d779581c5a81d82de8d6d6" name="a4a6cff7864d779581c5a81d82de8d6d6"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Index_Press_Right</b> ()</td></tr>
@@ -187,11 +190,11 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>ReleaseThumb_Press_Le
 <tr class="separator:a54659bf2fe1babe93594b7db60844c9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9428130b77a226adebc4b6acab9adfb"><td class="memItemLeft" align="right" valign="top"><a id="aa9428130b77a226adebc4b6acab9adfb" name="aa9428130b77a226adebc4b6acab9adfb"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Thumb_Press_Right</b> ()</td></tr>
-<tr class="memdesc:aa9428130b77a226adebc4b6acab9adfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used for oculus HMD Indetify when player toches upper buttons. <br /></td></tr>
+<tr class="memdesc:aa9428130b77a226adebc4b6acab9adfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used for Oculus HMD Indetify when player toches upper buttons. <br /></td></tr>
 <tr class="separator:aa9428130b77a226adebc4b6acab9adfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d58b4bf3c79a8224826de10b6bf318b"><td class="memItemLeft" align="right" valign="top"><a id="a7d58b4bf3c79a8224826de10b6bf318b" name="a7d58b4bf3c79a8224826de10b6bf318b"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>ReleaseThumb_Press_Right</b> ()</td></tr>
-<tr class="memdesc:a7d58b4bf3c79a8224826de10b6bf318b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used for oculus HMD Indetify when player untoches upper buttons. <br /></td></tr>
+<tr class="memdesc:a7d58b4bf3c79a8224826de10b6bf318b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used for Oculus HMD Indetify when player untoches upper buttons. <br /></td></tr>
 <tr class="separator:a7d58b4bf3c79a8224826de10b6bf318b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac93ba38a9c564f68d1d6babe0984189f"><td class="memItemLeft" align="right" valign="top"><a id="ac93ba38a9c564f68d1d6babe0984189f" name="ac93ba38a9c564f68d1d6babe0984189f"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>TeleportPressed_Left</b> ()</td></tr>
@@ -241,36 +244,42 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>R_Trackpad_Touch</b> 
 void&#160;</td><td class="memItemRight" valign="bottom"><b>R_Trackpad_UnTouch</b> ()</td></tr>
 <tr class="memdesc:a671ff99a024d46cc7380385e49b6986f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rightg Trackpad beeing Untouch. <br /></td></tr>
 <tr class="separator:a671ff99a024d46cc7380385e49b6986f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74bfc2a493d17897707e37ce2e0b6528"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a74bfc2a493d17897707e37ce2e0b6528">TurnAtRate</a> (float Rate)</td></tr>
-<tr class="memdesc:a74bfc2a493d17897707e37ce2e0b6528"><td class="mdescLeft">&#160;</td><td class="mdescRight">Player rotation on right thubmstick.  <br /></td></tr>
-<tr class="separator:a74bfc2a493d17897707e37ce2e0b6528"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f591251185499d246cf5461a6fc3000"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a7f591251185499d246cf5461a6fc3000">UpdateMovment</a> (float Value_Y, float Value_X, FVector DevicePosition, FRotator DeviceRotation)</td></tr>
-<tr class="memdesc:a7f591251185499d246cf5461a6fc3000"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves player in direction.  <br /></td></tr>
-<tr class="separator:a7f591251185499d246cf5461a6fc3000"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09c49c2340dea36b74216fb1b9f06d6d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a09c49c2340dea36b74216fb1b9f06d6d">LookUpAtRate</a> (float Rate)</td></tr>
-<tr class="memdesc:a09c49c2340dea36b74216fb1b9f06d6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates camera pitch.  <br /></td></tr>
-<tr class="separator:a09c49c2340dea36b74216fb1b9f06d6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07d4e2c6ec8a58e37c55483eabb587af"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a07d4e2c6ec8a58e37c55483eabb587af">TurnAtRate</a> (const FInputActionValue &amp;Value)</td></tr>
+<tr class="memdesc:a07d4e2c6ec8a58e37c55483eabb587af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Player rotation on right thubmstick.  <br /></td></tr>
+<tr class="separator:a07d4e2c6ec8a58e37c55483eabb587af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82c2b373aaeb3a0ff89e97ebbc2bb801"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a82c2b373aaeb3a0ff89e97ebbc2bb801">UpdateMovment</a> (const FInputActionValue &amp;Value)</td></tr>
+<tr class="memdesc:a82c2b373aaeb3a0ff89e97ebbc2bb801"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves player in direction.  <br /></td></tr>
+<tr class="separator:a82c2b373aaeb3a0ff89e97ebbc2bb801"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff3a8a334f4e3365d6ee6c1d0644f1ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#aff3a8a334f4e3365d6ee6c1d0644f1ab">LookUpAtRate</a> (const FInputActionValue &amp;Value)</td></tr>
+<tr class="memdesc:aff3a8a334f4e3365d6ee6c1d0644f1ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates camera pitch.  <br /></td></tr>
+<tr class="separator:aff3a8a334f4e3365d6ee6c1d0644f1ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06f17fa11bef4f58a0014a2c286df54c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a06f17fa11bef4f58a0014a2c286df54c">MoveForward</a> (float Value)</td></tr>
 <tr class="memdesc:a06f17fa11bef4f58a0014a2c286df54c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used for thumbstick bind.  <br /></td></tr>
 <tr class="separator:a06f17fa11bef4f58a0014a2c286df54c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af9b53be5032d7b965d1785eb38719cf9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#af9b53be5032d7b965d1785eb38719cf9">MoveRight</a> (float Value)</td></tr>
 <tr class="memdesc:af9b53be5032d7b965d1785eb38719cf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used for thumbstick bind.  <br /></td></tr>
 <tr class="separator:af9b53be5032d7b965d1785eb38719cf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59e12e2eb7d51563918e10a6568e8a05"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a59e12e2eb7d51563918e10a6568e8a05">RightTriggerAxis</a> (float Value)</td></tr>
-<tr class="separator:a59e12e2eb7d51563918e10a6568e8a05"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7ec14c82fa815325fc5e69637870a8f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#ab7ec14c82fa815325fc5e69637870a8f">LeftTriggerAxis</a> (float Value)</td></tr>
-<tr class="separator:ab7ec14c82fa815325fc5e69637870a8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf611f1900d008c871943e0a5f6690b2"><td class="memItemLeft" align="right" valign="top"><a id="acf611f1900d008c871943e0a5f6690b2" name="acf611f1900d008c871943e0a5f6690b2"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>RightGripAxis</b> (float Value)</td></tr>
-<tr class="separator:acf611f1900d008c871943e0a5f6690b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8607fb63616ea34ca76717abd413d88f"><td class="memItemLeft" align="right" valign="top"><a id="a8607fb63616ea34ca76717abd413d88f" name="a8607fb63616ea34ca76717abd413d88f"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>LeftGripAxis</b> (float Value)</td></tr>
-<tr class="separator:a8607fb63616ea34ca76717abd413d88f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f25b818460ac299fff51f8a0ecd9710"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a2f25b818460ac299fff51f8a0ecd9710">RightTriggerAxis</a> (const FInputActionValue &amp;Value)</td></tr>
+<tr class="separator:a2f25b818460ac299fff51f8a0ecd9710"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69820a2d714809800ca2cdf5da1df921"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a69820a2d714809800ca2cdf5da1df921">LeftTriggerAxis</a> (const FInputActionValue &amp;Value)</td></tr>
+<tr class="separator:a69820a2d714809800ca2cdf5da1df921"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6ef0a046afff9af86b737faf4511265"><td class="memItemLeft" align="right" valign="top"><a id="ad6ef0a046afff9af86b737faf4511265" name="ad6ef0a046afff9af86b737faf4511265"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>RightGripAxis</b> (const FInputActionValue &amp;Value)</td></tr>
+<tr class="separator:ad6ef0a046afff9af86b737faf4511265"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ff2810c177bf70d71fe316b55d77b4f"><td class="memItemLeft" align="right" valign="top"><a id="a7ff2810c177bf70d71fe316b55d77b4f" name="a7ff2810c177bf70d71fe316b55d77b4f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>LeftGripAxis</b> (const FInputActionValue &amp;Value)</td></tr>
+<tr class="separator:a7ff2810c177bf70d71fe316b55d77b4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa581cb991da052a3c83a50dd355cfc28"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#aa581cb991da052a3c83a50dd355cfc28">ThumbTrackpadAxis</a> (float Value)</td></tr>
 <tr class="memdesc:aa581cb991da052a3c83a50dd355cfc28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used for Weapons hammer(Pistols)  <br /></td></tr>
 <tr class="separator:aa581cb991da052a3c83a50dd355cfc28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae18ebd307279d6683c2385b6b1dae8e4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#ae18ebd307279d6683c2385b6b1dae8e4">TurnWidgetDev</a> ()</td></tr>
 <tr class="separator:ae18ebd307279d6683c2385b6b1dae8e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb9f716873037e1bd6bd7b338e4b87a7"><td class="memItemLeft" align="right" valign="top"><a id="acb9f716873037e1bd6bd7b338e4b87a7" name="acb9f716873037e1bd6bd7b338e4b87a7"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>AddHeight</b> ()</td></tr>
+<tr class="separator:acb9f716873037e1bd6bd7b338e4b87a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb254567c1946e451396f32d6dbe30b4"><td class="memItemLeft" align="right" valign="top"><a id="abb254567c1946e451396f32d6dbe30b4" name="abb254567c1946e451396f32d6dbe30b4"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>RemoveHeight</b> ()</td></tr>
+<tr class="separator:abb254567c1946e451396f32d6dbe30b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae708e5aba917ad8db5407e39a6201b8c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#ae708e5aba917ad8db5407e39a6201b8c">CheckUpdatePlayerPostion</a> ()</td></tr>
 <tr class="separator:ae708e5aba917ad8db5407e39a6201b8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50675e5538170d4a551cbd5aff2cb4fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a50675e5538170d4a551cbd5aff2cb4fd">CheckCollisionSeperation</a> ()</td></tr>
@@ -318,12 +327,21 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>UpdateVariables</b> (
 <tr class="memitem:a45aa5da6f364f69ef29f643d4e912904"><td class="memItemLeft" align="right" valign="top"><a id="a45aa5da6f364f69ef29f643d4e912904" name="a45aa5da6f364f69ef29f643d4e912904"></a>
 FORCEINLINE UCapsuleComponent *&#160;</td><td class="memItemRight" valign="bottom"><b>GetCollision</b> () const</td></tr>
 <tr class="separator:a45aa5da6f364f69ef29f643d4e912904"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b45d7bca3da098373d4666de0875bf4"><td class="memItemLeft" align="right" valign="top"><a id="a9b45d7bca3da098373d4666de0875bf4" name="a9b45d7bca3da098373d4666de0875bf4"></a>
+FORCEINLINE float&#160;</td><td class="memItemRight" valign="bottom"><b>GetPlayerMaxHeight</b> () const</td></tr>
+<tr class="separator:a9b45d7bca3da098373d4666de0875bf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe0dbcaa2758a24f8c7f9c5414c54aa8"><td class="memItemLeft" align="right" valign="top"><a id="abe0dbcaa2758a24f8c7f9c5414c54aa8" name="abe0dbcaa2758a24f8c7f9c5414c54aa8"></a>
+FORCEINLINE float&#160;</td><td class="memItemRight" valign="bottom"><b>GetPlayerCurrentHeight</b> () const</td></tr>
+<tr class="separator:abe0dbcaa2758a24f8c7f9c5414c54aa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56ff41b6e7279bf1adc74395d7266d28"><td class="memItemLeft" align="right" valign="top"><a id="a56ff41b6e7279bf1adc74395d7266d28" name="a56ff41b6e7279bf1adc74395d7266d28"></a>
 FVector&#160;</td><td class="memItemRight" valign="bottom"><b>GetCameraLocation</b> ()</td></tr>
 <tr class="separator:a56ff41b6e7279bf1adc74395d7266d28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afcb966936e82d4dabdaadae24874571b"><td class="memItemLeft" align="right" valign="top"><a id="afcb966936e82d4dabdaadae24874571b" name="afcb966936e82d4dabdaadae24874571b"></a>
 FVector&#160;</td><td class="memItemRight" valign="bottom"><b>GetForwardVector</b> ()</td></tr>
 <tr class="separator:afcb966936e82d4dabdaadae24874571b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afeff836e621aef6710315b619afc17a1"><td class="memItemLeft" align="right" valign="top"><a id="afeff836e621aef6710315b619afc17a1" name="afeff836e621aef6710315b619afc17a1"></a>
+FVector&#160;</td><td class="memItemRight" valign="bottom"><b>GetPlayerDirection</b> (class UPrimitiveComponent *Component)</td></tr>
+<tr class="separator:afeff836e621aef6710315b619afc17a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac330b867a4ac0e5b54d3066c775fbeab"><td class="memItemLeft" align="right" valign="top"><a id="ac330b867a4ac0e5b54d3066c775fbeab" name="ac330b867a4ac0e5b54d3066c775fbeab"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>OnCameraCollisionOverlapBegin</b> (class UPrimitiveComponent *OverlappedComp, class AActor *OtherActor, class UPrimitiveComponent *OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult &amp;SweepResult)</td></tr>
 <tr class="memdesc:ac330b867a4ac0e5b54d3066c775fbeab"><td class="mdescLeft">&#160;</td><td class="mdescRight">On camera collision Overlap begin. <br /></td></tr>
@@ -403,6 +421,42 @@ FORCEINLINE TArray&lt; int &gt;&#160;</td><td class="memItemRight" valign="botto
 <tr class="memitem:a366284b790ff5d7624a42523da66c842"><td class="memItemLeft" align="right" valign="top"><a id="a366284b790ff5d7624a42523da66c842" name="a366284b790ff5d7624a42523da66c842"></a>
 FORCEINLINE bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsInLoadingRoom</b> () const</td></tr>
 <tr class="separator:a366284b790ff5d7624a42523da66c842"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3a4534e62f074950dec23636dae3a3a"><td class="memItemLeft" align="right" valign="top"><a id="ac3a4534e62f074950dec23636dae3a3a" name="ac3a4534e62f074950dec23636dae3a3a"></a>
+FORCEINLINE FTransform&#160;</td><td class="memItemRight" valign="bottom"><b>GetLeftHandTransform</b> () const</td></tr>
+<tr class="separator:ac3a4534e62f074950dec23636dae3a3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ed79ffc1a23825d96b1bf60a71d8fdf"><td class="memItemLeft" align="right" valign="top"><a id="a1ed79ffc1a23825d96b1bf60a71d8fdf" name="a1ed79ffc1a23825d96b1bf60a71d8fdf"></a>
+FORCEINLINE FTransform&#160;</td><td class="memItemRight" valign="bottom"><b>GetRightHandTransform</b> () const</td></tr>
+<tr class="separator:a1ed79ffc1a23825d96b1bf60a71d8fdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e901664a312eca9907db68ad4a483be"><td class="memItemLeft" align="right" valign="top"><a id="a5e901664a312eca9907db68ad4a483be" name="a5e901664a312eca9907db68ad4a483be"></a>
+FORCEINLINE FTransform&#160;</td><td class="memItemRight" valign="bottom"><b>GetAvatarWorldTransform</b> () const</td></tr>
+<tr class="separator:a5e901664a312eca9907db68ad4a483be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8fa5970978362d8c0b2a73e49e84a00"><td class="memItemLeft" align="right" valign="top"><a id="ae8fa5970978362d8c0b2a73e49e84a00" name="ae8fa5970978362d8c0b2a73e49e84a00"></a>
+FORCEINLINE USkeletalMeshComponent *&#160;</td><td class="memItemRight" valign="bottom"><b>GetAvatarMesh</b> () const</td></tr>
+<tr class="separator:ae8fa5970978362d8c0b2a73e49e84a00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad9b743044cd1a0f484d90ce7cbe5388"><td class="memItemLeft" align="right" valign="top"><a id="aad9b743044cd1a0f484d90ce7cbe5388" name="aad9b743044cd1a0f484d90ce7cbe5388"></a>
+FORCEINLINE FTransform&#160;</td><td class="memItemRight" valign="bottom"><b>GetCameraTransform</b> () const</td></tr>
+<tr class="separator:aad9b743044cd1a0f484d90ce7cbe5388"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b5bc942a3e856b03dc6e7aafec4603a"><td class="memItemLeft" align="right" valign="top"><a id="a5b5bc942a3e856b03dc6e7aafec4603a" name="a5b5bc942a3e856b03dc6e7aafec4603a"></a>
+FORCEINLINE float&#160;</td><td class="memItemRight" valign="bottom"><b>GetPlayerSpeed</b> () const</td></tr>
+<tr class="separator:a5b5bc942a3e856b03dc6e7aafec4603a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ffd8e2a69aac349ffae351cfb1704f4"><td class="memItemLeft" align="right" valign="top"><a id="a9ffd8e2a69aac349ffae351cfb1704f4" name="a9ffd8e2a69aac349ffae351cfb1704f4"></a>
+FORCEINLINE float&#160;</td><td class="memItemRight" valign="bottom"><b>GetPlayerDirectionValue</b> () const</td></tr>
+<tr class="separator:a9ffd8e2a69aac349ffae351cfb1704f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10058f7346d2d63d91949bd05d0eeea5"><td class="memItemLeft" align="right" valign="top"><a id="a10058f7346d2d63d91949bd05d0eeea5" name="a10058f7346d2d63d91949bd05d0eeea5"></a>
+FORCEINLINE EVRAvatarMode&#160;</td><td class="memItemRight" valign="bottom"><b>GetAvatarMode</b> () const</td></tr>
+<tr class="separator:a10058f7346d2d63d91949bd05d0eeea5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6891ff9358007cb3374b3c449531231d"><td class="memItemLeft" align="right" valign="top"><a id="a6891ff9358007cb3374b3c449531231d" name="a6891ff9358007cb3374b3c449531231d"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>GetDistanceMoved</b> (FVector CurrentCameraPosition)</td></tr>
+<tr class="separator:a6891ff9358007cb3374b3c449531231d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf3062b0dbc48607cbd0cad4c57dc59c"><td class="memItemLeft" align="right" valign="top"><a id="acf3062b0dbc48607cbd0cad4c57dc59c" name="acf3062b0dbc48607cbd0cad4c57dc59c"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>GetDistanceRotation</b> (FRotator CurrentCameraRotation)</td></tr>
+<tr class="separator:acf3062b0dbc48607cbd0cad4c57dc59c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab67e3758b12ad07a5e69c31760c4a7b1"><td class="memItemLeft" align="right" valign="top"><a id="ab67e3758b12ad07a5e69c31760c4a7b1" name="ab67e3758b12ad07a5e69c31760c4a7b1"></a>
+FORCEINLINE FVector&#160;</td><td class="memItemRight" valign="bottom"><b>GetFloorPoint</b> () const</td></tr>
+<tr class="separator:ab67e3758b12ad07a5e69c31760c4a7b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c0ecb1417768c84addd1856bb0c09bd"><td class="memItemLeft" align="right" valign="top"><a id="a5c0ecb1417768c84addd1856bb0c09bd" name="a5c0ecb1417768c84addd1856bb0c09bd"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>GetMovementDirection</b> (FTransform CurrentCameraWorldTransform)</td></tr>
+<tr class="separator:a5c0ecb1417768c84addd1856bb0c09bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea983e9c66e0f2f2ee50ea79f3778572"><td class="memItemLeft" align="right" valign="top"><a id="aea983e9c66e0f2f2ee50ea79f3778572" name="aea983e9c66e0f2f2ee50ea79f3778572"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>PlayVoiceLine</b> (USoundWave *SoundWave)</td></tr>
 <tr class="memdesc:aea983e9c66e0f2f2ee50ea79f3778572"><td class="mdescLeft">&#160;</td><td class="mdescRight">Play voice line. <br /></td></tr>
@@ -456,6 +510,9 @@ UCameraComponent *&#160;</td><td class="memItemRight" valign="bottom"><b>VRCamer
 UCapsuleComponent *&#160;</td><td class="memItemRight" valign="bottom"><b>Collision</b></td></tr>
 <tr class="memdesc:adb29669e8a877607b0a931bf849f414a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Players collision. <br /></td></tr>
 <tr class="separator:adb29669e8a877607b0a931bf849f414a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8278194c200306418b9391825b151710"><td class="memItemLeft" align="right" valign="top"><a id="a8278194c200306418b9391825b151710" name="a8278194c200306418b9391825b151710"></a>
+class USkeletalMeshComponent *&#160;</td><td class="memItemRight" valign="bottom"><b>PlayerMesh</b></td></tr>
+<tr class="separator:a8278194c200306418b9391825b151710"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2260257892939ee45e59a4bd86b466d8"><td class="memItemLeft" align="right" valign="top"><a id="a2260257892939ee45e59a4bd86b466d8" name="a2260257892939ee45e59a4bd86b466d8"></a>
 USphereComponent *&#160;</td><td class="memItemRight" valign="bottom"><b>CameraCollision</b></td></tr>
 <tr class="memdesc:a2260257892939ee45e59a4bd86b466d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Players camera collision. <br /></td></tr>
@@ -484,6 +541,56 @@ USoundCue *&#160;</td><td class="memItemRight" valign="bottom"><b>Footsteps_Soun
 <tr class="memitem:a134a941c91b1fb54d0e6f01876ff8bf2"><td class="memItemLeft" align="right" valign="top"><a id="a134a941c91b1fb54d0e6f01876ff8bf2" name="a134a941c91b1fb54d0e6f01876ff8bf2"></a>
 USoundCue *&#160;</td><td class="memItemRight" valign="bottom"><b>Voice_SoundCue</b></td></tr>
 <tr class="separator:a134a941c91b1fb54d0e6f01876ff8bf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af195505515577b0c30bf65115b7fd75e"><td class="memItemLeft" align="right" valign="top">class UInputMappingContext *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#af195505515577b0c30bf65115b7fd75e">DefaultMappingContext</a></td></tr>
+<tr class="separator:af195505515577b0c30bf65115b7fd75e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab07bb3d915565653faa06923fff20fac"><td class="memItemLeft" align="right" valign="top"><a id="ab07bb3d915565653faa06923fff20fac" name="ab07bb3d915565653faa06923fff20fac"></a>
+class UInputAction *&#160;</td><td class="memItemRight" valign="bottom"><b>IA_Turn</b></td></tr>
+<tr class="separator:ab07bb3d915565653faa06923fff20fac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa813f33ce7ba7a439d1f8d8fd769c84e"><td class="memItemLeft" align="right" valign="top"><a id="aa813f33ce7ba7a439d1f8d8fd769c84e" name="aa813f33ce7ba7a439d1f8d8fd769c84e"></a>
+class UInputAction *&#160;</td><td class="memItemRight" valign="bottom"><b>IA_Dev_Debug_LookUpMouse</b></td></tr>
+<tr class="separator:aa813f33ce7ba7a439d1f8d8fd769c84e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac416976f1574f52c81221f455e21aa4"><td class="memItemLeft" align="right" valign="top"><a id="aac416976f1574f52c81221f455e21aa4" name="aac416976f1574f52c81221f455e21aa4"></a>
+class UInputAction *&#160;</td><td class="memItemRight" valign="bottom"><b>IA_Move</b></td></tr>
+<tr class="separator:aac416976f1574f52c81221f455e21aa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a815f760c46cb474dfe41753528e65930"><td class="memItemLeft" align="right" valign="top"><a id="a815f760c46cb474dfe41753528e65930" name="a815f760c46cb474dfe41753528e65930"></a>
+class UInputAction *&#160;</td><td class="memItemRight" valign="bottom"><b>IA_IndexCurl_Right</b></td></tr>
+<tr class="separator:a815f760c46cb474dfe41753528e65930"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adff4dd5d38c00c500cf1232e8e9fce71"><td class="memItemLeft" align="right" valign="top"><a id="adff4dd5d38c00c500cf1232e8e9fce71" name="adff4dd5d38c00c500cf1232e8e9fce71"></a>
+class UInputAction *&#160;</td><td class="memItemRight" valign="bottom"><b>IA_IndexCurl_Left</b></td></tr>
+<tr class="separator:adff4dd5d38c00c500cf1232e8e9fce71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91098febb4319ec3addd2e942bfbce6b"><td class="memItemLeft" align="right" valign="top"><a id="a91098febb4319ec3addd2e942bfbce6b" name="a91098febb4319ec3addd2e942bfbce6b"></a>
+class UInputAction *&#160;</td><td class="memItemRight" valign="bottom"><b>IA_GrabRight</b></td></tr>
+<tr class="separator:a91098febb4319ec3addd2e942bfbce6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e711f9b6e241730d9db834e51c12016"><td class="memItemLeft" align="right" valign="top"><a id="a1e711f9b6e241730d9db834e51c12016" name="a1e711f9b6e241730d9db834e51c12016"></a>
+class UInputAction *&#160;</td><td class="memItemRight" valign="bottom"><b>IA_GrabLeft</b></td></tr>
+<tr class="separator:a1e711f9b6e241730d9db834e51c12016"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f4df77d23dd4bfd3c3bc6c6dc1dc025"><td class="memItemLeft" align="right" valign="top"><a id="a1f4df77d23dd4bfd3c3bc6c6dc1dc025" name="a1f4df77d23dd4bfd3c3bc6c6dc1dc025"></a>
+class UInputAction *&#160;</td><td class="memItemRight" valign="bottom"><b>IA_BPressRight</b></td></tr>
+<tr class="separator:a1f4df77d23dd4bfd3c3bc6c6dc1dc025"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ef8675d64fe3603b6beaa5d010e5dc4"><td class="memItemLeft" align="right" valign="top"><a id="a2ef8675d64fe3603b6beaa5d010e5dc4" name="a2ef8675d64fe3603b6beaa5d010e5dc4"></a>
+class UInputAction *&#160;</td><td class="memItemRight" valign="bottom"><b>IA_BPressLeft</b></td></tr>
+<tr class="separator:a2ef8675d64fe3603b6beaa5d010e5dc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e5169a2b3aacb4be7cc020fd4c9ea5e"><td class="memItemLeft" align="right" valign="top"><a id="a7e5169a2b3aacb4be7cc020fd4c9ea5e" name="a7e5169a2b3aacb4be7cc020fd4c9ea5e"></a>
+class UInputAction *&#160;</td><td class="memItemRight" valign="bottom"><b>IA_APressRight</b></td></tr>
+<tr class="separator:a7e5169a2b3aacb4be7cc020fd4c9ea5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a479f2738092b847e781bd70ed967f4e9"><td class="memItemLeft" align="right" valign="top"><a id="a479f2738092b847e781bd70ed967f4e9" name="a479f2738092b847e781bd70ed967f4e9"></a>
+class UInputAction *&#160;</td><td class="memItemRight" valign="bottom"><b>IA_APressLeft</b></td></tr>
+<tr class="separator:a479f2738092b847e781bd70ed967f4e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cbf14dce87ef61ecb5efbf0469cfbfb"><td class="memItemLeft" align="right" valign="top"><a id="a7cbf14dce87ef61ecb5efbf0469cfbfb" name="a7cbf14dce87ef61ecb5efbf0469cfbfb"></a>
+class UInputAction *&#160;</td><td class="memItemRight" valign="bottom"><b>IA_Hand_ThumbStickPress_Right</b></td></tr>
+<tr class="separator:a7cbf14dce87ef61ecb5efbf0469cfbfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd996462ae788244ceeef1f8aca54927"><td class="memItemLeft" align="right" valign="top"><a id="acd996462ae788244ceeef1f8aca54927" name="acd996462ae788244ceeef1f8aca54927"></a>
+class UInputAction *&#160;</td><td class="memItemRight" valign="bottom"><b>IA_Hand_ThumbStickPress_Left</b></td></tr>
+<tr class="separator:acd996462ae788244ceeef1f8aca54927"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4231c1f179e1a0a0a45c98187e2416e8"><td class="memItemLeft" align="right" valign="top"><a id="a4231c1f179e1a0a0a45c98187e2416e8" name="a4231c1f179e1a0a0a45c98187e2416e8"></a>
+class UInputAction *&#160;</td><td class="memItemRight" valign="bottom"><b>IA_Dev_Debug_MinusHeight</b></td></tr>
+<tr class="separator:a4231c1f179e1a0a0a45c98187e2416e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1609e98161995d91d44781a3fa92d3a5"><td class="memItemLeft" align="right" valign="top"><a id="a1609e98161995d91d44781a3fa92d3a5" name="a1609e98161995d91d44781a3fa92d3a5"></a>
+class UInputAction *&#160;</td><td class="memItemRight" valign="bottom"><b>IA_Dev_Debug_PlusHeight</b></td></tr>
+<tr class="separator:a1609e98161995d91d44781a3fa92d3a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace2e6e30e5453ca0f572e0a0b03558c1"><td class="memItemLeft" align="right" valign="top"><a id="ace2e6e30e5453ca0f572e0a0b03558c1" name="ace2e6e30e5453ca0f572e0a0b03558c1"></a>
+class UInputAction *&#160;</td><td class="memItemRight" valign="bottom"><b>IA_Dev_Debug_WidgetInteraction</b></td></tr>
+<tr class="separator:ace2e6e30e5453ca0f572e0a0b03558c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Player class. </p>
@@ -634,8 +741,8 @@ USoundCue *&#160;</td><td class="memItemRight" valign="bottom"><b>Voice_SoundCue
 
 </div>
 </div>
-<a id="ab7ec14c82fa815325fc5e69637870a8f" name="ab7ec14c82fa815325fc5e69637870a8f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab7ec14c82fa815325fc5e69637870a8f">&#9670;&#160;</a></span>LeftTriggerAxis()</h2>
+<a id="a69820a2d714809800ca2cdf5da1df921" name="a69820a2d714809800ca2cdf5da1df921"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69820a2d714809800ca2cdf5da1df921">&#9670;&#160;</a></span>LeftTriggerAxis()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -643,7 +750,7 @@ USoundCue *&#160;</td><td class="memItemRight" valign="bottom"><b>Voice_SoundCue
         <tr>
           <td class="memname">void AVR_Player::LeftTriggerAxis </td>
           <td>(</td>
-          <td class="paramtype">float&#160;</td>
+          <td class="paramtype">const FInputActionValue &amp;&#160;</td>
           <td class="paramname"><em>Value</em></td><td>)</td>
           <td></td>
         </tr>
@@ -659,8 +766,8 @@ USoundCue *&#160;</td><td class="memItemRight" valign="bottom"><b>Voice_SoundCue
 
 </div>
 </div>
-<a id="a09c49c2340dea36b74216fb1b9f06d6d" name="a09c49c2340dea36b74216fb1b9f06d6d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a09c49c2340dea36b74216fb1b9f06d6d">&#9670;&#160;</a></span>LookUpAtRate()</h2>
+<a id="aff3a8a334f4e3365d6ee6c1d0644f1ab" name="aff3a8a334f4e3365d6ee6c1d0644f1ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff3a8a334f4e3365d6ee6c1d0644f1ab">&#9670;&#160;</a></span>LookUpAtRate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -668,8 +775,8 @@ USoundCue *&#160;</td><td class="memItemRight" valign="bottom"><b>Voice_SoundCue
         <tr>
           <td class="memname">void AVR_Player::LookUpAtRate </td>
           <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>Rate</em></td><td>)</td>
+          <td class="paramtype">const FInputActionValue &amp;&#160;</td>
+          <td class="paramname"><em>Value</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -784,8 +891,8 @@ USoundCue *&#160;</td><td class="memItemRight" valign="bottom"><b>Voice_SoundCue
 
 </div>
 </div>
-<a id="a59e12e2eb7d51563918e10a6568e8a05" name="a59e12e2eb7d51563918e10a6568e8a05"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a59e12e2eb7d51563918e10a6568e8a05">&#9670;&#160;</a></span>RightTriggerAxis()</h2>
+<a id="a2f25b818460ac299fff51f8a0ecd9710" name="a2f25b818460ac299fff51f8a0ecd9710"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f25b818460ac299fff51f8a0ecd9710">&#9670;&#160;</a></span>RightTriggerAxis()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -793,7 +900,7 @@ USoundCue *&#160;</td><td class="memItemRight" valign="bottom"><b>Voice_SoundCue
         <tr>
           <td class="memname">void AVR_Player::RightTriggerAxis </td>
           <td>(</td>
-          <td class="paramtype">float&#160;</td>
+          <td class="paramtype">const FInputActionValue &amp;&#160;</td>
           <td class="paramname"><em>Value</em></td><td>)</td>
           <td></td>
         </tr>
@@ -889,8 +996,8 @@ USoundCue *&#160;</td><td class="memItemRight" valign="bottom"><b>Voice_SoundCue
 
 </div>
 </div>
-<a id="a74bfc2a493d17897707e37ce2e0b6528" name="a74bfc2a493d17897707e37ce2e0b6528"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a74bfc2a493d17897707e37ce2e0b6528">&#9670;&#160;</a></span>TurnAtRate()</h2>
+<a id="a07d4e2c6ec8a58e37c55483eabb587af" name="a07d4e2c6ec8a58e37c55483eabb587af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07d4e2c6ec8a58e37c55483eabb587af">&#9670;&#160;</a></span>TurnAtRate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -898,8 +1005,8 @@ USoundCue *&#160;</td><td class="memItemRight" valign="bottom"><b>Voice_SoundCue
         <tr>
           <td class="memname">void AVR_Player::TurnAtRate </td>
           <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>Rate</em></td><td>)</td>
+          <td class="paramtype">const FInputActionValue &amp;&#160;</td>
+          <td class="paramname"><em>Value</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -959,8 +1066,8 @@ USoundCue *&#160;</td><td class="memItemRight" valign="bottom"><b>Voice_SoundCue
 
 </div>
 </div>
-<a id="a7f591251185499d246cf5461a6fc3000" name="a7f591251185499d246cf5461a6fc3000"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f591251185499d246cf5461a6fc3000">&#9670;&#160;</a></span>UpdateMovment()</h2>
+<a id="a82c2b373aaeb3a0ff89e97ebbc2bb801" name="a82c2b373aaeb3a0ff89e97ebbc2bb801"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82c2b373aaeb3a0ff89e97ebbc2bb801">&#9670;&#160;</a></span>UpdateMovment()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -968,31 +1075,9 @@ USoundCue *&#160;</td><td class="memItemRight" valign="bottom"><b>Voice_SoundCue
         <tr>
           <td class="memname">void AVR_Player::UpdateMovment </td>
           <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>Value_Y</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">const FInputActionValue &amp;&#160;</td>
+          <td class="paramname"><em>Value</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>Value_X</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">FVector&#160;</td>
-          <td class="paramname"><em>DevicePosition</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">FRotator&#160;</td>
-          <td class="paramname"><em>DeviceRotation</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1044,6 +1129,30 @@ USoundCue *&#160;</td><td class="memItemRight" valign="bottom"><b>Voice_SoundCue
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="af195505515577b0c30bf65115b7fd75e" name="af195505515577b0c30bf65115b7fd75e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af195505515577b0c30bf65115b7fd75e">&#9670;&#160;</a></span>DefaultMappingContext</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">class UInputMappingContext* AVR_Player::DefaultMappingContext</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>MappingContext </p>
 
 </div>
 </div>

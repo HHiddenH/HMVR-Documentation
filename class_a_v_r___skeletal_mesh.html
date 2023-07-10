@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="icon_otline.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Head Mounted VR<span id="projectnumber">&#160;1.1</span>
+   <div id="projectname">Head Mounted VR<span id="projectnumber">&#160;1.5</span>
    </div>
   </td>
  </tr>
@@ -226,6 +226,12 @@ FORCEINLINE bool&#160;</td><td class="memItemRight" valign="bottom"><b>GetCanNPC
 <tr class="memitem:a299c84660cbf28d505b2646246c1fb39"><td class="memItemLeft" align="right" valign="top"><a id="a299c84660cbf28d505b2646246c1fb39" name="a299c84660cbf28d505b2646246c1fb39"></a>
 FORCEINLINE bool&#160;</td><td class="memItemRight" valign="bottom"><b>CanBothHandsGrab</b> () const</td></tr>
 <tr class="separator:a299c84660cbf28d505b2646246c1fb39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3864d6131e788fa8d9ba77e84ceb177"><td class="memItemLeft" align="right" valign="top"><a id="ab3864d6131e788fa8d9ba77e84ceb177" name="ab3864d6131e788fa8d9ba77e84ceb177"></a>
+FORCEINLINE FName&#160;</td><td class="memItemRight" valign="bottom"><b>GetLeftHandSocketName</b> () const</td></tr>
+<tr class="separator:ab3864d6131e788fa8d9ba77e84ceb177"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a533eadcab2b3cc4ecf36dd7e47dc9497"><td class="memItemLeft" align="right" valign="top"><a id="a533eadcab2b3cc4ecf36dd7e47dc9497" name="a533eadcab2b3cc4ecf36dd7e47dc9497"></a>
+FORCEINLINE FName&#160;</td><td class="memItemRight" valign="bottom"><b>GetRightHandSocketName</b> () const</td></tr>
+<tr class="separator:a533eadcab2b3cc4ecf36dd7e47dc9497"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2d3611ac98542d476240c19d756b6f6"><td class="memItemLeft" align="right" valign="top"><a id="ab2d3611ac98542d476240c19d756b6f6" name="ab2d3611ac98542d476240c19d756b6f6"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnCollisionOverlapBegin</b> (class UPrimitiveComponent *OverlappedComp, class AActor *OtherActor, class UPrimitiveComponent *OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult &amp;SweepResult)</td></tr>
 <tr class="memdesc:ab2d3611ac98542d476240c19d756b6f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">On Collision Overlap Begin. <br /></td></tr>
@@ -292,6 +298,9 @@ class UPhysicsConstraintComponent *&#160;</td><td class="memItemRight" valign="b
 <tr class="memitem:a0569687ab405daa0e8d47b9de25e2166"><td class="memItemLeft" align="right" valign="top"><a id="a0569687ab405daa0e8d47b9de25e2166" name="a0569687ab405daa0e8d47b9de25e2166"></a>
 class USkeletalMeshComponent *&#160;</td><td class="memItemRight" valign="bottom"><b>P_HandMesh</b></td></tr>
 <tr class="separator:a0569687ab405daa0e8d47b9de25e2166"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed4ccd63c9b42289ed1d66bb2f3f7bc6"><td class="memItemLeft" align="right" valign="top"><a id="aed4ccd63c9b42289ed1d66bb2f3f7bc6" name="aed4ccd63c9b42289ed1d66bb2f3f7bc6"></a>
+class USphereComponent *&#160;</td><td class="memItemRight" valign="bottom"><b>P_PhysicsHandSocket</b></td></tr>
+<tr class="separator:aed4ccd63c9b42289ed1d66bb2f3f7bc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -332,6 +341,12 @@ FName&#160;</td><td class="memItemRight" valign="bottom"><b>SocketName</b></td><
 <tr class="memitem:a2b109ea04845a1a479d626c5cd4d8dd0"><td class="memItemLeft" align="right" valign="top"><a id="a2b109ea04845a1a479d626c5cd4d8dd0" name="a2b109ea04845a1a479d626c5cd4d8dd0"></a>
 TArray&lt; FName &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>SocketArray</b></td></tr>
 <tr class="separator:a2b109ea04845a1a479d626c5cd4d8dd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae88c12a22270e43e7087bacafc370d6c"><td class="memItemLeft" align="right" valign="top"><a id="ae88c12a22270e43e7087bacafc370d6c" name="ae88c12a22270e43e7087bacafc370d6c"></a>
+FName&#160;</td><td class="memItemRight" valign="bottom"><b>LeftHandSocketName</b></td></tr>
+<tr class="separator:ae88c12a22270e43e7087bacafc370d6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac9b239fc1ab2ab5128f42fbdf92a6dc"><td class="memItemLeft" align="right" valign="top"><a id="aac9b239fc1ab2ab5128f42fbdf92a6dc" name="aac9b239fc1ab2ab5128f42fbdf92a6dc"></a>
+FName&#160;</td><td class="memItemRight" valign="bottom"><b>RightHandSocketName</b></td></tr>
+<tr class="separator:aac9b239fc1ab2ab5128f42fbdf92a6dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a333a81639d8d2485b7f606a8538f4fa8"><td class="memItemLeft" align="right" valign="top"><a id="a333a81639d8d2485b7f606a8538f4fa8" name="a333a81639d8d2485b7f606a8538f4fa8"></a>
 TArray&lt; UAnimSequence * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>PickUpAnimationArray</b></td></tr>
 <tr class="separator:a333a81639d8d2485b7f606a8538f4fa8"><td class="memSeparator" colspan="2">&#160;</td></tr>

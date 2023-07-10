@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="icon_otline.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Head Mounted VR<span id="projectnumber">&#160;1.1</span>
+   <div id="projectname">Head Mounted VR<span id="projectnumber">&#160;1.5</span>
    </div>
   </td>
  </tr>
@@ -125,12 +125,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a21ab1d7754f3f83ee9c4f3333f622f5d"><td class="memItemLeft" align="right" valign="top"><a id="a21ab1d7754f3f83ee9c4f3333f622f5d" name="a21ab1d7754f3f83ee9c4f3333f622f5d"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>A_Press</b> ()</td></tr>
 <tr class="separator:a21ab1d7754f3f83ee9c4f3333f622f5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a122b0c25a76d7481e240307f7e2bd833"><td class="memItemLeft" align="right" valign="top"><a id="a122b0c25a76d7481e240307f7e2bd833" name="a122b0c25a76d7481e240307f7e2bd833"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>DoOnAPressed</b> ()</td></tr>
+<tr class="separator:a122b0c25a76d7481e240307f7e2bd833"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8d024e3644624f2557678e51e06560e"><td class="memItemLeft" align="right" valign="top"><a id="ab8d024e3644624f2557678e51e06560e" name="ab8d024e3644624f2557678e51e06560e"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>B_Press</b> ()</td></tr>
 <tr class="separator:ab8d024e3644624f2557678e51e06560e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81cbb8c7477b23739b5c323bab5a5837"><td class="memItemLeft" align="right" valign="top"><a id="a81cbb8c7477b23739b5c323bab5a5837" name="a81cbb8c7477b23739b5c323bab5a5837"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>DoOnBPressed</b> ()</td></tr>
+<tr class="separator:a81cbb8c7477b23739b5c323bab5a5837"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a237859ccca4f522e0765265c04cb30ec"><td class="memItemLeft" align="right" valign="top"><a id="a237859ccca4f522e0765265c04cb30ec" name="a237859ccca4f522e0765265c04cb30ec"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Trigger_Press</b> ()</td></tr>
 <tr class="separator:a237859ccca4f522e0765265c04cb30ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f572d1b47544f40383e066385a77c25"><td class="memItemLeft" align="right" valign="top"><a id="a2f572d1b47544f40383e066385a77c25" name="a2f572d1b47544f40383e066385a77c25"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>DoOnTriggerPressed</b> ()</td></tr>
+<tr class="separator:a2f572d1b47544f40383e066385a77c25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9402c8fdce7a25d6eba8cfde46741e4a"><td class="memItemLeft" align="right" valign="top"><a id="a9402c8fdce7a25d6eba8cfde46741e4a" name="a9402c8fdce7a25d6eba8cfde46741e4a"></a>
 FORCEINLINE float&#160;</td><td class="memItemRight" valign="bottom"><b>GetTurned</b> () const</td></tr>
 <tr class="separator:a9402c8fdce7a25d6eba8cfde46741e4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -250,6 +259,12 @@ FORCEINLINE bool&#160;</td><td class="memItemRight" valign="bottom"><b>GetCanNPC
 <tr class="memitem:a299c84660cbf28d505b2646246c1fb39 inherit pub_methods_class_a_v_r___skeletal_mesh"><td class="memItemLeft" align="right" valign="top"><a id="a299c84660cbf28d505b2646246c1fb39" name="a299c84660cbf28d505b2646246c1fb39"></a>
 FORCEINLINE bool&#160;</td><td class="memItemRight" valign="bottom"><b>CanBothHandsGrab</b> () const</td></tr>
 <tr class="separator:a299c84660cbf28d505b2646246c1fb39 inherit pub_methods_class_a_v_r___skeletal_mesh"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3864d6131e788fa8d9ba77e84ceb177 inherit pub_methods_class_a_v_r___skeletal_mesh"><td class="memItemLeft" align="right" valign="top"><a id="ab3864d6131e788fa8d9ba77e84ceb177" name="ab3864d6131e788fa8d9ba77e84ceb177"></a>
+FORCEINLINE FName&#160;</td><td class="memItemRight" valign="bottom"><b>GetLeftHandSocketName</b> () const</td></tr>
+<tr class="separator:ab3864d6131e788fa8d9ba77e84ceb177 inherit pub_methods_class_a_v_r___skeletal_mesh"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a533eadcab2b3cc4ecf36dd7e47dc9497 inherit pub_methods_class_a_v_r___skeletal_mesh"><td class="memItemLeft" align="right" valign="top"><a id="a533eadcab2b3cc4ecf36dd7e47dc9497" name="a533eadcab2b3cc4ecf36dd7e47dc9497"></a>
+FORCEINLINE FName&#160;</td><td class="memItemRight" valign="bottom"><b>GetRightHandSocketName</b> () const</td></tr>
+<tr class="separator:a533eadcab2b3cc4ecf36dd7e47dc9497 inherit pub_methods_class_a_v_r___skeletal_mesh"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2d3611ac98542d476240c19d756b6f6 inherit pub_methods_class_a_v_r___skeletal_mesh"><td class="memItemLeft" align="right" valign="top"><a id="ab2d3611ac98542d476240c19d756b6f6" name="ab2d3611ac98542d476240c19d756b6f6"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnCollisionOverlapBegin</b> (class UPrimitiveComponent *OverlappedComp, class AActor *OtherActor, class UPrimitiveComponent *OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult &amp;SweepResult)</td></tr>
 <tr class="memdesc:ab2d3611ac98542d476240c19d756b6f6 inherit pub_methods_class_a_v_r___skeletal_mesh"><td class="mdescLeft">&#160;</td><td class="mdescRight">On Collision Overlap Begin. <br /></td></tr>
@@ -345,6 +360,12 @@ FName&#160;</td><td class="memItemRight" valign="bottom"><b>SocketName</b></td><
 <tr class="memitem:a2b109ea04845a1a479d626c5cd4d8dd0 inherit pro_attribs_class_a_v_r___skeletal_mesh"><td class="memItemLeft" align="right" valign="top"><a id="a2b109ea04845a1a479d626c5cd4d8dd0" name="a2b109ea04845a1a479d626c5cd4d8dd0"></a>
 TArray&lt; FName &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>SocketArray</b></td></tr>
 <tr class="separator:a2b109ea04845a1a479d626c5cd4d8dd0 inherit pro_attribs_class_a_v_r___skeletal_mesh"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae88c12a22270e43e7087bacafc370d6c inherit pro_attribs_class_a_v_r___skeletal_mesh"><td class="memItemLeft" align="right" valign="top"><a id="ae88c12a22270e43e7087bacafc370d6c" name="ae88c12a22270e43e7087bacafc370d6c"></a>
+FName&#160;</td><td class="memItemRight" valign="bottom"><b>LeftHandSocketName</b></td></tr>
+<tr class="separator:ae88c12a22270e43e7087bacafc370d6c inherit pro_attribs_class_a_v_r___skeletal_mesh"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac9b239fc1ab2ab5128f42fbdf92a6dc inherit pro_attribs_class_a_v_r___skeletal_mesh"><td class="memItemLeft" align="right" valign="top"><a id="aac9b239fc1ab2ab5128f42fbdf92a6dc" name="aac9b239fc1ab2ab5128f42fbdf92a6dc"></a>
+FName&#160;</td><td class="memItemRight" valign="bottom"><b>RightHandSocketName</b></td></tr>
+<tr class="separator:aac9b239fc1ab2ab5128f42fbdf92a6dc inherit pro_attribs_class_a_v_r___skeletal_mesh"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a333a81639d8d2485b7f606a8538f4fa8 inherit pro_attribs_class_a_v_r___skeletal_mesh"><td class="memItemLeft" align="right" valign="top"><a id="a333a81639d8d2485b7f606a8538f4fa8" name="a333a81639d8d2485b7f606a8538f4fa8"></a>
 TArray&lt; UAnimSequence * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>PickUpAnimationArray</b></td></tr>
 <tr class="separator:a333a81639d8d2485b7f606a8538f4fa8 inherit pro_attribs_class_a_v_r___skeletal_mesh"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -389,6 +410,9 @@ class UPhysicsConstraintComponent *&#160;</td><td class="memItemRight" valign="b
 <tr class="memitem:a0569687ab405daa0e8d47b9de25e2166 inherit pub_attribs_class_a_v_r___skeletal_mesh"><td class="memItemLeft" align="right" valign="top"><a id="a0569687ab405daa0e8d47b9de25e2166" name="a0569687ab405daa0e8d47b9de25e2166"></a>
 class USkeletalMeshComponent *&#160;</td><td class="memItemRight" valign="bottom"><b>P_HandMesh</b></td></tr>
 <tr class="separator:a0569687ab405daa0e8d47b9de25e2166 inherit pub_attribs_class_a_v_r___skeletal_mesh"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed4ccd63c9b42289ed1d66bb2f3f7bc6 inherit pub_attribs_class_a_v_r___skeletal_mesh"><td class="memItemLeft" align="right" valign="top"><a id="aed4ccd63c9b42289ed1d66bb2f3f7bc6" name="aed4ccd63c9b42289ed1d66bb2f3f7bc6"></a>
+class USphereComponent *&#160;</td><td class="memItemRight" valign="bottom"><b>P_PhysicsHandSocket</b></td></tr>
+<tr class="separator:aed4ccd63c9b42289ed1d66bb2f3f7bc6 inherit pub_attribs_class_a_v_r___skeletal_mesh"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Player can interact with this class after grab. (Pressing the following buttons: trigger button, A button and B button) </p>

@@ -25,10 +25,6 @@
 var NAVTREE =
 [
   [ "Head Mounted VR", "index.html", [
-    [ "Introduction", "md__pages__introduction.html", null ],
-    [ "Start Guide", "md__pages__start_guide.html", null ],
-    [ "Known Issues", "md__pages__known_issues.html", null ],
-    [ "Standard Switcher", "md__pages__build_for_p_c_and_android.html", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
@@ -48,7 +44,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_head_mounted_editor_8h_source.html",
-"class_a_v_r___player.html#acd9b6c95676d13febb9acdae3b2642eb"
+"class_a_v_r___player.html#ad2de737581274c3e8fce8a6d1715df59"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

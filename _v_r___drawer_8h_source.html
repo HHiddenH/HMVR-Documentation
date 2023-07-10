@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="icon_otline.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Head Mounted VR<span id="projectnumber">&#160;1.1</span>
+   <div id="projectname">Head Mounted VR<span id="projectnumber">&#160;1.5</span>
    </div>
   </td>
  </tr>
@@ -142,7 +142,7 @@ $(document).ready(function(){initNavTree('_v_r___drawer_8h_source.html',''); ini
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <span class="keyword">virtual</span> <span class="keywordtype">bool</span> UseUnlockedRotation_Implementation();</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    UFUNCTION(BlueprintCallable, Category = <span class="stringliteral">&quot;Function|Set&quot;</span>)</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>        <span class="keywordtype">void</span> SetAutoclose(<span class="keywordtype">bool</span> auto_close);                 </div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>        <span class="keywordtype">void</span> SetAutoClose(<span class="keywordtype">bool</span> auto_close);                 </div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    UFUNCTION(BlueprintCallable, Category = <span class="stringliteral">&quot;Function|Set&quot;</span>)</div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>        <span class="keywordtype">void</span> SetLengthLimit(<span class="keywordtype">float</span> Length);                  </div>
@@ -160,7 +160,7 @@ $(document).ready(function(){initNavTree('_v_r___drawer_8h_source.html',''); ini
 <div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>        FORCEINLINE <span class="keywordtype">float</span> GetLenghtLimit()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> slide_Limit; }</div>
 <div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span> </div>
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    UFUNCTION(BlueprintCallable, Category = <span class="stringliteral">&quot;Object|Model&quot;</span>)</div>
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno"><a class="line" href="class_a_v_r___drawer.html#a30553c990bf2311b51c229c14251a871">   96</a></span>        FORCEINLINE UAnimMontage* GetInteractionAnimation()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> InteractionAnimation; }</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno"><a class="line" href="class_a_v_r___drawer.html#ac3479171089fc4b85aeeeb9756c9152c">   96</a></span>        FORCEINLINE UAnimSequence* GetInteractionAnimation()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> InteractionAnimation; }</div>
 <div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span> </div>
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>    <span class="comment">//Overlap Functions</span></div>
 <div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span> </div>
@@ -193,28 +193,25 @@ $(document).ready(function(){initNavTree('_v_r___drawer_8h_source.html',''); ini
 <div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span> </div>
 <div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>    UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = &quot;Drawer settings&quot;, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
 <div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>        class AStaticMeshActor* ParentActor;</div>
-<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span> </div>
-<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>    UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = &quot;Drawer settings&quot;, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
-<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>        class <a class="code hl_class" href="class_a_v_r___hands.html">AVR_Hands</a>* P_MotionController;</div>
-<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span> </div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span>        class <a class="code hl_class" href="class_a_v_r___hands.html">AVR_Hands</a>* P_MotionController;</div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span> </div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>    UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = &quot;Drawer settings&quot;, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span>        TArray&lt;AStaticMeshActor*&gt; ActorsToIgnore;</div>
 <div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span> </div>
-<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span>    UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = &quot;Drawer settings&quot;, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
-<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span>        TArray&lt;AStaticMeshActor*&gt; ActorsToIgnore;</div>
+<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span>    UPROPERTY(EditAnywhere, Category = &quot;Drawer settings&quot;, meta = (EditCondition = &quot;Has_handle == true&quot;, EditConditionHides))</div>
+<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span>        UAnimSequence* InteractionAnimation;</div>
 <div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span> </div>
-<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>    UPROPERTY(EditAnywhere, Category = &quot;Door interaction settings&quot;, meta = (EditCondition = &quot;Has_handle == true&quot;, EditConditionHides))</div>
-<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>        UAnimMontage* InteractionAnimation;</div>
-<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span> </div>
-<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>    FName LastAttachedTo;</div>
-<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span> </div>
-<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>    class AActor* OverlapActor1;</div>
-<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>    class <a class="code hl_class" href="class_a_v_r___hands.html">AVR_Hands</a>* MCOverlapActor1;</div>
-<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>    class AActor* OverlapActor2;</div>
-<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>    class <a class="code hl_class" href="class_a_v_r___hands.html">AVR_Hands</a>* MCOverlapActor2;</div>
-<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span> </div>
-<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span>};</div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>    FName LastAttachedTo;</div>
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span> </div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>    class AActor* OverlapActor1;</div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>    class <a class="code hl_class" href="class_a_v_r___hands.html">AVR_Hands</a>* MCOverlapActor1;</div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span>    class AActor* OverlapActor2;</div>
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>    class <a class="code hl_class" href="class_a_v_r___hands.html">AVR_Hands</a>* MCOverlapActor2;</div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span> </div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>};</div>
 <div class="ttc" id="aclass_a_v_r___actor_html"><div class="ttname"><a href="class_a_v_r___actor.html">AVR_Actor</a></div><div class="ttdoc">VR Actor.</div><div class="ttdef"><b>Definition:</b> VR_Actor.h:16</div></div>
 <div class="ttc" id="aclass_a_v_r___drawer_html"><div class="ttname"><a href="class_a_v_r___drawer.html">AVR_Drawer</a></div><div class="ttdoc">This is a physic drawer class which can interact with AVR_Hands.</div><div class="ttdef"><b>Definition:</b> VR_Drawer.h:19</div></div>
-<div class="ttc" id="aclass_a_v_r___hands_html"><div class="ttname"><a href="class_a_v_r___hands.html">AVR_Hands</a></div><div class="ttdoc">Hand class.</div><div class="ttdef"><b>Definition:</b> VR_Hands.h:41</div></div>
+<div class="ttc" id="aclass_a_v_r___hands_html"><div class="ttname"><a href="class_a_v_r___hands.html">AVR_Hands</a></div><div class="ttdoc">Hand class.</div><div class="ttdef"><b>Definition:</b> VR_Hands.h:42</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

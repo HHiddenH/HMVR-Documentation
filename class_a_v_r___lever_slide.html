@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="icon_otline.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Head Mounted VR<span id="projectnumber">&#160;1.1</span>
+   <div id="projectname">Head Mounted VR<span id="projectnumber">&#160;1.5</span>
    </div>
   </td>
  </tr>
@@ -140,16 +140,16 @@ FORCEINLINE EAnimationType&#160;</td><td class="memItemRight" valign="bottom"><b
 void&#160;</td><td class="memItemRight" valign="bottom"><b>FindNearestSocket</b> (USkeletalMeshComponent *HandMesh, FName &amp;Socket_Name)</td></tr>
 <tr class="memdesc:a6c63f7c851b70120c5f406652ffd4834 inherit pub_methods_class_a_v_r___lever_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds nearest socket to the hand on lever mesh. <br /></td></tr>
 <tr class="separator:a6c63f7c851b70120c5f406652ffd4834 inherit pub_methods_class_a_v_r___lever_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a075f86b12160a61efe04d389cf75d185 inherit pub_methods_class_a_v_r___lever_base"><td class="memItemLeft" align="right" valign="top"><a id="a075f86b12160a61efe04d389cf75d185" name="a075f86b12160a61efe04d389cf75d185"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>AttachToSocket</b> (USkeletalMeshComponent *HandMesh, UPhysicsConstraintComponent *PhysicsConstraint, FName <a class="el" href="class_a_v_r___lever_base.html#a04e7a4b533d0aef1bb6cb2960918dad0">SocketName</a>, EControllerHand Hand, FName AttachToSocket=NAME_None)</td></tr>
-<tr class="memdesc:a075f86b12160a61efe04d389cf75d185 inherit pub_methods_class_a_v_r___lever_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attaches hand messh to the lever using physics constraint only. Supported grab methods: PhysicsAnimated PhysicsAnimatedNearSocket AnimatedAndIK. <br /></td></tr>
-<tr class="separator:a075f86b12160a61efe04d389cf75d185 inherit pub_methods_class_a_v_r___lever_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfca1e0fb454e5fa963baf0d40c038a5 inherit pub_methods_class_a_v_r___lever_base"><td class="memItemLeft" align="right" valign="top"><a id="abfca1e0fb454e5fa963baf0d40c038a5" name="abfca1e0fb454e5fa963baf0d40c038a5"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>AttachToSocket</b> (<a class="el" href="class_a_v_r___hands.html">AVR_Hands</a> *MotionController, FName <a class="el" href="class_a_v_r___lever_base.html#a04e7a4b533d0aef1bb6cb2960918dad0">SocketName</a>)</td></tr>
+<tr class="memdesc:abfca1e0fb454e5fa963baf0d40c038a5 inherit pub_methods_class_a_v_r___lever_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attaches hand messh to the lever using physics constraint only. Supported grab methods: PhysicsAnimated PhysicsAnimatedNearSocket AnimatedAndIK. <br /></td></tr>
+<tr class="separator:abfca1e0fb454e5fa963baf0d40c038a5 inherit pub_methods_class_a_v_r___lever_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42949b2bbd10ab58ed144101087bef8e inherit pub_methods_class_a_v_r___lever_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___lever_base.html#a42949b2bbd10ab58ed144101087bef8e">CheckEAnimationType</a> (USkeletalMeshComponent *HandMesh)</td></tr>
 <tr class="memdesc:a42949b2bbd10ab58ed144101087bef8e inherit pub_methods_class_a_v_r___lever_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used only in AnimatedAndIK grab method. Checks what method to use. If fSocketInRadius &gt; distance between hand and nearest socket, it will chose IK. In another case it will chose animated option.  <br /></td></tr>
 <tr class="separator:a42949b2bbd10ab58ed144101087bef8e inherit pub_methods_class_a_v_r___lever_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a087affdda92d53f3fd9c0ac1a3e8f5a2 inherit pub_methods_class_a_v_r___lever_base"><td class="memItemLeft" align="right" valign="top"><a id="a087affdda92d53f3fd9c0ac1a3e8f5a2" name="a087affdda92d53f3fd9c0ac1a3e8f5a2"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>AttachAnimated</b> (USkeletalMeshComponent *HandMesh, UPhysicsConstraintComponent *PhysicsConstrain, EControllerHand Hand)</td></tr>
-<tr class="separator:a087affdda92d53f3fd9c0ac1a3e8f5a2 inherit pub_methods_class_a_v_r___lever_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a716ea2f7844bbf9839cca70143552506 inherit pub_methods_class_a_v_r___lever_base"><td class="memItemLeft" align="right" valign="top"><a id="a716ea2f7844bbf9839cca70143552506" name="a716ea2f7844bbf9839cca70143552506"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>AttachAnimated</b> (<a class="el" href="class_a_v_r___hands.html">AVR_Hands</a> *MotionController)</td></tr>
+<tr class="separator:a716ea2f7844bbf9839cca70143552506 inherit pub_methods_class_a_v_r___lever_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b9957a2fd832cddb0c086a342cccd68 inherit pub_methods_class_a_v_r___lever_base"><td class="memItemLeft" align="right" valign="top">FORCEINLINE EGrabMethod&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___lever_base.html#a0b9957a2fd832cddb0c086a342cccd68">GetGrabMethod</a> () const</td></tr>
 <tr class="memdesc:a0b9957a2fd832cddb0c086a342cccd68 inherit pub_methods_class_a_v_r___lever_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get Grab Method.  <br /></td></tr>
 <tr class="separator:a0b9957a2fd832cddb0c086a342cccd68 inherit pub_methods_class_a_v_r___lever_base"><td class="memSeparator" colspan="2">&#160;</td></tr>

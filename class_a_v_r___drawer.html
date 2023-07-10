@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="icon_otline.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Head Mounted VR<span id="projectnumber">&#160;1.1</span>
+   <div id="projectname">Head Mounted VR<span id="projectnumber">&#160;1.5</span>
    </div>
   </td>
  </tr>
@@ -135,9 +135,9 @@ virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>UseUnlockedMo
 <tr class="memitem:a2fe96dc34494118fa0b5ce2424ebdc5b"><td class="memItemLeft" align="right" valign="top"><a id="a2fe96dc34494118fa0b5ce2424ebdc5b" name="a2fe96dc34494118fa0b5ce2424ebdc5b"></a>
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>UseUnlockedRotation_Implementation</b> ()</td></tr>
 <tr class="separator:a2fe96dc34494118fa0b5ce2424ebdc5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43909b64651906dc433d191791a5295c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___drawer.html#a43909b64651906dc433d191791a5295c">SetAutoclose</a> (bool auto_close)</td></tr>
-<tr class="memdesc:a43909b64651906dc433d191791a5295c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets auto close door status.  <br /></td></tr>
-<tr class="separator:a43909b64651906dc433d191791a5295c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae90620702041dd1bc9932e4ad5b81769"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___drawer.html#ae90620702041dd1bc9932e4ad5b81769">SetAutoClose</a> (bool auto_close)</td></tr>
+<tr class="memdesc:ae90620702041dd1bc9932e4ad5b81769"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets auto close drawer status.  <br /></td></tr>
+<tr class="separator:ae90620702041dd1bc9932e4ad5b81769"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a8aecb099c92e330405310af2adc773"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___drawer.html#a0a8aecb099c92e330405310af2adc773">SetLengthLimit</a> (float Length)</td></tr>
 <tr class="memdesc:a0a8aecb099c92e330405310af2adc773"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets slide length limit.  <br /></td></tr>
 <tr class="separator:a0a8aecb099c92e330405310af2adc773"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -154,9 +154,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>ClearActorsToIgnore</
 <tr class="memitem:ae639ed0ee618e1d08c1b31394d0d5a6d"><td class="memItemLeft" align="right" valign="top"><a id="ae639ed0ee618e1d08c1b31394d0d5a6d" name="ae639ed0ee618e1d08c1b31394d0d5a6d"></a>
 FORCEINLINE float&#160;</td><td class="memItemRight" valign="bottom"><b>GetLenghtLimit</b> () const</td></tr>
 <tr class="separator:ae639ed0ee618e1d08c1b31394d0d5a6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30553c990bf2311b51c229c14251a871"><td class="memItemLeft" align="right" valign="top">FORCEINLINE UAnimMontage *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___drawer.html#a30553c990bf2311b51c229c14251a871">GetInteractionAnimation</a> () const</td></tr>
-<tr class="memdesc:a30553c990bf2311b51c229c14251a871"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get PickUp Animations.  <br /></td></tr>
-<tr class="separator:a30553c990bf2311b51c229c14251a871"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3479171089fc4b85aeeeb9756c9152c"><td class="memItemLeft" align="right" valign="top">FORCEINLINE UAnimSequence *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___drawer.html#ac3479171089fc4b85aeeeb9756c9152c">GetInteractionAnimation</a> () const</td></tr>
+<tr class="memdesc:ac3479171089fc4b85aeeeb9756c9152c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get PickUp Animations.  <br /></td></tr>
+<tr class="separator:ac3479171089fc4b85aeeeb9756c9152c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad60fbbcc0d12e756854eb4f48daa27ea"><td class="memItemLeft" align="right" valign="top"><a id="ad60fbbcc0d12e756854eb4f48daa27ea" name="ad60fbbcc0d12e756854eb4f48daa27ea"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>OnHandleBeginOverlap</b> (class UPrimitiveComponent *OverlappedComp, AActor *OtherActor, class UPrimitiveComponent *OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult &amp;SweepResult)</td></tr>
 <tr class="separator:ad60fbbcc0d12e756854eb4f48daa27ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -281,8 +281,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>bIsColliding</b> = fa
 
 </div>
 </div>
-<a id="a30553c990bf2311b51c229c14251a871" name="a30553c990bf2311b51c229c14251a871"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a30553c990bf2311b51c229c14251a871">&#9670;&#160;</a></span>GetInteractionAnimation()</h2>
+<a id="ac3479171089fc4b85aeeeb9756c9152c" name="ac3479171089fc4b85aeeeb9756c9152c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3479171089fc4b85aeeeb9756c9152c">&#9670;&#160;</a></span>GetInteractionAnimation()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -291,7 +291,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>bIsColliding</b> = fa
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">FORCEINLINE UAnimMontage * AVR_Drawer::GetInteractionAnimation </td>
+          <td class="memname">FORCEINLINE UAnimSequence * AVR_Drawer::GetInteractionAnimation </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -310,14 +310,14 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>bIsColliding</b> = fa
 
 </div>
 </div>
-<a id="a43909b64651906dc433d191791a5295c" name="a43909b64651906dc433d191791a5295c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a43909b64651906dc433d191791a5295c">&#9670;&#160;</a></span>SetAutoclose()</h2>
+<a id="ae90620702041dd1bc9932e4ad5b81769" name="ae90620702041dd1bc9932e4ad5b81769"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae90620702041dd1bc9932e4ad5b81769">&#9670;&#160;</a></span>SetAutoClose()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AVR_Drawer::SetAutoclose </td>
+          <td class="memname">void AVR_Drawer::SetAutoClose </td>
           <td>(</td>
           <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>auto_close</em></td><td>)</td>
@@ -326,7 +326,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>bIsColliding</b> = fa
       </table>
 </div><div class="memdoc">
 
-<p>Sets auto close door status. </p>
+<p>Sets auto close drawer status. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">auto_close</td><td></td></tr>

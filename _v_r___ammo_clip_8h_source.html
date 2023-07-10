@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="icon_otline.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Head Mounted VR<span id="projectnumber">&#160;1.1</span>
+   <div id="projectname">Head Mounted VR<span id="projectnumber">&#160;1.5</span>
    </div>
   </td>
  </tr>
@@ -125,7 +125,7 @@ $(document).ready(function(){initNavTree('_v_r___ammo_clip_8h_source.html',''); 
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        uint8 GetAmmo();</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="comment">//amount of Ammo</span></div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = <span class="stringliteral">&quot;Variables&quot;</span>, meta = (AllowPrivateAccess = <span class="stringliteral">&quot;true&quot;</span>))</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = <span class="stringliteral">&quot;Settings&quot;</span>, meta = (AllowPrivateAccess = <span class="stringliteral">&quot;true&quot;</span>))</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>        uint8 Ammo;</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    UFUNCTION(BlueprintCallable, Category = <span class="stringliteral">&quot;Get&quot;</span>)</div>
@@ -139,14 +139,14 @@ $(document).ready(function(){initNavTree('_v_r___ammo_clip_8h_source.html',''); 
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> BeginPlay() <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <span class="comment">//Ammo Caliber</span></div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = <span class="stringliteral">&quot;Variables&quot;</span>, meta = (AllowPrivateAccess = <span class="stringliteral">&quot;true&quot;</span>))</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = <span class="stringliteral">&quot;Settings&quot;</span>, meta = (AllowPrivateAccess = <span class="stringliteral">&quot;true&quot;</span>))</div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>        uint8 Caliber;</div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    <span class="comment">//amount of Ammo</span></div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = &quot;Variables&quot;, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    UPROPERTY(BlueprintReadWrite, Category = &quot;Settings&quot;, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>        uint8 PrevAmmo;</div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = &quot;Variables&quot;, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    UPROPERTY(BlueprintReadOnly, Category = &quot;Settings&quot;, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>        <span class="keywordtype">bool</span> bIsApllyed;</div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>public: </div>

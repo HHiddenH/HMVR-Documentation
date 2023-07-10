@@ -37,6 +37,7 @@ var annotated_dup =
     [ "HeadMountedVR", "class_head_mounted_v_r.html", null ],
     [ "IVR_InteractionInterface", "class_i_v_r___interaction_interface.html", "class_i_v_r___interaction_interface" ],
     [ "UMenuLoadingWidget", "class_u_menu_loading_widget.html", null ],
+    [ "UVR_AvatarAnimationInstance", "class_u_v_r___avatar_animation_instance.html", null ],
     [ "UVR_HandAnimationInstance", "class_u_v_r___hand_animation_instance.html", null ],
     [ "UVR_InteractionInterface", "class_u_v_r___interaction_interface.html", null ],
     [ "UVR_SaveLevelTransfer", "class_u_v_r___save_level_transfer.html", null ],
