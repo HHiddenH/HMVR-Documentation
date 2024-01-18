@@ -16,11 +16,11 @@ var searchData=
   ['releasethumb_5fpress_5fleft_13',['ReleaseThumb_Press_Left',['../class_a_v_r___player.html#a54659bf2fe1babe93594b7db60844c9f',1,'AVR_Player']]],
   ['releasethumb_5fpress_5fright_14',['ReleaseThumb_Press_Right',['../class_a_v_r___player.html#a7d58b4bf3c79a8224826de10b6bf318b',1,'AVR_Player']]],
   ['reloadtextures_15',['ReloadTextures',['../class_f_head_mounted_editor_style.html#af60ae0d05d28e244cf0cd1b52cc3a454',1,'FHeadMountedEditorStyle']]],
-  ['rightcontroller_16',['RightController',['../class_a_v_r___player.html#a035a4d2741f8cca767bb5b8c0e230b85',1,'AVR_Player']]],
+  ['righthand_16',['RightHand',['../class_a_v_r___player.html#a92d320209ca37766ec9919def3462a66',1,'AVR_Player']]],
   ['righttriggeraxis_17',['RightTriggerAxis',['../class_a_v_r___player.html#a2f25b818460ac299fff51f8a0ecd9710',1,'AVR_Player']]],
   ['ring_18',['Ring',['../class_a_v_r___hands.html#a4875266bcbfff92f85c5aa7a351483ae',1,'AVR_Hands']]],
   ['roomscalemesh_19',['RoomScaleMesh',['../class_a_v_r___hands.html#ad968b6574abd0542dc1e5f58224d837a',1,'AVR_Hands']]],
-  ['rootscene_20',['RootScene',['../class_a_v_r___skeletal_mesh.html#a5b7f835d1daaa52a62c33e720abdd2ea',1,'AVR_SkeletalMesh::RootScene()'],['../class_a_v_r___static_mesh.html#a29e3cbe2ae9169b906a8d2bb97e26141',1,'AVR_StaticMesh::RootScene()'],['../class_a_v_r___hands.html#a3def0f6e02025fac902c4abf937e0b24',1,'AVR_Hands::RootScene()'],['../class_a_v_r___player.html#a3ef4e84523700a8c9bca9b1761e298f8',1,'AVR_Player::RootScene()']]],
+  ['rootscene_20',['RootScene',['../class_a_v_r___skeletal_mesh.html#a5b7f835d1daaa52a62c33e720abdd2ea',1,'AVR_SkeletalMesh::RootScene'],['../class_a_v_r___static_mesh.html#a29e3cbe2ae9169b906a8d2bb97e26141',1,'AVR_StaticMesh::RootScene'],['../class_a_v_r___hands.html#a3def0f6e02025fac902c4abf937e0b24',1,'AVR_Hands::RootScene'],['../class_a_v_r___player.html#a3ef4e84523700a8c9bca9b1761e298f8',1,'AVR_Player::RootScene']]],
   ['rumblecontroller_21',['RumbleController',['../class_a_v_r___hands.html#a0c420ef6c530706a44e12fc8952d7f7e',1,'AVR_Hands']]],
-  ['runjustdroptimer_22',['RunJustDropTimer',['../class_a_v_r___skeletal_mesh.html#ae9623d9118c2f881b45a0026f319500f',1,'AVR_SkeletalMesh::RunJustDropTimer()'],['../class_a_v_r___static_mesh.html#a33d5bcd788fb4d99eb40b9df616b88d0',1,'AVR_StaticMesh::RunJustDropTimer()'],['../class_a_v_r___weapon.html#a6bf88758f94651f30fd0a327c915208d',1,'AVR_Weapon::RunJustDropTimer()']]]
+  ['runjustdroptimer_22',['RunJustDropTimer',['../class_a_v_r___weapon.html#a6bf88758f94651f30fd0a327c915208d',1,'AVR_Weapon']]]
 ];

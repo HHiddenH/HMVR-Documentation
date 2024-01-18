@@ -1,12 +1,8 @@
 var class_a_v_r___weapon =
 [
-    [ "Fire", "class_a_v_r___weapon.html#aa47f82f5172d84d6442eb44be1e07020", null ],
+    [ "Fire", "class_a_v_r___weapon.html#a9e5e07699641943cd4af229cef44a303", null ],
     [ "GetInHandStatus", "class_a_v_r___weapon.html#a46e3ce7be4c1b12acc0787305c6fb15a", null ],
     [ "GetJustDroped", "class_a_v_r___weapon.html#af6b39e33523e62c340f58154e6d533d0", null ],
-    [ "HandleOverlapBegin", "class_a_v_r___weapon.html#a7833d3ff736e45b8a0edd4c3aea2d8b2", null ],
-    [ "HandleOverlapEnd", "class_a_v_r___weapon.html#aa2882dfd1bcfbba76c1faf3fa4e00368", null ],
-    [ "Interaction_Implementation", "class_a_v_r___weapon.html#ab16423d6afa8695ed4c222e6c6bdac07", null ],
-    [ "IsHeldBy_Implementation", "class_a_v_r___weapon.html#a13a0bc7e51bfd865d68027bed8bd871f", null ],
     [ "MagLocOverlapBegin", "class_a_v_r___weapon.html#a95d64b100d044cbdb2626cfdd020afb4", null ],
     [ "MagLocOverlapEnd", "class_a_v_r___weapon.html#ae376ad290813aa232fa03d2614950734", null ],
     [ "ReleaseMag", "class_a_v_r___weapon.html#afdaaa75b4c3173c9fd1539ea116a7722", null ],
@@ -16,7 +12,6 @@ var class_a_v_r___weapon =
     [ "SetJustShot", "class_a_v_r___weapon.html#ab2e6dd4be0ea2d62287decf164b108f9", null ],
     [ "SetSaferPressed", "class_a_v_r___weapon.html#a8cbe68fe46fe899775b65322b07875b6", null ],
     [ "SetTriggerPushInt", "class_a_v_r___weapon.html#a222c77eca6755a0f12dbdf6ddf8a58e3", null ],
-    [ "Stop_Interaction_Implementation", "class_a_v_r___weapon.html#a4a2f52536d14810594eaf035e0c252ee", null ],
     [ "CurrentCaliber", "class_a_v_r___weapon.html#aa7ffefb1e797afa2fcf0cc9170da2ced", null ],
     [ "DefaultParticle", "class_a_v_r___weapon.html#a138e5cfb29f2d9920b4803dfb89654fc", null ],
     [ "EmptySound", "class_a_v_r___weapon.html#aced7fd459b8bd6a1b7d4c7296f36c19c", null ],

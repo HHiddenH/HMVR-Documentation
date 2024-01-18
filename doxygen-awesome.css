@@ -29,9 +29,9 @@ SOFTWARE.
 
 html {
     /* primary theme color. This will affect the entire websites color scheme: links, arrows, labels, ... */
-    --primary-color: #c48d17;
-    --primary-dark-color: #805f33;
-    --primary-light-color: #e9cd70;
+    --primary-color: #E247EA;
+    --primary-dark-color: #6c2670;
+    --primary-light-color: #dc8ae0;
 
     /* page base colors */
     --page-background-color: #ffffff;
@@ -185,7 +185,7 @@ html {
     html:not(.light-mode) {
         color-scheme: dark;
 
-        --primary-color: #d29819;
+        --primary-color: #E247EA;
         --primary-dark-color: #c4ab86;
         --primary-light-color: #ac8c47;
 

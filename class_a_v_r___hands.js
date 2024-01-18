@@ -56,7 +56,6 @@ var class_a_v_r___hands =
     [ "FVecThum", "class_a_v_r___hands.html#a12621b4c97ef1df75805281f7ca2a4bc", null ],
     [ "Grab_Cue", "class_a_v_r___hands.html#a5c7b13c96c0b35e3b23ced54fa01ad0e", null ],
     [ "Hands", "class_a_v_r___hands.html#a7194d911ad1eb3fb78f3fe9d9b563e55", null ],
-    [ "MotionController", "class_a_v_r___hands.html#a7f0f7665c7d9c4c615d2f1c043405367", null ],
     [ "PickPhysicsConstraint", "class_a_v_r___hands.html#a288a449e18d190578c9c1fc478aa43d3", null ],
     [ "RealHandAnimation", "class_a_v_r___hands.html#af1f7f354d00b13528943dab35e4641aa", null ],
     [ "RealHandMesh", "class_a_v_r___hands.html#aecc54d03cdfa045695619036871fe76f", null ],

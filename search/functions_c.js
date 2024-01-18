@@ -1,11 +1,20 @@
 var searchData=
 [
-  ['pickup_5fattachto_0',['Pickup_AttachTo',['../class_a_v_r___skeletal_mesh.html#a9f59bbbd99bceb5ec7692d94b1393045',1,'AVR_SkeletalMesh::Pickup_AttachTo()'],['../class_a_v_r___static_mesh.html#aa135d0c8ed3217cdd63729cd0a84aac7',1,'AVR_StaticMesh::Pickup_AttachTo()']]],
-  ['pickup_5fimplementation_1',['Pickup_Implementation',['../class_a_v_r___main_menu.html#a2db9bfa508f0095c5b86e1afa8137f2e',1,'AVR_MainMenu::Pickup_Implementation()'],['../class_a_v_r___pause_menu.html#ac732d55eb821653bf692cbbbb02d6660',1,'AVR_PauseMenu::Pickup_Implementation()'],['../class_a_v_r___skeletal_mesh.html#ac80bfb4032eb8bfa0fc93c6150dfce24',1,'AVR_SkeletalMesh::Pickup_Implementation()'],['../class_a_v_r___static_mesh.html#ad63a549ecb5607bf00fdb10a47507963',1,'AVR_StaticMesh::Pickup_Implementation()']]],
-  ['pickup_5fphysicsconstraint_2',['Pickup_PhysicsConstraint',['../class_a_v_r___skeletal_mesh.html#a2f5c385d24e227c25ca4ed62c5b19705',1,'AVR_SkeletalMesh::Pickup_PhysicsConstraint()'],['../class_a_v_r___static_mesh.html#ad087de68ee627315c9048580d6a88888',1,'AVR_StaticMesh::Pickup_PhysicsConstraint()']]],
-  ['pickup_5fphysicsconstraintanimated_3',['Pickup_PhysicsConstraintAnimated',['../class_a_v_r___skeletal_mesh.html#a6d52ac58cc965f8f55dc8827595a7f6c',1,'AVR_SkeletalMesh::Pickup_PhysicsConstraintAnimated()'],['../class_a_v_r___static_mesh.html#a687d4f4603bdff6a15aba2560bdccc76',1,'AVR_StaticMesh::Pickup_PhysicsConstraintAnimated()']]],
-  ['pickup_5fphysicsconstraintanimatednearsocket_4',['Pickup_PhysicsConstraintAnimatedNearSocket',['../class_a_v_r___skeletal_mesh.html#adafc8a79888a02fbdb57969dbf350d7a',1,'AVR_SkeletalMesh::Pickup_PhysicsConstraintAnimatedNearSocket()'],['../class_a_v_r___static_mesh.html#ae8084b0da6c4979055e56c2093b43a4d',1,'AVR_StaticMesh::Pickup_PhysicsConstraintAnimatedNearSocket()']]],
-  ['pickupscript_5',['PickUpScript',['../class_a_v_r___skeletal_mesh.html#a43dd0646af0205b9bab62c74d2572c5b',1,'AVR_SkeletalMesh::PickUpScript()'],['../class_a_v_r___static_mesh.html#a1294c25f84940f95970a20cde1fe125d',1,'AVR_StaticMesh::PickUpScript()']]],
-  ['playfootstepssound_6',['PlayFootstepsSound',['../class_a_v_r___player.html#af757aee875e4ccb11128f05a1f368fba',1,'AVR_Player']]],
-  ['playvoiceline_7',['PlayVoiceLine',['../class_a_v_r___player.html#aea983e9c66e0f2f2ee50ea79f3778572',1,'AVR_Player']]]
+  ['r_5ftrackpad_5ftouch_0',['R_Trackpad_Touch',['../class_a_v_r___player.html#ae890bdc282ca33a44a2339eb997053cb',1,'AVR_Player']]],
+  ['r_5ftrackpad_5funtouch_1',['R_Trackpad_UnTouch',['../class_a_v_r___player.html#a671ff99a024d46cc7380385e49b6986f',1,'AVR_Player']]],
+  ['realigncollison_2',['RealignCollison',['../class_a_v_r___player.html#a4555523aa061d470e58159e2a6440e23',1,'AVR_Player']]],
+  ['releaseactor_3',['ReleaseActor',['../class_a_v_r___hands.html#ac6458180631be5be07377da1142825a2',1,'AVR_Hands']]],
+  ['releaseactor_5fleft_4',['ReleaseActor_Left',['../class_a_v_r___player.html#ae691544260befd8e66f092c970998164',1,'AVR_Player']]],
+  ['releaseactor_5fright_5',['ReleaseActor_Right',['../class_a_v_r___player.html#a40bae75978ff50fc922ced273a900272',1,'AVR_Player']]],
+  ['releaseindex_5fpress_5fleft_6',['ReleaseIndex_Press_Left',['../class_a_v_r___player.html#adee4806936636b4def8790900d42294e',1,'AVR_Player']]],
+  ['releaseindex_5fpress_5fright_7',['ReleaseIndex_Press_Right',['../class_a_v_r___player.html#ae1dabdbdabd3fa30b4a3f2546266413b',1,'AVR_Player']]],
+  ['releaseindex_5ftouch_5fleft_8',['ReleaseIndex_Touch_Left',['../class_a_v_r___player.html#a59e0934bbd096f86b7b18ec4d184e429',1,'AVR_Player']]],
+  ['releaseindex_5ftouch_5fright_9',['ReleaseIndex_Touch_Right',['../class_a_v_r___player.html#a43f6d4db4a693b0357d5077d1647d00e',1,'AVR_Player']]],
+  ['releasemag_10',['ReleaseMag',['../class_a_v_r___weapon.html#afdaaa75b4c3173c9fd1539ea116a7722',1,'AVR_Weapon']]],
+  ['releasethumb_5fpress_5fleft_11',['ReleaseThumb_Press_Left',['../class_a_v_r___player.html#a54659bf2fe1babe93594b7db60844c9f',1,'AVR_Player']]],
+  ['releasethumb_5fpress_5fright_12',['ReleaseThumb_Press_Right',['../class_a_v_r___player.html#a7d58b4bf3c79a8224826de10b6bf318b',1,'AVR_Player']]],
+  ['reloadtextures_13',['ReloadTextures',['../class_f_head_mounted_editor_style.html#af60ae0d05d28e244cf0cd1b52cc3a454',1,'FHeadMountedEditorStyle']]],
+  ['righttriggeraxis_14',['RightTriggerAxis',['../class_a_v_r___player.html#a2f25b818460ac299fff51f8a0ecd9710',1,'AVR_Player']]],
+  ['rumblecontroller_15',['RumbleController',['../class_a_v_r___hands.html#a0c420ef6c530706a44e12fc8952d7f7e',1,'AVR_Hands']]],
+  ['runjustdroptimer_16',['RunJustDropTimer',['../class_a_v_r___weapon.html#a6bf88758f94651f30fd0a327c915208d',1,'AVR_Weapon']]]
 ];

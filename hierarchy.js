@@ -31,16 +31,19 @@ var hierarchy =
       [ "AVR_CodeLock", "class_a_v_r___code_lock.html", null ],
       [ "AVR_HandInventory", "class_a_v_r___hand_inventory.html", null ],
       [ "AVR_Hands", "class_a_v_r___hands.html", null ],
+      [ "AVR_ScreenText", "class_a_v_r___screen_text.html", null ],
       [ "AVR_WeaponProjectile", "class_a_v_r___weapon_projectile.html", null ]
+    ] ],
+    [ "ACharacter", null, [
+      [ "AVR_Player", "class_a_v_r___player.html", null ]
     ] ],
     [ "AGameModeBase", null, [
       [ "AVRGameMode", "class_a_v_r_game_mode.html", null ]
     ] ],
-    [ "APawn", null, [
-      [ "AVR_Player", "class_a_v_r___player.html", null ]
-    ] ],
     [ "FFingerCurls", "struct_f_finger_curls.html", null ],
     [ "FHeadMountedEditorStyle", "class_f_head_mounted_editor_style.html", null ],
+    [ "FVRLateUpdateManager::FLateUpdateState", "struct_f_v_r_late_update_manager_1_1_f_late_update_state.html", null ],
+    [ "FVRLateUpdateManager", "class_f_v_r_late_update_manager.html", null ],
     [ "IModuleInterface", null, [
       [ "FHeadMountedEditorModule", "class_f_head_mounted_editor_module.html", null ],
       [ "FHeadMountedVRModule", "class_f_head_mounted_v_r_module.html", null ]
@@ -60,14 +63,30 @@ var hierarchy =
       [ "UVR_HandAnimationInstance", "class_u_v_r___hand_animation_instance.html", null ],
       [ "UVR_WeaponAnimationInstance", "class_u_v_r___weapon_animation_instance.html", null ]
     ] ],
+    [ "UBoxComponent", null, [
+      [ "UVR_GrabBoxCollisionComponent", "class_u_v_r___grab_box_collision_component.html", null ],
+      [ "UVR_InventoryBox", "class_u_v_r___inventory_box.html", null ]
+    ] ],
+    [ "UCameraComponent", null, [
+      [ "UVR_CameraComponent", "class_u_v_r___camera_component.html", null ]
+    ] ],
+    [ "UCapsuleComponent", null, [
+      [ "UVR_GrabCapsuleCollisionComponent", "class_u_v_r___grab_capsule_collision_component.html", null ]
+    ] ],
     [ "UInterface", null, [
       [ "UVR_InteractionInterface", "class_u_v_r___interaction_interface.html", null ]
     ] ],
+    [ "UMotionControllerComponent", null, [
+      [ "UVR_MotionControllerComponent", "class_u_v_r___motion_controller_component.html", null ]
+    ] ],
     [ "USaveGame", null, [
+      [ "UVR_SaveGraphics", "class_u_v_r___save_graphics.html", null ],
       [ "UVR_SaveLevelTransfer", "class_u_v_r___save_level_transfer.html", null ],
       [ "UVR_SavePreferences", "class_u_v_r___save_preferences.html", null ]
     ] ],
     [ "UUserWidget", null, [
-      [ "UMenuLoadingWidget", "class_u_menu_loading_widget.html", null ]
+      [ "UMenuLoadingWidget", "class_u_menu_loading_widget.html", null ],
+      [ "UScreenTextWidget", "class_u_screen_text_widget.html", null ],
+      [ "UUI_MenuWidget", "class_u_u_i___menu_widget.html", null ]
     ] ]
 ];
