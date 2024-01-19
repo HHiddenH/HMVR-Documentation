@@ -49,7 +49,8 @@ var hierarchy =
       [ "FHeadMountedVRModule", "class_f_head_mounted_v_r_module.html", null ]
     ] ],
     [ "IVR_InteractionInterface", "class_i_v_r___interaction_interface.html", [
-      [ "AVR_Actor", "class_a_v_r___actor.html", null ]
+      [ "AVR_Actor", "class_a_v_r___actor.html", null ],
+      [ "UVR_GrabComponent", "class_u_v_r___grab_component.html", null ]
     ] ],
     [ "ModuleRules", null, [
       [ "HeadMountedEditor", "class_head_mounted_editor.html", null ],
@@ -83,6 +84,9 @@ var hierarchy =
       [ "UVR_SaveGraphics", "class_u_v_r___save_graphics.html", null ],
       [ "UVR_SaveLevelTransfer", "class_u_v_r___save_level_transfer.html", null ],
       [ "UVR_SavePreferences", "class_u_v_r___save_preferences.html", null ]
+    ] ],
+    [ "USceneComponent", null, [
+      [ "UVR_GrabComponent", "class_u_v_r___grab_component.html", null ]
     ] ],
     [ "UUserWidget", null, [
       [ "UMenuLoadingWidget", "class_u_menu_loading_widget.html", null ],

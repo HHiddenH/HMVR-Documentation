@@ -101,6 +101,8 @@ $(function(){initNavTree('class_u_v_r___motion_controller_component.html',''); i
   <div class="headertitle"><div class="title">UVR_MotionControllerComponent Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="_v_r___motion_controller_component_8h_source.html">VR_MotionControllerComponent.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for UVR_MotionControllerComponent:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -112,85 +114,567 @@ $(function(){initNavTree('class_u_v_r___motion_controller_component.html',''); i
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a91fd986f8e10c229f06a4b12050d74cc" id="r_a91fd986f8e10c229f06a4b12050d74cc"><td class="memItemLeft" align="right" valign="top"><a id="a91fd986f8e10c229f06a4b12050d74cc" name="a91fd986f8e10c229f06a4b12050d74cc"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>UVR_MotionControllerComponent</b> (const FObjectInitializer &amp;ObjectInitializer)</td></tr>
+<tr class="memitem:a91fd986f8e10c229f06a4b12050d74cc" id="r_a91fd986f8e10c229f06a4b12050d74cc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91fd986f8e10c229f06a4b12050d74cc">UVR_MotionControllerComponent</a> (const FObjectInitializer &amp;ObjectInitializer)</td></tr>
 <tr class="separator:a91fd986f8e10c229f06a4b12050d74cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa200334614a74e0a9d2bc59040f8a470" id="r_aa200334614a74e0a9d2bc59040f8a470"><td class="memItemLeft" align="right" valign="top"><a id="aa200334614a74e0a9d2bc59040f8a470" name="aa200334614a74e0a9d2bc59040f8a470"></a>
-FORCEINLINE <a class="el" href="struct_f_finger_curls.html">FFingerCurls</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GetCurrentFingerCurls</b> () const</td></tr>
+<tr class="memitem:aa200334614a74e0a9d2bc59040f8a470" id="r_aa200334614a74e0a9d2bc59040f8a470"><td class="memItemLeft" align="right" valign="top">FORCEINLINE <a class="el" href="struct_f_finger_curls.html">FFingerCurls</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa200334614a74e0a9d2bc59040f8a470">GetCurrentFingerCurls</a> () const</td></tr>
 <tr class="separator:aa200334614a74e0a9d2bc59040f8a470"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a109d1c795f5a5585787f810813f1263e" id="r_a109d1c795f5a5585787f810813f1263e"><td class="memItemLeft" align="right" valign="top"><a id="a109d1c795f5a5585787f810813f1263e" name="a109d1c795f5a5585787f810813f1263e"></a>
-FORCEINLINE bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsUsingFingerTracking</b> () const</td></tr>
+<tr class="memitem:a109d1c795f5a5585787f810813f1263e" id="r_a109d1c795f5a5585787f810813f1263e"><td class="memItemLeft" align="right" valign="top">FORCEINLINE bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a109d1c795f5a5585787f810813f1263e">IsUsingFingerTracking</a> () const</td></tr>
 <tr class="separator:a109d1c795f5a5585787f810813f1263e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41acf7f4526678e3c62f335c1e0dbbf3" id="r_a41acf7f4526678e3c62f335c1e0dbbf3"><td class="memItemLeft" align="right" valign="top"><a id="a41acf7f4526678e3c62f335c1e0dbbf3" name="a41acf7f4526678e3c62f335c1e0dbbf3"></a>
-virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>VRPollControllerState</b> (FVector &amp;Position, FRotator &amp;Orientation, float WorldToMetersScale)</td></tr>
+<tr class="memitem:a41acf7f4526678e3c62f335c1e0dbbf3" id="r_a41acf7f4526678e3c62f335c1e0dbbf3"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41acf7f4526678e3c62f335c1e0dbbf3">VRPollControllerState</a> (FVector &amp;Position, FRotator &amp;Orientation, float WorldToMetersScale)</td></tr>
 <tr class="separator:a41acf7f4526678e3c62f335c1e0dbbf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d91f3657d5e98b72ed4aa3c8ea2b1b7" id="r_a7d91f3657d5e98b72ed4aa3c8ea2b1b7"><td class="memItemLeft" align="right" valign="top"><a id="a7d91f3657d5e98b72ed4aa3c8ea2b1b7" name="a7d91f3657d5e98b72ed4aa3c8ea2b1b7"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>VRPollControllerState_GameThread</b> (FVector &amp;Position, FRotator &amp;Orientation, bool &amp;OutbProvidedLinearVelocity, FVector &amp;OutLinearVelocity, bool &amp;OutbProvidedAngularVelocity, FVector &amp;OutAngularVelocityAsAxisAndLength, bool &amp;OutbProvidedLinearAcceleration, FVector &amp;OutLinearAcceleration, float WorldToMetersScale)</td></tr>
+<tr class="memitem:a7d91f3657d5e98b72ed4aa3c8ea2b1b7" id="r_a7d91f3657d5e98b72ed4aa3c8ea2b1b7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d91f3657d5e98b72ed4aa3c8ea2b1b7">VRPollControllerState_GameThread</a> (FVector &amp;Position, FRotator &amp;Orientation, bool &amp;OutbProvidedLinearVelocity, FVector &amp;OutLinearVelocity, bool &amp;OutbProvidedAngularVelocity, FVector &amp;OutAngularVelocityAsAxisAndLength, bool &amp;OutbProvidedLinearAcceleration, FVector &amp;OutLinearAcceleration, float WorldToMetersScale)</td></tr>
 <tr class="separator:a7d91f3657d5e98b72ed4aa3c8ea2b1b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91cd283b6c442ced76baad01173a3c7b" id="r_a91cd283b6c442ced76baad01173a3c7b"><td class="memItemLeft" align="right" valign="top"><a id="a91cd283b6c442ced76baad01173a3c7b" name="a91cd283b6c442ced76baad01173a3c7b"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>VRPollControllerState_RenderThread</b> (FVector &amp;Position, FRotator &amp;Orientation, float WorldToMetersScale)</td></tr>
+<tr class="memitem:a91cd283b6c442ced76baad01173a3c7b" id="r_a91cd283b6c442ced76baad01173a3c7b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91cd283b6c442ced76baad01173a3c7b">VRPollControllerState_RenderThread</a> (FVector &amp;Position, FRotator &amp;Orientation, float WorldToMetersScale)</td></tr>
 <tr class="separator:a91cd283b6c442ced76baad01173a3c7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ac7de80ac31170c58dba14dd5a82929c9" id="r_ac7de80ac31170c58dba14dd5a82929c9"><td class="memItemLeft" align="right" valign="top"><a id="ac7de80ac31170c58dba14dd5a82929c9" name="ac7de80ac31170c58dba14dd5a82929c9"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>NetUpdateRate</b></td></tr>
+<tr class="memitem:ac7de80ac31170c58dba14dd5a82929c9" id="r_ac7de80ac31170c58dba14dd5a82929c9"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7de80ac31170c58dba14dd5a82929c9">NetUpdateRate</a></td></tr>
 <tr class="separator:ac7de80ac31170c58dba14dd5a82929c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a89c13dadc21df5553de136f33278d0" id="r_a3a89c13dadc21df5553de136f33278d0"><td class="memItemLeft" align="right" valign="top"><a id="a3a89c13dadc21df5553de136f33278d0" name="a3a89c13dadc21df5553de136f33278d0"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>NetTransformUpdateCount</b></td></tr>
+<tr class="memitem:a3a89c13dadc21df5553de136f33278d0" id="r_a3a89c13dadc21df5553de136f33278d0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a89c13dadc21df5553de136f33278d0">NetTransformUpdateCount</a></td></tr>
 <tr class="separator:a3a89c13dadc21df5553de136f33278d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abeabf557201c06abe745f4cc6b4b8d1c" id="r_abeabf557201c06abe745f4cc6b4b8d1c"><td class="memItemLeft" align="right" valign="top"><a id="abeabf557201c06abe745f4cc6b4b8d1c" name="abeabf557201c06abe745f4cc6b4b8d1c"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>NetFingersUpdateCount</b></td></tr>
+<tr class="memitem:abeabf557201c06abe745f4cc6b4b8d1c" id="r_abeabf557201c06abe745f4cc6b4b8d1c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abeabf557201c06abe745f4cc6b4b8d1c">NetFingersUpdateCount</a></td></tr>
 <tr class="separator:abeabf557201c06abe745f4cc6b4b8d1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f82122cc95ca89cfb86d77eb5dd6873" id="r_a0f82122cc95ca89cfb86d77eb5dd6873"><td class="memItemLeft" align="right" valign="top"><a id="a0f82122cc95ca89cfb86d77eb5dd6873" name="a0f82122cc95ca89cfb86d77eb5dd6873"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>bUseTracking</b></td></tr>
+<tr class="memitem:a0f82122cc95ca89cfb86d77eb5dd6873" id="r_a0f82122cc95ca89cfb86d77eb5dd6873"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f82122cc95ca89cfb86d77eb5dd6873">bUseTracking</a></td></tr>
 <tr class="separator:a0f82122cc95ca89cfb86d77eb5dd6873"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5a5572f7f7f3579c70742c2ee44ce89" id="r_ab5a5572f7f7f3579c70742c2ee44ce89"><td class="memItemLeft" align="right" valign="top"><a id="ab5a5572f7f7f3579c70742c2ee44ce89" name="ab5a5572f7f7f3579c70742c2ee44ce89"></a>
-TArray&lt; UPrimitiveComponent * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>AdditionalLateUpdateComponents</b></td></tr>
+<tr class="memitem:ab5a5572f7f7f3579c70742c2ee44ce89" id="r_ab5a5572f7f7f3579c70742c2ee44ce89"><td class="memItemLeft" align="right" valign="top">TArray&lt; UPrimitiveComponent * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5a5572f7f7f3579c70742c2ee44ce89">AdditionalLateUpdateComponents</a></td></tr>
 <tr class="separator:ab5a5572f7f7f3579c70742c2ee44ce89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a35deedd0718a0d2264bf470ddd91aba0" id="r_a35deedd0718a0d2264bf470ddd91aba0"><td class="memItemLeft" align="right" valign="top"><a id="a35deedd0718a0d2264bf470ddd91aba0" name="a35deedd0718a0d2264bf470ddd91aba0"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>CreateRenderState_Concurrent</b> (FRegisterComponentContext *Context) override</td></tr>
+<tr class="memitem:a35deedd0718a0d2264bf470ddd91aba0" id="r_a35deedd0718a0d2264bf470ddd91aba0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35deedd0718a0d2264bf470ddd91aba0">CreateRenderState_Concurrent</a> (FRegisterComponentContext *Context) override</td></tr>
 <tr class="separator:a35deedd0718a0d2264bf470ddd91aba0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d98ca45992502782780ac060f52846c" id="r_a0d98ca45992502782780ac060f52846c"><td class="memItemLeft" align="right" valign="top"><a id="a0d98ca45992502782780ac060f52846c" name="a0d98ca45992502782780ac060f52846c"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>SendRenderTransform_Concurrent</b> () override</td></tr>
+<tr class="memitem:a0d98ca45992502782780ac060f52846c" id="r_a0d98ca45992502782780ac060f52846c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d98ca45992502782780ac060f52846c">SendRenderTransform_Concurrent</a> () override</td></tr>
 <tr class="separator:a0d98ca45992502782780ac060f52846c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a3f2b231b3e2914b28640589b46ba498a" id="r_a3f2b231b3e2914b28640589b46ba498a"><td class="memItemLeft" align="right" valign="top"><a id="a3f2b231b3e2914b28640589b46ba498a" name="a3f2b231b3e2914b28640589b46ba498a"></a>
-<a class="el" href="struct_f_finger_curls.html">FFingerCurls</a>&#160;</td><td class="memItemRight" valign="bottom"><b>ReplicatedFingerCurls</b></td></tr>
+<tr class="memitem:a3f2b231b3e2914b28640589b46ba498a" id="r_a3f2b231b3e2914b28640589b46ba498a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_f_finger_curls.html">FFingerCurls</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f2b231b3e2914b28640589b46ba498a">ReplicatedFingerCurls</a></td></tr>
 <tr class="separator:a3f2b231b3e2914b28640589b46ba498a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a0bea2db4946d8efc69dcbd9f9117db" id="r_a6a0bea2db4946d8efc69dcbd9f9117db"><td class="memItemLeft" align="right" valign="top"><a id="a6a0bea2db4946d8efc69dcbd9f9117db" name="a6a0bea2db4946d8efc69dcbd9f9117db"></a>
-<a class="el" href="struct_f_finger_curls.html">FFingerCurls</a>&#160;</td><td class="memItemRight" valign="bottom"><b>CurrentFingerCurls</b></td></tr>
+<tr class="memitem:a6a0bea2db4946d8efc69dcbd9f9117db" id="r_a6a0bea2db4946d8efc69dcbd9f9117db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_f_finger_curls.html">FFingerCurls</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a0bea2db4946d8efc69dcbd9f9117db">CurrentFingerCurls</a></td></tr>
 <tr class="separator:a6a0bea2db4946d8efc69dcbd9f9117db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0810c3d2d5091d504e27511d78d9ebc0" id="r_a0810c3d2d5091d504e27511d78d9ebc0"><td class="memItemLeft" align="right" valign="top"><a id="a0810c3d2d5091d504e27511d78d9ebc0" name="a0810c3d2d5091d504e27511d78d9ebc0"></a>
-<a class="el" href="struct_f_finger_curls.html">FFingerCurls</a>&#160;</td><td class="memItemRight" valign="bottom"><b>LastFingerCurls</b></td></tr>
+<tr class="memitem:a0810c3d2d5091d504e27511d78d9ebc0" id="r_a0810c3d2d5091d504e27511d78d9ebc0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_f_finger_curls.html">FFingerCurls</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0810c3d2d5091d504e27511d78d9ebc0">LastFingerCurls</a></td></tr>
 <tr class="separator:a0810c3d2d5091d504e27511d78d9ebc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acce6131ba7b03c25327a47124e36fa7c" id="r_acce6131ba7b03c25327a47124e36fa7c"><td class="memItemLeft" align="right" valign="top"><a id="acce6131ba7b03c25327a47124e36fa7c" name="acce6131ba7b03c25327a47124e36fa7c"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>Index</b></td></tr>
+<tr class="memitem:acce6131ba7b03c25327a47124e36fa7c" id="r_acce6131ba7b03c25327a47124e36fa7c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acce6131ba7b03c25327a47124e36fa7c">Index</a></td></tr>
 <tr class="separator:acce6131ba7b03c25327a47124e36fa7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa62dd5dcaca832c78f8d9e91cffb04da" id="r_aa62dd5dcaca832c78f8d9e91cffb04da"><td class="memItemLeft" align="right" valign="top"><a id="aa62dd5dcaca832c78f8d9e91cffb04da" name="aa62dd5dcaca832c78f8d9e91cffb04da"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>Middle</b></td></tr>
+<tr class="memitem:aa62dd5dcaca832c78f8d9e91cffb04da" id="r_aa62dd5dcaca832c78f8d9e91cffb04da"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa62dd5dcaca832c78f8d9e91cffb04da">Middle</a></td></tr>
 <tr class="separator:aa62dd5dcaca832c78f8d9e91cffb04da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa34211ab380a251e1499af56d16b3941" id="r_aa34211ab380a251e1499af56d16b3941"><td class="memItemLeft" align="right" valign="top"><a id="aa34211ab380a251e1499af56d16b3941" name="aa34211ab380a251e1499af56d16b3941"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>Ring</b></td></tr>
+<tr class="memitem:aa34211ab380a251e1499af56d16b3941" id="r_aa34211ab380a251e1499af56d16b3941"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa34211ab380a251e1499af56d16b3941">Ring</a></td></tr>
 <tr class="separator:aa34211ab380a251e1499af56d16b3941"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f519891cf4c9e6e195341cec5d055d2" id="r_a0f519891cf4c9e6e195341cec5d055d2"><td class="memItemLeft" align="right" valign="top"><a id="a0f519891cf4c9e6e195341cec5d055d2" name="a0f519891cf4c9e6e195341cec5d055d2"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>Pinky</b></td></tr>
+<tr class="memitem:a0f519891cf4c9e6e195341cec5d055d2" id="r_a0f519891cf4c9e6e195341cec5d055d2"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f519891cf4c9e6e195341cec5d055d2">Pinky</a></td></tr>
 <tr class="separator:a0f519891cf4c9e6e195341cec5d055d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a354ab4726009b619bf3298e0d1fa84e8" id="r_a354ab4726009b619bf3298e0d1fa84e8"><td class="memItemLeft" align="right" valign="top"><a id="a354ab4726009b619bf3298e0d1fa84e8" name="a354ab4726009b619bf3298e0d1fa84e8"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>Thumb</b></td></tr>
+<tr class="memitem:a354ab4726009b619bf3298e0d1fa84e8" id="r_a354ab4726009b619bf3298e0d1fa84e8"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a354ab4726009b619bf3298e0d1fa84e8">Thumb</a></td></tr>
 <tr class="separator:a354ab4726009b619bf3298e0d1fa84e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4137753beba4adc0229d3e2a3ef051cf" id="r_a4137753beba4adc0229d3e2a3ef051cf"><td class="memItemLeft" align="right" valign="top"><a id="a4137753beba4adc0229d3e2a3ef051cf" name="a4137753beba4adc0229d3e2a3ef051cf"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>bFingerTrackingIsValid</b></td></tr>
+<tr class="memitem:a4137753beba4adc0229d3e2a3ef051cf" id="r_a4137753beba4adc0229d3e2a3ef051cf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4137753beba4adc0229d3e2a3ef051cf">bFingerTrackingIsValid</a></td></tr>
 <tr class="separator:a4137753beba4adc0229d3e2a3ef051cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a91fd986f8e10c229f06a4b12050d74cc" name="a91fd986f8e10c229f06a4b12050d74cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91fd986f8e10c229f06a4b12050d74cc">&#9670;&#160;</a></span>UVR_MotionControllerComponent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">UVR_MotionControllerComponent::UVR_MotionControllerComponent </td>
+          <td>(</td>
+          <td class="paramtype">const FObjectInitializer &amp;</td>          <td class="paramname"><span class="paramname"><em>ObjectInitializer</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a35deedd0718a0d2264bf470ddd91aba0" name="a35deedd0718a0d2264bf470ddd91aba0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35deedd0718a0d2264bf470ddd91aba0">&#9670;&#160;</a></span>CreateRenderState_Concurrent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UVR_MotionControllerComponent::CreateRenderState_Concurrent </td>
+          <td>(</td>
+          <td class="paramtype">FRegisterComponentContext *</td>          <td class="paramname"><span class="paramname"><em>Context</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa200334614a74e0a9d2bc59040f8a470" name="aa200334614a74e0a9d2bc59040f8a470"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa200334614a74e0a9d2bc59040f8a470">&#9670;&#160;</a></span>GetCurrentFingerCurls()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">FORCEINLINE <a class="el" href="struct_f_finger_curls.html">FFingerCurls</a> UVR_MotionControllerComponent::GetCurrentFingerCurls </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a109d1c795f5a5585787f810813f1263e" name="a109d1c795f5a5585787f810813f1263e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a109d1c795f5a5585787f810813f1263e">&#9670;&#160;</a></span>IsUsingFingerTracking()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">FORCEINLINE bool UVR_MotionControllerComponent::IsUsingFingerTracking </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0d98ca45992502782780ac060f52846c" name="a0d98ca45992502782780ac060f52846c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d98ca45992502782780ac060f52846c">&#9670;&#160;</a></span>SendRenderTransform_Concurrent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UVR_MotionControllerComponent::SendRenderTransform_Concurrent </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a41acf7f4526678e3c62f335c1e0dbbf3" name="a41acf7f4526678e3c62f335c1e0dbbf3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41acf7f4526678e3c62f335c1e0dbbf3">&#9670;&#160;</a></span>VRPollControllerState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool UVR_MotionControllerComponent::VRPollControllerState </td>
+          <td>(</td>
+          <td class="paramtype">FVector &amp;</td>          <td class="paramname"><span class="paramname"><em>Position</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">FRotator &amp;</td>          <td class="paramname"><span class="paramname"><em>Orientation</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>WorldToMetersScale</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7d91f3657d5e98b72ed4aa3c8ea2b1b7" name="a7d91f3657d5e98b72ed4aa3c8ea2b1b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d91f3657d5e98b72ed4aa3c8ea2b1b7">&#9670;&#160;</a></span>VRPollControllerState_GameThread()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool UVR_MotionControllerComponent::VRPollControllerState_GameThread </td>
+          <td>(</td>
+          <td class="paramtype">FVector &amp;</td>          <td class="paramname"><span class="paramname"><em>Position</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">FRotator &amp;</td>          <td class="paramname"><span class="paramname"><em>Orientation</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool &amp;</td>          <td class="paramname"><span class="paramname"><em>OutbProvidedLinearVelocity</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">FVector &amp;</td>          <td class="paramname"><span class="paramname"><em>OutLinearVelocity</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool &amp;</td>          <td class="paramname"><span class="paramname"><em>OutbProvidedAngularVelocity</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">FVector &amp;</td>          <td class="paramname"><span class="paramname"><em>OutAngularVelocityAsAxisAndLength</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool &amp;</td>          <td class="paramname"><span class="paramname"><em>OutbProvidedLinearAcceleration</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">FVector &amp;</td>          <td class="paramname"><span class="paramname"><em>OutLinearAcceleration</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>WorldToMetersScale</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a91cd283b6c442ced76baad01173a3c7b" name="a91cd283b6c442ced76baad01173a3c7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91cd283b6c442ced76baad01173a3c7b">&#9670;&#160;</a></span>VRPollControllerState_RenderThread()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool UVR_MotionControllerComponent::VRPollControllerState_RenderThread </td>
+          <td>(</td>
+          <td class="paramtype">FVector &amp;</td>          <td class="paramname"><span class="paramname"><em>Position</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">FRotator &amp;</td>          <td class="paramname"><span class="paramname"><em>Orientation</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>WorldToMetersScale</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ab5a5572f7f7f3579c70742c2ee44ce89" name="ab5a5572f7f7f3579c70742c2ee44ce89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5a5572f7f7f3579c70742c2ee44ce89">&#9670;&#160;</a></span>AdditionalLateUpdateComponents</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TArray&lt;UPrimitiveComponent*&gt; UVR_MotionControllerComponent::AdditionalLateUpdateComponents</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4137753beba4adc0229d3e2a3ef051cf" name="a4137753beba4adc0229d3e2a3ef051cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4137753beba4adc0229d3e2a3ef051cf">&#9670;&#160;</a></span>bFingerTrackingIsValid</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool UVR_MotionControllerComponent::bFingerTrackingIsValid</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0f82122cc95ca89cfb86d77eb5dd6873" name="a0f82122cc95ca89cfb86d77eb5dd6873"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f82122cc95ca89cfb86d77eb5dd6873">&#9670;&#160;</a></span>bUseTracking</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool UVR_MotionControllerComponent::bUseTracking</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6a0bea2db4946d8efc69dcbd9f9117db" name="a6a0bea2db4946d8efc69dcbd9f9117db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a0bea2db4946d8efc69dcbd9f9117db">&#9670;&#160;</a></span>CurrentFingerCurls</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_f_finger_curls.html">FFingerCurls</a> UVR_MotionControllerComponent::CurrentFingerCurls</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acce6131ba7b03c25327a47124e36fa7c" name="acce6131ba7b03c25327a47124e36fa7c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acce6131ba7b03c25327a47124e36fa7c">&#9670;&#160;</a></span>Index</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float UVR_MotionControllerComponent::Index</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0810c3d2d5091d504e27511d78d9ebc0" name="a0810c3d2d5091d504e27511d78d9ebc0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0810c3d2d5091d504e27511d78d9ebc0">&#9670;&#160;</a></span>LastFingerCurls</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_f_finger_curls.html">FFingerCurls</a> UVR_MotionControllerComponent::LastFingerCurls</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa62dd5dcaca832c78f8d9e91cffb04da" name="aa62dd5dcaca832c78f8d9e91cffb04da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa62dd5dcaca832c78f8d9e91cffb04da">&#9670;&#160;</a></span>Middle</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float UVR_MotionControllerComponent::Middle</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abeabf557201c06abe745f4cc6b4b8d1c" name="abeabf557201c06abe745f4cc6b4b8d1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abeabf557201c06abe745f4cc6b4b8d1c">&#9670;&#160;</a></span>NetFingersUpdateCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float UVR_MotionControllerComponent::NetFingersUpdateCount</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3a89c13dadc21df5553de136f33278d0" name="a3a89c13dadc21df5553de136f33278d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a89c13dadc21df5553de136f33278d0">&#9670;&#160;</a></span>NetTransformUpdateCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float UVR_MotionControllerComponent::NetTransformUpdateCount</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac7de80ac31170c58dba14dd5a82929c9" name="ac7de80ac31170c58dba14dd5a82929c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7de80ac31170c58dba14dd5a82929c9">&#9670;&#160;</a></span>NetUpdateRate</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float UVR_MotionControllerComponent::NetUpdateRate</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0f519891cf4c9e6e195341cec5d055d2" name="a0f519891cf4c9e6e195341cec5d055d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f519891cf4c9e6e195341cec5d055d2">&#9670;&#160;</a></span>Pinky</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float UVR_MotionControllerComponent::Pinky</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3f2b231b3e2914b28640589b46ba498a" name="a3f2b231b3e2914b28640589b46ba498a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f2b231b3e2914b28640589b46ba498a">&#9670;&#160;</a></span>ReplicatedFingerCurls</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_f_finger_curls.html">FFingerCurls</a> UVR_MotionControllerComponent::ReplicatedFingerCurls</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa34211ab380a251e1499af56d16b3941" name="aa34211ab380a251e1499af56d16b3941"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa34211ab380a251e1499af56d16b3941">&#9670;&#160;</a></span>Ring</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float UVR_MotionControllerComponent::Ring</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a354ab4726009b619bf3298e0d1fa84e8" name="a354ab4726009b619bf3298e0d1fa84e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a354ab4726009b619bf3298e0d1fa84e8">&#9670;&#160;</a></span>Thumb</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float UVR_MotionControllerComponent::Thumb</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>D:/Projects/LUEZ/LUEZ/Plugins/HeadMountedVR/Source/HeadMountedVR/Public/VR/VR_Components/<a class="el" href="_v_r___motion_controller_component_8h_source.html">VR_MotionControllerComponent.h</a></li>
-<li>D:/Projects/LUEZ/LUEZ/Plugins/HeadMountedVR/Source/HeadMountedVR/Private/VR/VR_Components/<b>VR_MotionControllerComponent.cpp</b></li>
+<li>D:/Projects/LUEZ/LUEZ/Plugins/HeadMountedVR/Source/HeadMountedVR/Private/VR/VR_Components/<a class="el" href="_v_r___motion_controller_component_8cpp.html">VR_MotionControllerComponent.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

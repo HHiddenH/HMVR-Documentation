@@ -100,12 +100,12 @@ $(function(){initNavTree('_v_r___interaction_interface_8h_source.html',''); init
   <div class="headertitle"><div class="title">VR_InteractionInterface.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">//========= Copyright 2023 Head Mounted Software, All rights reserved. ============//</span></div>
+<a href="_v_r___interaction_interface_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">//========= Copyright 2023 Head Mounted Software, All rights reserved. ============//</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;CoreMinimal.h&quot;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;UObject/Interface.h&quot;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;PhysicsEngine/PhysicsConstraintComponent.h&quot;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;VR_Hands.h&quot;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;<a class="code" href="_v_r___hands_8h.html">VR_Hands.h</a>&quot;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;VR_InteractionInterface.generated.h&quot;</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>UINTERFACE(MinimalAPI)</div>
@@ -125,51 +125,52 @@ $(function(){initNavTree('_v_r___interaction_interface_8h_source.html',''); init
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = <span class="stringliteral">&quot;VR|Player&quot;</span>)</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>        <span class="keywordtype">void</span> Pickup(<span class="keyword">class</span> AActor* VR_MotionConttroller, <span class="keyword">class</span> USceneComponent* MotionController,<span class="keyword">class</span> UPhysicsConstraintComponent* PickPhysicsConstraint, <span class="keyword">class</span> USkeletalMeshComponent* RealHandMesh , EControllerHand CurrentHand);</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="class_i_v_r___interaction_interface.html#a8fda1db434b730ed7d1ce524e96b16e1">   29</a></span>        void Pickup(class AActor* VR_MotionConttroller, class USceneComponent* MotionController,class UPhysicsConstraintComponent* PickPhysicsConstraint, class USkeletalMeshComponent* RealHandMesh , EControllerHand CurrentHand);</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = <span class="stringliteral">&quot;VR|Player&quot;</span>)</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>        <span class="keywordtype">void</span> Drop(<span class="keyword">class</span> UPhysicsConstraintComponent* PickPhysicsConstraint);</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = &quot;VR|Player&quot;)</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="class_i_v_r___interaction_interface.html#a965d8b2389a724891a32337d36342c13">   32</a></span>        <span class="keywordtype">void</span> Drop(class UPhysicsConstraintComponent* PickPhysicsConstraint);</div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = <span class="stringliteral">&quot;VR|Player&quot;</span>)</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        <span class="keywordtype">bool</span> IsGrabbed();</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = &quot;VR|Player&quot;)</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="class_i_v_r___interaction_interface.html#a282de5c0d6ce23b4ae38d29086c961ac">   35</a></span>        <span class="keywordtype">bool</span> IsGrabbed();</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = <span class="stringliteral">&quot;VR|Player&quot;</span>)</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>        <span class="keywordtype">bool</span> CanPullGrab();</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = &quot;VR|Player&quot;)</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="class_i_v_r___interaction_interface.html#aff85a5e56d3f93de5b932a1f7f608972">   38</a></span>        <span class="keywordtype">bool</span> CanPullGrab();</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = <span class="stringliteral">&quot;VR|Player&quot;</span>)</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="class_i_v_r___interaction_interface.html#af1a975d0c1d498885177a7ba7d7d3766">   45</a></span>        void Interaction(class <a class="code hl_class" href="class_a_v_r___hands.html">AVR_Hands</a>* MotionController,<span class="keywordtype">bool</span>&amp; HandleStatus, <span class="keywordtype">bool</span> bFroceAttachHandle);</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = &quot;VR|Player&quot;)</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="class_i_v_r___interaction_interface.html#af1a975d0c1d498885177a7ba7d7d3766">   45</a></span>        <span class="keywordtype">void</span> Interaction(class <a class="code hl_class" href="class_a_v_r___hands.html">AVR_Hands</a>* MotionController,<span class="keywordtype">bool</span>&amp; HandleStatus, <span class="keywordtype">bool</span> bFroceAttachHandle);</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = &quot;VR|Player&quot;)</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>        <span class="keywordtype">bool</span> IsColliding();</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="class_i_v_r___interaction_interface.html#a52781755f4f0f924ff468e8189077553">   48</a></span>        <span class="keywordtype">bool</span> IsColliding();</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = &quot;VR|Player&quot;)</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="class_i_v_r___interaction_interface.html#af86617b2de6f4bd197e9c3c9b54ee0f3">   55</a></span>        <span class="keywordtype">void</span> Stop_Interaction(class <a class="code hl_class" href="class_a_v_r___hands.html">AVR_Hands</a>* MotionController);</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>    <span class="comment">//Weapons Interaction</span></div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = &quot;VR|Player&quot;)</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>        <span class="keywordtype">void</span> Shoot();</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="class_i_v_r___interaction_interface.html#ac829dea00a3195e868c70762129fd251">   59</a></span>        <span class="keywordtype">void</span> Shoot();</div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
 <div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = &quot;VR|Player&quot;)</div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="class_i_v_r___interaction_interface.html#a56bbd2afa9d9ecd5fe1f993165b4ede8">   68</a></span>        <span class="keywordtype">bool</span> IsHeldBy(class <a class="code hl_class" href="class_a_v_r___hands.html">AVR_Hands</a>* MotionController);</div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    <span class="comment">//Non-VR</span></div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = &quot;NonVR|Player&quot;)</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>        <span class="keywordtype">bool</span> CanNonVRInteract();</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno"><a class="line" href="class_i_v_r___interaction_interface.html#a710ae6a8ffa0f242fbeb51b542c18c28">   72</a></span>        <span class="keywordtype">bool</span> CanNonVRInteract();</div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = &quot;NonVR|Player&quot;)</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>        <span class="keywordtype">bool</span> ForceCheckForGrabComponents();</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno"><a class="line" href="class_i_v_r___interaction_interface.html#a17acb64d014827dd27240ff855c70340">   75</a></span>        <span class="keywordtype">bool</span> ForceCheckForGrabComponents();</div>
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = &quot;NonVR|Player&quot;)</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>        <span class="keywordtype">void</span> NonVRInteraction(<a class="code hl_class" href="class_a_v_r___player.html">AVR_Player</a>* Player);</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno"><a class="line" href="class_i_v_r___interaction_interface.html#aa55421f00d80e725e53a0847615c09ed">   78</a></span>        <span class="keywordtype">void</span> NonVRInteraction(<a class="code hl_class" href="class_a_v_r___player.html">AVR_Player</a>* Player);</div>
 <div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span> </div>
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = &quot;NonVR|Player&quot;)</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>        <span class="keywordtype">bool</span> IsNonVRInteractTillStop();</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno"><a class="line" href="class_i_v_r___interaction_interface.html#ada7e8f76ebd6e6b61a525a1aceb08fca">   81</a></span>        <span class="keywordtype">bool</span> IsNonVRInteractTillStop();</div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
 <div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>    UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = &quot;NonVR|Player&quot;)</div>
 <div class="line"><a id="l00088" name="l00088"></a><span class="lineno"><a class="line" href="class_i_v_r___interaction_interface.html#af1f7753dad982a52d527d0dd910b7233">   88</a></span>        <span class="keywordtype">void</span> Stop_NonVRInteraction(<a class="code hl_class" href="class_a_v_r___player.html">AVR_Player</a>* Player);</div>
 <div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span> </div>
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>};</div>
 </div>
+<div class="ttc" id="a_v_r___hands_8h_html"><div class="ttname"><a href="_v_r___hands_8h.html">VR_Hands.h</a></div></div>
 <div class="ttc" id="aclass_a_v_r___hands_html"><div class="ttname"><a href="class_a_v_r___hands.html">AVR_Hands</a></div><div class="ttdoc">Hand class.</div><div class="ttdef"><b>Definition</b> VR_Hands.h:45</div></div>
 <div class="ttc" id="aclass_a_v_r___player_html"><div class="ttname"><a href="class_a_v_r___player.html">AVR_Player</a></div><div class="ttdoc">Player class.</div><div class="ttdef"><b>Definition</b> VR_Player.h:28</div></div>
 <div class="ttc" id="aclass_i_v_r___interaction_interface_html"><div class="ttname"><a href="class_i_v_r___interaction_interface.html">IVR_InteractionInterface</a></div><div class="ttdoc">Interface for interacting with objects.</div><div class="ttdef"><b>Definition</b> VR_InteractionInterface.h:22</div></div>

@@ -100,12 +100,12 @@ $(function(){initNavTree('_v_r___equipment_skeletal_8h_source.html',''); initRes
   <div class="headertitle"><div class="title">VR_EquipmentSkeletal.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">//========= Copyright 2023 Head Mounted Software, All rights reserved. ============//</span></div>
+<a href="_v_r___equipment_skeletal_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">//========= Copyright 2023 Head Mounted Software, All rights reserved. ============//</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;CoreMinimal.h&quot;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;VR/VR_Actors/VR_SkeletalMesh.h&quot;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;<a class="code" href="_v_r___skeletal_mesh_8h.html">VR/VR_Actors/VR_SkeletalMesh.h</a>&quot;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;VR_EquipmentSkeletal.generated.h&quot;</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>UCLASS()</div>
@@ -118,7 +118,7 @@ $(function(){initNavTree('_v_r___equipment_skeletal_8h_source.html',''); initRes
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <span class="comment">// Called when the game starts or when spawned</span></div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> BeginPlay() <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="keywordtype">bool</span> bturned;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="class_a_v_r___equipment_skeletal.html#a71c14d5c562b313275dff374654701fa">   23</a></span>    <span class="keywordtype">bool</span> <a class="code hl_variable" href="class_a_v_r___equipment_skeletal.html#a71c14d5c562b313275dff374654701fa">bturned</a>;</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
@@ -130,23 +130,27 @@ $(function(){initNavTree('_v_r___equipment_skeletal_8h_source.html',''); initRes
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> A_Press();</div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    UFUNCTION(BlueprintImplementableEvent, meta = (DisplayName = <span class="stringliteral">&quot;Do On A Pressed&quot;</span>))</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        <span class="keywordtype">void</span> DoOnAPressed();</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="class_a_v_r___equipment_skeletal.html#a122b0c25a76d7481e240307f7e2bd833">   35</a></span>        void DoOnAPressed();</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> B_Press();</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    virtual <span class="keywordtype">void</span> B_Press();</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    UFUNCTION(BlueprintImplementableEvent, meta = (DisplayName = <span class="stringliteral">&quot;Do On B Pressed&quot;</span>))</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        <span class="keywordtype">void</span> DoOnBPressed();</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    UFUNCTION(BlueprintImplementableEvent, meta = (DisplayName = &quot;Do On <a class="code hl_enumvalue" href="_v_r___variables_8h.html#a18be71129c3a1f950fe9d2d87094064aa9d5ed678fe57bcca610140957afab571">B</a> Pressed&quot;))</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="class_a_v_r___equipment_skeletal.html#a81cbb8c7477b23739b5c323bab5a5837">   40</a></span>        <span class="keywordtype">void</span> DoOnBPressed();</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> Trigger_Press();</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    virtual <span class="keywordtype">void</span> Trigger_Press();</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    UFUNCTION(BlueprintImplementableEvent, meta = (DisplayName = <span class="stringliteral">&quot;Do On Trigger Pressed&quot;</span>))</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        <span class="keywordtype">void</span> DoOnTriggerPressed();</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    UFUNCTION(BlueprintImplementableEvent, meta = (DisplayName = &quot;Do On <a class="code hl_enumvalue" href="_v_r___variables_8h.html#a18be71129c3a1f950fe9d2d87094064aaf698f67f5666aff10729d8a1cb1c14d2">Trigger</a> Pressed&quot;))</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="class_a_v_r___equipment_skeletal.html#a2f572d1b47544f40383e066385a77c25">   45</a></span>        <span class="keywordtype">void</span> DoOnTriggerPressed();</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    UFUNCTION(BlueprintCallable, Category = <span class="stringliteral">&quot;Get&quot;</span>)</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>        FORCEINLINE <span class="keywordtype">float</span> GetTurned()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> bturned; }</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    UFUNCTION(BlueprintCallable, Category = &quot;Get&quot;)</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="class_a_v_r___equipment_skeletal.html#a9402c8fdce7a25d6eba8cfde46741e4a">   48</a></span>        FORCEINLINE <span class="keywordtype">float</span> GetTurned()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> bturned; }</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>};</div>
 </div>
+<div class="ttc" id="a_v_r___skeletal_mesh_8h_html"><div class="ttname"><a href="_v_r___skeletal_mesh_8h.html">VR_SkeletalMesh.h</a></div></div>
+<div class="ttc" id="a_v_r___variables_8h_html_a18be71129c3a1f950fe9d2d87094064aa9d5ed678fe57bcca610140957afab571"><div class="ttname"><a href="_v_r___variables_8h.html#a18be71129c3a1f950fe9d2d87094064aa9d5ed678fe57bcca610140957afab571">EButton::B</a></div><div class="ttdeci">@ B</div></div>
+<div class="ttc" id="a_v_r___variables_8h_html_a18be71129c3a1f950fe9d2d87094064aaf698f67f5666aff10729d8a1cb1c14d2"><div class="ttname"><a href="_v_r___variables_8h.html#a18be71129c3a1f950fe9d2d87094064aaf698f67f5666aff10729d8a1cb1c14d2">EButton::Trigger</a></div><div class="ttdeci">@ Trigger</div></div>
 <div class="ttc" id="aclass_a_v_r___equipment_skeletal_html"><div class="ttname"><a href="class_a_v_r___equipment_skeletal.html">AVR_EquipmentSkeletal</a></div><div class="ttdoc">Player can interact with this class after grab. (Pressing the following buttons: trigger button,...</div><div class="ttdef"><b>Definition</b> VR_EquipmentSkeletal.h:16</div></div>
+<div class="ttc" id="aclass_a_v_r___equipment_skeletal_html_a71c14d5c562b313275dff374654701fa"><div class="ttname"><a href="class_a_v_r___equipment_skeletal.html#a71c14d5c562b313275dff374654701fa">AVR_EquipmentSkeletal::bturned</a></div><div class="ttdeci">bool bturned</div><div class="ttdef"><b>Definition</b> VR_EquipmentSkeletal.h:23</div></div>
 <div class="ttc" id="aclass_a_v_r___skeletal_mesh_html"><div class="ttname"><a href="class_a_v_r___skeletal_mesh.html">AVR_SkeletalMesh</a></div><div class="ttdoc">This is a skeletal object which player can pick up using one of grab methods (enum EGrabMethod)</div><div class="ttdef"><b>Definition</b> VR_SkeletalMesh.h:18</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

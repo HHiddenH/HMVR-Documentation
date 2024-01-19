@@ -100,33 +100,40 @@ $(function(){initNavTree('_head_mounted_editor_commands_8h_source.html',''); ini
   <div class="headertitle"><div class="title">HeadMountedEditorCommands.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">//========= Copyright 2023 Head Mounted Software, All rights reserved. ============//</span></div>
+<a href="_head_mounted_editor_commands_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">//========= Copyright 2023 Head Mounted Software, All rights reserved. ============//</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;CoreMinimal.h&quot;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;Framework/Commands/Commands.h&quot;</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;HeadMountedEditorStyle.h&quot;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;<a class="code" href="_head_mounted_editor_style_8h.html">HeadMountedEditorStyle.h</a>&quot;</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
 <div class="foldopen" id="foldopen00009" data-start="{" data-end="};">
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="class_f_head_mounted_editor_commands.html">    9</a></span><span class="keyword">class </span><a class="code hl_class" href="class_f_head_mounted_editor_commands.html">FHeadMountedEditorCommands</a> : <span class="keyword">public</span> TCommands&lt;FHeadMountedEditorCommands&gt;</div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>{</div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    <a class="code hl_class" href="class_f_head_mounted_editor_commands.html">FHeadMountedEditorCommands</a>()</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>        : TCommands&lt;FHeadMountedEditorCommands&gt;(TEXT(<span class="stringliteral">&quot;HeadMountedEditor&quot;</span>), NSLOCTEXT(<span class="stringliteral">&quot;Contexts&quot;</span>, <span class="stringliteral">&quot;HeadMountedEditor&quot;</span>, <span class="stringliteral">&quot;HeadMountedVR Plugin&quot;</span>), NAME_None, FHeadMountedEditorStyle::GetStyleSetName())</div>
+<div class="foldopen" id="foldopen00013" data-start="{" data-end="}">
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="class_f_head_mounted_editor_commands.html#a0081fa2cb5be76b0d34d38ce1fd9c9ed">   13</a></span>    <a class="code hl_function" href="class_f_head_mounted_editor_commands.html#a0081fa2cb5be76b0d34d38ce1fd9c9ed">FHeadMountedEditorCommands</a>()</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>        : TCommands&lt;<a class="code hl_class" href="class_f_head_mounted_editor_commands.html">FHeadMountedEditorCommands</a>&gt;(TEXT(<span class="stringliteral">&quot;HeadMountedEditor&quot;</span>), NSLOCTEXT(<span class="stringliteral">&quot;Contexts&quot;</span>, <span class="stringliteral">&quot;HeadMountedEditor&quot;</span>, <span class="stringliteral">&quot;HeadMountedVR Plugin&quot;</span>), NAME_None, <a class="code hl_class" href="class_f_head_mounted_editor_style.html">FHeadMountedEditorStyle</a>::GetStyleSetName())</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    {</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    }</div>
+</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <span class="comment">// TCommands&lt;&gt; interface</span></div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> RegisterCommands() <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_f_head_mounted_editor_commands.html#ab7cfb49b7a2ddb32a0855f240d27c6e3">RegisterCommands</a>() <span class="keyword">override</span>;</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    TSharedPtr&lt; FUICommandInfo &gt; Info;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="class_f_head_mounted_editor_commands.html#add0b3c89eccbe6bf8d974d97a32d41d4">   23</a></span>    TSharedPtr&lt; FUICommandInfo &gt; <a class="code hl_variable" href="class_f_head_mounted_editor_commands.html#add0b3c89eccbe6bf8d974d97a32d41d4">Info</a>;</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>};</div>
 </div>
+<div class="ttc" id="a_head_mounted_editor_style_8h_html"><div class="ttname"><a href="_head_mounted_editor_style_8h.html">HeadMountedEditorStyle.h</a></div></div>
 <div class="ttc" id="aclass_f_head_mounted_editor_commands_html"><div class="ttname"><a href="class_f_head_mounted_editor_commands.html">FHeadMountedEditorCommands</a></div><div class="ttdef"><b>Definition</b> HeadMountedEditorCommands.h:10</div></div>
+<div class="ttc" id="aclass_f_head_mounted_editor_commands_html_a0081fa2cb5be76b0d34d38ce1fd9c9ed"><div class="ttname"><a href="class_f_head_mounted_editor_commands.html#a0081fa2cb5be76b0d34d38ce1fd9c9ed">FHeadMountedEditorCommands::FHeadMountedEditorCommands</a></div><div class="ttdeci">FHeadMountedEditorCommands()</div><div class="ttdef"><b>Definition</b> HeadMountedEditorCommands.h:13</div></div>
+<div class="ttc" id="aclass_f_head_mounted_editor_commands_html_ab7cfb49b7a2ddb32a0855f240d27c6e3"><div class="ttname"><a href="class_f_head_mounted_editor_commands.html#ab7cfb49b7a2ddb32a0855f240d27c6e3">FHeadMountedEditorCommands::RegisterCommands</a></div><div class="ttdeci">virtual void RegisterCommands() override</div><div class="ttdef"><b>Definition</b> HeadMountedEditorCommands.cpp:7</div></div>
+<div class="ttc" id="aclass_f_head_mounted_editor_commands_html_add0b3c89eccbe6bf8d974d97a32d41d4"><div class="ttname"><a href="class_f_head_mounted_editor_commands.html#add0b3c89eccbe6bf8d974d97a32d41d4">FHeadMountedEditorCommands::Info</a></div><div class="ttdeci">TSharedPtr&lt; FUICommandInfo &gt; Info</div><div class="ttdef"><b>Definition</b> HeadMountedEditorCommands.h:23</div></div>
+<div class="ttc" id="aclass_f_head_mounted_editor_style_html"><div class="ttname"><a href="class_f_head_mounted_editor_style.html">FHeadMountedEditorStyle</a></div><div class="ttdef"><b>Definition</b> HeadMountedEditorStyle.h:9</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

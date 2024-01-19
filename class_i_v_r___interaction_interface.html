@@ -112,6 +112,7 @@ $(function(){initNavTree('class_i_v_r___interaction_interface.html',''); initRes
   <img src="class_i_v_r___interaction_interface.png" usemap="#IVR_5FInteractionInterface_map" alt=""/>
   <map id="IVR_5FInteractionInterface_map" name="IVR_5FInteractionInterface_map">
 <area href="class_a_v_r___actor.html" title="VR Actor." alt="AVR_Actor" shape="rect" coords="0,56,148,80"/>
+<area href="class_u_v_r___grab_component.html" title="Grab Component class." alt="UVR_GrabComponent" shape="rect" coords="158,56,306,80"/>
 <area href="class_a_v_r___climbable.html" title="Climbable class. Can be used for ladders, obstacles etc." alt="AVR_Climbable" shape="rect" coords="158,112,306,136"/>
 <area href="class_a_v_r___door.html" title="Door can be used as big door or as small door for the closets." alt="AVR_Door" shape="rect" coords="158,168,306,192"/>
 <area href="class_a_v_r___drawer.html" title="This is a physic drawer class which can interact with AVR_Hands." alt="AVR_Drawer" shape="rect" coords="158,224,306,248"/>
@@ -126,44 +127,34 @@ $(function(){initNavTree('class_i_v_r___interaction_interface.html',''); initRes
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a8fda1db434b730ed7d1ce524e96b16e1" id="r_a8fda1db434b730ed7d1ce524e96b16e1"><td class="memItemLeft" align="right" valign="top"><a id="a8fda1db434b730ed7d1ce524e96b16e1" name="a8fda1db434b730ed7d1ce524e96b16e1"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Pickup</b> (class AActor *VR_MotionConttroller, class USceneComponent *MotionController, class UPhysicsConstraintComponent *PickPhysicsConstraint, class USkeletalMeshComponent *RealHandMesh, EControllerHand CurrentHand)</td></tr>
+<tr class="memitem:a8fda1db434b730ed7d1ce524e96b16e1" id="r_a8fda1db434b730ed7d1ce524e96b16e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8fda1db434b730ed7d1ce524e96b16e1">Pickup</a> (class AActor *VR_MotionConttroller, class USceneComponent *MotionController, class UPhysicsConstraintComponent *PickPhysicsConstraint, class USkeletalMeshComponent *RealHandMesh, EControllerHand CurrentHand)</td></tr>
 <tr class="separator:a8fda1db434b730ed7d1ce524e96b16e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a965d8b2389a724891a32337d36342c13" id="r_a965d8b2389a724891a32337d36342c13"><td class="memItemLeft" align="right" valign="top"><a id="a965d8b2389a724891a32337d36342c13" name="a965d8b2389a724891a32337d36342c13"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Drop</b> (class UPhysicsConstraintComponent *PickPhysicsConstraint)</td></tr>
+<tr class="memitem:a965d8b2389a724891a32337d36342c13" id="r_a965d8b2389a724891a32337d36342c13"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a965d8b2389a724891a32337d36342c13">Drop</a> (class UPhysicsConstraintComponent *PickPhysicsConstraint)</td></tr>
 <tr class="separator:a965d8b2389a724891a32337d36342c13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a282de5c0d6ce23b4ae38d29086c961ac" id="r_a282de5c0d6ce23b4ae38d29086c961ac"><td class="memItemLeft" align="right" valign="top"><a id="a282de5c0d6ce23b4ae38d29086c961ac" name="a282de5c0d6ce23b4ae38d29086c961ac"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsGrabbed</b> ()</td></tr>
+<tr class="memitem:a282de5c0d6ce23b4ae38d29086c961ac" id="r_a282de5c0d6ce23b4ae38d29086c961ac"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a282de5c0d6ce23b4ae38d29086c961ac">IsGrabbed</a> ()</td></tr>
 <tr class="separator:a282de5c0d6ce23b4ae38d29086c961ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff85a5e56d3f93de5b932a1f7f608972" id="r_aff85a5e56d3f93de5b932a1f7f608972"><td class="memItemLeft" align="right" valign="top"><a id="aff85a5e56d3f93de5b932a1f7f608972" name="aff85a5e56d3f93de5b932a1f7f608972"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>CanPullGrab</b> ()</td></tr>
+<tr class="memitem:aff85a5e56d3f93de5b932a1f7f608972" id="r_aff85a5e56d3f93de5b932a1f7f608972"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff85a5e56d3f93de5b932a1f7f608972">CanPullGrab</a> ()</td></tr>
 <tr class="separator:aff85a5e56d3f93de5b932a1f7f608972"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1a975d0c1d498885177a7ba7d7d3766" id="r_af1a975d0c1d498885177a7ba7d7d3766"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1a975d0c1d498885177a7ba7d7d3766">Interaction</a> (class <a class="el" href="class_a_v_r___hands.html">AVR_Hands</a> *MotionController, bool &amp;HandleStatus, bool bFroceAttachHandle)</td></tr>
 <tr class="memdesc:af1a975d0c1d498885177a7ba7d7d3766"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used for interaction with objects such as door.  <br /></td></tr>
 <tr class="separator:af1a975d0c1d498885177a7ba7d7d3766"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a52781755f4f0f924ff468e8189077553" id="r_a52781755f4f0f924ff468e8189077553"><td class="memItemLeft" align="right" valign="top"><a id="a52781755f4f0f924ff468e8189077553" name="a52781755f4f0f924ff468e8189077553"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsColliding</b> ()</td></tr>
+<tr class="memitem:a52781755f4f0f924ff468e8189077553" id="r_a52781755f4f0f924ff468e8189077553"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52781755f4f0f924ff468e8189077553">IsColliding</a> ()</td></tr>
 <tr class="separator:a52781755f4f0f924ff468e8189077553"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af86617b2de6f4bd197e9c3c9b54ee0f3" id="r_af86617b2de6f4bd197e9c3c9b54ee0f3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af86617b2de6f4bd197e9c3c9b54ee0f3">Stop_Interaction</a> (class <a class="el" href="class_a_v_r___hands.html">AVR_Hands</a> *MotionController)</td></tr>
 <tr class="memdesc:af86617b2de6f4bd197e9c3c9b54ee0f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop object interaction.  <br /></td></tr>
 <tr class="separator:af86617b2de6f4bd197e9c3c9b54ee0f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac829dea00a3195e868c70762129fd251" id="r_ac829dea00a3195e868c70762129fd251"><td class="memItemLeft" align="right" valign="top"><a id="ac829dea00a3195e868c70762129fd251" name="ac829dea00a3195e868c70762129fd251"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Shoot</b> ()</td></tr>
+<tr class="memitem:ac829dea00a3195e868c70762129fd251" id="r_ac829dea00a3195e868c70762129fd251"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac829dea00a3195e868c70762129fd251">Shoot</a> ()</td></tr>
 <tr class="separator:ac829dea00a3195e868c70762129fd251"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56bbd2afa9d9ecd5fe1f993165b4ede8" id="r_a56bbd2afa9d9ecd5fe1f993165b4ede8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56bbd2afa9d9ecd5fe1f993165b4ede8">IsHeldBy</a> (class <a class="el" href="class_a_v_r___hands.html">AVR_Hands</a> *MotionController)</td></tr>
 <tr class="memdesc:a56bbd2afa9d9ecd5fe1f993165b4ede8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indetify if object is held by MotionController.  <br /></td></tr>
 <tr class="separator:a56bbd2afa9d9ecd5fe1f993165b4ede8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a710ae6a8ffa0f242fbeb51b542c18c28" id="r_a710ae6a8ffa0f242fbeb51b542c18c28"><td class="memItemLeft" align="right" valign="top"><a id="a710ae6a8ffa0f242fbeb51b542c18c28" name="a710ae6a8ffa0f242fbeb51b542c18c28"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>CanNonVRInteract</b> ()</td></tr>
+<tr class="memitem:a710ae6a8ffa0f242fbeb51b542c18c28" id="r_a710ae6a8ffa0f242fbeb51b542c18c28"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a710ae6a8ffa0f242fbeb51b542c18c28">CanNonVRInteract</a> ()</td></tr>
 <tr class="separator:a710ae6a8ffa0f242fbeb51b542c18c28"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17acb64d014827dd27240ff855c70340" id="r_a17acb64d014827dd27240ff855c70340"><td class="memItemLeft" align="right" valign="top"><a id="a17acb64d014827dd27240ff855c70340" name="a17acb64d014827dd27240ff855c70340"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>ForceCheckForGrabComponents</b> ()</td></tr>
+<tr class="memitem:a17acb64d014827dd27240ff855c70340" id="r_a17acb64d014827dd27240ff855c70340"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17acb64d014827dd27240ff855c70340">ForceCheckForGrabComponents</a> ()</td></tr>
 <tr class="separator:a17acb64d014827dd27240ff855c70340"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa55421f00d80e725e53a0847615c09ed" id="r_aa55421f00d80e725e53a0847615c09ed"><td class="memItemLeft" align="right" valign="top"><a id="aa55421f00d80e725e53a0847615c09ed" name="aa55421f00d80e725e53a0847615c09ed"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>NonVRInteraction</b> (<a class="el" href="class_a_v_r___player.html">AVR_Player</a> *Player)</td></tr>
+<tr class="memitem:aa55421f00d80e725e53a0847615c09ed" id="r_aa55421f00d80e725e53a0847615c09ed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa55421f00d80e725e53a0847615c09ed">NonVRInteraction</a> (<a class="el" href="class_a_v_r___player.html">AVR_Player</a> *Player)</td></tr>
 <tr class="separator:aa55421f00d80e725e53a0847615c09ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada7e8f76ebd6e6b61a525a1aceb08fca" id="r_ada7e8f76ebd6e6b61a525a1aceb08fca"><td class="memItemLeft" align="right" valign="top"><a id="ada7e8f76ebd6e6b61a525a1aceb08fca" name="ada7e8f76ebd6e6b61a525a1aceb08fca"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsNonVRInteractTillStop</b> ()</td></tr>
+<tr class="memitem:ada7e8f76ebd6e6b61a525a1aceb08fca" id="r_ada7e8f76ebd6e6b61a525a1aceb08fca"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ada7e8f76ebd6e6b61a525a1aceb08fca">IsNonVRInteractTillStop</a> ()</td></tr>
 <tr class="separator:ada7e8f76ebd6e6b61a525a1aceb08fca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1f7753dad982a52d527d0dd910b7233" id="r_af1f7753dad982a52d527d0dd910b7233"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1f7753dad982a52d527d0dd910b7233">Stop_NonVRInteraction</a> (<a class="el" href="class_a_v_r___player.html">AVR_Player</a> *Player)</td></tr>
 <tr class="memdesc:af1f7753dad982a52d527d0dd910b7233"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop object interaction.  <br /></td></tr>
@@ -172,6 +163,74 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsNonVRInteractTillSt
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Interface for interacting with objects. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a710ae6a8ffa0f242fbeb51b542c18c28" name="a710ae6a8ffa0f242fbeb51b542c18c28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a710ae6a8ffa0f242fbeb51b542c18c28">&#9670;&#160;</a></span>CanNonVRInteract()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IVR_InteractionInterface::CanNonVRInteract </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aff85a5e56d3f93de5b932a1f7f608972" name="aff85a5e56d3f93de5b932a1f7f608972"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff85a5e56d3f93de5b932a1f7f608972">&#9670;&#160;</a></span>CanPullGrab()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IVR_InteractionInterface::CanPullGrab </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a965d8b2389a724891a32337d36342c13" name="a965d8b2389a724891a32337d36342c13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a965d8b2389a724891a32337d36342c13">&#9670;&#160;</a></span>Drop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IVR_InteractionInterface::Drop </td>
+          <td>(</td>
+          <td class="paramtype">class UPhysicsConstraintComponent *</td>          <td class="paramname"><span class="paramname"><em>PickPhysicsConstraint</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a17acb64d014827dd27240ff855c70340" name="a17acb64d014827dd27240ff855c70340"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17acb64d014827dd27240ff855c70340">&#9670;&#160;</a></span>ForceCheckForGrabComponents()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IVR_InteractionInterface::ForceCheckForGrabComponents </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="af1a975d0c1d498885177a7ba7d7d3766" name="af1a975d0c1d498885177a7ba7d7d3766"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af1a975d0c1d498885177a7ba7d7d3766">&#9670;&#160;</a></span>Interaction()</h2>
 
@@ -201,6 +260,40 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsNonVRInteractTillSt
 
 </div>
 </div>
+<a id="a52781755f4f0f924ff468e8189077553" name="a52781755f4f0f924ff468e8189077553"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52781755f4f0f924ff468e8189077553">&#9670;&#160;</a></span>IsColliding()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IVR_InteractionInterface::IsColliding </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a282de5c0d6ce23b4ae38d29086c961ac" name="a282de5c0d6ce23b4ae38d29086c961ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a282de5c0d6ce23b4ae38d29086c961ac">&#9670;&#160;</a></span>IsGrabbed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IVR_InteractionInterface::IsGrabbed </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a56bbd2afa9d9ecd5fe1f993165b4ede8" name="a56bbd2afa9d9ecd5fe1f993165b4ede8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a56bbd2afa9d9ecd5fe1f993165b4ede8">&#9670;&#160;</a></span>IsHeldBy()</h2>
 
@@ -225,6 +318,93 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsNonVRInteractTillSt
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>bool variable , true if this MotionController is holding an object</dd></dl>
 <dl class="section note"><dt>Note</dt><dd>BlueprintNativeEvent, BlueprintCallable" </dd></dl>
+
+</div>
+</div>
+<a id="ada7e8f76ebd6e6b61a525a1aceb08fca" name="ada7e8f76ebd6e6b61a525a1aceb08fca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada7e8f76ebd6e6b61a525a1aceb08fca">&#9670;&#160;</a></span>IsNonVRInteractTillStop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IVR_InteractionInterface::IsNonVRInteractTillStop </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa55421f00d80e725e53a0847615c09ed" name="aa55421f00d80e725e53a0847615c09ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa55421f00d80e725e53a0847615c09ed">&#9670;&#160;</a></span>NonVRInteraction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IVR_InteractionInterface::NonVRInteraction </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_a_v_r___player.html">AVR_Player</a> *</td>          <td class="paramname"><span class="paramname"><em>Player</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8fda1db434b730ed7d1ce524e96b16e1" name="a8fda1db434b730ed7d1ce524e96b16e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8fda1db434b730ed7d1ce524e96b16e1">&#9670;&#160;</a></span>Pickup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IVR_InteractionInterface::Pickup </td>
+          <td>(</td>
+          <td class="paramtype">class AActor *</td>          <td class="paramname"><span class="paramname"><em>VR_MotionConttroller</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">class USceneComponent *</td>          <td class="paramname"><span class="paramname"><em>MotionController</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">class UPhysicsConstraintComponent *</td>          <td class="paramname"><span class="paramname"><em>PickPhysicsConstraint</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">class USkeletalMeshComponent *</td>          <td class="paramname"><span class="paramname"><em>RealHandMesh</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">EControllerHand</td>          <td class="paramname"><span class="paramname"><em>CurrentHand</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac829dea00a3195e868c70762129fd251" name="ac829dea00a3195e868c70762129fd251"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac829dea00a3195e868c70762129fd251">&#9670;&#160;</a></span>Shoot()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IVR_InteractionInterface::Shoot </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

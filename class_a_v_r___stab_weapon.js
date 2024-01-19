@@ -1,5 +1,25 @@
 var class_a_v_r___stab_weapon =
 [
+    [ "AVR_StabWeapon", "class_a_v_r___stab_weapon.html#a6e055eeb3d8c82ec9c538e6bf3d6b0be", null ],
     [ "BeginPlay", "class_a_v_r___stab_weapon.html#aad5991c12f1e84476d5f4e7a7ecaaf73", null ],
-    [ "Tick", "class_a_v_r___stab_weapon.html#a231bf9037dd53f578b520de14cb28bf9", null ]
+    [ "DoOnStabing", "class_a_v_r___stab_weapon.html#a45a3a31a1cd6c0687d72081d2be35f62", null ],
+    [ "Tick", "class_a_v_r___stab_weapon.html#a231bf9037dd53f578b520de14cb28bf9", null ],
+    [ "bCanStuck", "class_a_v_r___stab_weapon.html#ab578f6f019f731f73f9e32388f089a8a", null ],
+    [ "CheckStabImpulse", "class_a_v_r___stab_weapon.html#a13139ed95649d6e639494bab1a54eb84", null ],
+    [ "CurrentDamageSteps", "class_a_v_r___stab_weapon.html#a59462a2af08c1dd56ba589cc7cbf35e6", null ],
+    [ "DamageForOneStep", "class_a_v_r___stab_weapon.html#a0c03305bf384ef3fcfe52dad33853d7b", null ],
+    [ "DamageSteps", "class_a_v_r___stab_weapon.html#a07314599b4249ee03f702f0ae4c24afc", null ],
+    [ "Friction", "class_a_v_r___stab_weapon.html#a2ca269b32c8e0ed0fdbce99af1a3b7e3", null ],
+    [ "ImpactForce", "class_a_v_r___stab_weapon.html#aa780b54ee4370b78f870cf67d2fba847", null ],
+    [ "MaxDamage", "class_a_v_r___stab_weapon.html#aef255855f775deab195ad99f0b6d3591", null ],
+    [ "RelativeComponentHitLocation", "class_a_v_r___stab_weapon.html#a3cde425a063813db599858a9cb3a459a", null ],
+    [ "StabCenter", "class_a_v_r___stab_weapon.html#a4fc59d9763286c1788d7e164750329b0", null ],
+    [ "StabDirection", "class_a_v_r___stab_weapon.html#a584f8e3de26d314b55c885937f834e24", null ],
+    [ "Stabed", "class_a_v_r___stab_weapon.html#a4617e4fb200899c2cc1a9a725a744e1f", null ],
+    [ "StabedActor", "class_a_v_r___stab_weapon.html#ad10d92a6be0aa73b9c0ba6429a057e7b", null ],
+    [ "StabedBoneName", "class_a_v_r___stab_weapon.html#a9411f084758961fe7a6da9519be92b5a", null ],
+    [ "StabedComponent", "class_a_v_r___stab_weapon.html#a51677ce42c642ff70e93ee83bf3637a0", null ],
+    [ "StabLimit", "class_a_v_r___stab_weapon.html#a379c2d17fa91b438d0fff989639c1f0c", null ],
+    [ "StabStepLength", "class_a_v_r___stab_weapon.html#aeaa6d1506d32e49cbe30dbe952443d89", null ],
+    [ "StabTag", "class_a_v_r___stab_weapon.html#a36af60aaf6cd5271c70cdbec727b5df3", null ]
 ];

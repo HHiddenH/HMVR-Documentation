@@ -1,10 +1,32 @@
 var class_a_v_r___door =
 [
+    [ "AVR_Door", "class_a_v_r___door.html#aef8322c79fae993d3857cb5afff9739d", null ],
     [ "AddActorToIgnore", "class_a_v_r___door.html#a66f7f6b7a94a4f1ce376a463064aa0b5", null ],
+    [ "BeginPlay", "class_a_v_r___door.html#a9585e6ff0fd0d2f7b669c0c0b375e726", null ],
     [ "ClearActorsToIgnore", "class_a_v_r___door.html#aa0fb30c5bec4497d3b51a043a71481f8", null ],
+    [ "Close", "class_a_v_r___door.html#a30dd473bce2e70ac85f7124e2048d30f", null ],
+    [ "GetAngleLimit", "class_a_v_r___door.html#a12370987c837b0543c214d534515a65f", null ],
+    [ "GetHashandle", "class_a_v_r___door.html#a2d1c8ba023b6bd51c2761edd5df7cf1c", null ],
+    [ "GetIsLocked", "class_a_v_r___door.html#a7bbe3c717cd838ab0455911fca85ee8e", null ],
+    [ "GetIsOpened", "class_a_v_r___door.html#ae43dcc9d0c945c343a880d3326edd4af", null ],
+    [ "OnDoorBeginOverlap", "class_a_v_r___door.html#ad311dda38043b43b969b8b2891172034", null ],
+    [ "OnDoorEndOverlap", "class_a_v_r___door.html#a42cb27fa5b6a9ff9b695101bfeaff744", null ],
     [ "SetAngleLimit", "class_a_v_r___door.html#a1583f181e93c061a1c68bae0028a4fe1", null ],
     [ "SetAutoclose", "class_a_v_r___door.html#a05a2f9c441ee28621bf8f9c6382a3a6e", null ],
     [ "SetIsLocked", "class_a_v_r___door.html#a091b2c6143d5ee40f952ab37daff2a9e", null ],
     [ "SetOneSide", "class_a_v_r___door.html#ab61a6f68f7cc205891863d305a5a0168", null ],
-    [ "SetParent", "class_a_v_r___door.html#a213c1dbf1fc22dacd70a91f4c2eaafa9", null ]
+    [ "SetParent", "class_a_v_r___door.html#a213c1dbf1fc22dacd70a91f4c2eaafa9", null ],
+    [ "Tick", "class_a_v_r___door.html#a58b673394754c40313446e6151a3c9e1", null ],
+    [ "Body_PhysicsConstraint", "class_a_v_r___door.html#a74d9a56efb01030bf9f187342576e059", null ],
+    [ "BodyLock_PhysicsConstraint", "class_a_v_r___door.html#a061e1a7f1d171e8cfa202faa5a0d9216", null ],
+    [ "Door_Body", "class_a_v_r___door.html#a09ae080a86d54a7279a1261ff5575182", null ],
+    [ "Door_GrabComponent", "class_a_v_r___door.html#a974176ad3b6bab5560fa19cab23ef42b", null ],
+    [ "DoorAudioComponent", "class_a_v_r___door.html#afc6c9fc1f6b404f6d31812079bf55471", null ],
+    [ "Handle", "class_a_v_r___door.html#af9ca5fdd9333aa2ba94daa319f5b9535", null ],
+    [ "Handle_GrabComponent", "class_a_v_r___door.html#acf85e34d1611199b5d64a03c17386506", null ],
+    [ "Handle_Origin", "class_a_v_r___door.html#a29667aab01599d2b5cda3d03aa1375b3", null ],
+    [ "Handle_PhysicsConstraint", "class_a_v_r___door.html#adf60dd90aaada9ae3dcb906f8040a153", null ],
+    [ "HandleAudioComponent", "class_a_v_r___door.html#afb9b2f69ee8813316e86988e22668fc0", null ],
+    [ "Lock", "class_a_v_r___door.html#a5dcf774196f2bcafd67892b739022d87", null ],
+    [ "RootScene", "class_a_v_r___door.html#a30dfbef43387a36fbf8a8d0f647310bc", null ]
 ];

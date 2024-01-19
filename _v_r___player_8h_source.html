@@ -100,24 +100,24 @@ $(function(){initNavTree('_v_r___player_8h_source.html',''); initResizable(); })
   <div class="headertitle"><div class="title">VR_Player.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">//========= Copyright 2023 Head Mounted Software, All rights reserved. ============//</span></div>
+<a href="_v_r___player_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">//========= Copyright 2023 Head Mounted Software, All rights reserved. ============//</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;Components/SphereComponent.h&quot;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;Components/CapsuleComponent.h&quot;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;CoreMinimal.h&quot;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;GameFramework/Character.h&quot;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;Components/AudioComponent.h&quot;</span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &quot;VR/VR_Components/VR_CameraComponent.h&quot;</span></div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &quot;VR/VR_Components/VR_MotionControllerComponent.h&quot;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &quot;<a class="code" href="_v_r___camera_component_8h.html">VR/VR_Components/VR_CameraComponent.h</a>&quot;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &quot;<a class="code" href="_v_r___motion_controller_component_8h.html">VR/VR_Components/VR_MotionControllerComponent.h</a>&quot;</span></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;GameFramework/CharacterMovementComponent.h&quot;</span></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;InputActionValue.h&quot;</span></div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &quot;Weapons/VR_AmmoClip.h&quot;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &quot;<a class="code" href="_v_r___ammo_clip_8h.html">Weapons/VR_AmmoClip.h</a>&quot;</span></div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &quot;Sound/SoundCue.h&quot;</span></div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &quot;PhysicsEngine/PhysicsHandleComponent.h&quot;</span></div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &quot;Components/ChildActorComponent.h&quot;</span></div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &quot;Sound/SoundWave.h&quot;</span></div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#include &quot;Components/TimelineComponent.h&quot;</span></div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#include &quot;VR/VR_Player/VR_AvatarAnimationInstance.h&quot;</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#include &quot;<a class="code" href="_v_r___avatar_animation_instance_8h.html">VR/VR_Player/VR_AvatarAnimationInstance.h</a>&quot;</span></div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#include &quot;VR_Player.generated.h&quot;</span></div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>UCLASS()</div>
@@ -135,7 +135,7 @@ $(function(){initNavTree('_v_r___player_8h_source.html',''); initResizable(); })
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a489d1c652ed82dbb9d8584d40f00eb95">   43</a></span>        USceneComponent* FloorOrigin;</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = &quot;VR|Components&quot;, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>        USceneComponent* CameraOrigin;</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a03a4e1dc9379e20c3f93ea09672d3b4f">   46</a></span>        USceneComponent* CameraOrigin;</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = &quot;VR|Components&quot;, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a5706a8f0761d9d1782720928a9022dd7">   52</a></span>        <a class="code hl_class" href="class_u_v_r___camera_component.html">UVR_CameraComponent</a>* VRCamera;</div>
@@ -156,88 +156,88 @@ $(function(){initNavTree('_v_r___player_8h_source.html',''); initResizable(); })
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a941f09fc824f07a8df9a75ff84a78349">   76</a></span>        UBoxComponent* AmmoBox;</div>
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
 <div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = &quot;Components&quot;, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>        UAudioComponent* FootstepsAudioComponent;</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a6d290c1019b262d6fb4b751b38d047b5">   79</a></span>        UAudioComponent* FootstepsAudioComponent;</div>
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span> </div>
 <div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = &quot;Components&quot;, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>        UAudioComponent* VoiceAudioComponent;</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a0a6f9d3e4e45eec0eab03b3b56244e23">   82</a></span>        UAudioComponent* VoiceAudioComponent;</div>
 <div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
 <div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>    UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = &quot;Components&quot;, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>        <a class="code hl_class" href="class_u_v_r___motion_controller_component.html">UVR_MotionControllerComponent</a>* LeftMotionController;</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a482768250b5060a8d4c6d39c67441abf">   85</a></span>        <a class="code hl_class" href="class_u_v_r___motion_controller_component.html">UVR_MotionControllerComponent</a>* LeftMotionController;</div>
 <div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
 <div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>    UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = &quot;Components&quot;, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>        <a class="code hl_class" href="class_u_v_r___motion_controller_component.html">UVR_MotionControllerComponent</a>* RightMotionController;</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a06bbb3b33943b798d9cf284d1e89ec9e">   88</a></span>        <a class="code hl_class" href="class_u_v_r___motion_controller_component.html">UVR_MotionControllerComponent</a>* RightMotionController;</div>
 <div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span> </div>
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>    UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = &quot;Components&quot;, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>        UChildActorComponent* LeftHandComponent;</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a719ce1297b43440934dc240612cb6f6d">   91</a></span>        UChildActorComponent* LeftHandComponent;</div>
 <div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span> </div>
 <div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>    UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = &quot;Components&quot;, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>        UChildActorComponent* RightHandComponent;</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a2d28f078dd1e3153bf81afb7efc8144b">   94</a></span>        UChildActorComponent* RightHandComponent;</div>
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span> </div>
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = &quot;Components&quot;, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>        UPhysicsHandleComponent* NonVRPhysicsHandleComponent;</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#ace0847c4e0649e69d84a725270b9f38c">   97</a></span>        UPhysicsHandleComponent* NonVRPhysicsHandleComponent;</div>
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span> </div>
 <div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>    UPROPERTY(BlueprintReadOnly, Category = &quot;VR&quot;, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
-<div class="line"><a id="l00103" name="l00103"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#ad2c7fc05647003be12517a9d44c7db37">  103</a></span>        <a class="code hl_class" href="class_a_v_r___hands.html">AVR_Hands</a>* LeftHand;</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#ad2c7fc05647003be12517a9d44c7db37">  103</a></span>        <a class="code hl_class" href="class_a_v_r___hands.html">AVR_Hands</a>* <a class="code hl_enumvalue" href="_v_r___variables_8h.html#a90ec52032a58919c1a73cc51a7f7ce29a03f7bbbc02c9006ea393ec4ef5843d7b">LeftHand</a>;</div>
 <div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>    UPROPERTY(BlueprintReadOnly, Category = &quot;VR&quot;, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
-<div class="line"><a id="l00108" name="l00108"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a92d320209ca37766ec9919def3462a66">  108</a></span>        <a class="code hl_class" href="class_a_v_r___hands.html">AVR_Hands</a>* RightHand;</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a92d320209ca37766ec9919def3462a66">  108</a></span>        <a class="code hl_class" href="class_a_v_r___hands.html">AVR_Hands</a>* <a class="code hl_enumvalue" href="_v_r___variables_8h.html#a90ec52032a58919c1a73cc51a7f7ce29aa51983e0f69f76a68e55efe2e7b700b5">RightHand</a>;</div>
 <div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span> </div>
-<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>    USoundCue* Footsteps_SoundCue;</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a46c06efb702f63bf2e163b33fe844c81">  110</a></span>    USoundCue* Footsteps_SoundCue;</div>
 <div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span> </div>
-<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>    USoundCue* Voice_SoundCue;</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a134a941c91b1fb54d0e6f01876ff8bf2">  112</a></span>    USoundCue* Voice_SoundCue;</div>
 <div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span> </div>
 <div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>    UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
 <div class="line"><a id="l00116" name="l00116"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#af195505515577b0c30bf65115b7fd75e">  116</a></span>        class UInputMappingContext* DefaultMappingContext;</div>
 <div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span> </div>
 <div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>    UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
-<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>        class UInputAction* IA_ThumbsticRightXAxis;</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a105c6e4d42e8db217798b95e5049b0be">  119</a></span>        class UInputAction* IA_ThumbsticRightXAxis;</div>
 <div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span> </div>
 <div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>    UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
-<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>        class UInputAction* IA_ThumbsticRightYAxis;</div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a52e0f4f44f4cd9632565b96a94ca4291">  122</a></span>        class UInputAction* IA_ThumbsticRightYAxis;</div>
 <div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span> </div>
 <div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>    UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
-<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>        class UInputAction* IA_Move;</div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#aac416976f1574f52c81221f455e21aa4">  125</a></span>        class UInputAction* IA_Move;</div>
 <div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span> </div>
 <div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>    UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
-<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>        class UInputAction* IA_IndexCurl_Right;</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a815f760c46cb474dfe41753528e65930">  128</a></span>        class UInputAction* IA_IndexCurl_Right;</div>
 <div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span> </div>
 <div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>    UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
-<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>        class UInputAction* IA_IndexCurl_Left;</div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#adff4dd5d38c00c500cf1232e8e9fce71">  131</a></span>        class UInputAction* IA_IndexCurl_Left;</div>
 <div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>    </div>
 <div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>    UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
-<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>        class UInputAction* IA_GrabRight;</div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a91098febb4319ec3addd2e942bfbce6b">  134</a></span>        class UInputAction* IA_GrabRight;</div>
 <div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span> </div>
 <div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>    UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
-<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>        class UInputAction* IA_GrabLeft;</div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a1e711f9b6e241730d9db834e51c12016">  137</a></span>        class UInputAction* IA_GrabLeft;</div>
 <div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span> </div>
 <div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>    UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
-<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>        class UInputAction* IA_BPressRight;</div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a1f4df77d23dd4bfd3c3bc6c6dc1dc025">  140</a></span>        class UInputAction* IA_BPressRight;</div>
 <div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span> </div>
 <div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span>    UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
-<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span>        class UInputAction* IA_BPressLeft;</div>
+<div class="line"><a id="l00143" name="l00143"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a2ef8675d64fe3603b6beaa5d010e5dc4">  143</a></span>        class UInputAction* IA_BPressLeft;</div>
 <div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span> </div>
 <div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>    UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
-<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>        class UInputAction* IA_APressRight;</div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a7e5169a2b3aacb4be7cc020fd4c9ea5e">  146</a></span>        class UInputAction* IA_APressRight;</div>
 <div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span> </div>
 <div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>    UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
-<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>        class UInputAction* IA_APressLeft;</div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a479f2738092b847e781bd70ed967f4e9">  149</a></span>        class UInputAction* IA_APressLeft;</div>
 <div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span> </div>
 <div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>    UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
-<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>        class UInputAction* IA_Hand_ThumbStickPress_Right;</div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a7cbf14dce87ef61ecb5efbf0469cfbfb">  152</a></span>        class UInputAction* IA_Hand_ThumbStickPress_Right;</div>
 <div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span> </div>
 <div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>    UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
-<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>        class UInputAction* IA_Hand_ThumbStickPress_Left;</div>
+<div class="line"><a id="l00155" name="l00155"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#acd996462ae788244ceeef1f8aca54927">  155</a></span>        class UInputAction* IA_Hand_ThumbStickPress_Left;</div>
 <div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span> </div>
 <div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>    UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
-<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span>        class UInputAction* IA_EPress;</div>
+<div class="line"><a id="l00158" name="l00158"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#aae71d6e72a6a4d1b0187aa4c7a708f8d">  158</a></span>        class UInputAction* IA_EPress;</div>
 <div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span> </div>
 <div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span>    UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
-<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>        class UInputAction* IA_Dev_Debug_MinusHeight;</div>
+<div class="line"><a id="l00161" name="l00161"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a4231c1f179e1a0a0a45c98187e2416e8">  161</a></span>        class UInputAction* IA_Dev_Debug_MinusHeight;</div>
 <div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span> </div>
 <div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span>    UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
-<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span>        class UInputAction* IA_Dev_Debug_PlusHeight;</div>
+<div class="line"><a id="l00164" name="l00164"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a1609e98161995d91d44781a3fa92d3a5">  164</a></span>        class UInputAction* IA_Dev_Debug_PlusHeight;</div>
 <div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span> </div>
 <div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span>    UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
-<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>        class UInputAction* IA_Dev_Debug_WidgetInteraction;</div>
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#ace2e6e30e5453ca0f572e0a0b03558c1">  167</a></span>        class UInputAction* IA_Dev_Debug_WidgetInteraction;</div>
 <div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span> </div>
 <div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>public:</div>
 <div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span> </div>
@@ -272,28 +272,28 @@ $(function(){initNavTree('_v_r___player_8h_source.html',''); initResizable(); })
 <div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span>    <span class="keywordtype">void</span> ReleaseActor_Right();</div>
 <div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span> </div>
 <div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span>    UFUNCTION(Server, Reliable, WithValidation)</div>
-<div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span>    <span class="keywordtype">void</span> GrabActor_Server(<span class="keywordtype">bool</span> Hand);</div>
+<div class="line"><a id="l00207" name="l00207"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#adeb34c891850e70d31b9c43d3292c7e3">  207</a></span>    <span class="keywordtype">void</span> GrabActor_Server(<span class="keywordtype">bool</span> Hand);</div>
 <div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span> </div>
 <div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span>    <span class="keywordtype">bool</span> GrabActor_Server_Validate(<span class="keywordtype">bool</span> Hand);</div>
 <div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span> </div>
 <div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span>    <span class="keywordtype">void</span> GrabActor_Server_Implementation(<span class="keywordtype">bool</span> Hand);</div>
 <div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span> </div>
 <div class="line"><a id="l00213" name="l00213"></a><span class="lineno">  213</span>    UFUNCTION(NetMulticast, Reliable, WithValidation)</div>
-<div class="line"><a id="l00214" name="l00214"></a><span class="lineno">  214</span>    <span class="keywordtype">void</span> GrabActor_Multycast(<span class="keywordtype">bool</span> Hand);</div>
+<div class="line"><a id="l00214" name="l00214"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a42a8818315d26c62f4fde7f8ee1bb3b3">  214</a></span>    <span class="keywordtype">void</span> GrabActor_Multycast(<span class="keywordtype">bool</span> Hand);</div>
 <div class="line"><a id="l00215" name="l00215"></a><span class="lineno">  215</span> </div>
 <div class="line"><a id="l00216" name="l00216"></a><span class="lineno">  216</span>    <span class="keywordtype">bool</span> GrabActor_Multycast_Validate(<span class="keywordtype">bool</span> Hand);</div>
 <div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span> </div>
 <div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span>    <span class="keywordtype">void</span> GrabActor_Multycast_Implementation(<span class="keywordtype">bool</span> Hand);</div>
 <div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span> </div>
 <div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span>    UFUNCTION(Server, Reliable, WithValidation)</div>
-<div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span>    <span class="keywordtype">void</span> ReleaseActor_Server(<span class="keywordtype">bool</span> Hand);</div>
+<div class="line"><a id="l00221" name="l00221"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a906f2a4e988c3cf9ea3c36d3d316f314">  221</a></span>    <span class="keywordtype">void</span> ReleaseActor_Server(<span class="keywordtype">bool</span> Hand);</div>
 <div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span> </div>
 <div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>    <span class="keywordtype">bool</span> ReleaseActor_Server_Validate(<span class="keywordtype">bool</span> Hand);</div>
 <div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span> </div>
 <div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span>    <span class="keywordtype">void</span> ReleaseActor_Server_Implementation(<span class="keywordtype">bool</span> Hand);</div>
 <div class="line"><a id="l00226" name="l00226"></a><span class="lineno">  226</span> </div>
 <div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span>    UFUNCTION(NetMulticast, Reliable, WithValidation)</div>
-<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span>    <span class="keywordtype">void</span> ReleaseActor_Multycast(<span class="keywordtype">bool</span> Hand);</div>
+<div class="line"><a id="l00228" name="l00228"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#ac0ca2deb3e1972151ac0637dd6192dac">  228</a></span>    <span class="keywordtype">void</span> ReleaseActor_Multycast(<span class="keywordtype">bool</span> Hand);</div>
 <div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span> </div>
 <div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span>    <span class="keywordtype">bool</span> ReleaseActor_Multycast_Validate(<span class="keywordtype">bool</span> Hand);</div>
 <div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span> </div>
@@ -303,14 +303,14 @@ $(function(){initNavTree('_v_r___player_8h_source.html',''); initResizable(); })
 <div class="line"><a id="l00237" name="l00237"></a><span class="lineno">  237</span>    <span class="keywordtype">void</span> ReleaseIndex_Press_Left();</div>
 <div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span> </div>
 <div class="line"><a id="l00239" name="l00239"></a><span class="lineno">  239</span>    UFUNCTION(Server, Reliable, WithValidation)</div>
-<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span>    <span class="keywordtype">void</span> Index_Press_Server(<span class="keywordtype">bool</span> Hand,<span class="keywordtype">bool</span> Pressed);</div>
+<div class="line"><a id="l00240" name="l00240"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#ab79d3f725ede97826214de9cd3575bbf">  240</a></span>    <span class="keywordtype">void</span> Index_Press_Server(<span class="keywordtype">bool</span> Hand,<span class="keywordtype">bool</span> Pressed);</div>
 <div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span> </div>
 <div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span>    <span class="keywordtype">bool</span> Index_Press_Server_Validate(<span class="keywordtype">bool</span> Hand, <span class="keywordtype">bool</span> Pressed);</div>
 <div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span> </div>
 <div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span>    <span class="keywordtype">void</span> Index_Press_Server_Implementation(<span class="keywordtype">bool</span> Hand, <span class="keywordtype">bool</span> Pressed);</div>
 <div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span> </div>
 <div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span>    UFUNCTION(NetMulticast, Reliable, WithValidation)</div>
-<div class="line"><a id="l00247" name="l00247"></a><span class="lineno">  247</span>    <span class="keywordtype">void</span> Index_Press_Multycast(<span class="keywordtype">bool</span> Hand, <span class="keywordtype">bool</span> Pressed);</div>
+<div class="line"><a id="l00247" name="l00247"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a5be3be6d562b0a2982f287d77c92e796">  247</a></span>    <span class="keywordtype">void</span> Index_Press_Multycast(<span class="keywordtype">bool</span> Hand, <span class="keywordtype">bool</span> Pressed);</div>
 <div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span> </div>
 <div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span>    <span class="keywordtype">bool</span> Index_Press_Multycast_Validate(<span class="keywordtype">bool</span> Hand, <span class="keywordtype">bool</span> Pressed);</div>
 <div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span> </div>
@@ -332,14 +332,14 @@ $(function(){initNavTree('_v_r___player_8h_source.html',''); initResizable(); })
 <div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span>    <span class="keywordtype">void</span> ReleaseThumb_Press_Right();</div>
 <div class="line"><a id="l00283" name="l00283"></a><span class="lineno">  283</span> </div>
 <div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span>    UFUNCTION(Server, Reliable, WithValidation)</div>
-<div class="line"><a id="l00285" name="l00285"></a><span class="lineno">  285</span>    <span class="keywordtype">void</span> Thumb_Press_Server(<span class="keywordtype">bool</span> Hand, <span class="keywordtype">bool</span> Pressed);</div>
+<div class="line"><a id="l00285" name="l00285"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#af9423fa5efc3473118e9918c378fbf41">  285</a></span>    <span class="keywordtype">void</span> Thumb_Press_Server(<span class="keywordtype">bool</span> Hand, <span class="keywordtype">bool</span> Pressed);</div>
 <div class="line"><a id="l00286" name="l00286"></a><span class="lineno">  286</span> </div>
 <div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span>    <span class="keywordtype">bool</span> Thumb_Press_Server_Validate(<span class="keywordtype">bool</span> Hand, <span class="keywordtype">bool</span> Pressed);</div>
 <div class="line"><a id="l00288" name="l00288"></a><span class="lineno">  288</span> </div>
 <div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span>    <span class="keywordtype">void</span> Thumb_Press_Server_Implementation(<span class="keywordtype">bool</span> Hand, <span class="keywordtype">bool</span> Pressed);</div>
 <div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span> </div>
 <div class="line"><a id="l00291" name="l00291"></a><span class="lineno">  291</span>    UFUNCTION(NetMulticast, Reliable, WithValidation)</div>
-<div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span>    <span class="keywordtype">void</span> Thumb_Press_Multycast(<span class="keywordtype">bool</span> Hand, <span class="keywordtype">bool</span> Pressed);</div>
+<div class="line"><a id="l00292" name="l00292"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a3efd898d4ef89b1108e4fae8753b0ffe">  292</a></span>    <span class="keywordtype">void</span> Thumb_Press_Multycast(<span class="keywordtype">bool</span> Hand, <span class="keywordtype">bool</span> Pressed);</div>
 <div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span> </div>
 <div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span>    <span class="keywordtype">bool</span> Thumb_Press_Multycast_Validate(<span class="keywordtype">bool</span> Hand, <span class="keywordtype">bool</span> Pressed);</div>
 <div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span> </div>
@@ -349,14 +349,14 @@ $(function(){initNavTree('_v_r___player_8h_source.html',''); initResizable(); })
 <div class="line"><a id="l00305" name="l00305"></a><span class="lineno">  305</span>    <span class="keywordtype">void</span> TeleportReleased_Left();</div>
 <div class="line"><a id="l00306" name="l00306"></a><span class="lineno">  306</span> </div>
 <div class="line"><a id="l00307" name="l00307"></a><span class="lineno">  307</span>    UFUNCTION(Server, Reliable, WithValidation)</div>
-<div class="line"><a id="l00308" name="l00308"></a><span class="lineno">  308</span>    <span class="keywordtype">void</span> A_Press_Server(<span class="keywordtype">bool</span> Hand, <span class="keywordtype">bool</span> Pressed);</div>
+<div class="line"><a id="l00308" name="l00308"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a264773524172f0fd42859baa0d1605d5">  308</a></span>    <span class="keywordtype">void</span> A_Press_Server(<span class="keywordtype">bool</span> Hand, <span class="keywordtype">bool</span> Pressed);</div>
 <div class="line"><a id="l00309" name="l00309"></a><span class="lineno">  309</span> </div>
 <div class="line"><a id="l00310" name="l00310"></a><span class="lineno">  310</span>    <span class="keywordtype">bool</span> A_Press_Server_Validate(<span class="keywordtype">bool</span> Hand, <span class="keywordtype">bool</span> Pressed);</div>
 <div class="line"><a id="l00311" name="l00311"></a><span class="lineno">  311</span> </div>
 <div class="line"><a id="l00312" name="l00312"></a><span class="lineno">  312</span>    <span class="keywordtype">void</span> A_Press_Server_Implementation(<span class="keywordtype">bool</span> Hand, <span class="keywordtype">bool</span> Pressed);</div>
 <div class="line"><a id="l00313" name="l00313"></a><span class="lineno">  313</span> </div>
 <div class="line"><a id="l00314" name="l00314"></a><span class="lineno">  314</span>    UFUNCTION(NetMulticast, Reliable, WithValidation)</div>
-<div class="line"><a id="l00315" name="l00315"></a><span class="lineno">  315</span>    <span class="keywordtype">void</span> A_Press_Multycast(<span class="keywordtype">bool</span> Hand, <span class="keywordtype">bool</span> Pressed);</div>
+<div class="line"><a id="l00315" name="l00315"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#aa821e46340ce286a8bc4d4922f5b1e34">  315</a></span>    <span class="keywordtype">void</span> A_Press_Multycast(<span class="keywordtype">bool</span> Hand, <span class="keywordtype">bool</span> Pressed);</div>
 <div class="line"><a id="l00316" name="l00316"></a><span class="lineno">  316</span> </div>
 <div class="line"><a id="l00317" name="l00317"></a><span class="lineno">  317</span>    <span class="keywordtype">bool</span> A_Press_Multycast_Validate(<span class="keywordtype">bool</span> Hand, <span class="keywordtype">bool</span> Pressed);</div>
 <div class="line"><a id="l00318" name="l00318"></a><span class="lineno">  318</span> </div>
@@ -371,14 +371,14 @@ $(function(){initNavTree('_v_r___player_8h_source.html',''); initResizable(); })
 <div class="line"><a id="l00339" name="l00339"></a><span class="lineno">  339</span>    <span class="keywordtype">void</span> A_Released_L();</div>
 <div class="line"><a id="l00340" name="l00340"></a><span class="lineno">  340</span> </div>
 <div class="line"><a id="l00341" name="l00341"></a><span class="lineno">  341</span>    UFUNCTION(Server, Reliable, WithValidation)</div>
-<div class="line"><a id="l00342" name="l00342"></a><span class="lineno">  342</span>    <span class="keywordtype">void</span> B_Press_Server(<span class="keywordtype">bool</span> Hand, <span class="keywordtype">bool</span> Pressed);</div>
+<div class="line"><a id="l00342" name="l00342"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a34ce712fb5d24e7dd5dd3ae5186133f2">  342</a></span>    <span class="keywordtype">void</span> B_Press_Server(<span class="keywordtype">bool</span> Hand, <span class="keywordtype">bool</span> Pressed);</div>
 <div class="line"><a id="l00343" name="l00343"></a><span class="lineno">  343</span> </div>
 <div class="line"><a id="l00344" name="l00344"></a><span class="lineno">  344</span>    <span class="keywordtype">bool</span> B_Press_Server_Validate(<span class="keywordtype">bool</span> Hand, <span class="keywordtype">bool</span> Pressed);</div>
 <div class="line"><a id="l00345" name="l00345"></a><span class="lineno">  345</span> </div>
 <div class="line"><a id="l00346" name="l00346"></a><span class="lineno">  346</span>    <span class="keywordtype">void</span> B_Press_Server_Implementation(<span class="keywordtype">bool</span> Hand, <span class="keywordtype">bool</span> Pressed);</div>
 <div class="line"><a id="l00347" name="l00347"></a><span class="lineno">  347</span> </div>
 <div class="line"><a id="l00348" name="l00348"></a><span class="lineno">  348</span>    UFUNCTION(NetMulticast, Reliable, WithValidation)</div>
-<div class="line"><a id="l00349" name="l00349"></a><span class="lineno">  349</span>    <span class="keywordtype">void</span> B_Press_Multycast(<span class="keywordtype">bool</span> Hand, <span class="keywordtype">bool</span> Pressed);</div>
+<div class="line"><a id="l00349" name="l00349"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a2a3035a97931886cef9daa60189b20b6">  349</a></span>    <span class="keywordtype">void</span> B_Press_Multycast(<span class="keywordtype">bool</span> Hand, <span class="keywordtype">bool</span> Pressed);</div>
 <div class="line"><a id="l00350" name="l00350"></a><span class="lineno">  350</span> </div>
 <div class="line"><a id="l00351" name="l00351"></a><span class="lineno">  351</span>    <span class="keywordtype">bool</span> B_Press_Multycast_Validate(<span class="keywordtype">bool</span> Hand, <span class="keywordtype">bool</span> Pressed);</div>
 <div class="line"><a id="l00352" name="l00352"></a><span class="lineno">  352</span> </div>
@@ -424,14 +424,14 @@ $(function(){initNavTree('_v_r___player_8h_source.html',''); initResizable(); })
 <div class="line"><a id="l00466" name="l00466"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a64558d32e21587139861b66b46f8f5d5">  466</a></span>    <span class="keywordtype">void</span> E_Released();</div>
 <div class="line"><a id="l00467" name="l00467"></a><span class="lineno">  467</span> </div>
 <div class="line"><a id="l00468" name="l00468"></a><span class="lineno">  468</span>    UFUNCTION(Server, Reliable, WithValidation)</div>
-<div class="line"><a id="l00469" name="l00469"></a><span class="lineno">  469</span>    <span class="keywordtype">void</span> E_Press_Server(<span class="keywordtype">bool</span> Released);</div>
+<div class="line"><a id="l00469" name="l00469"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#ae398cb08432b8dbcedba6f786936aeb3">  469</a></span>    <span class="keywordtype">void</span> E_Press_Server(<span class="keywordtype">bool</span> Released);</div>
 <div class="line"><a id="l00470" name="l00470"></a><span class="lineno">  470</span> </div>
 <div class="line"><a id="l00471" name="l00471"></a><span class="lineno">  471</span>    <span class="keywordtype">bool</span> E_Press_Server_Validate(<span class="keywordtype">bool</span> Released);</div>
 <div class="line"><a id="l00472" name="l00472"></a><span class="lineno">  472</span> </div>
 <div class="line"><a id="l00473" name="l00473"></a><span class="lineno">  473</span>    <span class="keywordtype">void</span> E_Press_Server_Implementation(<span class="keywordtype">bool</span> Released);</div>
 <div class="line"><a id="l00474" name="l00474"></a><span class="lineno">  474</span> </div>
 <div class="line"><a id="l00475" name="l00475"></a><span class="lineno">  475</span>    UFUNCTION(NetMulticast, Reliable, WithValidation)</div>
-<div class="line"><a id="l00476" name="l00476"></a><span class="lineno">  476</span>    <span class="keywordtype">void</span> E_Press_Multycast(<span class="keywordtype">bool</span> Released);</div>
+<div class="line"><a id="l00476" name="l00476"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a9f5747d8c231c1bba8a84164af2b3a2c">  476</a></span>    <span class="keywordtype">void</span> E_Press_Multycast(<span class="keywordtype">bool</span> Released);</div>
 <div class="line"><a id="l00477" name="l00477"></a><span class="lineno">  477</span> </div>
 <div class="line"><a id="l00478" name="l00478"></a><span class="lineno">  478</span>    <span class="keywordtype">bool</span> E_Press_Multycast_Validate(<span class="keywordtype">bool</span> Released);</div>
 <div class="line"><a id="l00479" name="l00479"></a><span class="lineno">  479</span> </div>
@@ -481,13 +481,13 @@ $(function(){initNavTree('_v_r___player_8h_source.html',''); initResizable(); })
 <div class="line"><a id="l00571" name="l00571"></a><span class="lineno">  571</span>        <span class="keywordtype">void</span> TeleportActor(class <a class="code hl_class" href="class_a_v_r___hands.html">AVR_Hands</a>* MotionController);</div>
 <div class="line"><a id="l00572" name="l00572"></a><span class="lineno">  572</span> </div>
 <div class="line"><a id="l00573" name="l00573"></a><span class="lineno">  573</span>    UFUNCTION(BlueprintCallable, Category = &quot;VR|Get&quot;)</div>
-<div class="line"><a id="l00574" name="l00574"></a><span class="lineno">  574</span>        FORCEINLINE UCapsuleComponent* GetCollision()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> GetCapsuleComponent(); };</div>
+<div class="line"><a id="l00574" name="l00574"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a45aa5da6f364f69ef29f643d4e912904">  574</a></span>        FORCEINLINE UCapsuleComponent* GetCollision()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> GetCapsuleComponent(); };</div>
 <div class="line"><a id="l00575" name="l00575"></a><span class="lineno">  575</span> </div>
 <div class="line"><a id="l00576" name="l00576"></a><span class="lineno">  576</span>    UFUNCTION(BlueprintCallable, Category = <span class="stringliteral">&quot;Avatar|Get&quot;</span>)</div>
-<div class="line"><a id="l00577" name="l00577"></a><span class="lineno">  577</span>        FORCEINLINE <span class="keywordtype">float</span> GetPlayerMaxHeight()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> DefaultPlayerHeight; };</div>
+<div class="line"><a id="l00577" name="l00577"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a9b45d7bca3da098373d4666de0875bf4">  577</a></span>        FORCEINLINE <span class="keywordtype">float</span> GetPlayerMaxHeight()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> DefaultPlayerHeight; };</div>
 <div class="line"><a id="l00578" name="l00578"></a><span class="lineno">  578</span> </div>
 <div class="line"><a id="l00579" name="l00579"></a><span class="lineno">  579</span>    UFUNCTION(BlueprintCallable, Category = <span class="stringliteral">&quot;Avatar|Get&quot;</span>)</div>
-<div class="line"><a id="l00580" name="l00580"></a><span class="lineno">  580</span>        FORCEINLINE <span class="keywordtype">float</span> GetPlayerCurrentHeight()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> CurrentPlayerHeight; };</div>
+<div class="line"><a id="l00580" name="l00580"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#abe0dbcaa2758a24f8c7f9c5414c54aa8">  580</a></span>        FORCEINLINE <span class="keywordtype">float</span> GetPlayerCurrentHeight()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> CurrentPlayerHeight; };</div>
 <div class="line"><a id="l00581" name="l00581"></a><span class="lineno">  581</span> </div>
 <div class="line"><a id="l00582" name="l00582"></a><span class="lineno">  582</span>    UFUNCTION(BlueprintCallable, Category = <span class="stringliteral">&quot;VR|Get&quot;</span>)</div>
 <div class="line"><a id="l00583" name="l00583"></a><span class="lineno">  583</span>         float GetTargetMS(<span class="keywordtype">float</span> DisplayHRZ);</div>
@@ -501,9 +501,9 @@ $(function(){initNavTree('_v_r___player_8h_source.html',''); initResizable(); })
 <div class="line"><a id="l00591" name="l00591"></a><span class="lineno">  591</span>    UFUNCTION(BlueprintCallable, Category = &quot;VR|Get&quot;)</div>
 <div class="line"><a id="l00592" name="l00592"></a><span class="lineno">  592</span>        FVector GetComponentDirection(class USceneComponent* Component);</div>
 <div class="line"><a id="l00593" name="l00593"></a><span class="lineno">  593</span> </div>
-<div class="line"><a id="l00594" name="l00594"></a><span class="lineno">  594</span>    FORCEINLINE class UMotionControllerComponent* GetLeftMotionController()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> LeftMotionController; }</div>
+<div class="line"><a id="l00594" name="l00594"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#aeb06efd1dac847bd7ec5050d7b78fe97">  594</a></span>    FORCEINLINE class UMotionControllerComponent* GetLeftMotionController()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> LeftMotionController; }</div>
 <div class="line"><a id="l00595" name="l00595"></a><span class="lineno">  595</span> </div>
-<div class="line"><a id="l00596" name="l00596"></a><span class="lineno">  596</span>    FORCEINLINE <span class="keyword">class </span>UMotionControllerComponent* GetRightMotionController()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> RightMotionController; }</div>
+<div class="line"><a id="l00596" name="l00596"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a0a78b32096f77af48a2db4ee9c55e172">  596</a></span>    FORCEINLINE <span class="keyword">class </span>UMotionControllerComponent* <a class="code hl_function" href="class_a_v_r___player.html#a0a78b32096f77af48a2db4ee9c55e172">GetRightMotionController</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> RightMotionController; }</div>
 <div class="line"><a id="l00597" name="l00597"></a><span class="lineno">  597</span> </div>
 <div class="line"><a id="l00599" name="l00599"></a><span class="lineno">  599</span>    UFUNCTION()</div>
 <div class="line"><a id="l00600" name="l00600"></a><span class="lineno">  600</span>        void OnCameraCollisionOverlapBegin(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, <span class="keywordtype">bool</span> bFromSweep, const FHitResult&amp; SweepResult);</div>
@@ -542,104 +542,110 @@ $(function(){initNavTree('_v_r___player_8h_source.html',''); initResizable(); })
 <div class="line"><a id="l00654" name="l00654"></a><span class="lineno">  654</span>    <span class="keywordtype">void</span> CallPauseMenu();</div>
 <div class="line"><a id="l00655" name="l00655"></a><span class="lineno">  655</span> </div>
 <div class="line"><a id="l00656" name="l00656"></a><span class="lineno">  656</span>    UFUNCTION(BlueprintCallable, Category = &quot;Menu|Get&quot;)</div>
-<div class="line"><a id="l00657" name="l00657"></a><span class="lineno">  657</span>        FORCEINLINE <span class="keywordtype">bool</span> GetPauseMenuOpened()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> bPauseMenuOpened; };</div>
+<div class="line"><a id="l00657" name="l00657"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a4aab8f811857b63235d6a8beb953b829">  657</a></span>        FORCEINLINE <span class="keywordtype">bool</span> GetPauseMenuOpened()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> bPauseMenuOpened; };</div>
 <div class="line"><a id="l00658" name="l00658"></a><span class="lineno">  658</span> </div>
 <div class="line"><a id="l00659" name="l00659"></a><span class="lineno">  659</span>    UFUNCTION(BlueprintCallable, Category = <span class="stringliteral">&quot;Menu|Get&quot;</span>)</div>
-<div class="line"><a id="l00660" name="l00660"></a><span class="lineno">  660</span>        FORCEINLINE <span class="keywordtype">bool</span> GetMenuStatus()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> bMenuStatus; };</div>
+<div class="line"><a id="l00660" name="l00660"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a4aa1f41b00dc00fb4b96324b0c479be9">  660</a></span>        FORCEINLINE <span class="keywordtype">bool</span> GetMenuStatus()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> bMenuStatus; };</div>
 <div class="line"><a id="l00661" name="l00661"></a><span class="lineno">  661</span> </div>
 <div class="line"><a id="l00662" name="l00662"></a><span class="lineno">  662</span>    UFUNCTION(BlueprintCallable, Category = <span class="stringliteral">&quot;VR|Get&quot;</span>)</div>
-<div class="line"><a id="l00663" name="l00663"></a><span class="lineno">  663</span>        FORCEINLINE <a class="code hl_class" href="class_a_v_r___hands.html">AVR_Hands</a>* GetRightHand()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> RightHand; };</div>
+<div class="line"><a id="l00663" name="l00663"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a8a253b881ee779dff77a0b1361d055bf">  663</a></span>        FORCEINLINE <a class="code hl_class" href="class_a_v_r___hands.html">AVR_Hands</a>* GetRightHand()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="_v_r___variables_8h.html#a90ec52032a58919c1a73cc51a7f7ce29aa51983e0f69f76a68e55efe2e7b700b5">RightHand</a>; };</div>
 <div class="line"><a id="l00664" name="l00664"></a><span class="lineno">  664</span> </div>
 <div class="line"><a id="l00665" name="l00665"></a><span class="lineno">  665</span>    UFUNCTION(BlueprintCallable, Category = <span class="stringliteral">&quot;VR|Get&quot;</span>)</div>
-<div class="line"><a id="l00666" name="l00666"></a><span class="lineno">  666</span>        FORCEINLINE <a class="code hl_class" href="class_a_v_r___hands.html">AVR_Hands</a>* GetLeftHand()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> LeftHand; };</div>
+<div class="line"><a id="l00666" name="l00666"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a478d8fbaba1b8982d76693f0ef4a47e2">  666</a></span>        FORCEINLINE <a class="code hl_class" href="class_a_v_r___hands.html">AVR_Hands</a>* GetLeftHand()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="_v_r___variables_8h.html#a90ec52032a58919c1a73cc51a7f7ce29a03f7bbbc02c9006ea393ec4ef5843d7b">LeftHand</a>; };</div>
 <div class="line"><a id="l00667" name="l00667"></a><span class="lineno">  667</span>    </div>
 <div class="line"><a id="l00668" name="l00668"></a><span class="lineno">  668</span>    UFUNCTION(BlueprintCallable, Category = <span class="stringliteral">&quot;Gaameplay|Get&quot;</span>)</div>
-<div class="line"><a id="l00669" name="l00669"></a><span class="lineno">  669</span>        FORCEINLINE <span class="keywordtype">int</span> GetHealth()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> Health; };</div>
+<div class="line"><a id="l00669" name="l00669"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a0c588933beecc14199e6ad10a131af62">  669</a></span>        FORCEINLINE <span class="keywordtype">int</span> GetHealth()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> Health; };</div>
 <div class="line"><a id="l00670" name="l00670"></a><span class="lineno">  670</span> </div>
 <div class="line"><a id="l00671" name="l00671"></a><span class="lineno">  671</span>    UFUNCTION(BlueprintCallable, Category = <span class="stringliteral">&quot;Gaameplay|Get&quot;</span>)</div>
-<div class="line"><a id="l00672" name="l00672"></a><span class="lineno">  672</span>        FORCEINLINE <span class="keywordtype">int</span> GetMaxHealth()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> MaxHealth; };</div>
+<div class="line"><a id="l00672" name="l00672"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a1ae1ef6b77dbd054ce9ce2b28da2e610">  672</a></span>        FORCEINLINE <span class="keywordtype">int</span> GetMaxHealth()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> MaxHealth; };</div>
 <div class="line"><a id="l00673" name="l00673"></a><span class="lineno">  673</span> </div>
 <div class="line"><a id="l00674" name="l00674"></a><span class="lineno">  674</span>    UFUNCTION(BlueprintCallable, Category = <span class="stringliteral">&quot;VR|Get&quot;</span>)</div>
-<div class="line"><a id="l00675" name="l00675"></a><span class="lineno">  675</span>        FORCEINLINE <span class="keywordtype">bool</span> GetInLoadingRoom()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> bInLoadingRoom; };</div>
+<div class="line"><a id="l00675" name="l00675"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a0e14cacdc96805e7d6c591b712645154">  675</a></span>        FORCEINLINE <span class="keywordtype">bool</span> GetInLoadingRoom()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> bInLoadingRoom; };</div>
 <div class="line"><a id="l00676" name="l00676"></a><span class="lineno">  676</span> </div>
 <div class="line"><a id="l00677" name="l00677"></a><span class="lineno">  677</span>    UFUNCTION(BlueprintCallable, Category = <span class="stringliteral">&quot;VR|Get&quot;</span>)</div>
-<div class="line"><a id="l00678" name="l00678"></a><span class="lineno">  678</span>        FORCEINLINE TArray&lt;<span class="keywordtype">int</span>&gt; GetAmmoArray()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> Ammo; };</div>
+<div class="line"><a id="l00678" name="l00678"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a684cedb76bcf33f101d119ab7059ebad">  678</a></span>        FORCEINLINE TArray&lt;<span class="keywordtype">int</span>&gt; GetAmmoArray()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> Ammo; };</div>
 <div class="line"><a id="l00679" name="l00679"></a><span class="lineno">  679</span> </div>
 <div class="line"><a id="l00680" name="l00680"></a><span class="lineno">  680</span>    UFUNCTION(BlueprintCallable, Category = <span class="stringliteral">&quot;VR|Get&quot;</span>)</div>
-<div class="line"><a id="l00681" name="l00681"></a><span class="lineno">  681</span>        FORCEINLINE <span class="keywordtype">bool</span> IsInLoadingRoom()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> bInLoadingRoom; };</div>
+<div class="line"><a id="l00681" name="l00681"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a366284b790ff5d7624a42523da66c842">  681</a></span>        FORCEINLINE <span class="keywordtype">bool</span> IsInLoadingRoom()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> bInLoadingRoom; };</div>
 <div class="line"><a id="l00682" name="l00682"></a><span class="lineno">  682</span> </div>
 <div class="line"><a id="l00683" name="l00683"></a><span class="lineno">  683</span>    UFUNCTION(BlueprintCallable, Category = <span class="stringliteral">&quot;VR|Get&quot;</span>)</div>
-<div class="line"><a id="l00684" name="l00684"></a><span class="lineno">  684</span>        FORCEINLINE FTransform GetLeftHandTransform()<span class="keyword"> const </span></div>
+<div class="foldopen" id="foldopen00684" data-start="{" data-end="}">
+<div class="line"><a id="l00684" name="l00684"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#ac3a4534e62f074950dec23636dae3a3a">  684</a></span>        FORCEINLINE FTransform GetLeftHandTransform()<span class="keyword"> const </span></div>
 <div class="line"><a id="l00685" name="l00685"></a><span class="lineno">  685</span><span class="keyword">        </span>{ </div>
-<div class="line"><a id="l00686" name="l00686"></a><span class="lineno">  686</span>            <span class="keywordflow">if</span> (LeftHand)</div>
+<div class="line"><a id="l00686" name="l00686"></a><span class="lineno">  686</span>            <span class="keywordflow">if</span> (<a class="code hl_enumvalue" href="_v_r___variables_8h.html#a90ec52032a58919c1a73cc51a7f7ce29a03f7bbbc02c9006ea393ec4ef5843d7b">LeftHand</a>)</div>
 <div class="line"><a id="l00687" name="l00687"></a><span class="lineno">  687</span>            {</div>
-<div class="line"><a id="l00688" name="l00688"></a><span class="lineno">  688</span>                <span class="keywordflow">return</span> LeftHand-&gt;GetHandMesh()-&gt;GetComponentTransform();</div>
+<div class="line"><a id="l00688" name="l00688"></a><span class="lineno">  688</span>                <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="_v_r___variables_8h.html#a90ec52032a58919c1a73cc51a7f7ce29a03f7bbbc02c9006ea393ec4ef5843d7b">LeftHand</a>-&gt;<a class="code hl_function" href="class_a_v_r___hands.html#aaa02a2fcf5cf4a7fb63643d3a10eb916">GetHandMesh</a>()-&gt;GetComponentTransform();</div>
 <div class="line"><a id="l00689" name="l00689"></a><span class="lineno">  689</span>            }</div>
 <div class="line"><a id="l00690" name="l00690"></a><span class="lineno">  690</span>            <span class="keywordflow">else</span></div>
 <div class="line"><a id="l00691" name="l00691"></a><span class="lineno">  691</span>            {</div>
 <div class="line"><a id="l00692" name="l00692"></a><span class="lineno">  692</span>                <span class="keywordflow">return</span> FTransform();</div>
 <div class="line"><a id="l00693" name="l00693"></a><span class="lineno">  693</span>            }</div>
 <div class="line"><a id="l00694" name="l00694"></a><span class="lineno">  694</span>        };</div>
+</div>
 <div class="line"><a id="l00695" name="l00695"></a><span class="lineno">  695</span> </div>
 <div class="line"><a id="l00696" name="l00696"></a><span class="lineno">  696</span>    UFUNCTION(BlueprintCallable, Category = <span class="stringliteral">&quot;VR|Get&quot;</span>)</div>
-<div class="line"><a id="l00697" name="l00697"></a><span class="lineno">  697</span>        FORCEINLINE FTransform GetRightHandTransform()<span class="keyword"> const </span></div>
+<div class="foldopen" id="foldopen00697" data-start="{" data-end="}">
+<div class="line"><a id="l00697" name="l00697"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a1ed79ffc1a23825d96b1bf60a71d8fdf">  697</a></span>        FORCEINLINE FTransform GetRightHandTransform()<span class="keyword"> const </span></div>
 <div class="line"><a id="l00698" name="l00698"></a><span class="lineno">  698</span><span class="keyword">        </span>{</div>
-<div class="line"><a id="l00699" name="l00699"></a><span class="lineno">  699</span>            <span class="keywordflow">if</span> (RightHand)</div>
+<div class="line"><a id="l00699" name="l00699"></a><span class="lineno">  699</span>            <span class="keywordflow">if</span> (<a class="code hl_enumvalue" href="_v_r___variables_8h.html#a90ec52032a58919c1a73cc51a7f7ce29aa51983e0f69f76a68e55efe2e7b700b5">RightHand</a>)</div>
 <div class="line"><a id="l00700" name="l00700"></a><span class="lineno">  700</span>            {</div>
-<div class="line"><a id="l00701" name="l00701"></a><span class="lineno">  701</span>                <span class="keywordflow">return</span> RightHand-&gt;GetHandMesh()-&gt;GetComponentTransform();</div>
+<div class="line"><a id="l00701" name="l00701"></a><span class="lineno">  701</span>                <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="_v_r___variables_8h.html#a90ec52032a58919c1a73cc51a7f7ce29aa51983e0f69f76a68e55efe2e7b700b5">RightHand</a>-&gt;GetHandMesh()-&gt;GetComponentTransform();</div>
 <div class="line"><a id="l00702" name="l00702"></a><span class="lineno">  702</span>            }</div>
 <div class="line"><a id="l00703" name="l00703"></a><span class="lineno">  703</span>            <span class="keywordflow">else</span></div>
 <div class="line"><a id="l00704" name="l00704"></a><span class="lineno">  704</span>            {</div>
 <div class="line"><a id="l00705" name="l00705"></a><span class="lineno">  705</span>                <span class="keywordflow">return</span> FTransform();</div>
 <div class="line"><a id="l00706" name="l00706"></a><span class="lineno">  706</span>            }</div>
 <div class="line"><a id="l00707" name="l00707"></a><span class="lineno">  707</span>        };</div>
+</div>
 <div class="line"><a id="l00708" name="l00708"></a><span class="lineno">  708</span> </div>
 <div class="line"><a id="l00709" name="l00709"></a><span class="lineno">  709</span>    UFUNCTION(BlueprintCallable, Category = <span class="stringliteral">&quot;Avatar|Get&quot;</span>)</div>
-<div class="line"><a id="l00710" name="l00710"></a><span class="lineno">  710</span>        FORCEINLINE FTransform GetAvatarWorldTransform()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> PlayerMesh-&gt;GetComponentTransform(); };</div>
+<div class="line"><a id="l00710" name="l00710"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a5e901664a312eca9907db68ad4a483be">  710</a></span>        FORCEINLINE FTransform GetAvatarWorldTransform()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> PlayerMesh-&gt;GetComponentTransform(); };</div>
 <div class="line"><a id="l00711" name="l00711"></a><span class="lineno">  711</span> </div>
 <div class="line"><a id="l00712" name="l00712"></a><span class="lineno">  712</span>    UFUNCTION(BlueprintCallable, Category = <span class="stringliteral">&quot;Avatar|Get&quot;</span>)</div>
-<div class="line"><a id="l00713" name="l00713"></a><span class="lineno">  713</span>        FORCEINLINE USkeletalMeshComponent* GetAvatarMesh()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> PlayerMesh; };</div>
+<div class="line"><a id="l00713" name="l00713"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#ae8fa5970978362d8c0b2a73e49e84a00">  713</a></span>        FORCEINLINE USkeletalMeshComponent* GetAvatarMesh()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> PlayerMesh; };</div>
 <div class="line"><a id="l00714" name="l00714"></a><span class="lineno">  714</span> </div>
 <div class="line"><a id="l00715" name="l00715"></a><span class="lineno">  715</span>    UFUNCTION(BlueprintCallable, Category = <span class="stringliteral">&quot;VR|Get&quot;</span>)</div>
-<div class="line"><a id="l00716" name="l00716"></a><span class="lineno">  716</span>        FORCEINLINE FTransform GetCameraTransform()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> VRCamera-&gt;GetComponentTransform(); };</div>
+<div class="line"><a id="l00716" name="l00716"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#aad9b743044cd1a0f484d90ce7cbe5388">  716</a></span>        FORCEINLINE FTransform GetCameraTransform()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> VRCamera-&gt;GetComponentTransform(); };</div>
 <div class="line"><a id="l00717" name="l00717"></a><span class="lineno">  717</span> </div>
 <div class="line"><a id="l00718" name="l00718"></a><span class="lineno">  718</span>    UFUNCTION(BlueprintCallable, Category = <span class="stringliteral">&quot;VR|Get&quot;</span>)</div>
-<div class="line"><a id="l00719" name="l00719"></a><span class="lineno">  719</span>        FORCEINLINE FVector GetCameraDirection()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> VRCamera-&gt;GetForwardVector(); };</div>
+<div class="line"><a id="l00719" name="l00719"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#ab6337c85d9db8670c71ea7e8a9f49e6b">  719</a></span>        FORCEINLINE FVector GetCameraDirection()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> VRCamera-&gt;GetForwardVector(); };</div>
 <div class="line"><a id="l00720" name="l00720"></a><span class="lineno">  720</span> </div>
 <div class="line"><a id="l00721" name="l00721"></a><span class="lineno">  721</span>    UFUNCTION(BlueprintCallable, Category = <span class="stringliteral">&quot;Movement|Get&quot;</span>)</div>
-<div class="line"><a id="l00722" name="l00722"></a><span class="lineno">  722</span>        FORCEINLINE <span class="keywordtype">float</span> GetPlayerSpeed()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> CurrentMovementSpeed; };</div>
+<div class="line"><a id="l00722" name="l00722"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a5b5bc942a3e856b03dc6e7aafec4603a">  722</a></span>        FORCEINLINE <span class="keywordtype">float</span> GetPlayerSpeed()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> CurrentMovementSpeed; };</div>
 <div class="line"><a id="l00723" name="l00723"></a><span class="lineno">  723</span> </div>
 <div class="line"><a id="l00724" name="l00724"></a><span class="lineno">  724</span>    UFUNCTION(BlueprintCallable, Category = <span class="stringliteral">&quot;Movement|Get&quot;</span>)</div>
-<div class="line"><a id="l00725" name="l00725"></a><span class="lineno">  725</span>        FORCEINLINE <span class="keywordtype">float</span> GetPlayerDirectionValue()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> MovementDirection; };</div>
+<div class="line"><a id="l00725" name="l00725"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a9ffd8e2a69aac349ffae351cfb1704f4">  725</a></span>        FORCEINLINE <span class="keywordtype">float</span> GetPlayerDirectionValue()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> MovementDirection; };</div>
 <div class="line"><a id="l00726" name="l00726"></a><span class="lineno">  726</span> </div>
 <div class="line"><a id="l00727" name="l00727"></a><span class="lineno">  727</span>    UFUNCTION(BlueprintCallable, Category = <span class="stringliteral">&quot;Avatar|Get&quot;</span>)</div>
-<div class="line"><a id="l00728" name="l00728"></a><span class="lineno">  728</span>        FORCEINLINE EVRAvatarMode GetAvatarMode()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> AvatarMode; };</div>
+<div class="line"><a id="l00728" name="l00728"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a10058f7346d2d63d91949bd05d0eeea5">  728</a></span>        FORCEINLINE <a class="code hl_enumeration" href="_v_r___variables_8h.html#ab79e1822d81275ec524e3269e35a7174">EVRAvatarMode</a> GetAvatarMode()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> AvatarMode; };</div>
 <div class="line"><a id="l00729" name="l00729"></a><span class="lineno">  729</span> </div>
 <div class="line"><a id="l00730" name="l00730"></a><span class="lineno">  730</span>    UFUNCTION(BlueprintCallable, Category = <span class="stringliteral">&quot;VR|Get&quot;</span>)</div>
-<div class="line"><a id="l00731" name="l00731"></a><span class="lineno">  731</span>        FORCEINLINE FName GetVRHelmetName()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> VRHelmetName; };</div>
+<div class="line"><a id="l00731" name="l00731"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#af725b9d45357b0f90243fae4456a1543">  731</a></span>        FORCEINLINE FName GetVRHelmetName()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> VRHelmetName; };</div>
 <div class="line"><a id="l00732" name="l00732"></a><span class="lineno">  732</span> </div>
 <div class="line"><a id="l00733" name="l00733"></a><span class="lineno">  733</span>    UFUNCTION(BlueprintCallable, Category = <span class="stringliteral">&quot;Movement|Get&quot;</span>)</div>
-<div class="line"><a id="l00734" name="l00734"></a><span class="lineno">  734</span>        FORCEINLINE <span class="keywordtype">bool</span> IsSprinting()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> bIsSprinting; };</div>
+<div class="line"><a id="l00734" name="l00734"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#ae8da61eeedc8f0c5ac296188e73fd895">  734</a></span>        FORCEINLINE <span class="keywordtype">bool</span> IsSprinting()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> bIsSprinting; };</div>
 <div class="line"><a id="l00735" name="l00735"></a><span class="lineno">  735</span> </div>
 <div class="line"><a id="l00736" name="l00736"></a><span class="lineno">  736</span>    UFUNCTION(BlueprintCallable, Category = <span class="stringliteral">&quot;Movement|Get&quot;</span>)</div>
-<div class="line"><a id="l00737" name="l00737"></a><span class="lineno">  737</span>        FORCEINLINE <span class="keywordtype">bool</span> CanSptint()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> bCanSprint; };</div>
+<div class="line"><a id="l00737" name="l00737"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#af86e2446292e4df0dc0bff3767c6bf90">  737</a></span>        FORCEINLINE <span class="keywordtype">bool</span> CanSptint()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> bCanSprint; };</div>
 <div class="line"><a id="l00738" name="l00738"></a><span class="lineno">  738</span> </div>
 <div class="line"><a id="l00739" name="l00739"></a><span class="lineno">  739</span>    UFUNCTION(BlueprintCallable, Category = <span class="stringliteral">&quot;Movement|Get&quot;</span>)</div>
-<div class="line"><a id="l00740" name="l00740"></a><span class="lineno">  740</span>        FORCEINLINE <span class="keywordtype">bool</span> HasStamina()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> bHasStamina; };</div>
+<div class="line"><a id="l00740" name="l00740"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a86afad2374c69d70c8e59cd8ece3ec6f">  740</a></span>        FORCEINLINE <span class="keywordtype">bool</span> HasStamina()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> bHasStamina; };</div>
 <div class="line"><a id="l00741" name="l00741"></a><span class="lineno">  741</span> </div>
 <div class="line"><a id="l00742" name="l00742"></a><span class="lineno">  742</span>    UFUNCTION(BlueprintCallable, Category = <span class="stringliteral">&quot;Movement|Get&quot;</span>)</div>
-<div class="line"><a id="l00743" name="l00743"></a><span class="lineno">  743</span>        FORCEINLINE <span class="keywordtype">float</span> GetStamina()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> Stamina; };</div>
+<div class="line"><a id="l00743" name="l00743"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a31aaa94b3be6b3b58663498ae1eeb7d1">  743</a></span>        FORCEINLINE <span class="keywordtype">float</span> GetStamina()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> Stamina; };</div>
 <div class="line"><a id="l00744" name="l00744"></a><span class="lineno">  744</span> </div>
 <div class="line"><a id="l00745" name="l00745"></a><span class="lineno">  745</span>    <span class="keywordtype">float</span> GetDistanceMoved(FVector CurrentCameraPosition);</div>
 <div class="line"><a id="l00746" name="l00746"></a><span class="lineno">  746</span> </div>
 <div class="line"><a id="l00747" name="l00747"></a><span class="lineno">  747</span>    <span class="keywordtype">float</span> GetDistanceRotation(FRotator CurrentCameraRotation);</div>
 <div class="line"><a id="l00748" name="l00748"></a><span class="lineno">  748</span> </div>
-<div class="line"><a id="l00749" name="l00749"></a><span class="lineno">  749</span>    FORCEINLINE FVector GetFloorPoint()<span class="keyword"> const </span></div>
+<div class="foldopen" id="foldopen00749" data-start="{" data-end="}">
+<div class="line"><a id="l00749" name="l00749"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#ab67e3758b12ad07a5e69c31760c4a7b1">  749</a></span>    FORCEINLINE FVector <a class="code hl_function" href="class_a_v_r___player.html#ab67e3758b12ad07a5e69c31760c4a7b1">GetFloorPoint</a>()<span class="keyword"> const </span></div>
 <div class="line"><a id="l00750" name="l00750"></a><span class="lineno">  750</span><span class="keyword">    </span>{ </div>
 <div class="line"><a id="l00751" name="l00751"></a><span class="lineno">  751</span>        FVector FloorLocation = GetCapsuleComponent()-&gt;GetComponentLocation();</div>
 <div class="line"><a id="l00752" name="l00752"></a><span class="lineno">  752</span>        FloorLocation.Z -= GetCapsuleComponent()-&gt;GetCollisionShape().GetCapsuleHalfHeight();</div>
 <div class="line"><a id="l00753" name="l00753"></a><span class="lineno">  753</span>        <span class="keywordflow">return</span> FloorLocation;</div>
 <div class="line"><a id="l00754" name="l00754"></a><span class="lineno">  754</span>    };</div>
+</div>
 <div class="line"><a id="l00755" name="l00755"></a><span class="lineno">  755</span> </div>
 <div class="line"><a id="l00756" name="l00756"></a><span class="lineno">  756</span>    <span class="keywordtype">float</span> GetMovementDirection(FTransform CurrentCameraWorldTransform);</div>
 <div class="line"><a id="l00757" name="l00757"></a><span class="lineno">  757</span> </div>
@@ -668,14 +674,14 @@ $(function(){initNavTree('_v_r___player_8h_source.html',''); initResizable(); })
 <div class="line"><a id="l00783" name="l00783"></a><span class="lineno">  783</span>        <span class="keywordtype">void</span>  SetUserMode(<span class="keywordtype">bool</span> VRMode);</div>
 <div class="line"><a id="l00784" name="l00784"></a><span class="lineno">  784</span> </div>
 <div class="line"><a id="l00785" name="l00785"></a><span class="lineno">  785</span>    UFUNCTION(Reliable, Server, WithValidation)</div>
-<div class="line"><a id="l00786" name="l00786"></a><span class="lineno">  786</span>        <span class="keywordtype">void</span> SendUserMode_Server(APawn* Player, <span class="keywordtype">bool</span> VRMode);</div>
+<div class="line"><a id="l00786" name="l00786"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a581aa5f653cd116334ede6e95cf352a4">  786</a></span>        <span class="keywordtype">void</span> SendUserMode_Server(APawn* Player, <span class="keywordtype">bool</span> VRMode);</div>
 <div class="line"><a id="l00787" name="l00787"></a><span class="lineno">  787</span> </div>
 <div class="line"><a id="l00788" name="l00788"></a><span class="lineno">  788</span>        <span class="keywordtype">bool</span>  SendUserMode_Server_Validate(APawn* Player, <span class="keywordtype">bool</span> VRMode);</div>
 <div class="line"><a id="l00789" name="l00789"></a><span class="lineno">  789</span> </div>
 <div class="line"><a id="l00790" name="l00790"></a><span class="lineno">  790</span>        <span class="keywordtype">void</span>  SendUserMode_Server_Implementation(APawn* Player, <span class="keywordtype">bool</span> VRMode);</div>
 <div class="line"><a id="l00791" name="l00791"></a><span class="lineno">  791</span> </div>
 <div class="line"><a id="l00792" name="l00792"></a><span class="lineno">  792</span>    UFUNCTION(Reliable, NetMulticast, WithValidation)</div>
-<div class="line"><a id="l00793" name="l00793"></a><span class="lineno">  793</span>        <span class="keywordtype">void</span> SendUserMode_Multicast(APawn* Player, <span class="keywordtype">bool</span> VRMode);</div>
+<div class="line"><a id="l00793" name="l00793"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a8c3f29a1559ff20e918ea220f40f5435">  793</a></span>        <span class="keywordtype">void</span> SendUserMode_Multicast(APawn* Player, <span class="keywordtype">bool</span> VRMode);</div>
 <div class="line"><a id="l00794" name="l00794"></a><span class="lineno">  794</span> </div>
 <div class="line"><a id="l00795" name="l00795"></a><span class="lineno">  795</span>        <span class="keywordtype">bool</span>  SendUserMode_Multicast_Validate(APawn* Player, <span class="keywordtype">bool</span> VRMode);</div>
 <div class="line"><a id="l00796" name="l00796"></a><span class="lineno">  796</span> </div>
@@ -683,7 +689,7 @@ $(function(){initNavTree('_v_r___player_8h_source.html',''); initResizable(); })
 <div class="line"><a id="l00798" name="l00798"></a><span class="lineno">  798</span> </div>
 <div class="line"><a id="l00799" name="l00799"></a><span class="lineno">  799</span>private:</div>
 <div class="line"><a id="l00800" name="l00800"></a><span class="lineno">  800</span> </div>
-<div class="line"><a id="l00801" name="l00801"></a><span class="lineno">  801</span>    <span class="keywordtype">void</span> CalculateComponentDirection(USceneComponent* Component, FVector&amp; ForwardVector, FVector&amp; RightVector);</div>
+<div class="line"><a id="l00801" name="l00801"></a><span class="lineno">  801</span>    <span class="keywordtype">void</span> CalculateComponentDirection(USceneComponent* Component, FVector&amp; <a class="code hl_enumvalue" href="_v_r___variables_8h.html#adb13709dc3a29858081c40ea1c465dbfa5f1a3df64b5ee62c80280909304259ba">ForwardVector</a>, FVector&amp; <a class="code hl_enumvalue" href="_v_r___variables_8h.html#adb13709dc3a29858081c40ea1c465dbfa13f84e5baf449e85538f32ff8423ae46">RightVector</a>);</div>
 <div class="line"><a id="l00802" name="l00802"></a><span class="lineno">  802</span> </div>
 <div class="line"><a id="l00803" name="l00803"></a><span class="lineno">  803</span>    <span class="keywordtype">void</span> StartSprinting();</div>
 <div class="line"><a id="l00804" name="l00804"></a><span class="lineno">  804</span> </div>
@@ -710,7 +716,7 @@ $(function(){initNavTree('_v_r___player_8h_source.html',''); initResizable(); })
 <div class="line"><a id="l00825" name="l00825"></a><span class="lineno">  825</span>    <span class="keywordtype">float</span> RunSpeed;</div>
 <div class="line"><a id="l00826" name="l00826"></a><span class="lineno">  826</span> </div>
 <div class="line"><a id="l00827" name="l00827"></a><span class="lineno">  827</span>    UPROPERTY(EditDefaultsOnly, Category = &quot;Movement&quot;, meta = (EditCondition = &quot;bCanSprint == true&quot;, EditConditionHides))</div>
-<div class="line"><a id="l00828" name="l00828"></a><span class="lineno">  828</span>    EButton SprintButton;</div>
+<div class="line"><a id="l00828" name="l00828"></a><span class="lineno">  828</span>    <a class="code hl_enumeration" href="_v_r___variables_8h.html#a18be71129c3a1f950fe9d2d87094064a">EButton</a> SprintButton;</div>
 <div class="line"><a id="l00829" name="l00829"></a><span class="lineno">  829</span> </div>
 <div class="line"><a id="l00830" name="l00830"></a><span class="lineno">  830</span>    UPROPERTY(EditDefaultsOnly, Category = &quot;Movement&quot;, meta = (EditCondition = &quot;bCanSprint == true&quot;, EditConditionHides))</div>
 <div class="line"><a id="l00831" name="l00831"></a><span class="lineno">  831</span>    EControllerHand SprintHand;</div>
@@ -758,9 +764,9 @@ $(function(){initNavTree('_v_r___player_8h_source.html',''); initResizable(); })
 <div class="line"><a id="l00873" name="l00873"></a><span class="lineno">  873</span>        TSubclassOf&lt;class <a class="code hl_class" href="class_a_v_r___hands.html">AVR_Hands</a>&gt; VR_HandsClass;</div>
 <div class="line"><a id="l00874" name="l00874"></a><span class="lineno">  874</span> </div>
 <div class="line"><a id="l00875" name="l00875"></a><span class="lineno">  875</span>    UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = &quot;Avatar&quot;, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
-<div class="line"><a id="l00876" name="l00876"></a><span class="lineno">  876</span>        EVRAvatarMode AvatarMode;</div>
+<div class="line"><a id="l00876" name="l00876"></a><span class="lineno">  876</span>        <a class="code hl_enumeration" href="_v_r___variables_8h.html#ab79e1822d81275ec524e3269e35a7174">EVRAvatarMode</a> AvatarMode;</div>
 <div class="line"><a id="l00877" name="l00877"></a><span class="lineno">  877</span> </div>
-<div class="line"><a id="l00878" name="l00878"></a><span class="lineno">  878</span>    UPROPERTY(EditDefaultsOnly, Category = &quot;Avatar&quot;,meta = (EditCondition = &quot;AvatarMode == EVRAvatarMode::FullBody&quot;, EditConditionHides))</div>
+<div class="line"><a id="l00878" name="l00878"></a><span class="lineno">  878</span>    UPROPERTY(EditDefaultsOnly, Category = &quot;Avatar&quot;,meta = (EditCondition = &quot;AvatarMode == <a class="code hl_enumeration" href="_v_r___variables_8h.html#ab79e1822d81275ec524e3269e35a7174">EVRAvatarMode</a>::<a class="code hl_enumvalue" href="_v_r___variables_8h.html#ab79e1822d81275ec524e3269e35a7174a1a951b8e89bf225233f5d3afe13196c0">FullBody</a>&quot;, EditConditionHides))</div>
 <div class="line"><a id="l00879" name="l00879"></a><span class="lineno">  879</span>        TSubclassOf&lt;class <a class="code hl_class" href="class_u_v_r___avatar_animation_instance.html">UVR_AvatarAnimationInstance</a>&gt; AvatarAnimationInstanceClass;</div>
 <div class="line"><a id="l00880" name="l00880"></a><span class="lineno">  880</span> </div>
 <div class="line"><a id="l00881" name="l00881"></a><span class="lineno">  881</span>        <span class="keywordtype">float</span> FadeOutDuration;  <span class="comment">//FadeOut teleport duration</span></div>
@@ -774,12 +780,12 @@ $(function(){initNavTree('_v_r___player_8h_source.html',''); initResizable(); })
 <div class="line"><a id="l00889" name="l00889"></a><span class="lineno">  889</span>        <span class="keywordtype">bool</span> EnableCameraFade;</div>
 <div class="line"><a id="l00890" name="l00890"></a><span class="lineno">  890</span> </div>
 <div class="line"><a id="l00891" name="l00891"></a><span class="lineno">  891</span>    UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = &quot;Inventory&quot;, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
-<div class="line"><a id="l00892" name="l00892"></a><span class="lineno">  892</span>        EInventoryHand_Code InventoryHand;</div>
+<div class="line"><a id="l00892" name="l00892"></a><span class="lineno">  892</span>        <a class="code hl_enumeration" href="_v_r___variables_8h.html#a90ec52032a58919c1a73cc51a7f7ce29">EInventoryHand_Code</a> InventoryHand;</div>
 <div class="line"><a id="l00893" name="l00893"></a><span class="lineno">  893</span> </div>
-<div class="line"><a id="l00894" name="l00894"></a><span class="lineno">  894</span>    UPROPERTY(BlueprintReadOnly, Category = &quot;Teleport&quot;, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
+<div class="line"><a id="l00894" name="l00894"></a><span class="lineno">  894</span>    UPROPERTY(BlueprintReadOnly, Category = &quot;<a class="code hl_enumvalue" href="_v_r___variables_8h.html#aa5e0d2c8a4b2d8a120d3f3aefe7b67cda054fc7866c93a2496fd9048c493e6aed">Teleport</a>&quot;, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
 <div class="line"><a id="l00895" name="l00895"></a><span class="lineno">  895</span>        <span class="keywordtype">bool</span> bIsTeleporting;    <span class="comment">//If teleport is turned on</span></div>
 <div class="line"><a id="l00896" name="l00896"></a><span class="lineno">  896</span> </div>
-<div class="line"><a id="l00897" name="l00897"></a><span class="lineno">  897</span>    UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = &quot;Teleport&quot;, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
+<div class="line"><a id="l00897" name="l00897"></a><span class="lineno">  897</span>    UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = &quot;<a class="code hl_enumvalue" href="_v_r___variables_8h.html#aa5e0d2c8a4b2d8a120d3f3aefe7b67cda054fc7866c93a2496fd9048c493e6aed">Teleport</a>&quot;, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
 <div class="line"><a id="l00898" name="l00898"></a><span class="lineno">  898</span>        FLinearColor TeleportFadeColor; <span class="comment">//Teleport fade color</span></div>
 <div class="line"><a id="l00899" name="l00899"></a><span class="lineno">  899</span> </div>
 <div class="line"><a id="l00900" name="l00900"></a><span class="lineno">  900</span>    UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = &quot;Sounds&quot;, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
@@ -794,7 +800,7 @@ $(function(){initNavTree('_v_r___player_8h_source.html',''); initResizable(); })
 <div class="line"><a id="l00909" name="l00909"></a><span class="lineno">  909</span>    UPROPERTY(BlueprintReadOnly, Category = &quot;Buttons&quot;, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
 <div class="line"><a id="l00910" name="l00910"></a><span class="lineno">  910</span>        <span class="keywordtype">bool</span> bLeftStickDown;    <span class="comment">//Left stick down</span></div>
 <div class="line"><a id="l00911" name="l00911"></a><span class="lineno">  911</span> </div>
-<div class="line"><a id="l00912" name="l00912"></a><span class="lineno">  912</span>    UPROPERTY(EditDefaultsOnly, Category = &quot;Avatar&quot;, meta = (EditCondition = &quot;AvatarMode == EVRAvatarMode::FullBody || bCanCrouchOnButton = true&quot;, EditConditionHides))</div>
+<div class="line"><a id="l00912" name="l00912"></a><span class="lineno">  912</span>    UPROPERTY(EditDefaultsOnly, Category = &quot;Avatar&quot;, meta = (EditCondition = &quot;AvatarMode == <a class="code hl_enumeration" href="_v_r___variables_8h.html#ab79e1822d81275ec524e3269e35a7174">EVRAvatarMode</a>::<a class="code hl_enumvalue" href="_v_r___variables_8h.html#ab79e1822d81275ec524e3269e35a7174a1a951b8e89bf225233f5d3afe13196c0">FullBody</a> || bCanCrouchOnButton = true&quot;, EditConditionHides))</div>
 <div class="line"><a id="l00913" name="l00913"></a><span class="lineno">  913</span>        <span class="keywordtype">float</span> DefaultPlayerHeight; <span class="comment">//Default player height</span></div>
 <div class="line"><a id="l00914" name="l00914"></a><span class="lineno">  914</span> </div>
 <div class="line"><a id="l00915" name="l00915"></a><span class="lineno">  915</span>    <span class="keywordtype">void</span> CheckForCorrectMultiplayerSetup();</div>
@@ -811,7 +817,7 @@ $(function(){initNavTree('_v_r___player_8h_source.html',''); initResizable(); })
 <div class="line"><a id="l00926" name="l00926"></a><span class="lineno">  926</span> </div>
 <div class="line"><a id="l00927" name="l00927"></a><span class="lineno">  927</span>        <span class="keywordtype">float</span> EyeHeightOffset;</div>
 <div class="line"><a id="l00928" name="l00928"></a><span class="lineno">  928</span> </div>
-<div class="line"><a id="l00929" name="l00929"></a><span class="lineno">  929</span>    UPROPERTY(BlueprintReadOnly, Category = &quot;Teleport&quot;, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
+<div class="line"><a id="l00929" name="l00929"></a><span class="lineno">  929</span>    UPROPERTY(BlueprintReadOnly, Category = &quot;<a class="code hl_enumvalue" href="_v_r___variables_8h.html#aa5e0d2c8a4b2d8a120d3f3aefe7b67cda054fc7866c93a2496fd9048c493e6aed">Teleport</a>&quot;, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
 <div class="line"><a id="l00930" name="l00930"></a><span class="lineno">  930</span>        <span class="keywordtype">bool</span> bIsTeleporterActive; <span class="comment">// True if player can teleport (Settings)</span></div>
 <div class="line"><a id="l00931" name="l00931"></a><span class="lineno">  931</span> </div>
 <div class="line"><a id="l00932" name="l00932"></a><span class="lineno">  932</span>        <span class="keywordtype">bool</span> bIsCameraFaded; <span class="comment">//  Is camera faded</span></div>
@@ -857,7 +863,7 @@ $(function(){initNavTree('_v_r___player_8h_source.html',''); initResizable(); })
 <div class="line"><a id="l00972" name="l00972"></a><span class="lineno">  972</span>        <span class="keywordtype">bool</span> bAllowJump;</div>
 <div class="line"><a id="l00973" name="l00973"></a><span class="lineno">  973</span>    </div>
 <div class="line"><a id="l00974" name="l00974"></a><span class="lineno">  974</span>    UPROPERTY(EditDefaultsOnly, Category = &quot;Movement&quot;, meta = (EditCondition = &quot;bAllowJump == true&quot;, EditConditionHides))</div>
-<div class="line"><a id="l00975" name="l00975"></a><span class="lineno">  975</span>        EButton JumpButton;</div>
+<div class="line"><a id="l00975" name="l00975"></a><span class="lineno">  975</span>        <a class="code hl_enumeration" href="_v_r___variables_8h.html#a18be71129c3a1f950fe9d2d87094064a">EButton</a> JumpButton;</div>
 <div class="line"><a id="l00976" name="l00976"></a><span class="lineno">  976</span>    </div>
 <div class="line"><a id="l00977" name="l00977"></a><span class="lineno">  977</span>    UPROPERTY(EditDefaultsOnly, Category = &quot;Movement&quot;, meta = (EditCondition = &quot;bAllowJump == true&quot;, EditConditionHides))</div>
 <div class="line"><a id="l00978" name="l00978"></a><span class="lineno">  978</span>        EControllerHand JumpHand;</div>
@@ -925,9 +931,9 @@ $(function(){initNavTree('_v_r___player_8h_source.html',''); initResizable(); })
 <div class="line"><a id="l01040" name="l01040"></a><span class="lineno"> 1040</span>        <span class="keywordtype">bool</span> AllowNonVR;</div>
 <div class="line"><a id="l01041" name="l01041"></a><span class="lineno"> 1041</span> </div>
 <div class="line"><a id="l01042" name="l01042"></a><span class="lineno"> 1042</span>    UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = &quot;Gameplay|Non VR&quot;, meta = (EditCondition = &quot;AllowNonVR == true&quot;, AllowPrivateAccess = &quot;true&quot;, EditConditionHides))</div>
-<div class="line"><a id="l01043" name="l01043"></a><span class="lineno"> 1043</span>    ENonVRTypes NonVRType;</div>
+<div class="line"><a id="l01043" name="l01043"></a><span class="lineno"> 1043</span>    <a class="code hl_enumeration" href="_v_r___variables_8h.html#a0da467a32af945bf185668a053e75d30">ENonVRTypes</a> NonVRType;</div>
 <div class="line"><a id="l01044" name="l01044"></a><span class="lineno"> 1044</span> </div>
-<div class="line"><a id="l01045" name="l01045"></a><span class="lineno"> 1045</span>    UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = &quot;Gameplay|Non VR&quot;, meta = (EditCondition = &quot;AllowNonVR == true &amp;&amp; NonVRType == ENonVRTypes::SourceStyle&quot;, AllowPrivateAccess = &quot;true&quot;, EditConditionHides))</div>
+<div class="line"><a id="l01045" name="l01045"></a><span class="lineno"> 1045</span>    UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = &quot;Gameplay|Non VR&quot;, meta = (EditCondition = &quot;AllowNonVR == true &amp;&amp; NonVRType == <a class="code hl_enumeration" href="_v_r___variables_8h.html#a0da467a32af945bf185668a053e75d30">ENonVRTypes</a>::<a class="code hl_enumvalue" href="_v_r___variables_8h.html#a0da467a32af945bf185668a053e75d30a110adece928b6fd25e188a43e920995e">SourceStyle</a>&quot;, AllowPrivateAccess = &quot;true&quot;, EditConditionHides))</div>
 <div class="line"><a id="l01046" name="l01046"></a><span class="lineno"> 1046</span>    <span class="keywordtype">float</span> InteractionDistance;</div>
 <div class="line"><a id="l01047" name="l01047"></a><span class="lineno"> 1047</span> </div>
 <div class="line"><a id="l01048" name="l01048"></a><span class="lineno"> 1048</span>    UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = &quot;Debug&quot;, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
@@ -940,7 +946,7 @@ $(function(){initNavTree('_v_r___player_8h_source.html',''); initResizable(); })
 <div class="line"><a id="l01055" name="l01055"></a><span class="lineno"> 1055</span>    <span class="keywordtype">bool</span> NonVRInteracting;</div>
 <div class="line"><a id="l01056" name="l01056"></a><span class="lineno"> 1056</span>    AActor* NonVRGrabbedActor;</div>
 <div class="line"><a id="l01057" name="l01057"></a><span class="lineno"> 1057</span>    UPrimitiveComponent* NonVRGrabbedComponent;</div>
-<div class="line"><a id="l01058" name="l01058"></a><span class="lineno"> 1058</span>    UVR_GrabComponent* NonVRCurrentGrabComponent;</div>
+<div class="line"><a id="l01058" name="l01058"></a><span class="lineno"> 1058</span>    <a class="code hl_class" href="class_u_v_r___grab_component.html">UVR_GrabComponent</a>* NonVRCurrentGrabComponent;</div>
 <div class="line"><a id="l01059" name="l01059"></a><span class="lineno"> 1059</span> </div>
 <div class="line"><a id="l01060" name="l01060"></a><span class="lineno"> 1060</span>    <span class="keywordtype">void</span> UpdateNonVRGrabbedPosition();</div>
 <div class="line"><a id="l01061" name="l01061"></a><span class="lineno"> 1061</span> </div>
@@ -949,7 +955,7 @@ $(function(){initNavTree('_v_r___player_8h_source.html',''); initResizable(); })
 <div class="line"><a id="l01064" name="l01064"></a><span class="lineno"> 1064</span> </div>
 <div class="line"><a id="l01065" name="l01065"></a><span class="lineno"> 1065</span>    <span class="keywordtype">bool</span> TraceForNonVRInteraction();</div>
 <div class="line"><a id="l01066" name="l01066"></a><span class="lineno"> 1066</span> </div>
-<div class="line"><a id="l01067" name="l01067"></a><span class="lineno"> 1067</span>    UVR_GrabComponent* FindGrabComponentForNonVR(AActor* Actor);</div>
+<div class="line"><a id="l01067" name="l01067"></a><span class="lineno"> 1067</span>    <a class="code hl_class" href="class_u_v_r___grab_component.html">UVR_GrabComponent</a>* FindGrabComponentForNonVR(AActor* Actor);</div>
 <div class="line"><a id="l01068" name="l01068"></a><span class="lineno"> 1068</span> </div>
 <div class="line"><a id="l01069" name="l01069"></a><span class="lineno"> 1069</span>    <span class="comment">//Experemental</span></div>
 <div class="line"><a id="l01070" name="l01070"></a><span class="lineno"> 1070</span>    <span class="keywordtype">bool</span> bDynamicFidelityLevels;</div>
@@ -962,16 +968,35 @@ $(function(){initNavTree('_v_r___player_8h_source.html',''); initResizable(); })
 <div class="line"><a id="l01077" name="l01077"></a><span class="lineno"> 1077</span>    FTimerHandle RegenStaminaTimerHandler;</div>
 <div class="line"><a id="l01078" name="l01078"></a><span class="lineno"> 1078</span> </div>
 <div class="line"><a id="l01079" name="l01079"></a><span class="lineno"> 1079</span>public:</div>
-<div class="line"><a id="l01080" name="l01080"></a><span class="lineno"> 1080</span>    FVector LastCameraPosition;</div>
-<div class="line"><a id="l01081" name="l01081"></a><span class="lineno"> 1081</span>    <span class="keywordtype">bool</span> bWeaponInInventory; <span class="comment">//If weapon is in the inventory</span></div>
-<div class="line"><a id="l01082" name="l01082"></a><span class="lineno"> 1082</span>    TSubclassOf&lt;class AActor&gt; WeaponInInventory;</div>
+<div class="line"><a id="l01080" name="l01080"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a458b6c6f8eec538ae2378c962427c3ac"> 1080</a></span>    FVector LastCameraPosition;</div>
+<div class="line"><a id="l01081" name="l01081"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#ab9545decb628c03891f090b615576952"> 1081</a></span>    <span class="keywordtype">bool</span> bWeaponInInventory; <span class="comment">//If weapon is in the inventory</span></div>
+<div class="line"><a id="l01082" name="l01082"></a><span class="lineno"><a class="line" href="class_a_v_r___player.html#a316ac754918e8c58322b61f14ebcba33"> 1082</a></span>    TSubclassOf&lt;class AActor&gt; WeaponInInventory;</div>
 <div class="line"><a id="l01083" name="l01083"></a><span class="lineno"> 1083</span>};</div>
 </div>
+<div class="ttc" id="a_v_r___ammo_clip_8h_html"><div class="ttname"><a href="_v_r___ammo_clip_8h.html">VR_AmmoClip.h</a></div></div>
+<div class="ttc" id="a_v_r___avatar_animation_instance_8h_html"><div class="ttname"><a href="_v_r___avatar_animation_instance_8h.html">VR_AvatarAnimationInstance.h</a></div></div>
+<div class="ttc" id="a_v_r___camera_component_8h_html"><div class="ttname"><a href="_v_r___camera_component_8h.html">VR_CameraComponent.h</a></div></div>
+<div class="ttc" id="a_v_r___motion_controller_component_8h_html"><div class="ttname"><a href="_v_r___motion_controller_component_8h.html">VR_MotionControllerComponent.h</a></div></div>
+<div class="ttc" id="a_v_r___variables_8h_html_a0da467a32af945bf185668a053e75d30"><div class="ttname"><a href="_v_r___variables_8h.html#a0da467a32af945bf185668a053e75d30">ENonVRTypes</a></div><div class="ttdeci">ENonVRTypes</div><div class="ttdef"><b>Definition</b> VR_Variables.h:184</div></div>
+<div class="ttc" id="a_v_r___variables_8h_html_a0da467a32af945bf185668a053e75d30a110adece928b6fd25e188a43e920995e"><div class="ttname"><a href="_v_r___variables_8h.html#a0da467a32af945bf185668a053e75d30a110adece928b6fd25e188a43e920995e">ENonVRTypes::SourceStyle</a></div><div class="ttdeci">@ SourceStyle</div></div>
+<div class="ttc" id="a_v_r___variables_8h_html_a18be71129c3a1f950fe9d2d87094064a"><div class="ttname"><a href="_v_r___variables_8h.html#a18be71129c3a1f950fe9d2d87094064a">EButton</a></div><div class="ttdeci">EButton</div><div class="ttdef"><b>Definition</b> VR_Variables.h:108</div></div>
+<div class="ttc" id="a_v_r___variables_8h_html_a90ec52032a58919c1a73cc51a7f7ce29"><div class="ttname"><a href="_v_r___variables_8h.html#a90ec52032a58919c1a73cc51a7f7ce29">EInventoryHand_Code</a></div><div class="ttdeci">EInventoryHand_Code</div><div class="ttdef"><b>Definition</b> VR_Variables.h:49</div></div>
+<div class="ttc" id="a_v_r___variables_8h_html_a90ec52032a58919c1a73cc51a7f7ce29a03f7bbbc02c9006ea393ec4ef5843d7b"><div class="ttname"><a href="_v_r___variables_8h.html#a90ec52032a58919c1a73cc51a7f7ce29a03f7bbbc02c9006ea393ec4ef5843d7b">EInventoryHand_Code::LeftHand</a></div><div class="ttdeci">@ LeftHand</div></div>
+<div class="ttc" id="a_v_r___variables_8h_html_a90ec52032a58919c1a73cc51a7f7ce29aa51983e0f69f76a68e55efe2e7b700b5"><div class="ttname"><a href="_v_r___variables_8h.html#a90ec52032a58919c1a73cc51a7f7ce29aa51983e0f69f76a68e55efe2e7b700b5">EInventoryHand_Code::RightHand</a></div><div class="ttdeci">@ RightHand</div></div>
+<div class="ttc" id="a_v_r___variables_8h_html_aa5e0d2c8a4b2d8a120d3f3aefe7b67cda054fc7866c93a2496fd9048c493e6aed"><div class="ttname"><a href="_v_r___variables_8h.html#aa5e0d2c8a4b2d8a120d3f3aefe7b67cda054fc7866c93a2496fd9048c493e6aed">MovementType::Teleport</a></div><div class="ttdeci">@ Teleport</div></div>
+<div class="ttc" id="a_v_r___variables_8h_html_ab79e1822d81275ec524e3269e35a7174"><div class="ttname"><a href="_v_r___variables_8h.html#ab79e1822d81275ec524e3269e35a7174">EVRAvatarMode</a></div><div class="ttdeci">EVRAvatarMode</div><div class="ttdef"><b>Definition</b> VR_Variables.h:101</div></div>
+<div class="ttc" id="a_v_r___variables_8h_html_ab79e1822d81275ec524e3269e35a7174a1a951b8e89bf225233f5d3afe13196c0"><div class="ttname"><a href="_v_r___variables_8h.html#ab79e1822d81275ec524e3269e35a7174a1a951b8e89bf225233f5d3afe13196c0">EVRAvatarMode::FullBody</a></div><div class="ttdeci">@ FullBody</div></div>
+<div class="ttc" id="a_v_r___variables_8h_html_adb13709dc3a29858081c40ea1c465dbfa13f84e5baf449e85538f32ff8423ae46"><div class="ttname"><a href="_v_r___variables_8h.html#adb13709dc3a29858081c40ea1c465dbfa13f84e5baf449e85538f32ff8423ae46">EVectorDirectionTypes::RightVector</a></div><div class="ttdeci">@ RightVector</div></div>
+<div class="ttc" id="a_v_r___variables_8h_html_adb13709dc3a29858081c40ea1c465dbfa5f1a3df64b5ee62c80280909304259ba"><div class="ttname"><a href="_v_r___variables_8h.html#adb13709dc3a29858081c40ea1c465dbfa5f1a3df64b5ee62c80280909304259ba">EVectorDirectionTypes::ForwardVector</a></div><div class="ttdeci">@ ForwardVector</div></div>
 <div class="ttc" id="aclass_a_v_r___hands_html"><div class="ttname"><a href="class_a_v_r___hands.html">AVR_Hands</a></div><div class="ttdoc">Hand class.</div><div class="ttdef"><b>Definition</b> VR_Hands.h:45</div></div>
+<div class="ttc" id="aclass_a_v_r___hands_html_aaa02a2fcf5cf4a7fb63643d3a10eb916"><div class="ttname"><a href="class_a_v_r___hands.html#aaa02a2fcf5cf4a7fb63643d3a10eb916">AVR_Hands::GetHandMesh</a></div><div class="ttdeci">FORCEINLINE USkeletalMeshComponent * GetHandMesh() const</div><div class="ttdef"><b>Definition</b> VR_Hands.h:708</div></div>
 <div class="ttc" id="aclass_a_v_r___player_html"><div class="ttname"><a href="class_a_v_r___player.html">AVR_Player</a></div><div class="ttdoc">Player class.</div><div class="ttdef"><b>Definition</b> VR_Player.h:28</div></div>
+<div class="ttc" id="aclass_a_v_r___player_html_a0a78b32096f77af48a2db4ee9c55e172"><div class="ttname"><a href="class_a_v_r___player.html#a0a78b32096f77af48a2db4ee9c55e172">AVR_Player::GetRightMotionController</a></div><div class="ttdeci">FORCEINLINE class UMotionControllerComponent * GetRightMotionController() const</div><div class="ttdef"><b>Definition</b> VR_Player.h:596</div></div>
+<div class="ttc" id="aclass_a_v_r___player_html_ab67e3758b12ad07a5e69c31760c4a7b1"><div class="ttname"><a href="class_a_v_r___player.html#ab67e3758b12ad07a5e69c31760c4a7b1">AVR_Player::GetFloorPoint</a></div><div class="ttdeci">FORCEINLINE FVector GetFloorPoint() const</div><div class="ttdef"><b>Definition</b> VR_Player.h:749</div></div>
 <div class="ttc" id="aclass_a_v_r___static_mesh_html"><div class="ttname"><a href="class_a_v_r___static_mesh.html">AVR_StaticMesh</a></div><div class="ttdoc">This is a static object which player can pick up using one of grab methods (enum EGrabMethod)</div><div class="ttdef"><b>Definition</b> VR_StaticMesh.h:15</div></div>
 <div class="ttc" id="aclass_u_v_r___avatar_animation_instance_html"><div class="ttname"><a href="class_u_v_r___avatar_animation_instance.html">UVR_AvatarAnimationInstance</a></div><div class="ttdef"><b>Definition</b> VR_AvatarAnimationInstance.h:15</div></div>
 <div class="ttc" id="aclass_u_v_r___camera_component_html"><div class="ttname"><a href="class_u_v_r___camera_component.html">UVR_CameraComponent</a></div><div class="ttdef"><b>Definition</b> VR_CameraComponent.h:14</div></div>
+<div class="ttc" id="aclass_u_v_r___grab_component_html"><div class="ttname"><a href="class_u_v_r___grab_component.html">UVR_GrabComponent</a></div><div class="ttdoc">Grab Component class.</div><div class="ttdef"><b>Definition</b> VR_GrabComponent.h:32</div></div>
 <div class="ttc" id="aclass_u_v_r___motion_controller_component_html"><div class="ttname"><a href="class_u_v_r___motion_controller_component.html">UVR_MotionControllerComponent</a></div><div class="ttdef"><b>Definition</b> VR_MotionControllerComponent.h:68</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

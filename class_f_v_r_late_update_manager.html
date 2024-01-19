@@ -100,6 +100,8 @@ $(function(){initNavTree('class_f_v_r_late_update_manager.html',''); initResizab
   <div class="headertitle"><div class="title">FVRLateUpdateManager Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="_v_r___motion_controller_component_8h_source.html">VR_MotionControllerComponent.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -108,6 +110,10 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a660ff4c63e45eb6ff78da32b940ad0fa" id="r_a660ff4c63e45eb6ff78da32b940ad0fa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a660ff4c63e45eb6ff78da32b940ad0fa">FVRLateUpdateManager</a> ()</td></tr>
+<tr class="separator:a660ff4c63e45eb6ff78da32b940ad0fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec25a87f0dd2e023510f16549fdbcd35" id="r_aec25a87f0dd2e023510f16549fdbcd35"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec25a87f0dd2e023510f16549fdbcd35">~FVRLateUpdateManager</a> ()</td></tr>
+<tr class="separator:aec25a87f0dd2e023510f16549fdbcd35"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c56d95926e6649d462c271f34c47055" id="r_a6c56d95926e6649d462c271f34c47055"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c56d95926e6649d462c271f34c47055">Setup</a> (const FTransform &amp;ParentToWorld, <a class="el" href="class_u_v_r___motion_controller_component.html">UVR_MotionControllerComponent</a> *Component, bool bSkipLateUpdate)</td></tr>
 <tr class="separator:a6c56d95926e6649d462c271f34c47055"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3b212b1666f3d2eb4fb2bdd4ea3d610" id="r_ae3b212b1666f3d2eb4fb2bdd4ea3d610"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae3b212b1666f3d2eb4fb2bdd4ea3d610">Apply_RenderThread</a> (FSceneInterface *Scene, const FTransform &amp;OldRelativeTransform, const FTransform &amp;NewRelativeTransform)</td></tr>
@@ -121,16 +127,56 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:af5f9bdef29ba9c65391b31480673c2c1" id="r_af5f9bdef29ba9c65391b31480673c2c1"><td class="memItemLeft" align="right" valign="top"><a id="af5f9bdef29ba9c65391b31480673c2c1" name="af5f9bdef29ba9c65391b31480673c2c1"></a>
-<a class="el" href="struct_f_v_r_late_update_manager_1_1_f_late_update_state.html">FLateUpdateState</a>&#160;</td><td class="memItemRight" valign="bottom"><b>UpdateStates</b> [2]</td></tr>
+<tr class="memitem:af5f9bdef29ba9c65391b31480673c2c1" id="r_af5f9bdef29ba9c65391b31480673c2c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_f_v_r_late_update_manager_1_1_f_late_update_state.html">FLateUpdateState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5f9bdef29ba9c65391b31480673c2c1">UpdateStates</a> [2]</td></tr>
 <tr class="separator:af5f9bdef29ba9c65391b31480673c2c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a63d751875efec144d2c3acd2efad2962" id="r_a63d751875efec144d2c3acd2efad2962"><td class="memItemLeft" align="right" valign="top"><a id="a63d751875efec144d2c3acd2efad2962" name="a63d751875efec144d2c3acd2efad2962"></a>
-int32&#160;</td><td class="memItemRight" valign="bottom"><b>LateUpdateGameWriteIndex</b></td></tr>
+<tr class="memitem:a63d751875efec144d2c3acd2efad2962" id="r_a63d751875efec144d2c3acd2efad2962"><td class="memItemLeft" align="right" valign="top">int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a63d751875efec144d2c3acd2efad2962">LateUpdateGameWriteIndex</a></td></tr>
 <tr class="separator:a63d751875efec144d2c3acd2efad2962"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0485a579fb31f7cbed50d13ee40dac5d" id="r_a0485a579fb31f7cbed50d13ee40dac5d"><td class="memItemLeft" align="right" valign="top"><a id="a0485a579fb31f7cbed50d13ee40dac5d" name="a0485a579fb31f7cbed50d13ee40dac5d"></a>
-int32&#160;</td><td class="memItemRight" valign="bottom"><b>LateUpdateRenderReadIndex</b></td></tr>
+<tr class="memitem:a0485a579fb31f7cbed50d13ee40dac5d" id="r_a0485a579fb31f7cbed50d13ee40dac5d"><td class="memItemLeft" align="right" valign="top">int32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0485a579fb31f7cbed50d13ee40dac5d">LateUpdateRenderReadIndex</a></td></tr>
 <tr class="separator:a0485a579fb31f7cbed50d13ee40dac5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a660ff4c63e45eb6ff78da32b940ad0fa" name="a660ff4c63e45eb6ff78da32b940ad0fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a660ff4c63e45eb6ff78da32b940ad0fa">&#9670;&#160;</a></span>FVRLateUpdateManager()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">FVRLateUpdateManager::FVRLateUpdateManager </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aec25a87f0dd2e023510f16549fdbcd35" name="aec25a87f0dd2e023510f16549fdbcd35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec25a87f0dd2e023510f16549fdbcd35">&#9670;&#160;</a></span>~FVRLateUpdateManager()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual FVRLateUpdateManager::~FVRLateUpdateManager </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="ae3b212b1666f3d2eb4fb2bdd4ea3d610" name="ae3b212b1666f3d2eb4fb2bdd4ea3d610"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae3b212b1666f3d2eb4fb2bdd4ea3d610">&#9670;&#160;</a></span>Apply_RenderThread()</h2>
@@ -248,9 +294,52 @@ int32&#160;</td><td class="memItemRight" valign="bottom"><b>LateUpdateRenderRead
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a63d751875efec144d2c3acd2efad2962" name="a63d751875efec144d2c3acd2efad2962"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63d751875efec144d2c3acd2efad2962">&#9670;&#160;</a></span>LateUpdateGameWriteIndex</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int32 FVRLateUpdateManager::LateUpdateGameWriteIndex</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0485a579fb31f7cbed50d13ee40dac5d" name="a0485a579fb31f7cbed50d13ee40dac5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0485a579fb31f7cbed50d13ee40dac5d">&#9670;&#160;</a></span>LateUpdateRenderReadIndex</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int32 FVRLateUpdateManager::LateUpdateRenderReadIndex</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af5f9bdef29ba9c65391b31480673c2c1" name="af5f9bdef29ba9c65391b31480673c2c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5f9bdef29ba9c65391b31480673c2c1">&#9670;&#160;</a></span>UpdateStates</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_f_v_r_late_update_manager_1_1_f_late_update_state.html">FLateUpdateState</a> FVRLateUpdateManager::UpdateStates[2]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>D:/Projects/LUEZ/LUEZ/Plugins/HeadMountedVR/Source/HeadMountedVR/Public/VR/VR_Components/<a class="el" href="_v_r___motion_controller_component_8h_source.html">VR_MotionControllerComponent.h</a></li>
-<li>D:/Projects/LUEZ/LUEZ/Plugins/HeadMountedVR/Source/HeadMountedVR/Private/VR/VR_Components/<b>VR_MotionControllerComponent.cpp</b></li>
+<li>D:/Projects/LUEZ/LUEZ/Plugins/HeadMountedVR/Source/HeadMountedVR/Private/VR/VR_Components/<a class="el" href="_v_r___motion_controller_component_8cpp.html">VR_MotionControllerComponent.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

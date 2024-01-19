@@ -100,15 +100,15 @@ $(function(){initNavTree('_v_r___drawer_8h_source.html',''); initResizable(); })
   <div class="headertitle"><div class="title">VR_Drawer.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">//========= Copyright 2023 Head Mounted Software, All rights reserved. ============//</span></div>
+<a href="_v_r___drawer_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">//========= Copyright 2023 Head Mounted Software, All rights reserved. ============//</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;CoreMinimal.h&quot;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;GameFramework/Actor.h&quot;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;PhysicsEngine/PhysicsConstraintComponent.h&quot;</span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &quot;VR/VR_Components/VR_GrabComponent.h&quot;</span></div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &quot;VR_Actor.h&quot;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &quot;<a class="code" href="_v_r___grab_component_8h.html">VR/VR_Components/VR_GrabComponent.h</a>&quot;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &quot;<a class="code" href="_v_r___actor_8h.html">VR_Actor.h</a>&quot;</span></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;Engine/StaticMeshActor.h&quot;</span></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;Components/SkeletalMeshComponent.h&quot;</span></div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &quot;VR_Drawer.generated.h&quot;</span></div>
@@ -122,41 +122,41 @@ $(function(){initNavTree('_v_r___drawer_8h_source.html',''); initResizable(); })
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <span class="comment">/* Components Initialization*/</span></div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = <span class="stringliteral">&quot;Components&quot;</span>, meta = (AllowPrivateAccess = <span class="stringliteral">&quot;true&quot;</span>))</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>        <span class="keyword">class </span>USceneComponent* RootScene;</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="class_a_v_r___drawer.html#ad1cb8bd91f8c0a4ca6ca299075b4d9cc">   26</a></span>        class USceneComponent* RootScene;</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = <span class="stringliteral">&quot;Components&quot;</span>, meta = (AllowPrivateAccess = <span class="stringliteral">&quot;true&quot;</span>))</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>        <span class="keyword">class </span>UStaticMeshComponent* Drawer_Body;</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = &quot;Components&quot;, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="class_a_v_r___drawer.html#a0f40cf45ed5461d8027c1e3f20a4965e">   29</a></span>        class UStaticMeshComponent* Drawer_Body;</div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = <span class="stringliteral">&quot;Components&quot;</span>, meta = (AllowPrivateAccess = <span class="stringliteral">&quot;true&quot;</span>))</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>        <span class="keyword">class </span>UVR_GrabComponent* GrabComponent;</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = &quot;Components&quot;, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="class_a_v_r___drawer.html#a6eaa32dc1bfc45d39e7a72c582a41ea3">   32</a></span>        class <a class="code hl_class" href="class_u_v_r___grab_component.html">UVR_GrabComponent</a>* GrabComponent;</div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = <span class="stringliteral">&quot;Components&quot;</span>, meta = (AllowPrivateAccess = <span class="stringliteral">&quot;true&quot;</span>))</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        <span class="keyword">class </span>UPhysicsConstraintComponent* PhysicsConstraint;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>    UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = &quot;Components&quot;, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="class_a_v_r___drawer.html#a2f4dd12ff98ea353458c6d3d8f21828e">   35</a></span>        class UPhysicsConstraintComponent* PhysicsConstraint;</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="keyword">public</span>: </div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>public: </div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="comment">// Sets default values for this actor&#39;s properties</span></div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <a class="code hl_class" href="class_a_v_r___drawer.html">AVR_Drawer</a>();</div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="comment">// Called every frame</span></div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> Tick(<span class="keywordtype">float</span> DeltaTime) <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    virtual <span class="keywordtype">void</span> Tick(<span class="keywordtype">float</span> DeltaTime) override;</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    UFUNCTION(BlueprintCallable, Category = <span class="stringliteral">&quot;Function|Set&quot;</span>)</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    UFUNCTION(BlueprintCallable, Category = &quot;Function|Set&quot;)</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        <span class="keywordtype">void</span> SetAutoClose(<span class="keywordtype">bool</span> auto_close);                 </div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    UFUNCTION(BlueprintCallable, Category = <span class="stringliteral">&quot;Function|Set&quot;</span>)</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    UFUNCTION(BlueprintCallable, Category = &quot;Function|Set&quot;)</div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>        <span class="keywordtype">void</span> SetLengthLimit(<span class="keywordtype">float</span> Length);                  </div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    UFUNCTION(BlueprintCallable, Category = <span class="stringliteral">&quot;Function|Set&quot;</span>)</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    UFUNCTION(BlueprintCallable, Category = &quot;Function|Set&quot;)</div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>        <span class="keywordtype">void</span> AddActorToIgnore(AStaticMeshActor* ActorToIgnore);         </div>
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    UFUNCTION(BlueprintCallable, Category = <span class="stringliteral">&quot;Function|Set&quot;</span>)</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    UFUNCTION(BlueprintCallable, Category = &quot;Function|Set&quot;)</div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>        <span class="keywordtype">void</span> ClearActorsToIgnore();</div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    UFUNCTION(BlueprintCallable, Category = <span class="stringliteral">&quot;Function|Set&quot;</span>)</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    UFUNCTION(BlueprintCallable, Category = &quot;Function|Set&quot;)</div>
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>        <span class="keywordtype">void</span> SetParent(AStaticMeshActor* ParentActor);</div>
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    UFUNCTION(BlueprintCallable, Category = <span class="stringliteral">&quot;Function|Get&quot;</span>)</div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>        FORCEINLINE <span class="keywordtype">float</span> GetLenghtLimit()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> slide_Limit; }</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    UFUNCTION(BlueprintCallable, Category = &quot;Function|Get&quot;)</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno"><a class="line" href="class_a_v_r___drawer.html#ae639ed0ee618e1d08c1b31394d0d5a6d">   79</a></span>        FORCEINLINE <span class="keywordtype">float</span> GetLenghtLimit()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> slide_Limit; }</div>
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span> </div>
 <div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span><span class="keyword">protected</span>:</div>
 <div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    <span class="comment">// Called when the game starts or when spawned</span></div>
@@ -168,27 +168,30 @@ $(function(){initNavTree('_v_r___drawer_8h_source.html',''); initResizable(); })
 <div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span> </div>
 <div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>    <span class="comment">//Slide Length limit</span></div>
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = <span class="stringliteral">&quot;Drawer settings&quot;</span>, meta = (AllowPrivateAccess = <span class="stringliteral">&quot;true&quot;</span>))</div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>        <span class="keywordtype">float</span> slide_Limit;</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>        float slide_Limit;</div>
 <div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span> </div>
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = <span class="stringliteral">&quot;Drawer settings&quot;</span>, meta = (AllowPrivateAccess = <span class="stringliteral">&quot;true&quot;</span>))</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = &quot;Drawer settings&quot;, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
 <div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>        <span class="keywordtype">bool</span> start_autoclose;</div>
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span> </div>
-<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = <span class="stringliteral">&quot;Drawer settings&quot;</span>, meta = (AllowPrivateAccess = <span class="stringliteral">&quot;true&quot;</span>))</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = &quot;Drawer settings&quot;, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
 <div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>        <span class="keywordtype">bool</span> bHasHandles;</div>
 <div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span> </div>
-<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>    UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = <span class="stringliteral">&quot;Drawer settings&quot;</span>, meta = (AllowPrivateAccess = <span class="stringliteral">&quot;true&quot;</span>))</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>    UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = &quot;Drawer settings&quot;, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
 <div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>        FVector FDirection;</div>
 <div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span> </div>
-<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>    UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = <span class="stringliteral">&quot;Drawer settings&quot;</span>, meta = (AllowPrivateAccess = <span class="stringliteral">&quot;true&quot;</span>))</div>
-<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>        <span class="keyword">class </span>AStaticMeshActor* ParentActor;</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>    UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = &quot;Drawer settings&quot;, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>        class AStaticMeshActor* ParentActor;</div>
 <div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span> </div>
-<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>    UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = <span class="stringliteral">&quot;Drawer settings&quot;</span>, meta = (AllowPrivateAccess = <span class="stringliteral">&quot;true&quot;</span>))</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>    UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = &quot;Drawer settings&quot;, meta = (AllowPrivateAccess = &quot;true&quot;))</div>
 <div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>        TArray&lt;AStaticMeshActor*&gt; ActorsToIgnore;</div>
 <div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span> </div>
 <div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>};</div>
 </div>
+<div class="ttc" id="a_v_r___actor_8h_html"><div class="ttname"><a href="_v_r___actor_8h.html">VR_Actor.h</a></div></div>
+<div class="ttc" id="a_v_r___grab_component_8h_html"><div class="ttname"><a href="_v_r___grab_component_8h.html">VR_GrabComponent.h</a></div></div>
 <div class="ttc" id="aclass_a_v_r___actor_html"><div class="ttname"><a href="class_a_v_r___actor.html">AVR_Actor</a></div><div class="ttdoc">VR Actor.</div><div class="ttdef"><b>Definition</b> VR_Actor.h:16</div></div>
 <div class="ttc" id="aclass_a_v_r___drawer_html"><div class="ttname"><a href="class_a_v_r___drawer.html">AVR_Drawer</a></div><div class="ttdoc">This is a physic drawer class which can interact with AVR_Hands.</div><div class="ttdef"><b>Definition</b> VR_Drawer.h:20</div></div>
+<div class="ttc" id="aclass_u_v_r___grab_component_html"><div class="ttname"><a href="class_u_v_r___grab_component.html">UVR_GrabComponent</a></div><div class="ttdoc">Grab Component class.</div><div class="ttdef"><b>Definition</b> VR_GrabComponent.h:32</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
