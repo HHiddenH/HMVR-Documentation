@@ -11,7 +11,7 @@ var class_a_v_r___hand_inventory =
     [ "IsInventoryOn", "class_a_v_r___hand_inventory.html#a6f3369097c402c766c7aa6629c17958c", null ],
     [ "PutInInventory", "class_a_v_r___hand_inventory.html#a88e1433152b193762bc9114d446c4874", null ],
     [ "SetInventory", "class_a_v_r___hand_inventory.html#aa21e992f0c3a0161733bb31e90eeb31f", null ],
-    [ "SetParentMC", "class_a_v_r___hand_inventory.html#a3b7feae9686ba07736c70839975ff073", null ],
+    [ "SetParentMC", "class_a_v_r___hand_inventory.html#aba343ecc4e44a79ad6d8ff8cf755e993", null ],
     [ "SpawnStaticMeshActor", "class_a_v_r___hand_inventory.html#a98894260e8174a02e2d9a9b8c38b0a71", null ],
     [ "Tick", "class_a_v_r___hand_inventory.html#a9a7fb190b706e8b5a1731ad7cf4e0bfc", null ],
     [ "UpdateVisuals", "class_a_v_r___hand_inventory.html#a71184d121ae0a4f1fddeb915b9905694", null ],
@@ -26,7 +26,7 @@ var class_a_v_r___hand_inventory =
     [ "ItemsScale", "class_a_v_r___hand_inventory.html#a66536187c8677f04e1971aa3bc45718b", null ],
     [ "lastammo", "class_a_v_r___hand_inventory.html#ad9e596a59e3e21e0fac8ca397d84088d", null ],
     [ "MaxSlots", "class_a_v_r___hand_inventory.html#aec17e7d78b21de2b5239f97545127978", null ],
-    [ "ParentMC", "class_a_v_r___hand_inventory.html#a273179da7a2959b6d71bc1095bb61772", null ],
+    [ "ParentMC", "class_a_v_r___hand_inventory.html#ab99cc5fc33c1e7c6a0f9b8a38185ec7f", null ],
     [ "SelecteSlot", "class_a_v_r___hand_inventory.html#a2295a27e5c935b616cbcba046b3f134e", null ],
     [ "UsedSlots", "class_a_v_r___hand_inventory.html#addc60ffa2911d642cb0fd85aaed8bcd7", null ],
     [ "WeaponIn", "class_a_v_r___hand_inventory.html#ac40eb4ad924c35c9973125c5bf485bdf", null ]

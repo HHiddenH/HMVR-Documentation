@@ -5,7 +5,6 @@ var dir_21b11ea4cba97004b756987c424a8b5d =
     [ "VR_AvatarAnimationInstance.h", "_v_r___avatar_animation_instance_8h.html", "_v_r___avatar_animation_instance_8h" ],
     [ "VR_HandAnimationInstance.h", "_v_r___hand_animation_instance_8h.html", "_v_r___hand_animation_instance_8h" ],
     [ "VR_HandInventory.h", "_v_r___hand_inventory_8h.html", "_v_r___hand_inventory_8h" ],
-    [ "VR_Hands.h", "_v_r___hands_8h.html", "_v_r___hands_8h" ],
     [ "VR_InteractionInterface.h", "_v_r___interaction_interface_8h.html", "_v_r___interaction_interface_8h" ],
     [ "VR_Player.h", "_v_r___player_8h.html", "_v_r___player_8h" ],
     [ "VR_Variables.h", "_v_r___variables_8h.html", "_v_r___variables_8h" ]

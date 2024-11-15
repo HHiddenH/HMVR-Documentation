@@ -30,7 +30,6 @@ var hierarchy =
       [ "AVR_Button", "class_a_v_r___button.html", null ],
       [ "AVR_CodeLock", "class_a_v_r___code_lock.html", null ],
       [ "AVR_HandInventory", "class_a_v_r___hand_inventory.html", null ],
-      [ "AVR_Hands", "class_a_v_r___hands.html", null ],
       [ "AVR_ScreenText", "class_a_v_r___screen_text.html", null ],
       [ "AVR_WeaponProjectile", "class_a_v_r___weapon_projectile.html", null ]
     ] ],
@@ -42,6 +41,7 @@ var hierarchy =
     ] ],
     [ "FFingerCurls", "struct_f_finger_curls.html", null ],
     [ "FHeadMountedEditorStyle", "class_f_head_mounted_editor_style.html", null ],
+    [ "FIKSegment", "struct_f_i_k_segment.html", null ],
     [ "FVRLateUpdateManager::FLateUpdateState", "struct_f_v_r_late_update_manager_1_1_f_late_update_state.html", null ],
     [ "FVRLateUpdateManager", "class_f_v_r_late_update_manager.html", null ],
     [ "IModuleInterface", null, [
@@ -61,6 +61,7 @@ var hierarchy =
     ] ],
     [ "UAnimInstance", null, [
       [ "UVR_AvatarAnimationInstance", "class_u_v_r___avatar_animation_instance.html", null ],
+      [ "UVR_EquipmentAnimationInstance", "class_u_v_r___equipment_animation_instance.html", null ],
       [ "UVR_HandAnimationInstance", "class_u_v_r___hand_animation_instance.html", null ],
       [ "UVR_WeaponAnimationInstance", "class_u_v_r___weapon_animation_instance.html", null ]
     ] ],
@@ -78,7 +79,9 @@ var hierarchy =
       [ "UVR_InteractionInterface", "class_u_v_r___interaction_interface.html", null ]
     ] ],
     [ "UMotionControllerComponent", null, [
-      [ "UVR_MotionControllerComponent", "class_u_v_r___motion_controller_component.html", null ]
+      [ "UVR_MotionControllerComponent", "class_u_v_r___motion_controller_component.html", [
+        [ "UVR_HandComponent", "class_u_v_r___hand_component.html", null ]
+      ] ]
     ] ],
     [ "USaveGame", null, [
       [ "UVR_SaveGraphics", "class_u_v_r___save_graphics.html", null ],

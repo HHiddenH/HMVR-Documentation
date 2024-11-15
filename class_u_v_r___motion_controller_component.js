@@ -1,10 +1,15 @@
 var class_u_v_r___motion_controller_component =
 [
     [ "UVR_MotionControllerComponent", "class_u_v_r___motion_controller_component.html#a91fd986f8e10c229f06a4b12050d74cc", null ],
+    [ "ComponentHasAuthority", "class_u_v_r___motion_controller_component.html#acbc45a169ccdfced83b517906f275551", null ],
     [ "CreateRenderState_Concurrent", "class_u_v_r___motion_controller_component.html#a35deedd0718a0d2264bf470ddd91aba0", null ],
     [ "GetCurrentFingerCurls", "class_u_v_r___motion_controller_component.html#aa200334614a74e0a9d2bc59040f8a470", null ],
+    [ "GetGameTimeSinceCreation", "class_u_v_r___motion_controller_component.html#a2a2b30c1e5e55442d99896b60eb5eaf8", null ],
+    [ "GetLifetimeReplicatedProps", "class_u_v_r___motion_controller_component.html#a65eac456b6f42373564a25c875d8a0f6", null ],
+    [ "InitializeComponent", "class_u_v_r___motion_controller_component.html#a1be754713e8b942632ad0b043a57b18c", null ],
     [ "IsUsingFingerTracking", "class_u_v_r___motion_controller_component.html#a109d1c795f5a5585787f810813f1263e", null ],
     [ "SendRenderTransform_Concurrent", "class_u_v_r___motion_controller_component.html#a0d98ca45992502782780ac060f52846c", null ],
+    [ "TickComponent", "class_u_v_r___motion_controller_component.html#a252458b24f7c3b732cc0fef24d316a67", null ],
     [ "VRPollControllerState", "class_u_v_r___motion_controller_component.html#a41acf7f4526678e3c62f335c1e0dbbf3", null ],
     [ "VRPollControllerState_GameThread", "class_u_v_r___motion_controller_component.html#a7d91f3657d5e98b72ed4aa3c8ea2b1b7", null ],
     [ "VRPollControllerState_RenderThread", "class_u_v_r___motion_controller_component.html#a91cd283b6c442ced76baad01173a3c7b", null ],

@@ -57,13 +57,13 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_head_mounted_editor_8_build_8cs.html",
-"_v_r___variables_8h.html#ae30cc037862e2941a6653e96bfb5a8fdaa7f52105d3590b9d87310802073f1383",
-"class_a_v_r___hands.html#a2337e6cd3460c71a787bfbb3f65b5ff4",
-"class_a_v_r___hands.html#af06a7f01bad66bf370756055037f57e0",
-"class_a_v_r___player.html#ad6ef0a046afff9af86b737faf4511265",
-"class_i_v_r___interaction_interface.html#a17acb64d014827dd27240ff855c70340",
-"class_u_v_r___grab_component.html#a66e148c5639d7ab66a428bac39fba396",
-"dir_9e2a33a119b5d7ec9ee21b156c3fb78b.html"
+"_v_r___variables_8h.html#acb9fed5fd3b4c3e2c2e48f9391c0bc5eae510cdf33cd497134b47b9316314d4b4",
+"class_a_v_r___lever_slide.html#a43515cf10a1118896e97bb865a15377a",
+"class_a_v_r___screen_text.html#a6fccd1118119efcee61b21736436c47c",
+"class_u_u_i___menu_widget.html#a647e8812efeb38eb648ea1c36fae58f9",
+"class_u_v_r___grab_component.html#aca0ca4e901f30eac6beb1482d8020491",
+"class_u_v_r___hand_component.html#a61d99ff7cf1b8854342659cec3e56af3",
+"class_u_v_r___inventory_box.html#a21cd049c823426ee576bfd3424641a1e"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
