@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="icon_otline.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Head Mounted VR<span id="projectnumber">&#160;2.5</span>
+   <div id="projectname">Head Mounted VR<span id="projectnumber">&#160;2.7</span>
    </div>
   </td>
  </tr>
@@ -121,6 +121,7 @@ $(document).ready(function(){initNavTree('_v_r___hand_component_8cpp.html',''); 
 <code>#include &quot;Engine/SkeletalMesh.h&quot;</code><br />
 <code>#include &quot;DrawDebugHelpers.h&quot;</code><br />
 <code>#include &quot;Containers/UnrealString.h&quot;</code><br />
+<code>#include &quot;Animation/Skeleton.h&quot;</code><br />
 <code>#include &quot;Kismet/GameplayStatics.h&quot;</code><br />
 <code>#include &quot;Kismet/KismetMathLibrary.h&quot;</code><br />
 <code>#include &quot;Kismet/KismetSystemLibrary.h&quot;</code><br />
@@ -146,7 +147,11 @@ $(document).ready(function(){initNavTree('_v_r___hand_component_8cpp.html',''); 
 <code>#include &quot;Chaos/DebugDrawQueue.h&quot;</code><br />
 <code>#include &quot;PhysicsEngine/BodySetup.h&quot;</code><br />
 <code>#include &quot;Chaos/CollisionConvexMesh.h&quot;</code><br />
+<code>#include &quot;PhysicsEngine/BodyInstance.h&quot;</code><br />
+<code>#include &quot;PhysicsProxy/SingleParticlePhysicsProxy.h&quot;</code><br />
+<code>#include &quot;PhysicsEngine/PhysicsSettings.h&quot;</code><br />
 <code>#include &quot;Net/UnrealNetwork.h&quot;</code><br />
+<code>#include &quot;NavigationPath.h&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>

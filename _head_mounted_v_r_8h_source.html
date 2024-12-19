@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="icon_otline.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Head Mounted VR<span id="projectnumber">&#160;2.5</span>
+   <div id="projectname">Head Mounted VR<span id="projectnumber">&#160;2.7</span>
    </div>
   </td>
  </tr>
@@ -100,16 +100,20 @@ $(document).ready(function(){initNavTree('_head_mounted_v_r_8h_source.html','');
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;CoreMinimal.h&quot;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;Modules/ModuleManager.h&quot;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="class_f_head_mounted_v_r_module.html">   11</a></span><span class="keyword">class </span><a class="code hl_class" href="class_f_head_mounted_v_r_module.html">FHeadMountedVRModule</a> : <span class="keyword">public</span> IModuleInterface</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>{</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_f_head_mounted_v_r_module.html#a6585c7150ab9a5d64c5c9f51f19ddad9">StartupModule</a>() <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_f_head_mounted_v_r_module.html#a5277861eabc61afe86b083f178a912aa">ShutdownModule</a>() <span class="keyword">override</span>;</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>};</div>
-<div class="ttc" id="aclass_f_head_mounted_v_r_module_html"><div class="ttname"><a href="class_f_head_mounted_v_r_module.html">FHeadMountedVRModule</a></div><div class="ttdoc">VR Module Interface</div><div class="ttdef"><b>Definition:</b> HeadMountedVR.h:12</div></div>
-<div class="ttc" id="aclass_f_head_mounted_v_r_module_html_a5277861eabc61afe86b083f178a912aa"><div class="ttname"><a href="class_f_head_mounted_v_r_module.html#a5277861eabc61afe86b083f178a912aa">FHeadMountedVRModule::ShutdownModule</a></div><div class="ttdeci">virtual void ShutdownModule() override</div><div class="ttdef"><b>Definition:</b> HeadMountedVR.cpp:12</div></div>
-<div class="ttc" id="aclass_f_head_mounted_v_r_module_html_a6585c7150ab9a5d64c5c9f51f19ddad9"><div class="ttname"><a href="class_f_head_mounted_v_r_module.html#a6585c7150ab9a5d64c5c9f51f19ddad9">FHeadMountedVRModule::StartupModule</a></div><div class="ttdeci">virtual void StartupModule() override</div><div class="ttdef"><b>Definition:</b> HeadMountedVR.cpp:7</div></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="comment">//class FOpenXRRenderBridge;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="class_f_head_mounted_v_r_module.html">   13</a></span><span class="keyword">class </span><a class="code hl_class" href="class_f_head_mounted_v_r_module.html">FHeadMountedVRModule</a> : <span class="keyword">public</span> IModuleInterface</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>{</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_f_head_mounted_v_r_module.html#a6585c7150ab9a5d64c5c9f51f19ddad9">StartupModule</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_f_head_mounted_v_r_module.html#a5277861eabc61afe86b083f178a912aa">ShutdownModule</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <span class="comment">//TRefCountPtr&lt;FOpenXRRenderBridge&gt; RenderBridge;</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>};</div>
+<div class="ttc" id="aclass_f_head_mounted_v_r_module_html"><div class="ttname"><a href="class_f_head_mounted_v_r_module.html">FHeadMountedVRModule</a></div><div class="ttdoc">VR Module Interface</div><div class="ttdef"><b>Definition:</b> HeadMountedVR.h:14</div></div>
+<div class="ttc" id="aclass_f_head_mounted_v_r_module_html_a5277861eabc61afe86b083f178a912aa"><div class="ttname"><a href="class_f_head_mounted_v_r_module.html#a5277861eabc61afe86b083f178a912aa">FHeadMountedVRModule::ShutdownModule</a></div><div class="ttdeci">virtual void ShutdownModule() override</div><div class="ttdef"><b>Definition:</b> HeadMountedVR.cpp:64</div></div>
+<div class="ttc" id="aclass_f_head_mounted_v_r_module_html_a6585c7150ab9a5d64c5c9f51f19ddad9"><div class="ttname"><a href="class_f_head_mounted_v_r_module.html#a6585c7150ab9a5d64c5c9f51f19ddad9">FHeadMountedVRModule::StartupModule</a></div><div class="ttdeci">virtual void StartupModule() override</div><div class="ttdef"><b>Definition:</b> HeadMountedVR.cpp:10</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

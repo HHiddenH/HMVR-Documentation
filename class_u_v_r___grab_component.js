@@ -78,6 +78,7 @@ var class_u_v_r___grab_component =
     [ "AnimnType", "class_u_v_r___grab_component.html#a819fccd2d5b77b423352c262b86b2b8b", null ],
     [ "bAllowNonVR", "class_u_v_r___grab_component.html#a0b84f685d06513fb97289fec10272fc4", null ],
     [ "bAllowPickUp", "class_u_v_r___grab_component.html#ae6fde618fd5ce7e1dd879d3f872ea1e2", null ],
+    [ "bAllowTeleportWith", "class_u_v_r___grab_component.html#a57b80e734d14568aaadd8a797e1698c4", null ],
     [ "bBlockOtherA_Events", "class_u_v_r___grab_component.html#ad658d1cebe7f129f446cb067841f3853", null ],
     [ "bBlockOtherB_Events", "class_u_v_r___grab_component.html#a83cfe33e2718fc73c5c5bfe107f0012e", null ],
     [ "bBlockOtherThumbChangeEvents", "class_u_v_r___grab_component.html#aacc93d8e7f44b4adbe0e9523fbbd3292", null ],

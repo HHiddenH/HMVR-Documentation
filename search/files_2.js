@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['menuloadingwidget_2ecpp_0',['MenuLoadingWidget.cpp',['../_menu_loading_widget_8cpp.html',1,'']]],
-  ['menuloadingwidget_2eh_1',['MenuLoadingWidget.h',['../_menu_loading_widget_8h.html',1,'']]]
+  ['loading_5fhandler_2ecpp_0',['Loading_Handler.cpp',['../_loading___handler_8cpp.html',1,'']]],
+  ['loading_5fhandler_2eh_1',['Loading_Handler.h',['../_loading___handler_8h.html',1,'']]]
 ];

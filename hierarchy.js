@@ -39,11 +39,13 @@ var hierarchy =
     [ "AGameModeBase", null, [
       [ "AVRGameMode", "class_a_v_r_game_mode.html", null ]
     ] ],
+    [ "FExtendedOpenXRHMD", "class_f_extended_open_x_r_h_m_d.html", null ],
     [ "FFingerCurls", "struct_f_finger_curls.html", null ],
     [ "FHeadMountedEditorStyle", "class_f_head_mounted_editor_style.html", null ],
     [ "FIKSegment", "struct_f_i_k_segment.html", null ],
     [ "FVRLateUpdateManager::FLateUpdateState", "struct_f_v_r_late_update_manager_1_1_f_late_update_state.html", null ],
     [ "FVRLateUpdateManager", "class_f_v_r_late_update_manager.html", null ],
+    [ "FVRPawnInfo", "struct_f_v_r_pawn_info.html", null ],
     [ "IModuleInterface", null, [
       [ "FHeadMountedEditorModule", "class_f_head_mounted_editor_module.html", null ],
       [ "FHeadMountedVRModule", "class_f_head_mounted_v_r_module.html", null ]
@@ -73,7 +75,11 @@ var hierarchy =
       [ "UVR_CameraComponent", "class_u_v_r___camera_component.html", null ]
     ] ],
     [ "UCapsuleComponent", null, [
+      [ "UVR_CollisionComponent", "class_u_v_r___collision_component.html", null ],
       [ "UVR_GrabCapsuleCollisionComponent", "class_u_v_r___grab_capsule_collision_component.html", null ]
+    ] ],
+    [ "UCharacterMovementComponent", null, [
+      [ "UVR_MovementComponent", "class_u_v_r___movement_component.html", null ]
     ] ],
     [ "UInterface", null, [
       [ "UVR_InteractionInterface", "class_u_v_r___interaction_interface.html", null ]

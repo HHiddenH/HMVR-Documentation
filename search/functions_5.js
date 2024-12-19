@@ -1,13 +1,22 @@
 var searchData=
 [
-  ['fheadmountededitorcommands_0',['FHeadMountedEditorCommands',['../class_f_head_mounted_editor_commands.html#a0081fa2cb5be76b0d34d38ce1fd9c9ed',1,'FHeadMountedEditorCommands']]],
-  ['fiksegment_1',['FIKSegment',['../struct_f_i_k_segment.html#a47ffeaabaaf430705ac4cb23773f8777',1,'FIKSegment']]],
-  ['fire_2',['Fire',['../class_a_v_r___ammo_round.html#a74a882399074c587a9ebe434c735e93f',1,'AVR_AmmoRound::Fire()'],['../class_a_v_r___weapon.html#a9e5e07699641943cd4af229cef44a303',1,'AVR_Weapon::Fire()']]],
-  ['fireammo_3',['FireAmmo',['../class_a_v_r___ammo_clip.html#a6cc512bda1144d07d30d775b5271d927',1,'AVR_AmmoClip']]],
-  ['flateupdatestate_4',['FLateUpdateState',['../struct_f_v_r_late_update_manager_1_1_f_late_update_state.html#ad54e43390607e606b76023568776e831',1,'FVRLateUpdateManager::FLateUpdateState']]],
-  ['followcamera_5',['FollowCamera',['../class_a_v_r___screen_text.html#a8f8eb78a702659f3372589a0f11243d2',1,'AVR_ScreenText']]],
-  ['footik_6',['FootIK',['../class_u_v_r___avatar_animation_instance.html#a45dae97533af4ec2334646c0584fe483',1,'UVR_AvatarAnimationInstance']]],
-  ['forcecheckforgrabcomponents_7',['ForceCheckForGrabComponents',['../class_i_v_r___interaction_interface.html#a17acb64d014827dd27240ff855c70340',1,'IVR_InteractionInterface']]],
-  ['forcedrop_8',['ForceDrop',['../class_u_v_r___grab_component.html#a13f36e7eaa1bd13029d24ef83afc0b14',1,'UVR_GrabComponent']]],
-  ['fvrlateupdatemanager_9',['FVRLateUpdateManager',['../class_f_v_r_late_update_manager.html#a660ff4c63e45eb6ff78da32b940ad0fa',1,'FVRLateUpdateManager']]]
+  ['fadeoutcamera_0',['FadeOutCamera',['../class_a_v_r___player.html#a00795f5aa93081beb93011e696659689',1,'AVR_Player']]],
+  ['fextendedopenxrhmd_1',['FExtendedOpenXRHMD',['../class_f_extended_open_x_r_h_m_d.html#a31c5355dfb66b8581fee9ad9d82dbc35',1,'FExtendedOpenXRHMD']]],
+  ['fheadmountededitorcommands_2',['FHeadMountedEditorCommands',['../class_f_head_mounted_editor_commands.html#a0081fa2cb5be76b0d34d38ce1fd9c9ed',1,'FHeadMountedEditorCommands']]],
+  ['fiksegment_3',['FIKSegment',['../struct_f_i_k_segment.html#a47ffeaabaaf430705ac4cb23773f8777',1,'FIKSegment']]],
+  ['findcamerabyclass_4',['FindCameraByClass',['../class_u_v_r___movement_component.html#a9b48d509ff61a7b6eb5d9a1d48d821b2',1,'UVR_MovementComponent']]],
+  ['findcamerabyname_5',['FindCameraByName',['../class_u_v_r___movement_component.html#a11da997d2c637b95e7e575572d068a74',1,'UVR_MovementComponent']]],
+  ['findcollisionbyclass_6',['FindCollisionByClass',['../class_u_v_r___movement_component.html#a0eb474787c3fe02ba563856d4e91a7fc',1,'UVR_MovementComponent']]],
+  ['findcollisionbyname_7',['FindCollisionByName',['../class_u_v_r___movement_component.html#a06382f6623e4fba71fe0fa6530ec2368',1,'UVR_MovementComponent']]],
+  ['findcomponentbyname_8',['FindComponentByName',['../class_u_v_r___movement_component.html#a064ddffaa1ea2f2a86a2f55cf4be1263',1,'UVR_MovementComponent']]],
+  ['findvroriginbyclass_9',['FindVROriginByClass',['../class_u_v_r___movement_component.html#a5caaebc0a3c0572f37921d6ad7f9e07d',1,'UVR_MovementComponent']]],
+  ['findvroriginbyname_10',['FindVROriginByName',['../class_u_v_r___movement_component.html#af1c3dacbebe631e6ff345de47d651e5e',1,'UVR_MovementComponent']]],
+  ['fire_11',['Fire',['../class_a_v_r___ammo_round.html#a74a882399074c587a9ebe434c735e93f',1,'AVR_AmmoRound::Fire()'],['../class_a_v_r___weapon.html#a9e5e07699641943cd4af229cef44a303',1,'AVR_Weapon::Fire()']]],
+  ['fireammo_12',['FireAmmo',['../class_a_v_r___ammo_clip.html#a6cc512bda1144d07d30d775b5271d927',1,'AVR_AmmoClip']]],
+  ['flateupdatestate_13',['FLateUpdateState',['../struct_f_v_r_late_update_manager_1_1_f_late_update_state.html#ad54e43390607e606b76023568776e831',1,'FVRLateUpdateManager::FLateUpdateState']]],
+  ['followcamera_14',['FollowCamera',['../class_a_v_r___screen_text.html#a8f8eb78a702659f3372589a0f11243d2',1,'AVR_ScreenText']]],
+  ['footik_15',['FootIK',['../class_u_v_r___avatar_animation_instance.html#a45dae97533af4ec2334646c0584fe483',1,'UVR_AvatarAnimationInstance']]],
+  ['forcecheckforgrabcomponents_16',['ForceCheckForGrabComponents',['../class_i_v_r___interaction_interface.html#a17acb64d014827dd27240ff855c70340',1,'IVR_InteractionInterface']]],
+  ['forcedrop_17',['ForceDrop',['../class_u_v_r___grab_component.html#a13f36e7eaa1bd13029d24ef83afc0b14',1,'UVR_GrabComponent']]],
+  ['fvrlateupdatemanager_18',['FVRLateUpdateManager',['../class_f_v_r_late_update_manager.html#a660ff4c63e45eb6ff78da32b940ad0fa',1,'FVRLateUpdateManager']]]
 ];

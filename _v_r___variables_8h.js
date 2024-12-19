@@ -2,9 +2,6 @@ var _v_r___variables_8h =
 [
     [ "FFingerCurls", "struct_f_finger_curls.html", "struct_f_finger_curls" ],
     [ "DefSepDist", "_v_r___variables_8h.html#a61b016b5636bf49c735e0ada6c9574b4", null ],
-    [ "Oculus_P", "_v_r___variables_8h.html#a4f09425caf1893ce00bf69134605dff8", null ],
-    [ "OpenXR", "_v_r___variables_8h.html#a340cac34744bfa6ea1c3ed054edfa5b2", null ],
-    [ "SteamVR", "_v_r___variables_8h.html#ad4a01a88242d964bfbc91da3f4c22028", null ],
     [ "EAnimationType", "_v_r___variables_8h.html#a38635767ceafd5582e7ec8de90aa7840", [
       [ "IK", "_v_r___variables_8h.html#a38635767ceafd5582e7ec8de90aa7840a7ab2200d24b19f1824cef3f53b5b69ca", null ],
       [ "Animation", "_v_r___variables_8h.html#a38635767ceafd5582e7ec8de90aa7840ad6b6b668dbca9d4fe774bb654226ebe3", null ]
@@ -27,6 +24,10 @@ var _v_r___variables_8h =
       [ "Middle", "_v_r___variables_8h.html#a387a3ab266fc2bd6b026e4379e970099ab1ca34f82e83c52b010f86955f264e05", null ],
       [ "Ring", "_v_r___variables_8h.html#a387a3ab266fc2bd6b026e4379e970099ad4db177c94738b72bf9ce61e988ab1f1", null ],
       [ "Pinky", "_v_r___variables_8h.html#a387a3ab266fc2bd6b026e4379e970099af1644920859642d272a9ac1ec0471635", null ]
+    ] ],
+    [ "EGetComponentBy", "_v_r___variables_8h.html#a74c3ef4310d11904c882f39d1083500a", [
+      [ "Class", "_v_r___variables_8h.html#a74c3ef4310d11904c882f39d1083500aa9bd81329febf6efe22788e03ddeaf0af", null ],
+      [ "Name", "_v_r___variables_8h.html#a74c3ef4310d11904c882f39d1083500aa49ee3087348e8d44e1feda1917443987", null ]
     ] ],
     [ "EGrabMethod", "_v_r___variables_8h.html#a5771306b64cd9960f17d15eb7c6ad482", [
       [ "AttachTo", "_v_r___variables_8h.html#a5771306b64cd9960f17d15eb7c6ad482afad78f3e80faa64be0eb48bb25465ed3", null ],
@@ -52,6 +53,11 @@ var _v_r___variables_8h =
       [ "Single", "_v_r___variables_8h.html#a42d1981e9685dbc13e98666a3208a759a66ba162102bbf6ae31b522aec561735e", null ],
       [ "Multiple", "_v_r___variables_8h.html#a42d1981e9685dbc13e98666a3208a759aa0bf169f2539e893e00d7b1296bc4d8e", null ]
     ] ],
+    [ "EMovementType", "_v_r___variables_8h.html#a150174f8bf41d069438611d91d359c73", [
+      [ "Continuous", "_v_r___variables_8h.html#a150174f8bf41d069438611d91d359c73a535863a82f163709557e59e2eb8139a7", null ],
+      [ "TeleportBlink", "_v_r___variables_8h.html#a150174f8bf41d069438611d91d359c73adbc567b2bdb7a32d6852875f6e6cbd58", null ],
+      [ "TeleportShift", "_v_r___variables_8h.html#a150174f8bf41d069438611d91d359c73a33557f56aa428be48ffc8300e91bc4c8", null ]
+    ] ],
     [ "ENonVRGrabTypes", "_v_r___variables_8h.html#a83c49d232436073fc465fbae08970548", [
       [ "Grab", "_v_r___variables_8h.html#a83c49d232436073fc465fbae08970548ab635ceb01a10e96cdbefa95d72b25750", null ],
       [ "AttachToViewport", "_v_r___variables_8h.html#a83c49d232436073fc465fbae08970548aef0b86641c075ea4f38ad3157f2a6341", null ]
@@ -68,6 +74,18 @@ var _v_r___variables_8h =
       [ "GravityPull", "_v_r___variables_8h.html#a18123083113aa608771026f339fb6007ae9b6f82c2a8a67e9a8c184d1053fe031", null ],
       [ "DirectPull", "_v_r___variables_8h.html#a18123083113aa608771026f339fb6007ae4f87b2bce70ac356f7d59f6a84401d8", null ]
     ] ],
+    [ "EQuick_Turn_Angle", "_v_r___variables_8h.html#abd9dfbf1c370ac0bc82f5ae87c7734b8", [
+      [ "Angle_15", "_v_r___variables_8h.html#abd9dfbf1c370ac0bc82f5ae87c7734b8a13ac0a0cc850404856779abc3c4248b5", null ],
+      [ "Angle_30", "_v_r___variables_8h.html#abd9dfbf1c370ac0bc82f5ae87c7734b8a14b70723b4794ca8bfb560050fc50de3", null ],
+      [ "Angle_45", "_v_r___variables_8h.html#abd9dfbf1c370ac0bc82f5ae87c7734b8a0bb293260ea8293134eb5a5acac220e3", null ],
+      [ "Angle_60", "_v_r___variables_8h.html#abd9dfbf1c370ac0bc82f5ae87c7734b8a8e7885f6f55a8021b1a991c0d249a6fe", null ],
+      [ "Angle_75", "_v_r___variables_8h.html#abd9dfbf1c370ac0bc82f5ae87c7734b8aa7f52105d3590b9d87310802073f1383", null ],
+      [ "Angle_90", "_v_r___variables_8h.html#abd9dfbf1c370ac0bc82f5ae87c7734b8ad382de12c44f7f4bc213b5e8246a4751", null ]
+    ] ],
+    [ "ETurnType", "_v_r___variables_8h.html#a51f693fa29788618969cc07202b78953", [
+      [ "Smooth", "_v_r___variables_8h.html#a51f693fa29788618969cc07202b78953ae510cdf33cd497134b47b9316314d4b4", null ],
+      [ "Quick_Turn", "_v_r___variables_8h.html#a51f693fa29788618969cc07202b78953ac40197f701a7ac886198242fb42d2183", null ]
+    ] ],
     [ "EVectorDirectionTypes", "_v_r___variables_8h.html#adb13709dc3a29858081c40ea1c465dbf", [
       [ "UpVector", "_v_r___variables_8h.html#adb13709dc3a29858081c40ea1c465dbfac22f50aaf9bd0e4ec2b1b5b87f0fe2c8", null ],
       [ "RightVector", "_v_r___variables_8h.html#adb13709dc3a29858081c40ea1c465dbfa13f84e5baf449e85538f32ff8423ae46", null ],
@@ -82,21 +100,5 @@ var _v_r___variables_8h =
       [ "LeftController", "_v_r___variables_8h.html#a3f06f53f6a8ef4d37e6973230752195daf7faae94904a420f6a1ac286119eba7b", null ],
       [ "RightController", "_v_r___variables_8h.html#a3f06f53f6a8ef4d37e6973230752195da653751bc2f84357b225ed4887e737ca4", null ],
       [ "Hip", "_v_r___variables_8h.html#a3f06f53f6a8ef4d37e6973230752195daafcd5ccb84b5c522c66efa7836e17f92", null ]
-    ] ],
-    [ "MovementType", "_v_r___variables_8h.html#aa5e0d2c8a4b2d8a120d3f3aefe7b67cd", [
-      [ "Smooth", "_v_r___variables_8h.html#aa5e0d2c8a4b2d8a120d3f3aefe7b67cdae510cdf33cd497134b47b9316314d4b4", null ],
-      [ "Teleport", "_v_r___variables_8h.html#aa5e0d2c8a4b2d8a120d3f3aefe7b67cda054fc7866c93a2496fd9048c493e6aed", null ]
-    ] ],
-    [ "Quick_Turn_Angle", "_v_r___variables_8h.html#ae30cc037862e2941a6653e96bfb5a8fd", [
-      [ "Angle_15", "_v_r___variables_8h.html#ae30cc037862e2941a6653e96bfb5a8fda13ac0a0cc850404856779abc3c4248b5", null ],
-      [ "Angle_30", "_v_r___variables_8h.html#ae30cc037862e2941a6653e96bfb5a8fda14b70723b4794ca8bfb560050fc50de3", null ],
-      [ "Angle_45", "_v_r___variables_8h.html#ae30cc037862e2941a6653e96bfb5a8fda0bb293260ea8293134eb5a5acac220e3", null ],
-      [ "Angle_60", "_v_r___variables_8h.html#ae30cc037862e2941a6653e96bfb5a8fda8e7885f6f55a8021b1a991c0d249a6fe", null ],
-      [ "Angle_75", "_v_r___variables_8h.html#ae30cc037862e2941a6653e96bfb5a8fdaa7f52105d3590b9d87310802073f1383", null ],
-      [ "Angle_90", "_v_r___variables_8h.html#ae30cc037862e2941a6653e96bfb5a8fdad382de12c44f7f4bc213b5e8246a4751", null ]
-    ] ],
-    [ "TurnType", "_v_r___variables_8h.html#acb9fed5fd3b4c3e2c2e48f9391c0bc5e", [
-      [ "Smooth", "_v_r___variables_8h.html#acb9fed5fd3b4c3e2c2e48f9391c0bc5eae510cdf33cd497134b47b9316314d4b4", null ],
-      [ "Quick_Turn", "_v_r___variables_8h.html#acb9fed5fd3b4c3e2c2e48f9391c0bc5eac40197f701a7ac886198242fb42d2183", null ]
     ] ]
 ];

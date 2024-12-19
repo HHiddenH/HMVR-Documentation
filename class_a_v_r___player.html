@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="icon_otline.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Head Mounted VR<span id="projectnumber">&#160;2.5</span>
+   <div id="projectname">Head Mounted VR<span id="projectnumber">&#160;2.7</span>
    </div>
   </td>
  </tr>
@@ -114,8 +114,8 @@ $(document).ready(function(){initNavTree('class_a_v_r___player.html',''); initRe
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ab7499db6c9f5de9434bcf00e938dd9cb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#ab7499db6c9f5de9434bcf00e938dd9cb">AVR_Player</a> ()</td></tr>
-<tr class="separator:ab7499db6c9f5de9434bcf00e938dd9cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6095ac72d75edfb95610566ec0ae833"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#ae6095ac72d75edfb95610566ec0ae833">AVR_Player</a> (const FObjectInitializer &amp;ObjectInitializer)</td></tr>
+<tr class="separator:ae6095ac72d75edfb95610566ec0ae833"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeecb251f36e2cc2745a8d003f87b892c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#aeecb251f36e2cc2745a8d003f87b892c">OnConstruction</a> (const FTransform &amp;Transform) override</td></tr>
 <tr class="separator:aeecb251f36e2cc2745a8d003f87b892c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d47b3f8b7138bbc0d845719e64a5bee"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a7d47b3f8b7138bbc0d845719e64a5bee">BeginPlay</a> () override</td></tr>
@@ -132,6 +132,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad1e7cd67f40beb08e2494a7f78fee019"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab09847bd7ef0f9dd4eb5512bd3660715"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#ab09847bd7ef0f9dd4eb5512bd3660715">CheckHandPtrExist</a> (bool Hand)</td></tr>
 <tr class="separator:ab09847bd7ef0f9dd4eb5512bd3660715"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e61e48c82ca658089df2dee51441026"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a5e61e48c82ca658089df2dee51441026">AddControllerYawInput</a> (float Val) override</td></tr>
+<tr class="separator:a5e61e48c82ca658089df2dee51441026"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaaeab4d092a226266b8cf7565c9756df"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#aaaeab4d092a226266b8cf7565c9756df">OnResetVR</a> ()</td></tr>
 <tr class="memdesc:aaaeab4d092a226266b8cf7565c9756df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets HMD orientation and position in VR.  <a href="class_a_v_r___player.html#aaaeab4d092a226266b8cf7565c9756df">More...</a><br /></td></tr>
 <tr class="separator:aaaeab4d092a226266b8cf7565c9756df"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -237,6 +239,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa365761fd79cbc83b42d4022e0ee802e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#aa365761fd79cbc83b42d4022e0ee802e">TeleportReleased_Left</a> ()</td></tr>
 <tr class="memdesc:aa365761fd79cbc83b42d4022e0ee802e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trigger button released (Left Motion controller)   <a href="class_a_v_r___player.html#aa365761fd79cbc83b42d4022e0ee802e">More...</a><br /></td></tr>
 <tr class="separator:aa365761fd79cbc83b42d4022e0ee802e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a68a5ab7df4d3525b73330175dcd589"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a8a68a5ab7df4d3525b73330175dcd589">TeleportPressed_Right</a> ()</td></tr>
+<tr class="memdesc:a8a68a5ab7df4d3525b73330175dcd589"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trigger button pressed (Right Motion controller)   <a href="class_a_v_r___player.html#a8a68a5ab7df4d3525b73330175dcd589">More...</a><br /></td></tr>
+<tr class="separator:a8a68a5ab7df4d3525b73330175dcd589"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1be01829520b3a7e377f57891ed4adf2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a1be01829520b3a7e377f57891ed4adf2">TeleportReleased_Right</a> ()</td></tr>
+<tr class="memdesc:a1be01829520b3a7e377f57891ed4adf2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trigger button released (Right Motion controller)   <a href="class_a_v_r___player.html#a1be01829520b3a7e377f57891ed4adf2">More...</a><br /></td></tr>
+<tr class="separator:a1be01829520b3a7e377f57891ed4adf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a264773524172f0fd42859baa0d1605d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a264773524172f0fd42859baa0d1605d5">A_Press_Server</a> (bool Hand, bool Pressed)</td></tr>
 <tr class="separator:a264773524172f0fd42859baa0d1605d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3750b177f8db7cd171a30118fb935a5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#ab3750b177f8db7cd171a30118fb935a5">A_Press_Server_Validate</a> (bool Hand, bool Pressed)</td></tr>
@@ -303,15 +311,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab3bc6308dd2f4bacaac1be6084a181c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#ab3bc6308dd2f4bacaac1be6084a181c8">ThumbsticLeftYAxis</a> (float Value)</td></tr>
 <tr class="memdesc:ab3bc6308dd2f4bacaac1be6084a181c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates camera pitch in Developer Mode and crouch in VR   <a href="class_a_v_r___player.html#ab3bc6308dd2f4bacaac1be6084a181c8">More...</a><br /></td></tr>
 <tr class="separator:ab3bc6308dd2f4bacaac1be6084a181c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82c2b373aaeb3a0ff89e97ebbc2bb801"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a82c2b373aaeb3a0ff89e97ebbc2bb801">UpdateMovment</a> (const FInputActionValue &amp;Value)</td></tr>
-<tr class="memdesc:a82c2b373aaeb3a0ff89e97ebbc2bb801"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves player in direction   <a href="class_a_v_r___player.html#a82c2b373aaeb3a0ff89e97ebbc2bb801">More...</a><br /></td></tr>
-<tr class="separator:a82c2b373aaeb3a0ff89e97ebbc2bb801"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a06f17fa11bef4f58a0014a2c286df54c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a06f17fa11bef4f58a0014a2c286df54c">MoveForward</a> (float Value)</td></tr>
-<tr class="memdesc:a06f17fa11bef4f58a0014a2c286df54c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used for thumbstick bind   <a href="class_a_v_r___player.html#a06f17fa11bef4f58a0014a2c286df54c">More...</a><br /></td></tr>
-<tr class="separator:a06f17fa11bef4f58a0014a2c286df54c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af9b53be5032d7b965d1785eb38719cf9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#af9b53be5032d7b965d1785eb38719cf9">MoveRight</a> (float Value)</td></tr>
-<tr class="memdesc:af9b53be5032d7b965d1785eb38719cf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used for thumbstick bind   <a href="class_a_v_r___player.html#af9b53be5032d7b965d1785eb38719cf9">More...</a><br /></td></tr>
-<tr class="separator:af9b53be5032d7b965d1785eb38719cf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ae1c2e686ea1608319819218888b618"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a9ae1c2e686ea1608319819218888b618">UpdateMovement</a> (const FInputActionValue &amp;Value)</td></tr>
+<tr class="memdesc:a9ae1c2e686ea1608319819218888b618"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves player in direction   <a href="class_a_v_r___player.html#a9ae1c2e686ea1608319819218888b618">More...</a><br /></td></tr>
+<tr class="separator:a9ae1c2e686ea1608319819218888b618"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d94f7c9763453936cd97d22bb0e8fd6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a5d94f7c9763453936cd97d22bb0e8fd6">MovementStopped</a> (const FInputActionValue &amp;Value)</td></tr>
+<tr class="separator:a5d94f7c9763453936cd97d22bb0e8fd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f25b818460ac299fff51f8a0ecd9710"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a2f25b818460ac299fff51f8a0ecd9710">RightTriggerAxis</a> (const FInputActionValue &amp;Value)</td></tr>
 <tr class="separator:a2f25b818460ac299fff51f8a0ecd9710"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69820a2d714809800ca2cdf5da1df921"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a69820a2d714809800ca2cdf5da1df921">LeftTriggerAxis</a> (const FInputActionValue &amp;Value)</td></tr>
@@ -349,44 +353,31 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:acb9f716873037e1bd6bd7b338e4b87a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb254567c1946e451396f32d6dbe30b4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#abb254567c1946e451396f32d6dbe30b4">RemoveHeight</a> ()</td></tr>
 <tr class="separator:abb254567c1946e451396f32d6dbe30b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae708e5aba917ad8db5407e39a6201b8c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#ae708e5aba917ad8db5407e39a6201b8c">CheckUpdatePlayerPostion</a> ()</td></tr>
-<tr class="separator:ae708e5aba917ad8db5407e39a6201b8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50675e5538170d4a551cbd5aff2cb4fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a50675e5538170d4a551cbd5aff2cb4fd">CheckCollisionSeperation</a> ()</td></tr>
-<tr class="separator:a50675e5538170d4a551cbd5aff2cb4fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6cbafa0249eca94db63a274af8f30b93"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a6cbafa0249eca94db63a274af8f30b93">CheckClimbing</a> ()</td></tr>
 <tr class="separator:a6cbafa0249eca94db63a274af8f30b93"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a19d701955b5a9f5b1a49d711833603"><td class="memItemLeft" align="right" valign="top">FVector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a1a19d701955b5a9f5b1a49d711833603">GetCurrentClimbLocation</a> ()</td></tr>
 <tr class="separator:a1a19d701955b5a9f5b1a49d711833603"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4555523aa061d470e58159e2a6440e23"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a4555523aa061d470e58159e2a6440e23">RealignCollison</a> ()</td></tr>
-<tr class="separator:a4555523aa061d470e58159e2a6440e23"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af14751813d50d78ae8058c70ae1db742"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#af14751813d50d78ae8058c70ae1db742">UpdateRoomScalePosition</a> ()</td></tr>
-<tr class="memdesc:af14751813d50d78ae8058c70ae1db742"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves GetCapsuleComponent() to the camera by adding world offset   <a href="class_a_v_r___player.html#af14751813d50d78ae8058c70ae1db742">More...</a><br /></td></tr>
-<tr class="separator:af14751813d50d78ae8058c70ae1db742"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a563c42a5620bbdd4eb4fff82c1cda8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a3a563c42a5620bbdd4eb4fff82c1cda8">UpdatePlayerPostion</a> (FVector CurrentCameraPosition, FRotator DeviceRotation)</td></tr>
-<tr class="memdesc:a3a563c42a5620bbdd4eb4fff82c1cda8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates Actor location to the GetCapsuleComponent() location.   <a href="class_a_v_r___player.html#a3a563c42a5620bbdd4eb4fff82c1cda8">More...</a><br /></td></tr>
-<tr class="separator:a3a563c42a5620bbdd4eb4fff82c1cda8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa420ba4c077559a797f62cc6ebd4401d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#aa420ba4c077559a797f62cc6ebd4401d">UpdateCollisionHeight</a> (FVector DevicePosition)</td></tr>
-<tr class="memdesc:aa420ba4c077559a797f62cc6ebd4401d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates GetCapsuleComponent() Height   <a href="class_a_v_r___player.html#aa420ba4c077559a797f62cc6ebd4401d">More...</a><br /></td></tr>
-<tr class="separator:aa420ba4c077559a797f62cc6ebd4401d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47c0ae15975a161cd17f0a6988e391ee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a47c0ae15975a161cd17f0a6988e391ee">SetMaxSeperationDist</a> (float NewDist)</td></tr>
-<tr class="memdesc:a47c0ae15975a161cd17f0a6988e391ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets MaxSeperationDist(float)   <a href="class_a_v_r___player.html#a47c0ae15975a161cd17f0a6988e391ee">More...</a><br /></td></tr>
-<tr class="separator:a47c0ae15975a161cd17f0a6988e391ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5356bd746a00b03c167609e49b2aa882"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a5356bd746a00b03c167609e49b2aa882">CameraFade</a> ()</td></tr>
 <tr class="memdesc:a5356bd746a00b03c167609e49b2aa882"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fades camera if overlaps objects   <a href="class_a_v_r___player.html#a5356bd746a00b03c167609e49b2aa882">More...</a><br /></td></tr>
 <tr class="separator:a5356bd746a00b03c167609e49b2aa882"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a550de285c34d8d0d3b89d37731259dbe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a550de285c34d8d0d3b89d37731259dbe">UpdateVariables</a> ()</td></tr>
-<tr class="memdesc:a550de285c34d8d0d3b89d37731259dbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates variables , atm only LastCollisionLocation variable   <a href="class_a_v_r___player.html#a550de285c34d8d0d3b89d37731259dbe">More...</a><br /></td></tr>
-<tr class="separator:a550de285c34d8d0d3b89d37731259dbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90470fe5731517e169a2de92d74eadec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a90470fe5731517e169a2de92d74eadec">UpdateFidelityLevel</a> ()</td></tr>
-<tr class="separator:a90470fe5731517e169a2de92d74eadec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8c886559acabd6712bec6f0be038e80"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#ac8c886559acabd6712bec6f0be038e80">ChangeFidelity</a> (uint8 Level)</td></tr>
-<tr class="separator:ac8c886559acabd6712bec6f0be038e80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:addf491899f74d5e9224128a8c121c01d"><td class="memItemLeft" align="right" valign="top">FRotator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#addf491899f74d5e9224128a8c121c01d">GetRotationFromInput</a> (float UpAxis, float RightAxis, class <a class="el" href="class_u_v_r___hand_component.html">UVR_HandComponent</a> *MotionController)</td></tr>
 <tr class="memdesc:addf491899f74d5e9224128a8c121c01d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns rotation for the teleport   <a href="class_a_v_r___player.html#addf491899f74d5e9224128a8c121c01d">More...</a><br /></td></tr>
 <tr class="separator:addf491899f74d5e9224128a8c121c01d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa032afe8853c7559bed553cfde0b92f1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#aa032afe8853c7559bed553cfde0b92f1">ExecuteTeleportation</a> (class <a class="el" href="class_u_v_r___hand_component.html">UVR_HandComponent</a> *MotionController)</td></tr>
 <tr class="memdesc:aa032afe8853c7559bed553cfde0b92f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle Teleportation   <a href="class_a_v_r___player.html#aa032afe8853c7559bed553cfde0b92f1">More...</a><br /></td></tr>
 <tr class="separator:aa032afe8853c7559bed553cfde0b92f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a233a00c2c5907ef543c83d1d44ac37e2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a233a00c2c5907ef543c83d1d44ac37e2">ExecuteShiftTeleportation</a> (<a class="el" href="class_u_v_r___hand_component.html">UVR_HandComponent</a> *MotionController)</td></tr>
+<tr class="separator:a233a00c2c5907ef543c83d1d44ac37e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae74cae4f0df1639cecb9f9e16fd9e8c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#ae74cae4f0df1639cecb9f9e16fd9e8c1">BeginShiftTeleport</a> ()</td></tr>
+<tr class="separator:ae74cae4f0df1639cecb9f9e16fd9e8c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a27b8e3ffe32a68361e0482790d2e1a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a0a27b8e3ffe32a68361e0482790d2e1a">UpdateShiftTeleport</a> ()</td></tr>
+<tr class="separator:a0a27b8e3ffe32a68361e0482790d2e1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeabeac938ab221e9e27d14eddb9f7a28"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#aeabeac938ab221e9e27d14eddb9f7a28">EndShiftTeleport</a> ()</td></tr>
+<tr class="separator:aeabeac938ab221e9e27d14eddb9f7a28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00795f5aa93081beb93011e696659689"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a00795f5aa93081beb93011e696659689">FadeOutCamera</a> ()</td></tr>
+<tr class="separator:a00795f5aa93081beb93011e696659689"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe01ca31f4c40af6a9a95739c368559c"><td class="memItemLeft" align="right" valign="top">FVector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#abe01ca31f4c40af6a9a95739c368559c">AdjustHandPositionToAvoidObstacles</a> (FVector DesiredLocation, USkeletalMeshComponent *HandMeshComponent)</td></tr>
+<tr class="separator:abe01ca31f4c40af6a9a95739c368559c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd8aa5dd9c0badb80ce8e100017bc66f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#acd8aa5dd9c0badb80ce8e100017bc66f">TeleportActor</a> (class <a class="el" href="class_u_v_r___hand_component.html">UVR_HandComponent</a> *MotionController)</td></tr>
 <tr class="memdesc:acd8aa5dd9c0badb80ce8e100017bc66f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Teleport Player   <a href="class_a_v_r___player.html#acd8aa5dd9c0badb80ce8e100017bc66f">More...</a><br /></td></tr>
 <tr class="separator:acd8aa5dd9c0badb80ce8e100017bc66f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -396,8 +387,16 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9b45d7bca3da098373d4666de0875bf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe0dbcaa2758a24f8c7f9c5414c54aa8"><td class="memItemLeft" align="right" valign="top">FORCEINLINE float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#abe0dbcaa2758a24f8c7f9c5414c54aa8">GetPlayerCurrentHeight</a> () const</td></tr>
 <tr class="separator:abe0dbcaa2758a24f8c7f9c5414c54aa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a14af2e1cd79e8e9f37e9c5938275d8df"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a14af2e1cd79e8e9f37e9c5938275d8df">GetTargetMS</a> (float DisplayHRZ)</td></tr>
-<tr class="separator:a14af2e1cd79e8e9f37e9c5938275d8df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a605d22a677559dc61251f60a92ee924c"><td class="memItemLeft" align="right" valign="top">FORCEINLINE bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a605d22a677559dc61251f60a92ee924c">CanCrouchOnButton</a> () const</td></tr>
+<tr class="separator:a605d22a677559dc61251f60a92ee924c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0987b521ff207bc37eddd953576995d"><td class="memItemLeft" align="right" valign="top">FORCEINLINE bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#ae0987b521ff207bc37eddd953576995d">IsClimbing</a> () const</td></tr>
+<tr class="separator:ae0987b521ff207bc37eddd953576995d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2000f97347c0f8162f8c88cada683195"><td class="memItemLeft" align="right" valign="top">FORCEINLINE <a class="el" href="_v_r___variables_8h.html#a0da467a32af945bf185668a053e75d30">ENonVRTypes</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a2000f97347c0f8162f8c88cada683195">GetNonVRType</a> () const</td></tr>
+<tr class="separator:a2000f97347c0f8162f8c88cada683195"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa45c7c26148f31b0a803b04b273e05e7"><td class="memItemLeft" align="right" valign="top">FORCEINLINE <a class="el" href="class_u_v_r___movement_component.html">UVR_MovementComponent</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#aa45c7c26148f31b0a803b04b273e05e7">GetVRMovementComponent</a> () const</td></tr>
+<tr class="separator:aa45c7c26148f31b0a803b04b273e05e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9a72c127cc8b75aa49d721a97d85d10"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#ad9a72c127cc8b75aa49d721a97d85d10">SetPlayerHeight</a> (float Height)</td></tr>
+<tr class="separator:ad9a72c127cc8b75aa49d721a97d85d10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56ff41b6e7279bf1adc74395d7266d28"><td class="memItemLeft" align="right" valign="top">FVector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a56ff41b6e7279bf1adc74395d7266d28">GetCameraLocation</a> ()</td></tr>
 <tr class="separator:a56ff41b6e7279bf1adc74395d7266d28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afcb966936e82d4dabdaadae24874571b"><td class="memItemLeft" align="right" valign="top">FVector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#afcb966936e82d4dabdaadae24874571b">GetForwardVector</a> ()</td></tr>
@@ -435,9 +434,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a02523dd32f06d2c002c1f5b018ffbf21"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a02523dd32f06d2c002c1f5b018ffbf21">CheckStepDistance</a> ()</td></tr>
 <tr class="memdesc:a02523dd32f06d2c002c1f5b018ffbf21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check when to play step sound.   <a href="class_a_v_r___player.html#a02523dd32f06d2c002c1f5b018ffbf21">More...</a><br /></td></tr>
 <tr class="separator:a02523dd32f06d2c002c1f5b018ffbf21"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a92dd6b5dbf7d8dc482f62ce96ff2e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a6a92dd6b5dbf7d8dc482f62ce96ff2e9">CheckForStandableOBJ</a> ()</td></tr>
-<tr class="memdesc:a6a92dd6b5dbf7d8dc482f62ce96ff2e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if player has pickup standable object.   <a href="class_a_v_r___player.html#a6a92dd6b5dbf7d8dc482f62ce96ff2e9">More...</a><br /></td></tr>
-<tr class="separator:a6a92dd6b5dbf7d8dc482f62ce96ff2e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53490554d795449047a367e606965bf9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a53490554d795449047a367e606965bf9">UpdateClimbingStatus</a> ()</td></tr>
 <tr class="separator:a53490554d795449047a367e606965bf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af757aee875e4ccb11128f05a1f368fba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#af757aee875e4ccb11128f05a1f368fba">PlayFootstepsSound</a> (bool bHasFallen)</td></tr>
@@ -475,12 +471,24 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae8fa5970978362d8c0b2a73e49e84a00"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad9b743044cd1a0f484d90ce7cbe5388"><td class="memItemLeft" align="right" valign="top">FORCEINLINE FTransform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#aad9b743044cd1a0f484d90ce7cbe5388">GetCameraTransform</a> () const</td></tr>
 <tr class="separator:aad9b743044cd1a0f484d90ce7cbe5388"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbacf401e72d731635d55b3fb851f304"><td class="memItemLeft" align="right" valign="top">FORCEINLINE <a class="el" href="class_u_v_r___camera_component.html">UVR_CameraComponent</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#acbacf401e72d731635d55b3fb851f304">GetVRCamera</a> () const</td></tr>
+<tr class="separator:acbacf401e72d731635d55b3fb851f304"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f1125d1b1f1c6219b28fcf5dc80f3e1"><td class="memItemLeft" align="right" valign="top">FORCEINLINE USceneComponent *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a1f1125d1b1f1c6219b28fcf5dc80f3e1">GetVROrigin</a> () const</td></tr>
+<tr class="separator:a1f1125d1b1f1c6219b28fcf5dc80f3e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13dde058ff243d856dbef6db47dc990c"><td class="memItemLeft" align="right" valign="top">FORCEINLINE USceneComponent *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a13dde058ff243d856dbef6db47dc990c">GetCamerOrigin</a> () const</td></tr>
+<tr class="separator:a13dde058ff243d856dbef6db47dc990c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d33038267cff59b09697edc42b709ed"><td class="memItemLeft" align="right" valign="top">FORCEINLINE bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a6d33038267cff59b09697edc42b709ed">GetLockSeatedHeight</a> () const</td></tr>
+<tr class="separator:a6d33038267cff59b09697edc42b709ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab6337c85d9db8670c71ea7e8a9f49e6b"><td class="memItemLeft" align="right" valign="top">FORCEINLINE FVector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#ab6337c85d9db8670c71ea7e8a9f49e6b">GetCameraDirection</a> () const</td></tr>
 <tr class="separator:ab6337c85d9db8670c71ea7e8a9f49e6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b5bc942a3e856b03dc6e7aafec4603a"><td class="memItemLeft" align="right" valign="top">FORCEINLINE float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a5b5bc942a3e856b03dc6e7aafec4603a">GetPlayerSpeed</a> () const</td></tr>
 <tr class="separator:a5b5bc942a3e856b03dc6e7aafec4603a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ffd8e2a69aac349ffae351cfb1704f4"><td class="memItemLeft" align="right" valign="top">FORCEINLINE float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a9ffd8e2a69aac349ffae351cfb1704f4">GetPlayerDirectionValue</a> () const</td></tr>
 <tr class="separator:a9ffd8e2a69aac349ffae351cfb1704f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47402013d18e527a66006614c7b3c9d9"><td class="memItemLeft" align="right" valign="top">FORCEINLINE float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a47402013d18e527a66006614c7b3c9d9">GetSeatedPlayerHeight</a> () const</td></tr>
+<tr class="separator:a47402013d18e527a66006614c7b3c9d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05d28dd045c748948a3eb81e9a765811"><td class="memItemLeft" align="right" valign="top">FORCEINLINE float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a05d28dd045c748948a3eb81e9a765811">GetSeatedMinPlayerHeight</a> () const</td></tr>
+<tr class="separator:a05d28dd045c748948a3eb81e9a765811"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10058f7346d2d63d91949bd05d0eeea5"><td class="memItemLeft" align="right" valign="top">FORCEINLINE <a class="el" href="_v_r___variables_8h.html#ab79e1822d81275ec524e3269e35a7174">EVRAvatarMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a10058f7346d2d63d91949bd05d0eeea5">GetAvatarMode</a> () const</td></tr>
 <tr class="separator:a10058f7346d2d63d91949bd05d0eeea5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af725b9d45357b0f90243fae4456a1543"><td class="memItemLeft" align="right" valign="top">FORCEINLINE FName&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#af725b9d45357b0f90243fae4456a1543">GetVRHelmetName</a> () const</td></tr>
@@ -493,6 +501,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a86afad2374c69d70c8e59cd8ece3ec6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31aaa94b3be6b3b58663498ae1eeb7d1"><td class="memItemLeft" align="right" valign="top">FORCEINLINE float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a31aaa94b3be6b3b58663498ae1eeb7d1">GetStamina</a> () const</td></tr>
 <tr class="separator:a31aaa94b3be6b3b58663498ae1eeb7d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69acbc0d883439ea9e4ee452f27d4141"><td class="memItemLeft" align="right" valign="top">FORCEINLINE bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a69acbc0d883439ea9e4ee452f27d4141">IsNonVRAllowed</a> () const</td></tr>
+<tr class="separator:a69acbc0d883439ea9e4ee452f27d4141"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46bf9eb32616761abf498e44ce8f7e68"><td class="memItemLeft" align="right" valign="top">FORCEINLINE TEnumAsByte&lt; EHMDTrackingOrigin::Type &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a46bf9eb32616761abf498e44ce8f7e68">GetTrackingOrigin</a> () const</td></tr>
+<tr class="separator:a46bf9eb32616761abf498e44ce8f7e68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90a4b882f0eb195cdbe50ef1cb86f75a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a90a4b882f0eb195cdbe50ef1cb86f75a">IsUsingNavMeshForTeleport</a> () const</td></tr>
+<tr class="separator:a90a4b882f0eb195cdbe50ef1cb86f75a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a199696058b02bb72b217a39124999efb"><td class="memItemLeft" align="right" valign="top">FVector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a199696058b02bb72b217a39124999efb">GetNavMeshDetectExtend</a> () const</td></tr>
+<tr class="separator:a199696058b02bb72b217a39124999efb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6891ff9358007cb3374b3c449531231d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a6891ff9358007cb3374b3c449531231d">GetDistanceMoved</a> (FVector CurrentCameraPosition)</td></tr>
 <tr class="separator:a6891ff9358007cb3374b3c449531231d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf3062b0dbc48607cbd0cad4c57dc59c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#acf3062b0dbc48607cbd0cad4c57dc59c">GetDistanceRotation</a> (FRotator CurrentCameraRotation)</td></tr>
@@ -532,9 +548,13 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a18d10e92d42da2a7bebc6006af22c928"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b0839f034ac7ee264ca855cbecc3ca5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a4b0839f034ac7ee264ca855cbecc3ca5">SetTrackingOrigin</a> (TEnumAsByte&lt; EHMDTrackingOrigin::Type &gt; NewTrackingOrigin)</td></tr>
 <tr class="separator:a4b0839f034ac7ee264ca855cbecc3ca5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54c4984ef8be9c8df1dda8eb3db04162"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a54c4984ef8be9c8df1dda8eb3db04162">LoadLocomotionSettings</a> ()</td></tr>
+<tr class="separator:a54c4984ef8be9c8df1dda8eb3db04162"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
+<tr class="memitem:a8a0ffc2ebda64da571086181c706d5d7"><td class="memItemLeft" align="right" valign="top">TObjectPtr&lt; <a class="el" href="class_u_v_r___movement_component.html">UVR_MovementComponent</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a8a0ffc2ebda64da571086181c706d5d7">VRMovementComponent</a></td></tr>
+<tr class="separator:a8a0ffc2ebda64da571086181c706d5d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a458b6c6f8eec538ae2378c962427c3ac"><td class="memItemLeft" align="right" valign="top">FVector&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#a458b6c6f8eec538ae2378c962427c3ac">LastCameraPosition</a></td></tr>
 <tr class="separator:a458b6c6f8eec538ae2378c962427c3ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9545decb628c03891f090b615576952"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_a_v_r___player.html#ab9545decb628c03891f090b615576952">bWeaponInInventory</a></td></tr>
@@ -622,8 +642,8 @@ Protected Attributes</h2></td></tr>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="class_u_v_r___hand_component.html" title="Hand class">UVR_HandComponent</a> </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>Movement was written from scratch </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ab7499db6c9f5de9434bcf00e938dd9cb" name="ab7499db6c9f5de9434bcf00e938dd9cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab7499db6c9f5de9434bcf00e938dd9cb">&#9670;&#160;</a></span>AVR_Player()</h2>
+<a id="ae6095ac72d75edfb95610566ec0ae833" name="ae6095ac72d75edfb95610566ec0ae833"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6095ac72d75edfb95610566ec0ae833">&#9670;&#160;</a></span>AVR_Player()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -631,7 +651,8 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="memname">AVR_Player::AVR_Player </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">const FObjectInitializer &amp;&#160;</td>
+          <td class="paramname"><em>ObjectInitializer</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -884,6 +905,32 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a5e61e48c82ca658089df2dee51441026" name="a5e61e48c82ca658089df2dee51441026"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e61e48c82ca658089df2dee51441026">&#9670;&#160;</a></span>AddControllerYawInput()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AVR_Player::AddControllerYawInput </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>Val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="acb9f716873037e1bd6bd7b338e4b87a7" name="acb9f716873037e1bd6bd7b338e4b87a7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acb9f716873037e1bd6bd7b338e4b87a7">&#9670;&#160;</a></span>AddHeight()</h2>
 
@@ -895,6 +942,34 @@ Protected Attributes</h2></td></tr>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abe01ca31f4c40af6a9a95739c368559c" name="abe01ca31f4c40af6a9a95739c368559c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe01ca31f4c40af6a9a95739c368559c">&#9670;&#160;</a></span>AdjustHandPositionToAvoidObstacles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">FVector AVR_Player::AdjustHandPositionToAvoidObstacles </td>
+          <td>(</td>
+          <td class="paramtype">FVector&#160;</td>
+          <td class="paramname"><em>DesiredLocation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">USkeletalMeshComponent *&#160;</td>
+          <td class="paramname"><em>HandMeshComponent</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1170,6 +1245,23 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ae74cae4f0df1639cecb9f9e16fd9e8c1" name="ae74cae4f0df1639cecb9f9e16fd9e8c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae74cae4f0df1639cecb9f9e16fd9e8c1">&#9670;&#160;</a></span>BeginShiftTeleport()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AVR_Player::BeginShiftTeleport </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ade67f20bc394e9fed68a24405ecb8b37" name="ade67f20bc394e9fed68a24405ecb8b37"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ade67f20bc394e9fed68a24405ecb8b37">&#9670;&#160;</a></span>CallPauseMenu()</h2>
 
@@ -1206,6 +1298,31 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a605d22a677559dc61251f60a92ee924c" name="a605d22a677559dc61251f60a92ee924c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a605d22a677559dc61251f60a92ee924c">&#9670;&#160;</a></span>CanCrouchOnButton()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">FORCEINLINE bool AVR_Player::CanCrouchOnButton </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="af86e2446292e4df0dc0bff3767c6bf90" name="af86e2446292e4df0dc0bff3767c6bf90"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af86e2446292e4df0dc0bff3767c6bf90">&#9670;&#160;</a></span>CanSptint()</h2>
 
@@ -1231,24 +1348,6 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ac8c886559acabd6712bec6f0be038e80" name="ac8c886559acabd6712bec6f0be038e80"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac8c886559acabd6712bec6f0be038e80">&#9670;&#160;</a></span>ChangeFidelity()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AVR_Player::ChangeFidelity </td>
-          <td>(</td>
-          <td class="paramtype">uint8&#160;</td>
-          <td class="paramname"><em>Level</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a6cbafa0249eca94db63a274af8f30b93" name="a6cbafa0249eca94db63a274af8f30b93"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6cbafa0249eca94db63a274af8f30b93">&#9670;&#160;</a></span>CheckClimbing()</h2>
 
@@ -1263,43 +1362,6 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="a50675e5538170d4a551cbd5aff2cb4fd" name="a50675e5538170d4a551cbd5aff2cb4fd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a50675e5538170d4a551cbd5aff2cb4fd">&#9670;&#160;</a></span>CheckCollisionSeperation()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AVR_Player::CheckCollisionSeperation </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p >Checks if GetCapsuleComponent() is hit by something static. If hit , then GetCapsuleComponent() doesn't update the position and checks the distance betwen camera and GetCapsuleComponent(). If distance too big -&gt; move camera back to the GetCapsuleComponent(). </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="class_a_v_r___player.html#a4555523aa061d470e58159e2a6440e23">RealignCollison()</a> </dd></dl>
-
-</div>
-</div>
-<a id="a6a92dd6b5dbf7d8dc482f62ce96ff2e9" name="a6a92dd6b5dbf7d8dc482f62ce96ff2e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6a92dd6b5dbf7d8dc482f62ce96ff2e9">&#9670;&#160;</a></span>CheckForStandableOBJ()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AVR_Player::CheckForStandableOBJ </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Check if player has pickup standable object.  </p>
 
 </div>
 </div>
@@ -1364,24 +1426,6 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Check when to play step sound.  </p>
-
-</div>
-</div>
-<a id="ae708e5aba917ad8db5407e39a6201b8c" name="ae708e5aba917ad8db5407e39a6201b8c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae708e5aba917ad8db5407e39a6201b8c">&#9670;&#160;</a></span>CheckUpdatePlayerPostion()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AVR_Player::CheckUpdatePlayerPostion </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p >Checks if possiable to update GetCapsuleComponent() position. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="class_a_v_r___player.html#a3a563c42a5620bbdd4eb4fff82c1cda8" title="Updates Actor location to the GetCapsuleComponent() location.">UpdatePlayerPostion(FVector CurrentCameraPosition, FRotator DeviceRotation)</a> <a class="el" href="class_a_v_r___player.html#af14751813d50d78ae8058c70ae1db742" title="Moves GetCapsuleComponent() to the camera by adding world offset">UpdateRoomScalePosition()</a> </dd></dl>
 
 </div>
 </div>
@@ -1611,6 +1655,23 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="aeabeac938ab221e9e27d14eddb9f7a28" name="aeabeac938ab221e9e27d14eddb9f7a28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeabeac938ab221e9e27d14eddb9f7a28">&#9670;&#160;</a></span>EndShiftTeleport()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AVR_Player::EndShiftTeleport </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a90914485a3ca22644e87bc6f3ab15571" name="a90914485a3ca22644e87bc6f3ab15571"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a90914485a3ca22644e87bc6f3ab15571">&#9670;&#160;</a></span>Execute_E_Press()</h2>
 
@@ -1622,6 +1683,24 @@ Protected Attributes</h2></td></tr>
           <td>(</td>
           <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>Released</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a233a00c2c5907ef543c83d1d44ac37e2" name="a233a00c2c5907ef543c83d1d44ac37e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a233a00c2c5907ef543c83d1d44ac37e2">&#9670;&#160;</a></span>ExecuteShiftTeleportation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AVR_Player::ExecuteShiftTeleportation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_u_v_r___hand_component.html">UVR_HandComponent</a> *&#160;</td>
+          <td class="paramname"><em>MotionController</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1652,6 +1731,23 @@ Protected Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a00795f5aa93081beb93011e696659689" name="a00795f5aa93081beb93011e696659689"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00795f5aa93081beb93011e696659689">&#9670;&#160;</a></span>FadeOutCamera()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AVR_Player::FadeOutCamera </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1828,6 +1924,31 @@ Protected Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">FORCEINLINE FTransform AVR_Player::GetCameraTransform </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a13dde058ff243d856dbef6db47dc990c" name="a13dde058ff243d856dbef6db47dc990c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13dde058ff243d856dbef6db47dc990c">&#9670;&#160;</a></span>GetCamerOrigin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">FORCEINLINE USceneComponent * AVR_Player::GetCamerOrigin </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -2105,6 +2226,31 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a6d33038267cff59b09697edc42b709ed" name="a6d33038267cff59b09697edc42b709ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d33038267cff59b09697edc42b709ed">&#9670;&#160;</a></span>GetLockSeatedHeight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">FORCEINLINE bool AVR_Player::GetLockSeatedHeight </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a1ae1ef6b77dbd054ce9ce2b28da2e610" name="a1ae1ef6b77dbd054ce9ce2b28da2e610"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1ae1ef6b77dbd054ce9ce2b28da2e610">&#9670;&#160;</a></span>GetMaxHealth()</h2>
 
@@ -2169,6 +2315,56 @@ Protected Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a199696058b02bb72b217a39124999efb" name="a199696058b02bb72b217a39124999efb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a199696058b02bb72b217a39124999efb">&#9670;&#160;</a></span>GetNavMeshDetectExtend()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">FVector AVR_Player::GetNavMeshDetectExtend </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2000f97347c0f8162f8c88cada683195" name="a2000f97347c0f8162f8c88cada683195"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2000f97347c0f8162f8c88cada683195">&#9670;&#160;</a></span>GetNonVRType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">FORCEINLINE <a class="el" href="_v_r___variables_8h.html#a0da467a32af945bf185668a053e75d30">ENonVRTypes</a> AVR_Player::GetNonVRType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -2418,6 +2614,56 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a05d28dd045c748948a3eb81e9a765811" name="a05d28dd045c748948a3eb81e9a765811"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05d28dd045c748948a3eb81e9a765811">&#9670;&#160;</a></span>GetSeatedMinPlayerHeight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">FORCEINLINE float AVR_Player::GetSeatedMinPlayerHeight </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a47402013d18e527a66006614c7b3c9d9" name="a47402013d18e527a66006614c7b3c9d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47402013d18e527a66006614c7b3c9d9">&#9670;&#160;</a></span>GetSeatedPlayerHeight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">FORCEINLINE float AVR_Player::GetSeatedPlayerHeight </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a31aaa94b3be6b3b58663498ae1eeb7d1" name="a31aaa94b3be6b3b58663498ae1eeb7d1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a31aaa94b3be6b3b58663498ae1eeb7d1">&#9670;&#160;</a></span>GetStamina()</h2>
 
@@ -2443,20 +2689,52 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a14af2e1cd79e8e9f37e9c5938275d8df" name="a14af2e1cd79e8e9f37e9c5938275d8df"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a14af2e1cd79e8e9f37e9c5938275d8df">&#9670;&#160;</a></span>GetTargetMS()</h2>
+<a id="a46bf9eb32616761abf498e44ce8f7e68" name="a46bf9eb32616761abf498e44ce8f7e68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46bf9eb32616761abf498e44ce8f7e68">&#9670;&#160;</a></span>GetTrackingOrigin()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float AVR_Player::GetTargetMS </td>
+          <td class="memname">FORCEINLINE TEnumAsByte&lt; EHMDTrackingOrigin::Type &gt; AVR_Player::GetTrackingOrigin </td>
           <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>DisplayHRZ</em></td><td>)</td>
-          <td></td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acbacf401e72d731635d55b3fb851f304" name="acbacf401e72d731635d55b3fb851f304"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbacf401e72d731635d55b3fb851f304">&#9670;&#160;</a></span>GetVRCamera()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">FORCEINLINE <a class="el" href="class_u_v_r___camera_component.html">UVR_CameraComponent</a> * AVR_Player::GetVRCamera </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -2472,6 +2750,56 @@ Protected Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">FORCEINLINE FName AVR_Player::GetVRHelmetName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa45c7c26148f31b0a803b04b273e05e7" name="aa45c7c26148f31b0a803b04b273e05e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa45c7c26148f31b0a803b04b273e05e7">&#9670;&#160;</a></span>GetVRMovementComponent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">FORCEINLINE <a class="el" href="class_u_v_r___movement_component.html">UVR_MovementComponent</a> * AVR_Player::GetVRMovementComponent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1f1125d1b1f1c6219b28fcf5dc80f3e1" name="a1f1125d1b1f1c6219b28fcf5dc80f3e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f1125d1b1f1c6219b28fcf5dc80f3e1">&#9670;&#160;</a></span>GetVROrigin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">FORCEINLINE USceneComponent * AVR_Player::GetVROrigin </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -2919,6 +3247,31 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ae0987b521ff207bc37eddd953576995d" name="ae0987b521ff207bc37eddd953576995d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0987b521ff207bc37eddd953576995d">&#9670;&#160;</a></span>IsClimbing()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">FORCEINLINE bool AVR_Player::IsClimbing </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a366284b790ff5d7624a42523da66c842" name="a366284b790ff5d7624a42523da66c842"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a366284b790ff5d7624a42523da66c842">&#9670;&#160;</a></span>IsInLoadingRoom()</h2>
 
@@ -2944,6 +3297,31 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a69acbc0d883439ea9e4ee452f27d4141" name="a69acbc0d883439ea9e4ee452f27d4141"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69acbc0d883439ea9e4ee452f27d4141">&#9670;&#160;</a></span>IsNonVRAllowed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">FORCEINLINE bool AVR_Player::IsNonVRAllowed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ae8da61eeedc8f0c5ac296188e73fd895" name="ae8da61eeedc8f0c5ac296188e73fd895"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae8da61eeedc8f0c5ac296188e73fd895">&#9670;&#160;</a></span>IsSprinting()</h2>
 
@@ -2955,6 +3333,31 @@ Protected Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">FORCEINLINE bool AVR_Player::IsSprinting </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a90a4b882f0eb195cdbe50ef1cb86f75a" name="a90a4b882f0eb195cdbe50ef1cb86f75a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90a4b882f0eb195cdbe50ef1cb86f75a">&#9670;&#160;</a></span>IsUsingNavMeshForTeleport()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AVR_Player::IsUsingNavMeshForTeleport </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -3014,57 +3417,38 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a06f17fa11bef4f58a0014a2c286df54c" name="a06f17fa11bef4f58a0014a2c286df54c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a06f17fa11bef4f58a0014a2c286df54c">&#9670;&#160;</a></span>MoveForward()</h2>
+<a id="a54c4984ef8be9c8df1dda8eb3db04162" name="a54c4984ef8be9c8df1dda8eb3db04162"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54c4984ef8be9c8df1dda8eb3db04162">&#9670;&#160;</a></span>LoadLocomotionSettings()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AVR_Player::MoveForward </td>
+          <td class="memname">void AVR_Player::LoadLocomotionSettings </td>
           <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>Value</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Used for thumbstick bind  </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">Value</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section note"><dt>Note</dt><dd>do not delete </dd></dl>
-
 </div>
 </div>
-<a id="af9b53be5032d7b965d1785eb38719cf9" name="af9b53be5032d7b965d1785eb38719cf9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af9b53be5032d7b965d1785eb38719cf9">&#9670;&#160;</a></span>MoveRight()</h2>
+<a id="a5d94f7c9763453936cd97d22bb0e8fd6" name="a5d94f7c9763453936cd97d22bb0e8fd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d94f7c9763453936cd97d22bb0e8fd6">&#9670;&#160;</a></span>MovementStopped()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AVR_Player::MoveRight </td>
+          <td class="memname">void AVR_Player::MovementStopped </td>
           <td>(</td>
-          <td class="paramtype">float&#160;</td>
+          <td class="paramtype">const FInputActionValue &amp;&#160;</td>
           <td class="paramname"><em>Value</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Used for thumbstick bind  </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">Value</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section note"><dt>Note</dt><dd>do not delete </dd></dl>
 
 </div>
 </div>
@@ -3541,24 +3925,6 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Rightg Trackpad beeing Untouch  </p>
-
-</div>
-</div>
-<a id="a4555523aa061d470e58159e2a6440e23" name="a4555523aa061d470e58159e2a6440e23"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4555523aa061d470e58159e2a6440e23">&#9670;&#160;</a></span>RealignCollison()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AVR_Player::RealignCollison </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p >Moves camera back to the GetCapsuleComponent() position </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="class_a_v_r___player.html#a3a563c42a5620bbdd4eb4fff82c1cda8" title="Updates Actor location to the GetCapsuleComponent() location.">UpdatePlayerPostion(FVector CurrentCameraPosition, FRotator DeviceRotation)</a> <a class="el" href="class_a_v_r___player.html#af14751813d50d78ae8058c70ae1db742" title="Moves GetCapsuleComponent() to the camera by adding world offset">UpdateRoomScalePosition()</a> </dd></dl>
 
 </div>
 </div>
@@ -4104,30 +4470,21 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a47c0ae15975a161cd17f0a6988e391ee" name="a47c0ae15975a161cd17f0a6988e391ee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a47c0ae15975a161cd17f0a6988e391ee">&#9670;&#160;</a></span>SetMaxSeperationDist()</h2>
+<a id="ad9a72c127cc8b75aa49d721a97d85d10" name="ad9a72c127cc8b75aa49d721a97d85d10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9a72c127cc8b75aa49d721a97d85d10">&#9670;&#160;</a></span>SetPlayerHeight()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AVR_Player::SetMaxSeperationDist </td>
+          <td class="memname">void AVR_Player::SetPlayerHeight </td>
           <td>(</td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>NewDist</em></td><td>)</td>
+          <td class="paramname"><em>Height</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Sets MaxSeperationDist(float)  </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">NewDist</td><td>New distance </td></tr>
-  </table>
-  </dd>
-</dl>
-<p><a class="el" href="class_a_v_r___player.html#a50675e5538170d4a551cbd5aff2cb4fd">CheckCollisionSeperation()</a> </p>
 
 </div>
 </div>
@@ -4266,6 +4623,25 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a8a68a5ab7df4d3525b73330175dcd589" name="a8a68a5ab7df4d3525b73330175dcd589"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a68a5ab7df4d3525b73330175dcd589">&#9670;&#160;</a></span>TeleportPressed_Right()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AVR_Player::TeleportPressed_Right </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Trigger button pressed (Right Motion controller)  </p>
+
+</div>
+</div>
 <a id="aa365761fd79cbc83b42d4022e0ee802e" name="aa365761fd79cbc83b42d4022e0ee802e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa365761fd79cbc83b42d4022e0ee802e">&#9670;&#160;</a></span>TeleportReleased_Left()</h2>
 
@@ -4282,6 +4658,25 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Trigger button released (Left Motion controller)  </p>
+
+</div>
+</div>
+<a id="a1be01829520b3a7e377f57891ed4adf2" name="a1be01829520b3a7e377f57891ed4adf2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1be01829520b3a7e377f57891ed4adf2">&#9670;&#160;</a></span>TeleportReleased_Right()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AVR_Player::TeleportReleased_Right </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Trigger button released (Right Motion controller)  </p>
 
 </div>
 </div>
@@ -4685,57 +5080,14 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aa420ba4c077559a797f62cc6ebd4401d" name="aa420ba4c077559a797f62cc6ebd4401d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa420ba4c077559a797f62cc6ebd4401d">&#9670;&#160;</a></span>UpdateCollisionHeight()</h2>
+<a id="a9ae1c2e686ea1608319819218888b618" name="a9ae1c2e686ea1608319819218888b618"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ae1c2e686ea1608319819218888b618">&#9670;&#160;</a></span>UpdateMovement()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AVR_Player::UpdateCollisionHeight </td>
-          <td>(</td>
-          <td class="paramtype">FVector&#160;</td>
-          <td class="paramname"><em>DevicePosition</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Updates GetCapsuleComponent() Height  </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">DevicePosition</td><td>HMD position </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="a90470fe5731517e169a2de92d74eadec" name="a90470fe5731517e169a2de92d74eadec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a90470fe5731517e169a2de92d74eadec">&#9670;&#160;</a></span>UpdateFidelityLevel()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AVR_Player::UpdateFidelityLevel </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a82c2b373aaeb3a0ff89e97ebbc2bb801" name="a82c2b373aaeb3a0ff89e97ebbc2bb801"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a82c2b373aaeb3a0ff89e97ebbc2bb801">&#9670;&#160;</a></span>UpdateMovment()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AVR_Player::UpdateMovment </td>
+          <td class="memname">void AVR_Player::UpdateMovement </td>
           <td>(</td>
           <td class="paramtype">const FInputActionValue &amp;&#160;</td>
           <td class="paramname"><em>Value</em></td><td>)</td>
@@ -4757,78 +5109,20 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a3a563c42a5620bbdd4eb4fff82c1cda8" name="a3a563c42a5620bbdd4eb4fff82c1cda8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3a563c42a5620bbdd4eb4fff82c1cda8">&#9670;&#160;</a></span>UpdatePlayerPostion()</h2>
+<a id="a0a27b8e3ffe32a68361e0482790d2e1a" name="a0a27b8e3ffe32a68361e0482790d2e1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a27b8e3ffe32a68361e0482790d2e1a">&#9670;&#160;</a></span>UpdateShiftTeleport()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AVR_Player::UpdatePlayerPostion </td>
-          <td>(</td>
-          <td class="paramtype">FVector&#160;</td>
-          <td class="paramname"><em>CurrentCameraPosition</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">FRotator&#160;</td>
-          <td class="paramname"><em>DeviceRotation</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Updates Actor location to the GetCapsuleComponent() location.  </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">CurrentCameraPosition</td><td>is a Current Camera Position </td></tr>
-    <tr><td class="paramname">DeviceRotation</td><td>is current rotation of the HMD</td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="af14751813d50d78ae8058c70ae1db742" name="af14751813d50d78ae8058c70ae1db742"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af14751813d50d78ae8058c70ae1db742">&#9670;&#160;</a></span>UpdateRoomScalePosition()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AVR_Player::UpdateRoomScalePosition </td>
+          <td class="memname">void AVR_Player::UpdateShiftTeleport </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Moves GetCapsuleComponent() to the camera by adding world offset  </p>
-
-</div>
-</div>
-<a id="a550de285c34d8d0d3b89d37731259dbe" name="a550de285c34d8d0d3b89d37731259dbe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a550de285c34d8d0d3b89d37731259dbe">&#9670;&#160;</a></span>UpdateVariables()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void AVR_Player::UpdateVariables </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Updates variables , atm only LastCollisionLocation variable  </p>
 
 </div>
 </div>
@@ -5589,6 +5883,20 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Players camera  </p>
+
+</div>
+</div>
+<a id="a8a0ffc2ebda64da571086181c706d5d7" name="a8a0ffc2ebda64da571086181c706d5d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a0ffc2ebda64da571086181c706d5d7">&#9670;&#160;</a></span>VRMovementComponent</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TObjectPtr&lt;<a class="el" href="class_u_v_r___movement_component.html">UVR_MovementComponent</a>&gt; AVR_Player::VRMovementComponent</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

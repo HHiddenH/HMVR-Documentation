@@ -2,7 +2,7 @@ var searchData=
 [
   ['r_5ftrackpad_5ftouch_0',['R_Trackpad_Touch',['../class_a_v_r___player.html#ae890bdc282ca33a44a2339eb997053cb',1,'AVR_Player']]],
   ['r_5ftrackpad_5funtouch_1',['R_Trackpad_UnTouch',['../class_a_v_r___player.html#a671ff99a024d46cc7380385e49b6986f',1,'AVR_Player']]],
-  ['realigncollison_2',['RealignCollison',['../class_a_v_r___player.html#a4555523aa061d470e58159e2a6440e23',1,'AVR_Player']]],
+  ['realigncollison_2',['RealignCollison',['../class_u_v_r___movement_component.html#a971f0da3691bc6ec20b0c57cce6b3409',1,'UVR_MovementComponent']]],
   ['recivedamage_3',['ReciveDamage',['../class_a_v_r___player.html#aff35ec79e2f49bfd9dfcd189f14db055',1,'AVR_Player']]],
   ['refreshactorcomponent_4',['RefreshActorComponent',['../class_u_v_r___hand_component.html#a37c23f29e9fee2178efe00e6fe4183fb',1,'UVR_HandComponent']]],
   ['refreshmotioncontrollermesh_5',['RefreshMotionControllerMesh',['../class_u_v_r___hand_component.html#a00b33be89633ad1e9fa032ff33bb593e',1,'UVR_HandComponent']]],
