@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['screentextwidget_2ecpp_0',['ScreenTextWidget.cpp',['../_screen_text_widget_8cpp.html',1,'']]],
-  ['screentextwidget_2eh_1',['ScreenTextWidget.h',['../_screen_text_widget_8h.html',1,'']]]
+  ['menuloadingwidget_2ecpp_0',['MenuLoadingWidget.cpp',['../_menu_loading_widget_8cpp.html',1,'']]],
+  ['menuloadingwidget_2eh_1',['MenuLoadingWidget.h',['../_menu_loading_widget_8h.html',1,'']]]
 ];

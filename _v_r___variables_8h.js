@@ -1,6 +1,7 @@
 var _v_r___variables_8h =
 [
     [ "FFingerCurls", "struct_f_finger_curls.html", "struct_f_finger_curls" ],
+    [ "FHandData", "struct_f_hand_data.html", "struct_f_hand_data" ],
     [ "DefSepDist", "_v_r___variables_8h.html#a61b016b5636bf49c735e0ada6c9574b4", null ],
     [ "EAnimationType", "_v_r___variables_8h.html#a38635767ceafd5582e7ec8de90aa7840", [
       [ "IK", "_v_r___variables_8h.html#a38635767ceafd5582e7ec8de90aa7840a7ab2200d24b19f1824cef3f53b5b69ca", null ],
@@ -11,12 +12,16 @@ var _v_r___variables_8h =
       [ "Y", "_v_r___variables_8h.html#a2b6a00486e65bd82c5c0ef00a8531106a57cec4137b614c87cb4e24a3d003a3e0", null ],
       [ "Z", "_v_r___variables_8h.html#a2b6a00486e65bd82c5c0ef00a8531106a21c2e59531c8710156d34a3c30ac81d5", null ]
     ] ],
-    [ "EButton", "_v_r___variables_8h.html#a18be71129c3a1f950fe9d2d87094064a", [
-      [ "A", "_v_r___variables_8h.html#a18be71129c3a1f950fe9d2d87094064aa7fc56270e7a70fa81a5935b72eacbe29", null ],
-      [ "B", "_v_r___variables_8h.html#a18be71129c3a1f950fe9d2d87094064aa9d5ed678fe57bcca610140957afab571", null ],
-      [ "Trigger", "_v_r___variables_8h.html#a18be71129c3a1f950fe9d2d87094064aaf698f67f5666aff10729d8a1cb1c14d2", null ],
-      [ "Joystick", "_v_r___variables_8h.html#a18be71129c3a1f950fe9d2d87094064aa1162b85b7b993e2edf7da29dd8abf7e2", null ],
-      [ "Grip", "_v_r___variables_8h.html#a18be71129c3a1f950fe9d2d87094064aae6afa392888958511dd5c9e9b1d5a9db", null ]
+    [ "EButtonMC", "_v_r___variables_8h.html#a3c8dbc7862ee2a8ec823448e75cf32e6", [
+      [ "A", "_v_r___variables_8h.html#a3c8dbc7862ee2a8ec823448e75cf32e6a7fc56270e7a70fa81a5935b72eacbe29", null ],
+      [ "B", "_v_r___variables_8h.html#a3c8dbc7862ee2a8ec823448e75cf32e6a9d5ed678fe57bcca610140957afab571", null ],
+      [ "Trigger", "_v_r___variables_8h.html#a3c8dbc7862ee2a8ec823448e75cf32e6af698f67f5666aff10729d8a1cb1c14d2", null ],
+      [ "Joystick", "_v_r___variables_8h.html#a3c8dbc7862ee2a8ec823448e75cf32e6a1162b85b7b993e2edf7da29dd8abf7e2", null ],
+      [ "Grip", "_v_r___variables_8h.html#a3c8dbc7862ee2a8ec823448e75cf32e6ae6afa392888958511dd5c9e9b1d5a9db", null ]
+    ] ],
+    [ "EExactPosition", "_v_r___variables_8h.html#acff4362e5866eca7840d4a7a1f006e2c", [
+      [ "Socket", "_v_r___variables_8h.html#acff4362e5866eca7840d4a7a1f006e2ca69f69b59aae6f4ee1a47bbc1086ecdb4", null ],
+      [ "Component", "_v_r___variables_8h.html#acff4362e5866eca7840d4a7a1f006e2ca2cb05e4bb7830be982f0922fed86b4cd", null ]
     ] ],
     [ "EFinger", "_v_r___variables_8h.html#a387a3ab266fc2bd6b026e4379e970099", [
       [ "Thumb", "_v_r___variables_8h.html#a387a3ab266fc2bd6b026e4379e970099a8807c97721e343cdc1fa2444cc00415b", null ],
@@ -29,16 +34,37 @@ var _v_r___variables_8h =
       [ "Class", "_v_r___variables_8h.html#a74c3ef4310d11904c882f39d1083500aa9bd81329febf6efe22788e03ddeaf0af", null ],
       [ "Name", "_v_r___variables_8h.html#a74c3ef4310d11904c882f39d1083500aa49ee3087348e8d44e1feda1917443987", null ]
     ] ],
-    [ "EGrabMethod", "_v_r___variables_8h.html#a5771306b64cd9960f17d15eb7c6ad482", [
-      [ "AttachTo", "_v_r___variables_8h.html#a5771306b64cd9960f17d15eb7c6ad482afad78f3e80faa64be0eb48bb25465ed3", null ],
-      [ "Physics", "_v_r___variables_8h.html#a5771306b64cd9960f17d15eb7c6ad482a50ae99e9c35446c2580e4b540b0fd104", null ],
-      [ "PhysicsAnimated", "_v_r___variables_8h.html#a5771306b64cd9960f17d15eb7c6ad482a830436021217f6544e29cddf32ee98f2", null ],
-      [ "PhysicsAnimatedNearSocket", "_v_r___variables_8h.html#a5771306b64cd9960f17d15eb7c6ad482a11435ef8333240a75e4a3d9c1142b5e1", null ],
-      [ "AnimatedAndIK", "_v_r___variables_8h.html#a5771306b64cd9960f17d15eb7c6ad482a4aded263e5db3e2976d097e091ce6bd5", null ]
+    [ "EGrabPosition", "_v_r___variables_8h.html#a8ce11182a9ace7dfaee8a104680b0d79", [
+      [ "NearSurface", "_v_r___variables_8h.html#a8ce11182a9ace7dfaee8a104680b0d79a1ee158ef895b9b993b017caf2a6b0cde", null ],
+      [ "ExactPosition", "_v_r___variables_8h.html#a8ce11182a9ace7dfaee8a104680b0d79ad776e879b088bbe06e9aadc5f87b7773", null ],
+      [ "Mixed", "_v_r___variables_8h.html#a8ce11182a9ace7dfaee8a104680b0d79a699b4f79215d191584653efebf156e52", null ]
+    ] ],
+    [ "EGrabSnapType", "_v_r___variables_8h.html#a07a1d4f1e77f425c9d13e4a8e5911967", [
+      [ "UMETA", "_v_r___variables_8h.html#a07a1d4f1e77f425c9d13e4a8e5911967aa3f80d8f0f1b4ffa8c475f5d60ea5635", null ],
+      [ "UMETA", "_v_r___variables_8h.html#a07a1d4f1e77f425c9d13e4a8e5911967aa3f80d8f0f1b4ffa8c475f5d60ea5635", null ],
+      [ "Circle", "_v_r___variables_8h.html#a07a1d4f1e77f425c9d13e4a8e5911967a30954d90085f6eaaf5817917fc5fecb3", null ],
+      [ "Points", "_v_r___variables_8h.html#a07a1d4f1e77f425c9d13e4a8e5911967a75dd5f1160a3f02b6fae89c54361a1b3", null ]
+    ] ],
+    [ "EGrabVolumeType", "_v_r___variables_8h.html#a5d6917dd5eed4cb258d5765c4953d250", [
+      [ "UMETA", "_v_r___variables_8h.html#a5d6917dd5eed4cb258d5765c4953d250aa3f80d8f0f1b4ffa8c475f5d60ea5635", null ],
+      [ "Cylinder", "_v_r___variables_8h.html#a5d6917dd5eed4cb258d5765c4953d250a2ec2c2961c7ce5a114d969c1f562a563", null ],
+      [ "HalfCylinder", "_v_r___variables_8h.html#a5d6917dd5eed4cb258d5765c4953d250a518e5fa0c602e57e617dc187eb574697", null ],
+      [ "Sphere", "_v_r___variables_8h.html#a5d6917dd5eed4cb258d5765c4953d250ab7095f057db3fefa7325ad93a04e14fd", null ],
+      [ "HalfSphere", "_v_r___variables_8h.html#a5d6917dd5eed4cb258d5765c4953d250aec9e311ff806cebc6e45ef15dfaea853", null ],
+      [ "Pyramid", "_v_r___variables_8h.html#a5d6917dd5eed4cb258d5765c4953d250a5e5b0d93bab61584149905b5e5dc71a0", null ],
+      [ "Trapezoid", "_v_r___variables_8h.html#a5d6917dd5eed4cb258d5765c4953d250a7e7dd435b4cc7ba2b020d5a97856dc80", null ]
     ] ],
     [ "EGrip_Code", "_v_r___variables_8h.html#acb2c7d5737d675d4c1c9e071e571a86d", [
       [ "Open", "_v_r___variables_8h.html#acb2c7d5737d675d4c1c9e071e571a86dac3bf447eabe632720a3aa1a7ce401274", null ],
       [ "Closed", "_v_r___variables_8h.html#acb2c7d5737d675d4c1c9e071e571a86da03f4a47830f97377a35321051685071e", null ]
+    ] ],
+    [ "EHandCollisionType", "_v_r___variables_8h.html#a9eb7caaeedabd74fef4e905ecbbbbd89", [
+      [ "PhysicsAssetWeld", "_v_r___variables_8h.html#a9eb7caaeedabd74fef4e905ecbbbbd89acaf0a19319ee5e4c6f07c30a6891b470", null ],
+      [ "ComponentBased", "_v_r___variables_8h.html#a9eb7caaeedabd74fef4e905ecbbbbd89a2b8fa2d6f1b763279322c8c3d001b596", null ]
+    ] ],
+    [ "EIKMethod", "_v_r___variables_8h.html#ae4fc9a775b256c48739f847fa8e8bbbc", [
+      [ "UMETA", "_v_r___variables_8h.html#ae4fc9a775b256c48739f847fa8e8bbbcaa3f80d8f0f1b4ffa8c475f5d60ea5635", null ],
+      [ "UMETA", "_v_r___variables_8h.html#ae4fc9a775b256c48739f847fa8e8bbbcaa3f80d8f0f1b4ffa8c475f5d60ea5635", null ]
     ] ],
     [ "EInventoryBoxType", "_v_r___variables_8h.html#a7c76fbfa2be3829e64432e9f6d6706af", [
       [ "Invisible", "_v_r___variables_8h.html#a7c76fbfa2be3829e64432e9f6d6706afa8bcda43732b0928d269955e0f09ff76f", null ],
@@ -100,5 +126,6 @@ var _v_r___variables_8h =
       [ "LeftController", "_v_r___variables_8h.html#a3f06f53f6a8ef4d37e6973230752195daf7faae94904a420f6a1ac286119eba7b", null ],
       [ "RightController", "_v_r___variables_8h.html#a3f06f53f6a8ef4d37e6973230752195da653751bc2f84357b225ed4887e737ca4", null ],
       [ "Hip", "_v_r___variables_8h.html#a3f06f53f6a8ef4d37e6973230752195daafcd5ccb84b5c522c66efa7836e17f92", null ]
-    ] ]
+    ] ],
+    [ "IsPluginEnabled", "_v_r___variables_8h.html#a27bd8c46e59b8f17e730d62047c8c6d8", null ]
 ];
